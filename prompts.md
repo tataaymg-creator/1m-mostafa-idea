@@ -1045,7 +1045,7 @@ Attach in order: @image1 = `adam`, @image2 = `doll-wife`, @image3 = `doll-daught
 
 ```text
 SCENE CONTEXT
-Evening in the living room, lit only by the floor lamp. A locked medium close two-shot: @image1 slow-dances with @image2 in front of the sofa, held close, cheek to wig, while @image3 sits upright at the left end of the sofa behind them, soft in the background, exactly where it sits in @image5.
+Evening in the living room, lit only by the floor lamp. A locked medium two-shot, knees up: @image1 slow-dances with @image2 in front of the sofa, held close, cheek to wig, while @image3 sits upright at the left end of the sofa behind them, soft in the background, exactly where it sits in @image5.
 
 ACTIVE REFERENCES
 @image1 — Adam, 38, lean and tired; short untidy dark hair, stubble, a healed scar at his right temple; washed-out grey-blue shirt with rolled sleeves, charcoal trousers, bare feet, wedding ring; soft, low, slightly hoarse voice. 100% matches the reference.
