@@ -40,8 +40,29 @@ Set A sheets are saved in [`characters/`](characters/).
 | `LOOK_L08_desert-road` | Desert highway toward the sea | 51, 65–66 | `b2dd6548-52ee-428d-9ee2-a113369bbbe5` | `15892ca1-bdc9-4238-83e9-099b96d0388a` | `589c4e18-ede1-4891-ad9a-0faf66983508` |
 | `LOOK_L09_landing` | Stairwell landing outside the door | 83 | `297b2e07-7bda-4e26-be8b-8ed791b10eaf` | `6c9ce7d3-038b-47fd-873a-ea41a94c1d8f` | `61bcee3d-7da3-478e-931e-d1caf7dbbb5e` |
 
+## Props
+
+All made with GPT Image 2.6, one object each on a white background. Saved in [`props/`](props/).
+
+| Tag | What | Shots | Element id | Job |
+|---|---|---|---|---|
+| `LOOK_P01_yellow-cup` | Nour's yellow plastic cup | 03, 08, 39–40, 44, 85 | `1d52cad7-c334-409e-b187-a36fb68166ad` | `9d3aa437-d5bf-4e18-9d8a-1e881014ca19` |
+| `LOOK_P02_table-setting` | Three plates (two large, one small) and three forks | 03, 05, 08, 39 | `7d36a36d-dc7a-4534-b840-5b3af6120f82` | `6b54a887-062b-474e-95a9-6ba966e0522e` |
+| `LOOK_P03_yellow-sandal` | One yellow child's sandal with a buckle | 11, 13 | `e604a583-dee2-4b73-a30d-22432dfa4c32` | `669d665a-8306-43c8-97fc-6b1ae0d72b77` |
+| `LOOK_P04_hairbrush` | Worn wooden hairbrush | 16–17 | `17a24c1f-2123-4521-a607-97d1b68571f3` | `0e3335a2-588f-4032-babd-c42c218e3012` |
+| `LOOK_P05_radio` | Old portable kitchen radio | 22, 34 | `7044a34b-6446-40c4-9b94-a5333a826bb3` | `9a879a55-9a90-4f0c-b3b0-f5cad2649fd2` |
+| `LOOK_P06_hospital-bag` | Sealed hospital belongings bag, dusty | 10, 72 | `7d330d60-dc2a-4a30-a1bb-1fabc2a7cf75` | `3b6b366e-94f7-4dec-88e9-381b57424ea9` |
+| `LOOK_P07_bag-contents` | Bag contents laid out: watch, ring, crayon stub, folded paper | 73 | `44870e6d-97f0-46cb-b354-6c6ed2fe5ffc` | `88a70ce6-1670-442a-a5f3-987a20d00741` |
+| `LOOK_P08_layla-watch` | Layla's gold watch, glass cracked, stopped | 73 | `fe214644-c1b1-4141-af66-571764d295a2` | `564271b8-fb2a-4f1f-bcc0-bba3b834d7cf` |
+| `LOOK_P09_drawing` | Nour's crayon drawing (placeholder until a real one is scanned) | 76, 85 | `2660d338-39e2-4228-92f4-be64741fdcc5` | `cfa30a50-22de-4eb9-9c0e-aa8cf4393c7c` |
+| `LOOK_P10_rabbit` | Nour's worn grey stuffed rabbit | 46, 68 | `16787c01-e4cd-42ee-93e3-2b3bd456f9e9` | `10c6fd86-5d12-413d-b745-d2fb329a2e96` |
+| `LOOK_P11_night-light` | Star-projector night-light dome | 45–50, 67–70 | `b67da7ae-15a6-4c86-9855-bcd543da9bda` | `79ce65ab-7107-4084-90c5-1e88fca98f97` |
+| `LOOK_P12_crayons` | Worn wax crayons, the yellow one most used | 13, 53, 65 | `1d6b77b7-f572-46e2-ac8d-7c4f892887e1` | `15e91642-f76b-41fc-9641-00701e6f5640` |
+| `LOOK_P13_family-car` | The family's faded off-white sedan, exterior | 51 | `ac1bcba1-fc23-4339-8ed5-d966532bccaa` | `d968137b-af3c-4f12-abec-157b7e6fb049` |
+| `LOOK_P14_foil-dish` | Mona's foil-covered dish | 37, 83 | `1c05ae74-6536-418c-a44f-29b27a602aec` | `4f93cda8-5838-4ee1-b892-34e679549d1a` |
+
 ## Still to make
 
+- Locations: choose between Set A and Set B, then revisit them (the director flagged these as important).
 - Living room with the curtains open, in daylight (shots 77–80).
-- Props: the yellow cup, the sealed hospital bag and its contents, the old radio, the stuffed rabbit, the star night-light, the yellow crayon, the drawing (a real child's drawing, scanned).
-- Exterior of the family sedan (shot 51).
+- A real child's drawing, scanned, to replace `LOOK_P09_drawing`.

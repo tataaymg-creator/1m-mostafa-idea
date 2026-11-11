@@ -15,6 +15,7 @@ A short film for the 1 Billion Followers Summit AI Film Award 2027.
 | [`shot-list.md`](shot-list.md) | All 87 shots with timecodes, framing, camera, sound and dialogue; hero and cuttable shots marked |
 | [`elements.md`](elements.md) | Higgsfield element tags and ids for every character and location, plus the job ids of both image sets |
 | [`characters/`](characters/) | The seven character and mannequin sheets (front, back, face close-up) |
+| [`props/`](props/) | The fourteen prop reference images |
 | [`assets.md`](assets.md) | Character, mannequin, location and prop briefs to build next, plus the generation risks |
 | [`tools/build_shotlist.py`](tools/build_shotlist.py) | Source of the shot list. Edit a shot or a duration there and re-run it; timecodes are recalculated. |
 | [`tools/build_pdf.py`](tools/build_pdf.py) | Rebuilds the PDF from the story, shot list and asset briefs |
