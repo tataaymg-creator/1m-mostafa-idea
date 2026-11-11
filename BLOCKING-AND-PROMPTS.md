@@ -4,7 +4,7 @@ Give this file to a new session on this repository (branch `claude/wonderful-noe
 
 ## Where things stand
 
-- Story, 87-shot list, character sheets, 12 location plates and 14 props are finished. All 33 are registered as elements in **baba look** (`elements.md`).
+- Story, 87-shot list, character sheets, 12 location plates and 14 props are finished. All 32 in use are registered as elements in **baba look** (`elements.md`).
 - `prompts.md` holds 49 runs (G01–G49) built by `tools/build_prompts.py`. **These prompts are wrong and must be rewritten.** They were written with the `higgsfield-timed-prompts` skill, not with `seedance-clean`, which is the skill the director wants.
 - The run plan itself is still good: which shots are grouped into which run, the durations, the elements per run, the dialogue and its timing, and the action beats. Keep those; rewrite the form.
 
@@ -43,7 +43,7 @@ Setups that need a blocking image (one image per camera angle used):
 | Living room wide | G10, G16, G18, G43, G44 | Sofa centre; armchair front left; dancers in front of the sofa; child mannequin mid-sofa; in G43/G44 both mannequins side by side on the sofa, adult at left |
 | Sofa two-shot | G11, G22 | Child mannequin mid-sofa; Adam at its right in G11, crouched at its left in G22 |
 | Kitchen | G14, G20 | Adam at the stove; adult mannequin standing in the doorway, foreground left |
-| Sewing corner | G45 | Adult mannequin on the left stand, child on the right stand, Adam beside the child |
+| Sewing corner (inside the living-room frame) | G13, G45 | Adult mannequin on the left stand, child on the right stand, Adam beside the child |
 | Hallway | G21, G40, G47, G49 | Adam centre of the hall, back to camera; front door at the far end; console on the right |
 | Nour's room | G29, G30, G38, G39 | Bed on the left wall; Adam on the bed edge, in the doorway at far right, and on the floor against the bed |
 | Car, from the back seat | G32 | Adam front left driving; Layla front right |
@@ -51,7 +51,7 @@ Setups that need a blocking image (one image per camera angle used):
 | Car, from the driver's side | G15, G27, G32, G33, G35 | Layla in profile in the front right seat |
 | Landing | G23, G48 | Mona on the doormat facing the door at the right; Adam in the doorway |
 
-Inserts with no figures (G01 stove, G02 top shot, G06, G07, G13, G19, G31, G36, G41, G46) need no blocking image.
+Inserts with no figures (G01 stove, G02 top shot, G06, G07, G19, G31, G36, G41, G46) need no blocking image.
 
 Deliver for Part 1:
 

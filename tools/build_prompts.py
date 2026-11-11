@@ -36,8 +36,8 @@ REF = {
     "P14_foil-dish": "the oven dish covered with aluminium foil. Ignore the white background.",
     "L01_kitchen": "the kitchen, empty. Take the room exactly: window with a thin glowing curtain and the sink on the left, the white enamel gas stove in the middle, the wooden counter with the cutting board on the right, the radio on the wall shelf above it, sage walls, terrazzo floor.",
     "L02_dining": "the dining area, empty. Take the room exactly: the table with a lace cloth and four wooden chairs standing in front of the tall closed olive-grey curtains, the sideboard with a mantel clock, the pendant lamp, the kitchen doorway on the right.",
-    "L03_living-room": "the living room with the curtains closed, empty. Take the room exactly: the grey sofa with a lace throw in the middle, the floral armchair at front left, the low coffee table, the bookshelf on the left wall, the floor lamp, the sewing corner at the back right, the closed curtains on the right wall.",
-    "L03b_living-day": "the same living room with the curtains open and morning sun coming in. Take the daylight state of the room: sun shafts across the rug and floor, the city through the window on the right.",
+    "L03_living-dim": "the living room with the curtains closed, empty, the same camera and room as @L03b_living-day. Take the room exactly: the grey sofa with a lace throw in the middle, the floral armchair at front left, the low coffee table, the bookshelf on the left wall, the floor lamp, the sewing corner at the back right, the closed curtains on the right wall, the sewing corner with the machine, mirror and two steel stands at the back right.",
+    "L03b_living-day": "the same living room, same camera, with the curtains open and morning sun coming in; the sewing corner with the machine, mirror and two steel stands at the back right. Take the daylight state of the room: sun shafts across the rug and floor, the city through the window on the right.",
     "L04_sewing-corner": "the sewing corner of the living room, empty. Take it exactly: floor lamp and sofa end on the left, the sewing table with the black machine threaded with yellow and the yellow sleeve under the needle, bentwood chair, fabric shelves and paper patterns on the wall, the tall framed mirror leaning on the wall, two bare steel mannequin stands, the closed curtains on the right.",
     "L05_hallway": "the entrance hallway, empty, with NO bag on the console. Take it exactly: glazed doors on the left, the dark front door at the far end, coat hooks, the wall mirror and the narrow console table with a dead plant and unopened mail on the right.",
     "L05b_hallway-bag": "the entrance hallway, empty, with the sealed hospital bag lying on the console under the mail. Take it exactly: glazed doors on the left, the dark front door at the far end, coat hooks, the wall mirror and the narrow console table with a dead plant, mail and the bag on the right.",
@@ -228,19 +228,19 @@ run(id="G09", scene="1 · Morning (flash 1)", nums="12, 13", look="M", refs=["no
     keep=["Nour's face is not shown in this clip.", "The crayons are small: finger-thin, about eight centimetres."])
 
 # ============================================================== 2 · HAIR
-run(id="G10", scene="2 · Hair", nums="15", look="P", refs=["adam", "doll-daughter", "doll-wife", "L03_living-room"],
+run(id="G10", scene="2 · Hair", nums="15", look="P", refs=["adam", "doll-daughter", "doll-wife", "L03_living-dim"],
     light="Late morning. Curtains closed, the floor lamp on, dim.",
     logline="A 5-second, 16:9 wide: a man carries a child-size mannequin across the living room the way you carry a sleeping child and sets it on the sofa. Staged from behind him.",
     where="Living room. The adult mannequin already sits in the floral armchair at front left, facing the sofa. Adam enters from the left, behind the armchair, carrying the child mannequin, and crosses to the sofa in the middle of the room.",
     behind="Behind Adam as he walks: the bookshelf and the framed pictures on the left wall. Behind the sofa: the floor lamp and the sewing corner. At right: the closed curtains.",
     shots=[
         (5, "Wide, 35mm, locked",
-         "THE VERY FIRST FRAME OF THE CLIP IS THIS: the living room exactly at the angle of @L03_living-room, the adult mannequin seated motionless in the armchair. Adam walks in from the left with his back mostly to the camera, the child mannequin held against his chest: one arm under its stiff straight legs, which stick out sideways, his other hand cradling the back of its head. At {3.0} he lowers it carefully onto the middle of the sofa, sitting it upright, and at {4.3} settles its head with one hand. BACKGROUND: lamp and sewing corner behind the sofa.", []),
+         "THE VERY FIRST FRAME OF THE CLIP IS THIS: the living room exactly at the angle of @L03_living-dim, the adult mannequin seated motionless in the armchair. Adam walks in from the left with his back mostly to the camera, the child mannequin held against his chest: one arm under its stiff straight legs, which stick out sideways, his other hand cradling the back of its head. At {3.0} he lowers it carefully onto the middle of the sofa, sitting it upright, and at {4.3} settles its head with one hand. BACKGROUND: lamp and sewing corner behind the sofa.", []),
     ],
     amb="Bare footsteps on terrazzo, a small creak of hollow plastic, the wall clock.",
     keep=["The child mannequin stays stiff as a board: its legs and arms never bend or drape."])
 
-run(id="G11", scene="2 · Hair", nums="16, 17, 20", look="P", refs=["adam", "doll-daughter", "doll-wife", "P04_hairbrush", "L03_living-room"],
+run(id="G11", scene="2 · Hair", nums="16, 17, 20", look="P", refs=["adam", "doll-daughter", "doll-wife", "P04_hairbrush", "L03_living-dim"],
     light="Late morning. Curtains closed, warm floor lamp behind the sofa, dim.",
     logline="A 15-second, 16:9 clip in three shots: a father brushes and tries to braid a child mannequin's wig; the brush snags and the wig slides off bare plastic; then, guiltily, he straightens it. (In the edit a memory flash sits between shots two and three.)",
     where="Living room sofa. The child mannequin sits upright in the middle of the sofa, facing forward. Adam sits beside it on its right side (screen right), turned toward it. The adult mannequin sits in the armchair, off frame to screen left.",
@@ -273,14 +273,14 @@ run(id="G12", scene="2 · Hair (flash 2)", nums="18, 19 ○", look="M", refs=["n
     keep=["Layla's face is not shown in this clip: only her arm and hand."])
 
 # ==================================================== 3 · SEWING CORNER
-run(id="G13", scene="3 · The sewing corner", nums="21", look="P", refs=["L04_sewing-corner"],
+run(id="G13", scene="3 · The sewing corner", nums="21", look="P", refs=["L03_living-dim"],
     light="Late morning. Curtains closed, one thin blade of daylight at their edge, the floor lamp on.",
     logline="A 5-second, 16:9 wide with a slow push-in: a dressmaker's corner left exactly as it was, and two empty mannequin stands.",
-    where="The sewing corner of the living room. Nobody in frame.",
+    where="The living room, the sewing corner at the back right beyond the sofa. Nobody in frame.",
     behind="Left: floor lamp and sofa end. Centre: the sewing table against the sage wall, shelves of folded fabric and paper patterns above. Right of the table: the framed mirror leaning on the wall, the two bare steel stands, the closed curtains.",
     shots=[
         (5, "Wide, 35mm, slow push-in for the whole shot",
-         "THE VERY FIRST FRAME OF THE CLIP IS THIS: the corner exactly at the angle of @L04_sewing-corner. The camera pushes slowly toward the sewing machine: black, still threaded with yellow thread, a small yellow sleeve lying under its needle. The two steel stands stand empty at the right, each in a clean circle in the dust on the floor. Nothing moves but dust in the blade of light. The push ends with the machine and sleeve filling the centre of the frame. BACKGROUND: patterns on the wall, fabric shelves.", []),
+         "THE VERY FIRST FRAME OF THE CLIP IS THIS: the living room exactly at the angle of @L03_living-dim. The camera pushes slowly across the room, past the sofa, toward the sewing corner at the back and its sewing machine: black, still threaded with yellow thread, a small yellow sleeve lying under its needle. The two steel stands stand empty at the right, each in a clean circle in the dust on the floor. Nothing moves but dust in the blade of light. The push ends with the machine and sleeve filling the centre of the frame. BACKGROUND: patterns on the wall, fabric shelves.", []),
     ],
     amb="The wall clock. At 3.5s, from another room, a radio dial clicks on and soft static begins.",
     keep=["Both stands are empty. No mannequins, no people.", "The paper patterns are blank shapes: no writing."])
@@ -322,7 +322,7 @@ run(id="G15", scene="4 · The song & the dance (flash 3)", nums="24, 25 ★, 29"
     music="The only music is the song from the car radio. It will be replaced by the film's own song in the edit.",
     keep=["Layla sings sounds only, no words.", "Adam's face is not shown in this clip: only his hand."])
 
-run(id="G16", scene="4 · The song & the dance", nums="27 ★", look="P", refs=["adam", "doll-wife", "doll-daughter", "L03_living-room"],
+run(id="G16", scene="4 · The song & the dance", nums="27 ★", look="P", refs=["adam", "doll-wife", "doll-daughter", "L03_living-dim"],
     light="Evening. Curtains closed; the floor lamp is the only light, warm, with deep shadow around it.",
     logline="An 8-second, 16:9 hero shot, the poster of the film: a locked symmetrical wide of a man slow-dancing with a mannequin in lamplight while a child mannequin sits on the sofa facing them.",
     where="Living room. Adam and the adult mannequin stand in the open floor in front of the sofa, centre frame. The child mannequin sits upright in the middle of the sofa behind them, facing the camera.",
@@ -335,7 +335,7 @@ run(id="G16", scene="4 · The song & the dance", nums="27 ★", look="P", refs=[
     music="The only music is the distant radio song from the kitchen. It will be replaced by the film's own song in the edit.",
     keep=["The mannequin's body, neck and arms stay rigid; it is carried, it does not dance.", "He turns; the camera does not."])
 
-run(id="G17", scene="4 · The song & the dance", nums="28, 30", look="P", refs=["adam", "doll-wife", "L03_living-room"],
+run(id="G17", scene="4 · The song & the dance", nums="28, 30", look="P", refs=["adam", "doll-wife", "L03_living-dim"],
     light="Evening. Warm floor lamp from behind, deep shadow.",
     logline="An 8-second, 16:9 clip in two shots: a man's face at peace against a mannequin's plastic cheek; then the mannequin's arm slips out of its shoulder socket and slides down his back. (In the edit a memory flash sits between them.)",
     where="Living room, in front of the sofa. Adam holds the adult mannequin in a dance hold, its left arm over his right shoulder.",
@@ -350,7 +350,7 @@ run(id="G17", scene="4 · The song & the dance", nums="28, 30", look="P", refs=[
     music="The only music is the distant radio song. It will be replaced by the film's own song in the edit.",
     keep=["The arm comes away as a clean plastic part: a hollow socket, no damage, nothing organic."])
 
-run(id="G18", scene="4 · The song & the dance", nums="31, 32 ★", look="P", refs=["adam", "doll-wife", "doll-daughter", "L03_living-room"],
+run(id="G18", scene="4 · The song & the dance", nums="31, 32 ★", look="P", refs=["adam", "doll-wife", "doll-daughter", "L03_living-dim"],
     light="Evening. Warm floor lamp, deep shadow.",
     logline="A 10-second, 16:9 clip in two shots: the mannequin's arm lies on the floor while he stands holding a one-armed figure; then, on his knees, he pushes the arm back into its socket far too gently and presses the plastic hand to his forehead.",
     opens="Opens mid-situation: the dance has just stopped; the mannequin's left arm has fallen off.",
@@ -407,7 +407,7 @@ run(id="G21", scene="5 · The knock", nums="35", look="P", refs=["adam", "L05b_h
     amb="Silence in the apartment, the wall clock. Mona's voice is muffled by the wooden door, with a little stairwell echo behind it.",
     keep=["Mona is never seen. The door stays closed.", "Adam says nothing in this clip."])
 
-run(id="G22", scene="5 · The knock", nums="36 ★, 38", look="P", refs=["adam", "doll-daughter", "L03_living-room"],
+run(id="G22", scene="5 · The knock", nums="36 ★, 38", look="P", refs=["adam", "doll-daughter", "L03_living-dim"],
     light="Evening. Warm floor lamp behind the sofa, deep shadow.",
     logline="A 10-second, 16:9 clip in two shots: a father crouches by a child mannequin and puts a finger to his lips; then, alone in close-up, he listens to footsteps going away and for one second his face shows that he knows. (In the edit an insert sits between them.)",
     where="Living room sofa. The child mannequin sits upright in the middle of the sofa. Adam crouches on the floor in front of it, at its left (screen left), his face level with its face.",
@@ -724,14 +724,14 @@ run(id="G42", scene="10 · The bag", nums="75 ★", look="P", refs=["adam", "L05
     keep=["The front of the drawing is not visible.", "His eyes stay on the paper for the whole shot."])
 
 # ====================================================== 11 · DAYLIGHT
-run(id="G43", scene="11 · Daylight", nums="77 ★", look="PW", refs=["adam", "doll-wife", "doll-daughter", "L03_living-room", "L03b_living-day"],
+run(id="G43", scene="11 · Daylight", nums="77 ★", look="PW", refs=["adam", "doll-wife", "doll-daughter", "L03_living-dim", "L03b_living-day"],
     light="Morning. The shot begins in the closed-curtain gloom and ends in full sun.",
     logline="A 6-second, 16:9 hero shot: he drags the heavy curtains open and daylight floods the living room for the first time in the film. (Keep him and the window in the centre of the frame.)",
     where="Living room. Adam stands at the curtains on the right-hand wall, his back to the room. Both mannequins sit side by side on the sofa in the middle of the room, facing forward.",
     behind="Behind Adam: the olive-grey curtains, then the window and the city. Left of him: the sofa with the two mannequins, the coffee table, the armchair, the bookshelf.",
     shots=[
         (6, "MS, 35mm, locked",
-         "THE VERY FIRST FRAME OF THE CLIP IS THIS: the room as in @L03_living-room, dim, Adam in the centre-right of frame from behind, a hand on each curtain. At {1.0} he pulls them apart in one long drag, rings scraping. Hard morning sun bursts in and by {3.0} the room looks as in @L03b_living-day: sun shafts across the rug and floor, dust swirling thick in the beam, the city in the window. He stands in the light with his arms still out, squinting, then lets them drop at {5.0}. The two mannequins on the sofa are lit flat and plain by the sun and do not move. BACKGROUND: window, city.", []),
+         "THE VERY FIRST FRAME OF THE CLIP IS THIS: the room as in @L03_living-dim, dim, Adam in the centre-right of frame from behind, a hand on each curtain. At {1.0} he pulls them apart in one long drag, rings scraping. Hard morning sun bursts in and by {3.0} the room looks as in @L03b_living-day: sun shafts across the rug and floor, dust swirling thick in the beam, the city in the window. He stands in the light with his arms still out, squinting, then lets them drop at {5.0}. The two mannequins on the sofa are lit flat and plain by the sun and do not move. BACKGROUND: window, city.", []),
     ],
     amb="Curtain rings scraping on the rail. Then the street, alive for the first time: traffic, voices, a street vendor calling without distinct words, sparrows.",
     keep=["The mannequins never move.", "Composition is centre-safe: nothing important in the outer sixth of the frame on either side."])
@@ -750,14 +750,14 @@ run(id="G44", scene="11 · Daylight", nums="78, 79", look="PW", refs=["adam", "d
     amb="Street sound through the open window. Buttons, wool sliding off plastic, one long breath in.",
     keep=["The mannequins never move; the adult one is handled like a shop dummy.", "No music in this clip."])
 
-run(id="G45", scene="11 · Daylight", nums="80 ★", look="PW", refs=["adam", "doll-wife", "doll-daughter", "L04_sewing-corner"],
+run(id="G45", scene="11 · Daylight", nums="80 ★", look="PW", refs=["adam", "doll-wife", "doll-daughter", "L03b_living-day"],
     light="Morning. The curtains at the right are open; sun falls across the sewing table and the stands.",
     logline="A 6-second, 16:9 hero shot: both mannequins are back on their stands in the sewing corner. He lays the loose yellow sleeve over the small one's shoulder and steps back.",
-    where="The sewing corner. The adult mannequin stands on the left steel stand, bare: no wig, no cardigan, no dress, plain ivory plastic. The child mannequin stands on the right stand, no wig, still wearing the unfinished yellow dress. Adam stands beside the child mannequin, on its left.",
-    behind="Behind the mannequins: the sage wall, the framed mirror, the open curtains and sunlight at right. Left: the sewing table and machine, the floor lamp, the sofa end.",
+    where="The living room in daylight, the sewing corner at the back right beyond the sofa. The adult mannequin stands on the left steel stand, bare: no wig, no cardigan, no dress, plain ivory plastic. The child mannequin stands on the right stand, no wig, still wearing the unfinished yellow dress. Adam stands beside the child mannequin, on its left.",
+    behind="Foreground: the armchair and the corner of the dining table. Midground: the sofa and the coffee table, sun across the rug. Background: the two mannequins on their stands by the framed mirror, the sewing table and machine, the open window and sunlight at right.",
     shots=[
-        (6, "Wide, 35mm, locked — the same frame as the sewing-corner shot",
-         "THE VERY FIRST FRAME OF THE CLIP IS THIS: the corner at the angle of @L04_sewing-corner, now in daylight, the two mannequins upright on their stands where the clean circles were. Adam holds the small yellow sleeve in both hands. At {1.5} he lays it over the child mannequin's bare shoulder, where the missing sleeve belongs, and smooths it once. At {3.5} he takes two steps back toward the sewing table and stands looking at them, hands empty. The needle of the machine is bare now. BACKGROUND: mirror, open curtains, sun.", []),
+        (6, "Wide, 35mm, locked — the living-room frame, the sewing corner at the back",
+         "THE VERY FIRST FRAME OF THE CLIP IS THIS: the living room exactly at the angle of @L03b_living-day, the sewing corner at the back in daylight, the two mannequins upright on their stands where the clean circles were. Adam holds the small yellow sleeve in both hands. At {1.5} he lays it over the child mannequin's bare shoulder, where the missing sleeve belongs, and smooths it once. At {3.5} he takes two steps back toward the sewing table and stands looking at them, hands empty. The needle of the machine is bare now. BACKGROUND: mirror, open curtains, sun.", []),
     ],
     amb="Street sound, softer. Cloth on plastic. His two steps.",
     music="Warm, quiet score: piano, the five notes. It will be replaced by the film's own score in the edit.",

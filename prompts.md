@@ -25,19 +25,19 @@
 | [G07](#g07) | 1 · Morning | 10 | 5s | 16:9 | `P06_hospital-bag`, `L05b_hallway-bag` |
 | [G08](#g08) | 1 · Morning | 11, 14 | 10s | 16:9 | `adam`, `doll-daughter`, `P03_yellow-sandal`, `L02_dining` |
 | [G09](#g09) | 1 · Morning (flash 1) | 12, 13 | 5s | 16:9 | `nour`, `L07b_car-backseat`, `P12_crayons` |
-| [G10](#g10) | 2 · Hair | 15 | 5s | 16:9 | `adam`, `doll-daughter`, `doll-wife`, `L03_living-room` |
-| [G11](#g11) | 2 · Hair | 16, 17, 20 | 15s | 16:9 | `adam`, `doll-daughter`, `doll-wife`, `P04_hairbrush`, `L03_living-room` |
+| [G10](#g10) | 2 · Hair | 15 | 5s | 16:9 | `adam`, `doll-daughter`, `doll-wife`, `L03_living-dim` |
+| [G11](#g11) | 2 · Hair | 16, 17, 20 | 15s | 16:9 | `adam`, `doll-daughter`, `doll-wife`, `P04_hairbrush`, `L03_living-dim` |
 | [G12](#g12) | 2 · Hair (flash 2) | 18, 19 ○ | 6s | 16:9 | `nour`, `layla`, `L07b_car-backseat` |
-| [G13](#g13) | 3 · The sewing corner | 21 | 5s | 16:9 | `L04_sewing-corner` |
+| [G13](#g13) | 3 · The sewing corner | 21 | 5s | 16:9 | `L03_living-dim` |
 | [G14](#g14) | 4 · The song & the dance | 22, 23, 26 | 13s | 16:9 | `adam`, `doll-wife`, `P05_radio`, `L01_kitchen` |
 | [G15](#g15) | 4 · The song & the dance (flash 3) | 24, 25 ★, 29 | 10s | 16:9 | `layla`, `adam-before`, `L07_car-front` |
-| [G16](#g16) | 4 · The song & the dance | 27 ★ | 8s | 16:9 | `adam`, `doll-wife`, `doll-daughter`, `L03_living-room` |
-| [G17](#g17) | 4 · The song & the dance | 28, 30 | 8s | 16:9 | `adam`, `doll-wife`, `L03_living-room` |
-| [G18](#g18) | 4 · The song & the dance | 31, 32 ★ | 10s | 16:9 | `adam`, `doll-wife`, `doll-daughter`, `L03_living-room` |
+| [G16](#g16) | 4 · The song & the dance | 27 ★ | 8s | 16:9 | `adam`, `doll-wife`, `doll-daughter`, `L03_living-dim` |
+| [G17](#g17) | 4 · The song & the dance | 28, 30 | 8s | 16:9 | `adam`, `doll-wife`, `L03_living-dim` |
+| [G18](#g18) | 4 · The song & the dance | 31, 32 ★ | 10s | 16:9 | `adam`, `doll-wife`, `doll-daughter`, `L03_living-dim` |
 | [G19](#g19) | 5 · The knock | 33 | 4s | 16:9 | `L05b_hallway-bag` |
 | [G20](#g20) | 5 · The knock | 34 | 5s | 16:9 | `adam`, `P05_radio`, `L01_kitchen` |
 | [G21](#g21) | 5 · The knock | 35 | 8s | 16:9 | `adam`, `L05b_hallway-bag` |
-| [G22](#g22) | 5 · The knock | 36 ★, 38 | 10s | 16:9 | `adam`, `doll-daughter`, `L03_living-room` |
+| [G22](#g22) | 5 · The knock | 36 ★, 38 | 10s | 16:9 | `adam`, `doll-daughter`, `L03_living-dim` |
 | [G23](#g23) | 5 · The knock | 37 ○ | 4s | 16:9 | `mona`, `P14_foil-dish`, `L09_landing` |
 | [G24](#g24) | 6 · Dinner & the headlights | 39, 40 | 10s | 16:9 | `adam`, `doll-wife`, `doll-daughter`, `P01_yellow-cup`, `L02_dining` |
 | [G25](#g25) | 6 · Dinner & the headlights | 41 ★ | 5s | 16:9 | `doll-wife`, `doll-daughter`, `adam`, `L02_dining` |
@@ -58,9 +58,9 @@
 | [G40](#g40) | 10 · The bag | 71 | 5s | 16:9 | `adam`, `L05b_hallway-bag` |
 | [G41](#g41) | 10 · The bag | 72, 73, 74 | 14s | 16:9 | `adam`, `P06_hospital-bag`, `P07_bag-contents`, `L05b_hallway-bag` |
 | [G42](#g42) | 10 · The bag | 75 ★ | 6s | 16:9 | `adam`, `L05b_hallway-bag` |
-| [G43](#g43) | 11 · Daylight | 77 ★ | 6s | 16:9 | `adam`, `doll-wife`, `doll-daughter`, `L03_living-room`, `L03b_living-day` |
+| [G43](#g43) | 11 · Daylight | 77 ★ | 6s | 16:9 | `adam`, `doll-wife`, `doll-daughter`, `L03_living-dim`, `L03b_living-day` |
 | [G44](#g44) | 11 · Daylight | 78, 79 | 11s | 16:9 | `adam`, `doll-wife`, `doll-daughter`, `L03b_living-day` |
-| [G45](#g45) | 11 · Daylight | 80 ★ | 6s | 16:9 | `adam`, `doll-wife`, `doll-daughter`, `L04_sewing-corner` |
+| [G45](#g45) | 11 · Daylight | 80 ★ | 6s | 16:9 | `adam`, `doll-wife`, `doll-daughter`, `L03b_living-day` |
 | [G46](#g46) | 12 · The door | 81 | 4s | 16:9 | `L05_hallway` |
 | [G47](#g47) | 12 · The door | 82 | 5s | 16:9 | `adam`, `L05_hallway` |
 | [G48](#g48) | 12 · The door | 83, 84 ★ | 11s | 16:9 | `mona`, `adam`, `P14_foil-dish`, `L09_landing` |
@@ -513,7 +513,7 @@ KEEP CONSISTENT
 
 **2 · Hair · shots 15 · 5s · 16:9**  
 Seedance 2.5 Draft · audio ON · duration 5s · aspect 16:9  
-Attach: `adam`, `doll-daughter`, `doll-wife`, `L03_living-room`
+Attach: `adam`, `doll-daughter`, `doll-wife`, `L03_living-dim`
 
 ```text
 A 5-second, 16:9 wide: a man carries a child-size mannequin across the living room the way you carry a sleeping child and sets it on the sofa. Staged from behind him.
@@ -522,7 +522,7 @@ REFERENCES
 @adam — Adam, present day. Take his face, stubble, the healed scar at his right temple, the washed-out grey-blue shirt with rolled sleeves, charcoal trousers, bare feet, wedding ring. Ignore the white background and the three-view sheet layout.
 @doll-daughter — the child mannequin. A child-size display mannequin in matte ivory plastic, smooth head with NO eyes and NO mouth, a dark wig in two bad braids, an unfinished yellow dress with pins, white tacking thread and one sleeve missing. Ignore the white background and the sheet layout.
 @doll-wife — the adult mannequin. A life-size shop display mannequin in matte ivory plastic, smooth head with NO eyes and NO mouth, a slightly crooked dark wig, Layla's burgundy cardigan over a plain grey dress, visible seams at neck, shoulders and wrists. Ignore the white background and the sheet layout.
-@L03_living-room — the living room with the curtains closed, empty. Take the room exactly: the grey sofa with a lace throw in the middle, the floral armchair at front left, the low coffee table, the bookshelf on the left wall, the floor lamp, the sewing corner at the back right, the closed curtains on the right wall.
+@L03_living-dim — the living room with the curtains closed, empty, the same camera and room as @L03b_living-day. Take the room exactly: the grey sofa with a lace throw in the middle, the floral armchair at front left, the low coffee table, the bookshelf on the left wall, the floor lamp, the sewing corner at the back right, the closed curtains on the right wall, the sewing corner with the machine, mirror and two steel stands at the back right.
 
 LOOK
 Naturalistic 35mm motion-picture look with fine grain, soft contrast, not glossy. 16:9 frame, composed centre-safe: everything important stays inside the middle of the picture, and the far left and right edges hold only background. The camera is on a tripod and locked unless a shot says otherwise. Lenses 35, 50 and 85mm. The apartment is shut in: curtains closed, still dusty air, sage-green walls, grey and faded wood. Yellow is the only saturated colour in the picture. Late morning. Curtains closed, the floor lamp on, dim.
@@ -540,7 +540,7 @@ WHAT IS BEHIND EACH OF THEM
 Behind Adam as he walks: the bookshelf and the framed pictures on the left wall. Behind the sofa: the floor lamp and the sewing corner. At right: the closed curtains.
 
 SHOTS
-0.0–5.0s — Wide, 35mm, locked. THE VERY FIRST FRAME OF THE CLIP IS THIS: the living room exactly at the angle of @L03_living-room, the adult mannequin seated motionless in the armchair. Adam walks in from the left with his back mostly to the camera, the child mannequin held against his chest: one arm under its stiff straight legs, which stick out sideways, his other hand cradling the back of its head. At 3.0s he lowers it carefully onto the middle of the sofa, sitting it upright, and at 4.3s settles its head with one hand. BACKGROUND: lamp and sewing corner behind the sofa.
+0.0–5.0s — Wide, 35mm, locked. THE VERY FIRST FRAME OF THE CLIP IS THIS: the living room exactly at the angle of @L03_living-dim, the adult mannequin seated motionless in the armchair. Adam walks in from the left with his back mostly to the camera, the child mannequin held against his chest: one arm under its stiff straight legs, which stick out sideways, his other hand cradling the back of its head. At 3.0s he lowers it carefully onto the middle of the sofa, sitting it upright, and at 4.3s settles its head with one hand. BACKGROUND: lamp and sewing corner behind the sofa.
 
 SOUND
 No music, no score, no stings.
@@ -564,7 +564,7 @@ KEEP CONSISTENT
 
 **2 · Hair · shots 16, 17, 20 · 15s · 16:9**  
 Seedance 2.5 Draft · audio ON · duration 15s · aspect 16:9  
-Attach: `adam`, `doll-daughter`, `doll-wife`, `P04_hairbrush`, `L03_living-room`
+Attach: `adam`, `doll-daughter`, `doll-wife`, `P04_hairbrush`, `L03_living-dim`
 
 ```text
 A 15-second, 16:9 clip in three shots: a father brushes and tries to braid a child mannequin's wig; the brush snags and the wig slides off bare plastic; then, guiltily, he straightens it. (In the edit a memory flash sits between shots two and three.)
@@ -574,7 +574,7 @@ REFERENCES
 @doll-daughter — the child mannequin. A child-size display mannequin in matte ivory plastic, smooth head with NO eyes and NO mouth, a dark wig in two bad braids, an unfinished yellow dress with pins, white tacking thread and one sleeve missing. Ignore the white background and the sheet layout.
 @doll-wife — the adult mannequin. A life-size shop display mannequin in matte ivory plastic, smooth head with NO eyes and NO mouth, a slightly crooked dark wig, Layla's burgundy cardigan over a plain grey dress, visible seams at neck, shoulders and wrists. Ignore the white background and the sheet layout.
 @P04_hairbrush — the worn wooden hairbrush. Ignore the white background.
-@L03_living-room — the living room with the curtains closed, empty. Take the room exactly: the grey sofa with a lace throw in the middle, the floral armchair at front left, the low coffee table, the bookshelf on the left wall, the floor lamp, the sewing corner at the back right, the closed curtains on the right wall.
+@L03_living-dim — the living room with the curtains closed, empty, the same camera and room as @L03b_living-day. Take the room exactly: the grey sofa with a lace throw in the middle, the floral armchair at front left, the low coffee table, the bookshelf on the left wall, the floor lamp, the sewing corner at the back right, the closed curtains on the right wall, the sewing corner with the machine, mirror and two steel stands at the back right.
 
 LOOK
 Naturalistic 35mm motion-picture look with fine grain, soft contrast, not glossy. 16:9 frame, composed centre-safe: everything important stays inside the middle of the picture, and the far left and right edges hold only background. The camera is on a tripod and locked unless a shot says otherwise. Lenses 35, 50 and 85mm. The apartment is shut in: curtains closed, still dusty air, sage-green walls, grey and faded wood. Yellow is the only saturated colour in the picture. Late morning. Curtains closed, warm floor lamp behind the sofa, dim.
@@ -667,25 +667,25 @@ KEEP CONSISTENT
 
 **3 · The sewing corner · shots 21 · 5s · 16:9**  
 Seedance 2.5 Draft · audio ON · duration 5s · aspect 16:9  
-Attach: `L04_sewing-corner`
+Attach: `L03_living-dim`
 
 ```text
 A 5-second, 16:9 wide with a slow push-in: a dressmaker's corner left exactly as it was, and two empty mannequin stands.
 
 REFERENCES
-@L04_sewing-corner — the sewing corner of the living room, empty. Take it exactly: floor lamp and sofa end on the left, the sewing table with the black machine threaded with yellow and the yellow sleeve under the needle, bentwood chair, fabric shelves and paper patterns on the wall, the tall framed mirror leaning on the wall, two bare steel mannequin stands, the closed curtains on the right.
+@L03_living-dim — the living room with the curtains closed, empty, the same camera and room as @L03b_living-day. Take the room exactly: the grey sofa with a lace throw in the middle, the floral armchair at front left, the low coffee table, the bookshelf on the left wall, the floor lamp, the sewing corner at the back right, the closed curtains on the right wall, the sewing corner with the machine, mirror and two steel stands at the back right.
 
 LOOK
 Naturalistic 35mm motion-picture look with fine grain, soft contrast, not glossy. 16:9 frame, composed centre-safe: everything important stays inside the middle of the picture, and the far left and right edges hold only background. The camera is on a tripod and locked unless a shot says otherwise. Lenses 35, 50 and 85mm. The apartment is shut in: curtains closed, still dusty air, sage-green walls, grey and faded wood. Yellow is the only saturated colour in the picture. Late morning. Curtains closed, one thin blade of daylight at their edge, the floor lamp on.
 
 WHERE EVERYONE IS — fixed for the whole clip
-The sewing corner of the living room. Nobody in frame.
+The living room, the sewing corner at the back right beyond the sofa. Nobody in frame.
 
 WHAT IS BEHIND EACH OF THEM
 Left: floor lamp and sofa end. Centre: the sewing table against the sage wall, shelves of folded fabric and paper patterns above. Right of the table: the framed mirror leaning on the wall, the two bare steel stands, the closed curtains.
 
 SHOTS
-0.0–5.0s — Wide, 35mm, slow push-in for the whole shot. THE VERY FIRST FRAME OF THE CLIP IS THIS: the corner exactly at the angle of @L04_sewing-corner. The camera pushes slowly toward the sewing machine: black, still threaded with yellow thread, a small yellow sleeve lying under its needle. The two steel stands stand empty at the right, each in a clean circle in the dust on the floor. Nothing moves but dust in the blade of light. The push ends with the machine and sleeve filling the centre of the frame. BACKGROUND: patterns on the wall, fabric shelves.
+0.0–5.0s — Wide, 35mm, slow push-in for the whole shot. THE VERY FIRST FRAME OF THE CLIP IS THIS: the living room exactly at the angle of @L03_living-dim. The camera pushes slowly across the room, past the sofa, toward the sewing corner at the back and its sewing machine: black, still threaded with yellow thread, a small yellow sleeve lying under its needle. The two steel stands stand empty at the right, each in a clean circle in the dust on the floor. Nothing moves but dust in the blade of light. The push ends with the machine and sleeve filling the centre of the frame. BACKGROUND: patterns on the wall, fabric shelves.
 
 SOUND
 No music, no score, no stings.
@@ -812,7 +812,7 @@ KEEP CONSISTENT
 
 **4 · The song & the dance · shots 27 ★ · 8s · 16:9**  
 Seedance 2.5 Draft · audio ON · duration 8s · aspect 16:9  
-Attach: `adam`, `doll-wife`, `doll-daughter`, `L03_living-room`
+Attach: `adam`, `doll-wife`, `doll-daughter`, `L03_living-dim`
 
 ```text
 An 8-second, 16:9 hero shot, the poster of the film: a locked symmetrical wide of a man slow-dancing with a mannequin in lamplight while a child mannequin sits on the sofa facing them.
@@ -821,7 +821,7 @@ REFERENCES
 @adam — Adam, present day. Take his face, stubble, the healed scar at his right temple, the washed-out grey-blue shirt with rolled sleeves, charcoal trousers, bare feet, wedding ring. Ignore the white background and the three-view sheet layout.
 @doll-wife — the adult mannequin. A life-size shop display mannequin in matte ivory plastic, smooth head with NO eyes and NO mouth, a slightly crooked dark wig, Layla's burgundy cardigan over a plain grey dress, visible seams at neck, shoulders and wrists. Ignore the white background and the sheet layout.
 @doll-daughter — the child mannequin. A child-size display mannequin in matte ivory plastic, smooth head with NO eyes and NO mouth, a dark wig in two bad braids, an unfinished yellow dress with pins, white tacking thread and one sleeve missing. Ignore the white background and the sheet layout.
-@L03_living-room — the living room with the curtains closed, empty. Take the room exactly: the grey sofa with a lace throw in the middle, the floral armchair at front left, the low coffee table, the bookshelf on the left wall, the floor lamp, the sewing corner at the back right, the closed curtains on the right wall.
+@L03_living-dim — the living room with the curtains closed, empty, the same camera and room as @L03b_living-day. Take the room exactly: the grey sofa with a lace throw in the middle, the floral armchair at front left, the low coffee table, the bookshelf on the left wall, the floor lamp, the sewing corner at the back right, the closed curtains on the right wall, the sewing corner with the machine, mirror and two steel stands at the back right.
 
 LOOK
 Naturalistic 35mm motion-picture look with fine grain, soft contrast, not glossy. 16:9 frame, composed centre-safe: everything important stays inside the middle of the picture, and the far left and right edges hold only background. The camera is on a tripod and locked unless a shot says otherwise. Lenses 35, 50 and 85mm. The apartment is shut in: curtains closed, still dusty air, sage-green walls, grey and faded wood. Yellow is the only saturated colour in the picture. Evening. Curtains closed; the floor lamp is the only light, warm, with deep shadow around it.
@@ -864,7 +864,7 @@ KEEP CONSISTENT
 
 **4 · The song & the dance · shots 28, 30 · 8s · 16:9**  
 Seedance 2.5 Draft · audio ON · duration 8s · aspect 16:9  
-Attach: `adam`, `doll-wife`, `L03_living-room`
+Attach: `adam`, `doll-wife`, `L03_living-dim`
 
 ```text
 An 8-second, 16:9 clip in two shots: a man's face at peace against a mannequin's plastic cheek; then the mannequin's arm slips out of its shoulder socket and slides down his back. (In the edit a memory flash sits between them.)
@@ -872,7 +872,7 @@ An 8-second, 16:9 clip in two shots: a man's face at peace against a mannequin's
 REFERENCES
 @adam — Adam, present day. Take his face, stubble, the healed scar at his right temple, the washed-out grey-blue shirt with rolled sleeves, charcoal trousers, bare feet, wedding ring. Ignore the white background and the three-view sheet layout.
 @doll-wife — the adult mannequin. A life-size shop display mannequin in matte ivory plastic, smooth head with NO eyes and NO mouth, a slightly crooked dark wig, Layla's burgundy cardigan over a plain grey dress, visible seams at neck, shoulders and wrists. Ignore the white background and the sheet layout.
-@L03_living-room — the living room with the curtains closed, empty. Take the room exactly: the grey sofa with a lace throw in the middle, the floral armchair at front left, the low coffee table, the bookshelf on the left wall, the floor lamp, the sewing corner at the back right, the closed curtains on the right wall.
+@L03_living-dim — the living room with the curtains closed, empty, the same camera and room as @L03b_living-day. Take the room exactly: the grey sofa with a lace throw in the middle, the floral armchair at front left, the low coffee table, the bookshelf on the left wall, the floor lamp, the sewing corner at the back right, the closed curtains on the right wall, the sewing corner with the machine, mirror and two steel stands at the back right.
 
 LOOK
 Naturalistic 35mm motion-picture look with fine grain, soft contrast, not glossy. 16:9 frame, composed centre-safe: everything important stays inside the middle of the picture, and the far left and right edges hold only background. The camera is on a tripod and locked unless a shot says otherwise. Lenses 35, 50 and 85mm. The apartment is shut in: curtains closed, still dusty air, sage-green walls, grey and faded wood. Yellow is the only saturated colour in the picture. Evening. Warm floor lamp from behind, deep shadow.
@@ -915,7 +915,7 @@ KEEP CONSISTENT
 
 **4 · The song & the dance · shots 31, 32 ★ · 10s · 16:9**  
 Seedance 2.5 Draft · audio ON · duration 10s · aspect 16:9  
-Attach: `adam`, `doll-wife`, `doll-daughter`, `L03_living-room`
+Attach: `adam`, `doll-wife`, `doll-daughter`, `L03_living-dim`
 
 ```text
 A 10-second, 16:9 clip in two shots: the mannequin's arm lies on the floor while he stands holding a one-armed figure; then, on his knees, he pushes the arm back into its socket far too gently and presses the plastic hand to his forehead.
@@ -925,7 +925,7 @@ REFERENCES
 @adam — Adam, present day. Take his face, stubble, the healed scar at his right temple, the washed-out grey-blue shirt with rolled sleeves, charcoal trousers, bare feet, wedding ring. Ignore the white background and the three-view sheet layout.
 @doll-wife — the adult mannequin. A life-size shop display mannequin in matte ivory plastic, smooth head with NO eyes and NO mouth, a slightly crooked dark wig, Layla's burgundy cardigan over a plain grey dress, visible seams at neck, shoulders and wrists. Ignore the white background and the sheet layout.
 @doll-daughter — the child mannequin. A child-size display mannequin in matte ivory plastic, smooth head with NO eyes and NO mouth, a dark wig in two bad braids, an unfinished yellow dress with pins, white tacking thread and one sleeve missing. Ignore the white background and the sheet layout.
-@L03_living-room — the living room with the curtains closed, empty. Take the room exactly: the grey sofa with a lace throw in the middle, the floral armchair at front left, the low coffee table, the bookshelf on the left wall, the floor lamp, the sewing corner at the back right, the closed curtains on the right wall.
+@L03_living-dim — the living room with the curtains closed, empty, the same camera and room as @L03b_living-day. Take the room exactly: the grey sofa with a lace throw in the middle, the floral armchair at front left, the low coffee table, the bookshelf on the left wall, the floor lamp, the sewing corner at the back right, the closed curtains on the right wall, the sewing corner with the machine, mirror and two steel stands at the back right.
 
 LOOK
 Naturalistic 35mm motion-picture look with fine grain, soft contrast, not glossy. 16:9 frame, composed centre-safe: everything important stays inside the middle of the picture, and the far left and right edges hold only background. The camera is on a tripod and locked unless a shot says otherwise. Lenses 35, 50 and 85mm. The apartment is shut in: curtains closed, still dusty air, sage-green walls, grey and faded wood. Yellow is the only saturated colour in the picture. Evening. Warm floor lamp, deep shadow.
@@ -1104,7 +1104,7 @@ KEEP CONSISTENT
 
 **5 · The knock · shots 36 ★, 38 · 10s · 16:9**  
 Seedance 2.5 Draft · audio ON · duration 10s · aspect 16:9  
-Attach: `adam`, `doll-daughter`, `L03_living-room`
+Attach: `adam`, `doll-daughter`, `L03_living-dim`
 
 ```text
 A 10-second, 16:9 clip in two shots: a father crouches by a child mannequin and puts a finger to his lips; then, alone in close-up, he listens to footsteps going away and for one second his face shows that he knows. (In the edit an insert sits between them.)
@@ -1112,7 +1112,7 @@ A 10-second, 16:9 clip in two shots: a father crouches by a child mannequin and 
 REFERENCES
 @adam — Adam, present day. Take his face, stubble, the healed scar at his right temple, the washed-out grey-blue shirt with rolled sleeves, charcoal trousers, bare feet, wedding ring. Ignore the white background and the three-view sheet layout.
 @doll-daughter — the child mannequin. A child-size display mannequin in matte ivory plastic, smooth head with NO eyes and NO mouth, a dark wig in two bad braids, an unfinished yellow dress with pins, white tacking thread and one sleeve missing. Ignore the white background and the sheet layout.
-@L03_living-room — the living room with the curtains closed, empty. Take the room exactly: the grey sofa with a lace throw in the middle, the floral armchair at front left, the low coffee table, the bookshelf on the left wall, the floor lamp, the sewing corner at the back right, the closed curtains on the right wall.
+@L03_living-dim — the living room with the curtains closed, empty, the same camera and room as @L03b_living-day. Take the room exactly: the grey sofa with a lace throw in the middle, the floral armchair at front left, the low coffee table, the bookshelf on the left wall, the floor lamp, the sewing corner at the back right, the closed curtains on the right wall, the sewing corner with the machine, mirror and two steel stands at the back right.
 
 LOOK
 Naturalistic 35mm motion-picture look with fine grain, soft contrast, not glossy. 16:9 frame, composed centre-safe: everything important stays inside the middle of the picture, and the far left and right edges hold only background. The camera is on a tripod and locked unless a shot says otherwise. Lenses 35, 50 and 85mm. The apartment is shut in: curtains closed, still dusty air, sage-green walls, grey and faded wood. Yellow is the only saturated colour in the picture. Evening. Warm floor lamp behind the sofa, deep shadow.
@@ -2133,7 +2133,7 @@ KEEP CONSISTENT
 
 **11 · Daylight · shots 77 ★ · 6s · 16:9**  
 Seedance 2.5 Draft · audio ON · duration 6s · aspect 16:9  
-Attach: `adam`, `doll-wife`, `doll-daughter`, `L03_living-room`, `L03b_living-day`
+Attach: `adam`, `doll-wife`, `doll-daughter`, `L03_living-dim`, `L03b_living-day`
 
 ```text
 A 6-second, 16:9 hero shot: he drags the heavy curtains open and daylight floods the living room for the first time in the film. (Keep him and the window in the centre of the frame.)
@@ -2142,8 +2142,8 @@ REFERENCES
 @adam — Adam, present day. Take his face, stubble, the healed scar at his right temple, the washed-out grey-blue shirt with rolled sleeves, charcoal trousers, bare feet, wedding ring. Ignore the white background and the three-view sheet layout.
 @doll-wife — the adult mannequin. A life-size shop display mannequin in matte ivory plastic, smooth head with NO eyes and NO mouth, a slightly crooked dark wig, Layla's burgundy cardigan over a plain grey dress, visible seams at neck, shoulders and wrists. Ignore the white background and the sheet layout.
 @doll-daughter — the child mannequin. A child-size display mannequin in matte ivory plastic, smooth head with NO eyes and NO mouth, a dark wig in two bad braids, an unfinished yellow dress with pins, white tacking thread and one sleeve missing. Ignore the white background and the sheet layout.
-@L03_living-room — the living room with the curtains closed, empty. Take the room exactly: the grey sofa with a lace throw in the middle, the floral armchair at front left, the low coffee table, the bookshelf on the left wall, the floor lamp, the sewing corner at the back right, the closed curtains on the right wall.
-@L03b_living-day — the same living room with the curtains open and morning sun coming in. Take the daylight state of the room: sun shafts across the rug and floor, the city through the window on the right.
+@L03_living-dim — the living room with the curtains closed, empty, the same camera and room as @L03b_living-day. Take the room exactly: the grey sofa with a lace throw in the middle, the floral armchair at front left, the low coffee table, the bookshelf on the left wall, the floor lamp, the sewing corner at the back right, the closed curtains on the right wall, the sewing corner with the machine, mirror and two steel stands at the back right.
+@L03b_living-day — the same living room, same camera, with the curtains open and morning sun coming in; the sewing corner with the machine, mirror and two steel stands at the back right. Take the daylight state of the room: sun shafts across the rug and floor, the city through the window on the right.
 
 LOOK
 Naturalistic 35mm motion-picture look with fine grain, soft contrast, not glossy. 16:9 frame. The camera is on a tripod and locked. Lenses 35, 50 and 85mm. The same apartment, now with real daylight in it: sage-green walls, grey and faded wood, dust hanging in the sun. Yellow is the only saturated colour in the picture. Morning. The shot begins in the closed-curtain gloom and ends in full sun.
@@ -2161,7 +2161,7 @@ WHAT IS BEHIND EACH OF THEM
 Behind Adam: the olive-grey curtains, then the window and the city. Left of him: the sofa with the two mannequins, the coffee table, the armchair, the bookshelf.
 
 SHOTS
-0.0–6.0s — MS, 35mm, locked. THE VERY FIRST FRAME OF THE CLIP IS THIS: the room as in @L03_living-room, dim, Adam in the centre-right of frame from behind, a hand on each curtain. At 1.0s he pulls them apart in one long drag, rings scraping. Hard morning sun bursts in and by 3.0s the room looks as in @L03b_living-day: sun shafts across the rug and floor, dust swirling thick in the beam, the city in the window. He stands in the light with his arms still out, squinting, then lets them drop at 5.0s. The two mannequins on the sofa are lit flat and plain by the sun and do not move. BACKGROUND: window, city.
+0.0–6.0s — MS, 35mm, locked. THE VERY FIRST FRAME OF THE CLIP IS THIS: the room as in @L03_living-dim, dim, Adam in the centre-right of frame from behind, a hand on each curtain. At 1.0s he pulls them apart in one long drag, rings scraping. Hard morning sun bursts in and by 3.0s the room looks as in @L03b_living-day: sun shafts across the rug and floor, dust swirling thick in the beam, the city in the window. He stands in the light with his arms still out, squinting, then lets them drop at 5.0s. The two mannequins on the sofa are lit flat and plain by the sun and do not move. BACKGROUND: window, city.
 
 SOUND
 No music, no score, no stings.
@@ -2192,7 +2192,7 @@ REFERENCES
 @adam — Adam, present day. Take his face, stubble, the healed scar at his right temple, the washed-out grey-blue shirt with rolled sleeves, charcoal trousers, bare feet, wedding ring. Ignore the white background and the three-view sheet layout.
 @doll-wife — the adult mannequin. A life-size shop display mannequin in matte ivory plastic, smooth head with NO eyes and NO mouth, a slightly crooked dark wig, Layla's burgundy cardigan over a plain grey dress, visible seams at neck, shoulders and wrists. Ignore the white background and the sheet layout.
 @doll-daughter — the child mannequin. A child-size display mannequin in matte ivory plastic, smooth head with NO eyes and NO mouth, a dark wig in two bad braids, an unfinished yellow dress with pins, white tacking thread and one sleeve missing. Ignore the white background and the sheet layout.
-@L03b_living-day — the same living room with the curtains open and morning sun coming in. Take the daylight state of the room: sun shafts across the rug and floor, the city through the window on the right.
+@L03b_living-day — the same living room, same camera, with the curtains open and morning sun coming in; the sewing corner with the machine, mirror and two steel stands at the back right. Take the daylight state of the room: sun shafts across the rug and floor, the city through the window on the right.
 
 LOOK
 Naturalistic 35mm motion-picture look with fine grain, soft contrast, not glossy. 16:9 frame. The camera is on a tripod and locked. Lenses 35, 50 and 85mm. The same apartment, now with real daylight in it: sage-green walls, grey and faded wood, dust hanging in the sun. Yellow is the only saturated colour in the picture. Morning. Hard sunlight from the open window on the right.
@@ -2233,7 +2233,7 @@ KEEP CONSISTENT
 
 **11 · Daylight · shots 80 ★ · 6s · 16:9**  
 Seedance 2.5 Draft · audio ON · duration 6s · aspect 16:9  
-Attach: `adam`, `doll-wife`, `doll-daughter`, `L04_sewing-corner`
+Attach: `adam`, `doll-wife`, `doll-daughter`, `L03b_living-day`
 
 ```text
 A 6-second, 16:9 hero shot: both mannequins are back on their stands in the sewing corner. He lays the loose yellow sleeve over the small one's shoulder and steps back.
@@ -2242,7 +2242,7 @@ REFERENCES
 @adam — Adam, present day. Take his face, stubble, the healed scar at his right temple, the washed-out grey-blue shirt with rolled sleeves, charcoal trousers, bare feet, wedding ring. Ignore the white background and the three-view sheet layout.
 @doll-wife — the adult mannequin. A life-size shop display mannequin in matte ivory plastic, smooth head with NO eyes and NO mouth, a slightly crooked dark wig, Layla's burgundy cardigan over a plain grey dress, visible seams at neck, shoulders and wrists. Ignore the white background and the sheet layout.
 @doll-daughter — the child mannequin. A child-size display mannequin in matte ivory plastic, smooth head with NO eyes and NO mouth, a dark wig in two bad braids, an unfinished yellow dress with pins, white tacking thread and one sleeve missing. Ignore the white background and the sheet layout.
-@L04_sewing-corner — the sewing corner of the living room, empty. Take it exactly: floor lamp and sofa end on the left, the sewing table with the black machine threaded with yellow and the yellow sleeve under the needle, bentwood chair, fabric shelves and paper patterns on the wall, the tall framed mirror leaning on the wall, two bare steel mannequin stands, the closed curtains on the right.
+@L03b_living-day — the same living room, same camera, with the curtains open and morning sun coming in; the sewing corner with the machine, mirror and two steel stands at the back right. Take the daylight state of the room: sun shafts across the rug and floor, the city through the window on the right.
 
 LOOK
 Naturalistic 35mm motion-picture look with fine grain, soft contrast, not glossy. 16:9 frame. The camera is on a tripod and locked. Lenses 35, 50 and 85mm. The same apartment, now with real daylight in it: sage-green walls, grey and faded wood, dust hanging in the sun. Yellow is the only saturated colour in the picture. Morning. The curtains at the right are open; sun falls across the sewing table and the stands.
@@ -2254,13 +2254,13 @@ MANNEQUIN RULE
 The mannequins are rigid, hard, hollow plastic objects. They never blink, breathe, turn, nod, bend or shift on their own. They have no eyes and no mouth. They move only when Adam's hands move them, the way a chair moves. They never speak and nothing answers him.
 
 WHERE EVERYONE IS — fixed for the whole clip
-The sewing corner. The adult mannequin stands on the left steel stand, bare: no wig, no cardigan, no dress, plain ivory plastic. The child mannequin stands on the right stand, no wig, still wearing the unfinished yellow dress. Adam stands beside the child mannequin, on its left.
+The living room in daylight, the sewing corner at the back right beyond the sofa. The adult mannequin stands on the left steel stand, bare: no wig, no cardigan, no dress, plain ivory plastic. The child mannequin stands on the right stand, no wig, still wearing the unfinished yellow dress. Adam stands beside the child mannequin, on its left.
 
 WHAT IS BEHIND EACH OF THEM
-Behind the mannequins: the sage wall, the framed mirror, the open curtains and sunlight at right. Left: the sewing table and machine, the floor lamp, the sofa end.
+Foreground: the armchair and the corner of the dining table. Midground: the sofa and the coffee table, sun across the rug. Background: the two mannequins on their stands by the framed mirror, the sewing table and machine, the open window and sunlight at right.
 
 SHOTS
-0.0–6.0s — Wide, 35mm, locked — the same frame as the sewing-corner shot. THE VERY FIRST FRAME OF THE CLIP IS THIS: the corner at the angle of @L04_sewing-corner, now in daylight, the two mannequins upright on their stands where the clean circles were. Adam holds the small yellow sleeve in both hands. At 1.5s he lays it over the child mannequin's bare shoulder, where the missing sleeve belongs, and smooths it once. At 3.5s he takes two steps back toward the sewing table and stands looking at them, hands empty. The needle of the machine is bare now. BACKGROUND: mirror, open curtains, sun.
+0.0–6.0s — Wide, 35mm, locked — the living-room frame, the sewing corner at the back. THE VERY FIRST FRAME OF THE CLIP IS THIS: the living room exactly at the angle of @L03b_living-day, the sewing corner at the back in daylight, the two mannequins upright on their stands where the clean circles were. Adam holds the small yellow sleeve in both hands. At 1.5s he lays it over the child mannequin's bare shoulder, where the missing sleeve belongs, and smooths it once. At 3.5s he takes two steps back toward the sewing table and stands looking at them, hands empty. The needle of the machine is bare now. BACKGROUND: mirror, open curtains, sun.
 
 SOUND
 Warm, quiet score: piano, the five notes. It will be replaced by the film's own score in the edit.

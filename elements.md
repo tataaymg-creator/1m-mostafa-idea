@@ -1,10 +1,11 @@
 # LOOK — Higgsfield Elements
 
-All 33 elements live in the Higgsfield project **baba look**. Every image is 16:9. In a prompt, call an element by its name with `@`, for example `@adam` or `@L02_dining`. Which elements each generation needs is listed in [`prompts.md`](prompts.md).
+All 32 elements in use live in the Higgsfield project **baba look**. Every image is 16:9. In a prompt, call an element by its name with `@`, for example `@adam` or `@L02_dining`. Which elements each generation needs is listed in [`prompts.md`](prompts.md).
 
 ## How consistency was built
 
-- One living-room image is the master. The dining room, sewing corner, hallway and landing were generated from it, and the kitchen from the dining-room image, so the kitchen matches what is seen through the doorway.
+- The daylight living-room image is the master; the dim one is an edit of it, so both share one camera and the sewing corner is seen in both (no separate sewing-corner plate).
+- The first living-room image was the master for the other rooms. The dining room, sewing corner, hallway and landing were generated from it, and the kitchen from the dining-room image, so the kitchen matches what is seen through the doorway.
 - Fixed props are baked into the location images: the radio in the kitchen, the rabbit, night-light and crayons in Nour's room, the bag on the hallway console, the crayons in the car.
 - Moving props stay separate elements: cup, plates, sandal, brush, dish, watch, bag contents, drawing, car exterior.
 - The watch comes from Layla's sheet; the bag contents from the watch, crayons and drawing; the sealed bag from the contents.
@@ -28,9 +29,8 @@ All 33 elements live in the Higgsfield project **baba look**. Every image is 16:
 |---|---|---|
 | `L01_kitchen` | Kitchen, radio on the shelf; matches the view through the dining-room doorway | `dae8d77b-2383-48d9-9884-26fa1c3c45d2` |
 | `L02_dining` | Dining table in front of the closed curtains | `c367b428-e15b-40a4-a5f6-f6a7034bd470` |
-| `L03_living-room` | Living room master, curtains closed | `56e98e89-8ed1-4031-9af0-6bf3763ebdb7` |
+| `L03_living-dim` | Living room, curtains closed, lamp on; made from the daylight plate, same camera; sewing corner visible at the back | `fa8eb018-ddac-495c-943c-f3668c4e6c00` |
 | `L03b_living-day` | Living room, curtains open, morning sun | `da4c8ed4-3e9c-45af-b85a-16a58a215205` |
-| `L04_sewing-corner` | Sewing corner of the living room, framed mirror, two empty stands | `a1c9ec16-9d46-4a1d-925a-c97432ca6b8a` |
 | `L05_hallway` | Hallway and front door, no bag on the console | `a4efce0c-da8f-44b2-9d7b-c8d35de1e3bb` |
 | `L05b_hallway-bag` | Hallway with the sealed bag on the console (use until the bag is opened) | `3aac8199-6966-4d91-a3df-f0e9630570d1` |
 | `L06_nour-room` | Nour's bedroom at night: rabbit, star light, crayons at true size | `d7ca253d-c850-41c7-b93a-b9cfc1c39f56` |
@@ -59,3 +59,5 @@ All 33 elements live in the Higgsfield project **baba look**. Every image is 16:
 | `P14_foil-dish` | Mona's foil-covered dish | `10082eb8-4c5e-4253-a10a-c9d9eb6adc38` |
 
 Images are saved in [`characters/`](characters/), [`locations/`](locations/) and [`props/`](props/).
+
+Retired, not used in any prompt: `L03_living-room` (`56e98e89-8ed1-4031-9af0-6bf3763ebdb7`) and `L04_sewing-corner` (`a1c9ec16-9d46-4a1d-925a-c97432ca6b8a`). They can be deleted in Higgsfield.
