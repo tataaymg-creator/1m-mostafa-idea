@@ -520,7 +520,7 @@ Attach in order: @image1 = `adam`, @image2 = `doll-daughter`, @image3 = `P03_yel
 
 ```text
 SCENE CONTEXT
-Morning in the dining area. @image1 kneels on the floor and buckles a yellow sandal onto the rigid foot of @image2, seated on a wooden chair with its legs hanging down. The click freezes him; then a close-up of him on his knees, coming back to himself.
+Morning in the dining area. @image2 sits on a wooden chair, a yellow sandal already on its rigid plastic foot. In an extreme close-up, @image1's finger and thumb press the sandal's small buckle shut with a sharp click. The click freezes him; then a close-up of him on his knees, coming back to himself.
 
 ACTIVE REFERENCES
 @image1 — Adam, 38, lean and tired; short untidy dark hair, stubble, a healed scar at his right temple; washed-out grey-blue shirt with rolled sleeves, charcoal trousers, bare feet, wedding ring; soft, low, slightly hoarse voice. 100% matches the reference.
@@ -529,41 +529,41 @@ ACTIVE REFERENCES
 @image4 — the dining area: table with a cream lace cloth and four wooden chairs in front of tall closed olive-grey curtains, sideboard with a mantel clock at right, pendant lamp above, kitchen doorway at right. 100% matches the reference.
 
 LOCATION MAP
-Camera low in @image4, beside a wooden chair turned out from the table. Midground: the child mannequin seated upright on the chair, its two bare ivory plastic legs hanging straight down from under the yellow dress, its left foot already in a yellow sandal; Adam kneeling on the terrazzo in front of it, at frame right. Background: the hanging edge of the lace cloth, the dim sideboard.
+Camera low in @image4, beside a wooden chair turned out from the table. First segment: the camera is a hand's width from the mannequin's ankle. Second segment: Adam's face, kneeling on the terrazzo in front of the chair. Background: the chair legs, the hanging edge of the lace cloth, the dim sideboard.
 
 FIRST FRAME / BLOCKING
-The first frame is a medium shot of the child mannequin from the knees down, seated on the chair, both smooth ivory plastic legs and feet clearly visible, the hem of the yellow dress at the top of the frame, @image1 kneeling at frame right, looking down at the bare right foot, already holding the small yellow sandal in his right hand: a plain flat child's sandal, a yellow sole with one strap over the toes and one thin ankle strap with a small metal buckle.
+The first frame is an extreme close-up of one smooth ivory plastic ankle and foot already sitting in @image3; the thin yellow ankle strap is already threaded through the small metal buckle and lies loose, and @image1's thumb and forefinger rest on the buckle.
 
 FORMAT MODE
 Timed multishot: cuts only at the stated seconds; the camera holds each segment without cutting on its own.
 
 OPTICS
-0.0s to 5.0s — MS, knees down, 47° FOV.
-5.0s to 10.0s — CU, 29° FOV.
+0.0s to 4.0s — ECU, 12° FOV.
+4.0s to 10.0s — CU, 29° FOV.
 Clean rectilinear primes, natural perspective, crisp centre, soft falloff at the edges. No drift mid-segment.
 
 CAMERA
-0.0s to 5.0s — locked, low, at knee height.
-5.0s to 10.0s — locked, at his kneeling eye level, on the shadow side of his face.
+0.0s to 4.0s — locked, at ankle height.
+4.0s to 10.0s — locked, at his kneeling eye level, on the shadow side of his face.
 Tonal character: wide latitude, gentle highlight roll-off, rich detail held in the shadows.
 
 ACTION
-0.0s to 5.0s — The mannequin's right foot is bare: smooth, hard, ivory plastic, toes moulded as one shape, a seam at the ankle. @image1 keeps his eyes on the foot the whole time. He cups the plastic heel in his left hand, and with his right hand guides @image3 slowly onto the foot, toes first under the front strap, then lowers the heel onto the sole at 2.0s. He draws the thin ankle strap round the back of the ankle, threads it through the small buckle and at 3.6s presses the pin shut. His hands stop dead on the click.
-5.0s HARD CUT
-5.0s to 10.0s — @image1's face, his eyes level with the mannequin's knees, which are a soft yellow blur at the frame edge. He is frozen, eyes unfocused, breath held. At 6.0s he blinks twice. At 6.8s two fingers of his right hand rise to the scar at his temple. At 8.0s he shakes his head once and looks up at the mannequin with a thin smile. 8.6s to 9.7s, Adam, under his breath, covering: "...Where were we."
+0.0s to 4.0s — His thumb draws the strap one notch tighter and at 1.6s presses the buckle's pin home; it snaps shut with a sharp click. His fingers stop dead on the click and stay resting on the buckle, perfectly still, until the end of the segment.
+4.0s HARD CUT
+4.0s to 10.0s — @image1's face, his eyes level with the mannequin's knees, which are a soft yellow blur at the frame edge. He is frozen, eyes unfocused, breath held. At 5.0s he blinks twice. At 5.8s two fingers of his right hand rise to the scar at his temple. At 7.4s he shakes his head once and looks up at the mannequin with a thin smile. 8.2s to 9.4s, Adam, under his breath, covering: "...Where were we."
 
 PERFORMANCE
 The freeze is total stillness, then a tiny swallow before he moves. The smile is a mask put back on. Real skin with visible pores and fine texture, living eyes with catch-lights, breath visible in the chest and shoulders.
 
 PHYSICS
-The legs are hard hollow plastic: the ankle and toes keep one fixed shape and the whole leg lifts as one piece. The sandal's sole sits flat under the foot; the strap closes around the ankle. The buckle snaps shut with a sharp metallic click. The mannequins are hollow, hard and rigid; they keep every joint at its angle and move only where Adam's hands carry them.
+The plastic foot and ankle are hard and fixed; only the strap and the buckle move under his fingers. The buckle snaps shut with a sharp metallic click. The mannequins are hollow, hard and rigid; they keep every joint at its angle and move only where Adam's hands carry them.
 
 LIGHTING
 Soft daylight from the curtains at frame right, raking across his right temple so the scar reads clearly. Low fill. White balance 5000K.
 
 AUDIO
-Fabric, the strap sliding, a sharp metallic buckle click. In the second segment, two seconds of silence, then the wall clock fades back in.
-Lines, each spoken once, in English: 8.6s Adam: "...Where were we."
+A small leather creak of the strap, then one sharp metallic buckle click. In the second segment, two seconds of silence, then the wall clock fades back in.
+Lines, each spoken once, in English: 8.2s Adam: "...Where were we."
 Only these voices are heard.
 
 STYLE
@@ -576,9 +576,8 @@ POSITIVE LOCKS
 - The curtains stay closed; the light comes from lamps and the glow through the curtains.
 - Yellow objects hold the only saturated colour.
 - Every paper, label and envelope is blank.
-- The mannequin's legs are bare smooth ivory plastic, the same material as its face.
-- The sandal is in Adam's right hand from the first frame; one simple flat yellow sandal, sole-down, toes first, strap around the ankle.
-- Adam's eyes stay on the foot and the sandal for the whole first segment.
+- The sandal is on the foot from the first frame; the only action in the first segment is the buckle closing.
+- The foot and ankle are smooth ivory plastic, the same material as the mannequin's face.
 - Each line lands once, at its time, from its speaker.
 ```
 
