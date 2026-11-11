@@ -38,7 +38,7 @@
 | [G22](#g22) | 5 · The knock | 36 ★, 38 | 10s | 1 `adam`, 2 `doll-daughter`, 3 `L03_living-dim`, 4 `F10_living-blocking` |
 | [G23](#g23) | 5 · The knock | 37 ○ | 4s | 1 `mona`, 2 `P14_foil-dish`, 3 `L09_landing` |
 | [G24](#g24) | 6 · Dinner | 39, 40 | 10s | 1 `adam`, 2 `doll-wife`, 3 `doll-daughter`, 4 `P01_yellow-cup`, 5 `L02_dining` |
-| [G25](#g25) | 6 · Dinner | 41 ★, 44 | 8s | 1 `adam`, 2 `P01_yellow-cup`, 3 `L02_dining`, 4 `F24_end` |
+| [G25](#g25) | 6 · Dinner | 41 ★, 44 | 8s | 1 `adam`, 2 `doll-wife`, 3 `doll-daughter`, 4 `P01_yellow-cup`, 5 `L02_dining` |
 | [G27](#g27) | 6 · Dinner & the headlights (flash 4) | 42, 43 | 5s | 1 `layla`, 2 `L07_car-front`, 3 `L08_desert-road` |
 | [G28](#g28) | 7 · Bedtime | 45 | 10s | 1 `adam`, 2 `doll-daughter`, 3 `L06_nour-room` |
 | [G29](#g29) | 7 · Bedtime | 46, 47, 48 | 16s | 1 `adam`, 2 `doll-daughter`, 3 `P10_rabbit`, 4 `L06_nour-room` |
@@ -1548,7 +1548,7 @@ Attach in order: @image1 = `adam`, @image2 = `doll-wife`, @image3 = `doll-daught
 
 ```text
 SCENE CONTEXT
-Night at the dining table, one locked frontal wide starting exactly on the start frame: @image2 at the left end, @image1 at the centre facing the camera, @image3 at the right end. The yellow cup by the small plate is already full of water. He promises them the sea; as he talks, his hand knocks the cup over by accident.
+Daytime at the dining table, one locked frontal wide starting exactly on the start frame: @image2 at the left end, @image1 at the centre facing the camera, @image3 at the right end. The yellow cup stands full of water on the table directly in front of Adam, between his hands. He promises them the sea, opens his arms wide, and his own right forearm sweeps the cup over by accident.
 
 ACTIVE REFERENCES
 @image1 — Adam, 38, lean and tired; short untidy dark hair, stubble, a healed scar at his right temple; washed-out grey-blue shirt with rolled sleeves, charcoal trousers, bare feet, wedding ring; soft, low, slightly hoarse voice. 100% matches the reference.
@@ -1558,10 +1558,10 @@ ACTIVE REFERENCES
 @image5 — the dining area: table with a cream lace cloth and four wooden chairs in front of tall closed olive-grey curtains, sideboard with a mantel clock at right, pendant lamp above, kitchen doorway at right. 100% matches the reference.
 
 LOCATION MAP
-Camera square to the table in @image5, exactly the frame of the start image. Foreground: the near edge of the lace-covered table. Midground: the adult mannequin at frame left, Adam at the centre, the child mannequin at frame right, @image4 full of water by the small plate at frame right, within reach of Adam's right hand. Background: the closed curtains, dark with night, the sideboard at the right edge.
+Camera square to the table in @image5, exactly the frame of the start image. Foreground: the near edge of the lace-covered table. Midground: the adult mannequin at frame left, Adam at the centre, the child mannequin at frame right, @image4 full of water standing directly in front of Adam, at the centre of the table, a hand's width from his right wrist. Background: the closed curtains with thin vertical strips of bright daylight in their gaps, the sideboard at the right edge.
 
 FIRST FRAME / BLOCKING
-The first frame is the start image itself: the whole table square to the camera under the pendant lamp, everyone seated exactly as shown, the yellow cup full of water.
+The first frame is the start image itself: the whole table square to the camera, everyone seated exactly as shown, the yellow cup full of water standing on the cloth right in front of Adam's hands.
 
 FORMAT MODE
 One continuous shot; the camera holds it without cutting on its own.
@@ -1575,7 +1575,7 @@ CAMERA
 Tonal character: wide latitude, gentle highlight roll-off, rich detail held in the shadows.
 
 ACTION
-0.0s to 10.0s — @image1 leans on his forearms and talks, looking from the child mannequin to the adult one. At 6.4s, still talking with his hands, the back of his right hand catches the full yellow cup and knocks it over; it rolls onto its side and the water spreads across the lace toward the table edge. He stops dead and stares at the spreading water. 0.6s to 2.4s, Adam, warm, a promise: "Tomorrow we go to the sea." 2.8s to 3.6s, Adam, earnest: "I promise." 4.0s to 5.6s, Adam, quieter, to himself as much as them: "This time we'll get there."
+0.0s to 10.0s — @image1 leans on his forearms and talks, looking from the child mannequin to the adult one. At 4.0s he opens both arms wide over the table as he speaks, a big hopeful gesture. At 6.0s he brings his right arm back in, and his own right forearm hits the full yellow cup in front of him and knocks it over; it rolls onto its side and the water spreads across the lace toward the camera. He stops dead, his hand still in the air, and stares at the spreading water. The mannequins stay perfectly still and never touch anything. 0.6s to 2.4s, Adam, warm, a promise: "Tomorrow we go to the sea." 2.8s to 3.6s, Adam, earnest: "I promise." 4.0s to 5.6s, Adam, quieter, to himself as much as them: "This time we'll get there."
 
 PERFORMANCE
 Gentle and certain while he talks; after the cup falls he goes completely still, eyes fixed on the water. Real skin with visible pores and fine texture, living eyes with catch-lights, breath visible in the chest and shoulders.
@@ -1584,7 +1584,7 @@ PHYSICS
 The cup is light plastic and full to the brim; it tips over and rolls a few centimetres; the water runs out in one wave, soaks into the lace in a dark stain and starts to drip off the edge. The mannequins are hollow, hard and rigid; they keep every joint at its angle and move only where Adam's hands carry them.
 
 LIGHTING
-One pendant lamp above the table makes a warm, steady pool; the room around falls to darkness. White balance 4300K.
+Daylight through the closed curtains: thin bright vertical strips in the gaps, soft grey fill across the room; the pendant lamp glows above the table, exactly as in the start frame. White balance 5000K.
 
 AUDIO
 The wall clock, steam; the hollow knock of the plastic cup, water splashing across the cloth, then dripping.
@@ -1602,7 +1602,8 @@ POSITIVE LOCKS
 - Yellow objects hold the only saturated colour.
 - Every paper, label and envelope is blank.
 - The seating stays exactly as in the start frame: adult mannequin left, Adam centre, child mannequin right.
-- The cup is full of water from the first frame; nobody pours anything.
+- The cup is full of water from the first frame, right in front of Adam; nobody pours anything.
+- Adam's own right arm knocks the cup over; the mannequins never move.
 - His plate and fork stay untouched.
 - Each line lands once, at its time, from its speaker.
 ```
@@ -1611,46 +1612,47 @@ POSITIVE LOCKS
 
 **6 · Dinner · shots 41 ★, 44 · 8s**  
 Seedance 2.5 Draft · 16:9 · audio ON · duration 8s  
-Attach in order: @image1 = `adam`, @image2 = `P01_yellow-cup`, @image3 = `L02_dining`, @image4 = `F24_end`
+Attach in order: @image1 = `adam`, @image2 = `doll-wife`, @image3 = `doll-daughter`, @image4 = `P01_yellow-cup`, @image5 = `L02_dining`
 
 ```text
 SCENE CONTEXT
-Night at the dining table, a new low angle: @image1 sits staring down at the spilled water on the table, the pendant lamp hanging above his head. The lamp stutters, flickering on and off a few times, and his face tightens as if something comes back to him; the light steadies and he ends the evening.
+Daytime at the dining table, a new low angle starting exactly on the start frame: @image2 at frame left, @image1 seated at the centre, @image3 at frame right, the spilled yellow cup on its side in the water in front of him, the pendant lamp above his head. The lamp stutters, flickering a few times, and his face tightens as if something comes back to him; the light steadies and he ends the meal.
 
 ACTIVE REFERENCES
 @image1 — Adam, 38, lean and tired; short untidy dark hair, stubble, a healed scar at his right temple; washed-out grey-blue shirt with rolled sleeves, charcoal trousers, bare feet, wedding ring; soft, low, slightly hoarse voice. 100% matches the reference.
-@image2 — the child's yellow plastic cup. 100% matches the reference.
-@image3 — the dining area: table with a cream lace cloth and four wooden chairs in front of tall closed olive-grey curtains, sideboard with a mantel clock at right, pendant lamp above, kitchen doorway at right. 100% matches the reference.
-@image4 — a frame from this same dinner: take the room, the lighting, Adam's clothes and where everyone sits. Use it for continuity only. 100% matches the reference.
+@image2 — adult shop mannequin: matte ivory plastic, smooth blank face with only a sculpted nose and brow, crooked dark wig, burgundy cardigan over a grey dress, seams at neck, shoulders and wrists; a rigid object. 100% matches the reference.
+@image3 — child-size shop mannequin: matte ivory plastic, smooth blank face with only a sculpted nose and brow, dark wig in two uneven braids, unfinished yellow dress with pins, white tacking thread and one sleeve missing; a rigid object. 100% matches the reference.
+@image4 — the child's yellow plastic cup. 100% matches the reference.
+@image5 — the dining area: table with a cream lace cloth and four wooden chairs in front of tall closed olive-grey curtains, sideboard with a mantel clock at right, pendant lamp above, kitchen doorway at right. 100% matches the reference.
 
 LOCATION MAP
-Camera low, just above the table edge in front of Adam in @image3, looking up at him. Foreground: the wet lace and @image2 lying on its side, soft. Midground: Adam, seated, looking down at the table. Background: the pendant lamp directly above his head, the dark ceiling, the closed curtains, as in @image4.
+Camera low at table-top height in front of Adam in @image5, tilted up, exactly the frame of the start image. Foreground: the wet lace and @image4 on its side. Midground: the adult mannequin at frame left, Adam seated at the centre, the child mannequin at frame right. Background: the pendant lamp above Adam's head, the closed curtains with thin vertical strips of bright daylight in their gaps.
 
 FIRST FRAME / BLOCKING
-The first frame is the low angle up at @image1, his eyes down on the wet table, the glowing pendant lamp above his head, the fallen yellow cup soft in the foreground.
+The first frame is the start image itself: the low angle on all three at the table, Adam's eyes down on the spilled water, the pendant lamp above him.
 
 FORMAT MODE
 One continuous shot; the camera holds it without cutting on its own.
 
 OPTICS
-0.0s to 8.0s — MCU low angle, 47° FOV.
+0.0s to 8.0s — MS low angle, 54° FOV.
 Clean rectilinear primes, natural perspective, crisp centre, soft falloff at the edges.
 
 CAMERA
-0.0s to 8.0s — locked, low at table height, tilted up.
+0.0s to 8.0s — locked, low at table height, tilted up, the frame of the start image.
 Tonal character: wide latitude, gentle highlight roll-off, rich detail held in the shadows.
 
 ACTION
-0.0s to 8.0s — He stares at the water. At 1.5s the pendant lamp above him stutters: it flickers off and on three times in quick irregular pulses until 3.2s, the light on his face jumping with it; his jaw tightens and his breath catches. At 3.4s the lamp steadies. He looks slowly to frame left, then to frame right, at each of them, and lets his hands fall. 5.4s to 6.1s, Adam, flat, emptied: "...It's late." 6.5s to 7.2s, Adam, almost inaudible: "Bedtime."
+0.0s to 8.0s — He stares at the water. At 1.5s the pendant lamp above him stutters: its bulb flickers off and on three times in quick irregular pulses until 3.2s, the warm light on his face and the table jumping with it while the daylight in the curtain gaps stays steady; his jaw tightens and his breath catches. At 3.4s the lamp steadies. He looks slowly to the adult mannequin at frame left, then to the child mannequin at frame right, and lets his hands fall to the table. 5.4s to 6.1s, Adam, flat, emptied: "...It's late." 6.5s to 7.2s, Adam, almost inaudible: "Bedtime."
 
 PERFORMANCE
-During the flicker his eyes widen and his knuckles whiten on the table edge; after it, his shoulders drop and his face empties. Real skin with visible pores and fine texture, living eyes with catch-lights, breath visible in the chest and shoulders.
+During the flicker his eyes widen and his fingers press into the wet cloth; after it, his shoulders drop and his face empties. Real skin with visible pores and fine texture, living eyes with catch-lights, breath visible in the chest and shoulders.
 
 PHYSICS
-Water drips from the table edge. The lamp's flicker is electrical: sharp on-off pulses with a faint hum, the bulb filament glowing orange between pulses.
+Water drips from the table edge. The lamp's flicker is electrical: sharp on-off pulses with a faint hum, the filament glowing orange between pulses. The mannequins are hollow, hard and rigid; they keep every joint at its angle and move only where Adam's hands carry them.
 
 LIGHTING
-The pendant lamp is the only light, overhead, hard on his brow and cheekbones; its flicker drops the room to darkness and back. White balance 4300K.
+Daylight through the closed curtains as the base: thin bright vertical strips in the gaps, soft grey fill. The pendant lamp adds warm light from above and is the only light that flickers. White balance 5000K.
 
 AUDIO
 Water dripping; the electrical buzz and tick of the flickering bulb; his breathing; the wall clock.
@@ -1662,11 +1664,13 @@ Photoreal naturalistic film image, fine organic grain, soft contrast. A shut-in 
 
 POSITIVE LOCKS
 - Adam matches @image1 in every frame he appears in: stubble, the healed scar at his right temple, the grey-blue shirt.
+- @image2 and @image3 stay rigid and motionless as furniture, with smooth blank faces.
 - The camera stays on a tripod, locked, in every segment unless that segment names a move.
 - The curtains stay closed; the light comes from lamps and the glow through the curtains.
 - Yellow objects hold the only saturated colour.
 - Every paper, label and envelope is blank.
-- The light changes come only from the pendant lamp above him.
+- The seating stays exactly as in the start frame: adult mannequin left, Adam centre, child mannequin right.
+- Only the pendant lamp flickers; the daylight in the curtains stays steady.
 - The camera stays low and locked for the whole shot.
 - Each line lands once, at its time, from its speaker.
 ```
