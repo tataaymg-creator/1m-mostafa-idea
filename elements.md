@@ -30,7 +30,7 @@ Set A sheets are saved in [`characters/`](characters/).
 
 | Tag | Where | Shots | Element id (Set A) | Set A job | Set B job |
 |---|---|---|---|---|---|
-| `LOOK_L01_kitchen` | Kitchen | 02, 04, 09, 22–23, 26 | `6573ed81-bd83-4726-851d-a54257631a04` | `f505225e-4784-4bba-8fcc-13dad7f8eb13` | `2e6013fd-6e89-4706-92f9-84b530e248d3` (was still queued) |
+| `LOOK_L01_kitchen` | Kitchen | 02, 04, 09, 22–23, 26 | `6573ed81-bd83-4726-851d-a54257631a04` | `f505225e-4784-4bba-8fcc-13dad7f8eb13` | `2e6013fd-6e89-4706-92f9-84b530e248d3` |
 | `LOOK_L02_dining` | Dining table by the curtained window | 03, 05–08, 39–44, 85 | `5c6427d8-a836-4804-b869-ca79b920a1af` | `529b883f-939d-4a11-8256-72b7474c395b` | `27ca3005-9e73-4f87-ba1c-dbcfb1e15cdb` |
 | `LOOK_L03_living-room` | Living room, curtains closed | 11–20, 27–38, 77–79 | `0f12a25c-08b2-4251-970a-1ce8434d60c4` | `1de5c7f8-6eda-4b7f-9c67-7626e64bd991` | `ae0b91e4-5a10-4fb3-bf2c-e0e8b377d702` |
 | `LOOK_L04_sewing-corner` | Layla's sewing corner, two empty stands | 21, 80 | `dcca9017-d2c7-47c8-89eb-01f53ceb99c0` | `12ad4d62-6eb2-45aa-996c-2ceb4c3ad730` | `1e055b71-eaee-4aab-a381-5d22106ebb8d` |
