@@ -471,16 +471,16 @@ run(id="G27", scene="6 · Dinner & the headlights (flash 4)", nums="42, 43", loo
 
 # ================================================================ 7 · BEDTIME
 run(id="G28", scene="7 · Bedtime", nums="45", look="P", attach=["adam", "doll-daughter", "L06_nour-room"],
-    ctx="Night. From behind, {adam} carries {doll-daughter} down a dark corridor toward an open bedroom door glowing with a star night-light.",
-    map="Camera at the near end of a narrow dark corridor. Midground: Adam walking away down its centre. Background: the open door of the bedroom from {L06_nour-room} at the far end on the right, amber light and drifting star shapes spilling onto the corridor wall and floor.",
-    first="The first frame is {adam}'s silhouette from behind, mid-corridor, the child mannequin lying across his arms, its stiff legs straight out to one side.",
-    segs=[(5, None, "WS from behind", "63°", "locked, eye level",
-           "He walks slowly away at 2 km/h. The braided wig hangs over his elbow; a flash of yellow dress catches the glow. At <4.0> he reaches the bedroom door and turns sideways into it so the rigid legs clear the frame.", [])],
+    ctx="Night. Seen from inside a child's bedroom lit by a star night-light, {adam} comes in through the open door from the dark corridor, carrying {doll-daughter} in his arms, and walks toward the bed.",
+    map="Camera inside {L06_nour-room}, in the corner by the window, looking toward the open door at far right. Foreground: the end of the bed and the small round rug. Midground: the floor between the door and the bed, stars drifting over it. Background: the open doorway and the black corridor beyond.",
+    first="The first frame is the open bedroom doorway, the corridor beyond it dark, and {adam} stepping through it into the room, the child mannequin lying across his arms, its stiff legs straight out to one side, the braided wig hanging over his elbow.",
+    segs=[(5, None, "WS", "63°", "locked, eye level, facing the door",
+           "He comes in slowly at 2 km/h, turning sideways through the door at <0.5> so the rigid legs clear the frame, and walks toward the bed and the camera. A flash of yellow dress catches the amber glow; stars slide over him. At <4.0> he stops beside the bed, the mannequin still in his arms.", [])],
     perf="Careful, quiet steps; his head bent over the figure.",
     phys="The mannequin keeps its rigid straight shape in his arms; only the wig's braids swing.",
-    light="The corridor dark; the only light is the warm star glow from the open door ahead, rimming Adam's shoulders. White balance 4300K.",
-    audio="Slow bare footsteps; water dripping, far behind, fading out.",
-    locks=[])
+    light="The room lit only by the warm star night-light on the bedside table; amber stars drift over the walls, the floor and Adam; the corridor behind him stays dark. White balance 4300K.",
+    audio="Slow bare footsteps; the faint tick of the night-light motor; water dripping, far away, fading out.",
+    locks=["He walks into the room, from the doorway toward the bed.", "The mannequin stays in his arms for the whole shot."])
 
 run(id="G29", scene="7 · Bedtime", nums="46, 47, 48", look="P", attach=["adam", "doll-daughter", "P10_rabbit", "L06_nour-room"],
     ctx="Night in a child's bedroom. {adam} tucks {doll-daughter} into bed and sets the stuffed rabbit beside it; he kisses its forehead and stays a moment too long as projected stars drift over his face; from the doorway he switches off the lamp and only the stars remain.",
