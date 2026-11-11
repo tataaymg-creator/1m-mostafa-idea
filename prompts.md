@@ -1579,7 +1579,7 @@ Tonal character: wide latitude, gentle highlight roll-off, rich detail held in t
 ACTION
 0.0s to 6.0s — @image1 leans forward on his forearms, looking from the child mannequin to the adult one as he speaks. Both hold perfectly still. His fork lies untouched. 0.6s to 2.4s, Adam, warm, a promise: "Tomorrow we go to the sea." 2.8s to 3.6s, Adam, earnest: "I promise." 4.0s to 5.6s, Adam, quieter, to himself as much as them: "This time we'll get there."
 6.0s INSERT CUT
-6.0s to 10.0s — @image4 on the lace, close, the child mannequin's rigid ivory hand resting on the table edge beside it. Adam's hand tilts the jug and water fills the cup; at 7.6s it reaches the brim and he keeps pouring. It overflows, runs down the yellow plastic and spreads dark through the lace.
+6.0s to 10.0s — @image4 on the lace, close, the child mannequin's rigid ivory hand resting on the table edge beside it, and from the first frame @image1's hand already holding a clear glass water jug just above the cup. He tilts the jug and water fills the cup; at 7.6s it reaches the brim and he keeps pouring. It overflows, runs down the yellow plastic and spreads dark through the lace.
 
 PERFORMANCE
 His promise is gentle and certain; his eyes drift away from the table on the last line. Real skin with visible pores and fine texture, living eyes with catch-lights, breath visible in the chest and shoulders.
@@ -1607,6 +1607,7 @@ POSITIVE LOCKS
 - Every paper, label and envelope is blank.
 - Perfect symmetry in the wide: Adam centred, one mannequin on each side.
 - His plate and fork stay untouched.
+- The water jug is in Adam's hand from the first frame of the insert.
 - Each line lands once, at its time, from its speaker.
 ```
 
@@ -1893,7 +1894,7 @@ CAMERA
 Tonal character: wide latitude, gentle highlight roll-off, rich detail held in the shadows.
 
 ACTION
-0.0s to 6.0s — At 1.5s he pulls the patterned blanket up to the plastic chin and smooths it over the stiff shape. At 3.5s he takes @image3 from the pillow and tucks it beside the mannequin's shoulder.
+0.0s to 6.0s — From the first frame @image3 already lies on the pillow beside the mannequin's head. At 1.5s he pulls the patterned blanket up to the plastic chin and smooths it over the stiff shape. At 3.5s he straightens the rabbit against the mannequin's shoulder with one hand.
 6.0s HARD CUT
 6.0s to 12.0s — @image1 leans down and at 7.0s kisses the ivory forehead; he stays there, lips on the plastic, eyes closed, until 9.2s. Star shapes drift slowly over his face and the pillow. He pulls back a few centimetres and speaks. 9.8s to 10.8s, Adam, a whisper: "Tomorrow, the sea." 11.0s to 11.8s, Adam, barely there: "Sleep now."
 12.0s HARD CUT
@@ -2030,7 +2031,7 @@ LIGHTING
 Golden hour, the sun low ahead of the car, a warm rim on the roof and windows. White balance 5600K. Heat shimmer at 50 metres.
 
 AUDIO
-Tyres on asphalt, wind, and from inside the car, muffled, a warm old-fashioned waltz on the radio. The only music is that radio song.
+Tyres on asphalt, wind rushing past the car, a soft desert breeze. The song is laid in during the edit.
 The sound is only the room and the listed effects.
 
 STYLE
@@ -2102,7 +2103,7 @@ LIGHTING
 Golden hour, the sun low through the windshield, warm flare, faces glowing. White balance 5600K.
 
 AUDIO
-The waltz on the car radio, road hum, wind, a crayon scratching paper, Nour humming five notes, Layla la-la-ing along, Adam's laugh. The only music is that radio song.
+Road hum, wind at a cracked window, a crayon scratching paper, Nour humming five notes, Layla la-la-ing softly, Adam's laugh. The song is laid in during the edit.
 Lines, each spoken once, in English: 9.2s Layla: "An hour she's been drawing." · 10.8s Layla: "She won't show me." · 12.6s Adam: "What are you drawing, Nour?"
 Only these voices are heard.
 
@@ -2116,6 +2117,7 @@ POSITIVE LOCKS
 - The camera is handheld, close and breathing.
 - Every paper shows a blank back; the car is plain and unbadged.
 - Seats stay fixed: Adam drives front left, Layla front right, Nour back right behind Layla with her seatbelt on.
+- Nour's seatbelt is worn the normal way: shoulder strap diagonal across her chest, lap strap across her thighs, buckle at her hip.
 - The drawing stays hidden from the camera.
 - Nour's crayon is a short, finger-thin yellow wax crayon.
 - Each line lands once, at its time, from its speaker.
@@ -2162,7 +2164,7 @@ CAMERA
 Tonal character: wide latitude, gentle highlight roll-off, rich detail held in the shadows.
 
 ACTION
-0.0s to 4.0s — At 0.8s she lifts the sheet in both hands and holds it up toward the front seats, beaming. The camera sees only the back of the paper, the sun glowing through it as soft coloured shapes. 1.4s to 2.8s, Nour, bursting with pride: "Daddy, look!"
+0.0s to 4.0s — The sheet of paper is in both her hands from the first frame. At 0.8s she lifts it and holds it up toward the front seats, beaming. The camera sees only the back of the paper, the sun glowing through it as soft coloured shapes. 1.4s to 2.8s, Nour, bursting with pride: "Daddy, look!"
 4.0s HARD CUT
 4.0s to 8.0s — @image1 at the wheel in right profile, eyes on the road, squinting into the low sun, smiling. At 4.6s he flips the sun visor down. He answers with his eyes on the road. 5.4s to 6.4s, Adam, easy, amused: "One minute, sweetheart." 6.6s to 7.6s, Adam, light: "I'm driving."
 8.0s HARD CUT
@@ -2180,7 +2182,7 @@ LIGHTING
 Golden hour, the sun low and straight ahead, strong in Adam's eyes; the paper glows translucent with light behind it. White balance 5600K.
 
 AUDIO
-The waltz on the car radio, road hum, wind, paper rustling. The only music is that radio song.
+Road hum, wind at a cracked window, paper rustling. The song is laid in during the edit.
 Lines, each spoken once, in English: 1.4s Nour: "Daddy, look!" · 5.4s Adam: "One minute, sweetheart." · 6.6s Adam: "I'm driving." · 8.4s Nour: "Daddyyy. Look!" · 11.8s Layla: "Look at it, or she'll never stop."
 Only these voices are heard.
 
@@ -2194,6 +2196,7 @@ POSITIVE LOCKS
 - The camera is handheld, close and breathing.
 - Every paper shows a blank back; the car is plain and unbadged.
 - Seats stay fixed: Adam drives front left, Layla front right, Nour back right behind Layla with her seatbelt on.
+- Nour's seatbelt is worn the normal way: shoulder strap diagonal across her chest, lap strap across her thighs, buckle at her hip.
 - The paper always shows its blank glowing back to the camera.
 - Adam's eyes stay on the road for the whole clip.
 - Each line lands once, at its time, from its speaker.

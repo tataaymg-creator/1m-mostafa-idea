@@ -422,12 +422,12 @@ run(id="G24", scene="6 · Dinner & the headlights", nums="39, 40", look="P", att
             (2.8, 3.6, "Adam", "earnest", "I promise."),
             (4.0, 5.6, "Adam", "quieter, to himself as much as them", "This time we'll get there.")]),
           (4, "INSERT CUT", "Insert", "47°", "locked, at table height",
-           "{P01_yellow-cup} on the lace, close, the child mannequin's rigid ivory hand resting on the table edge beside it. Adam's hand tilts the jug and water fills the cup; at <1.6> it reaches the brim and he keeps pouring. It overflows, runs down the yellow plastic and spreads dark through the lace.", [])],
+           "{P01_yellow-cup} on the lace, close, the child mannequin's rigid ivory hand resting on the table edge beside it, and from the first frame {adam}'s hand already holding a clear glass water jug just above the cup. He tilts the jug and water fills the cup; at <1.6> it reaches the brim and he keeps pouring. It overflows, runs down the yellow plastic and spreads dark through the lace.", [])],
     perf="His promise is gentle and certain; his eyes drift away from the table on the last line.",
     phys="Steam curls up from the plates. Water overflows the brim in a thin sheet, soaks into the lace and spreads in a widening dark stain.",
     light="One pendant lamp above the table makes a warm pool; the room around falls to darkness. White balance 4300K.",
     audio="The wall clock, steam; water pouring, then spilling onto cloth; far outside, a truck horn.",
-    locks=["Perfect symmetry in the wide: Adam centred, one mannequin on each side.", "His plate and fork stay untouched."])
+    locks=["Perfect symmetry in the wide: Adam centred, one mannequin on each side.", "His plate and fork stay untouched.", "The water jug is in Adam's hand from the first frame of the insert."])
 
 run(id="G25", scene="6 · Dinner & the headlights", nums="41 ★", look="P", attach=["doll-wife", "doll-daughter", "adam", "L02_dining"],
     ctx="Night at the dining table, seen from the side. A vehicle passes in the street and its headlights come through a narrow gap in the curtains, sweep along the wall and slide across the two blank plastic faces of {doll-wife} and {doll-daughter}. {adam} sits between them, head down.",
@@ -487,7 +487,7 @@ run(id="G29", scene="7 · Bedtime", nums="46, 47, 48", look="P", attach=["adam",
     map="Camera inside {L06_nour-room}. The bed against the left wall, the bedside table with the star night-light at its head, the small desk at right, the open door at far right. Background: the sage wall with taped crayon scribbles, stars drifting across it.",
     first="The first frame is the bed from its foot at a three-quarter angle, the child mannequin lying flat on its back, head on the pillow, {adam} seated on the bed's edge.",
     segs=[(6, None, "MS", "47°", "locked, at seated height",
-           "At <1.5> he pulls the patterned blanket up to the plastic chin and smooths it over the stiff shape. At <3.5> he takes {P10_rabbit} from the pillow and tucks it beside the mannequin's shoulder.", []),
+           "From the first frame {P10_rabbit} already lies on the pillow beside the mannequin's head. At <1.5> he pulls the patterned blanket up to the plastic chin and smooths it over the stiff shape. At <3.5> he straightens the rabbit against the mannequin's shoulder with one hand.", []),
           (6, "HARD CUT", "CU", "29°", "locked, at pillow height, from the side",
            "{adam} leans down and at <1.0> kisses the ivory forehead; he stays there, lips on the plastic, eyes closed, until <3.2>. Star shapes drift slowly over his face and the pillow. He pulls back a few centimetres and speaks.",
            [(3.8, 4.8, "Adam", "a whisper", "Tomorrow, the sea."),
@@ -527,7 +527,7 @@ run(id="G31", scene="8 · The road", nums="51", look="ML", attach=["P13_family-c
     perf="",
     phys="The car rides smoothly; a light dust trail lifts from the shoulder behind the tyres.",
     light="Golden hour, the sun low ahead of the car, a warm rim on the roof and windows. White balance 5600K. Heat shimmer at 50 metres.",
-    audio="Tyres on asphalt, wind, and from inside the car, muffled, a warm old-fashioned waltz on the radio. The only music is that radio song.",
+    audio="Tyres on asphalt, wind rushing past the car, a soft desert breeze. The song is laid in during the edit.",
     locks=["The road ahead stays open and empty.", "The car keeps the same lane and speed for the whole shot."])
 
 run(id="G32", scene="8 · The road", nums="52, 53, 54, 55", look="M", attach=["adam-before", "layla", "nour", "L07_car-front", "L07b_car-backseat"],
@@ -548,8 +548,9 @@ run(id="G32", scene="8 · The road", nums="52, 53, 54, 55", look="M", attach=["a
     perf="A family at ease: easy laughter, shared looks, Nour's fierce concentration.",
     phys="The car sways gently at 80 km/h; wind at a cracked window moves loose hair.",
     light="Golden hour, the sun low through the windshield, warm flare, faces glowing. White balance 5600K.",
-    audio="The waltz on the car radio, road hum, wind, a crayon scratching paper, Nour humming five notes, Layla la-la-ing along, Adam's laugh. The only music is that radio song.",
+    audio="Road hum, wind at a cracked window, a crayon scratching paper, Nour humming five notes, Layla la-la-ing softly, Adam's laugh. The song is laid in during the edit.",
     locks=["Seats stay fixed: Adam drives front left, Layla front right, Nour back right behind Layla with her seatbelt on.",
+           "Nour's seatbelt is worn the normal way: shoulder strap diagonal across her chest, lap strap across her thighs, buckle at her hip.",
            "The drawing stays hidden from the camera.",
            "Nour's crayon is a short, finger-thin yellow wax crayon."])
 
@@ -558,7 +559,7 @@ run(id="G33", scene="8 · The road", nums="56, 57, 58, 59", look="M", attach=["a
     map="Inside the car. {adam-before} drives in the front left seat; {layla} sits in the front right seat; {nour} sits in the back right seat behind Layla, belted. Behind Nour: the bright rear window and the swim ring, as in {L07b_car-backseat}. Behind Adam: his side window and the desert, as in {L07_car-front}.",
     first="The first frame is {nour} in the back right seat finishing a last stroke with the yellow crayon, seen from the front looking back.",
     segs=[(4, None, "CU", "47°", "handheld, from the front seats looking back",
-           "At <0.8> she lifts the sheet in both hands and holds it up toward the front seats, beaming. The camera sees only the back of the paper, the sun glowing through it as soft coloured shapes.",
+           "The sheet of paper is in both her hands from the first frame. At <0.8> she lifts it and holds it up toward the front seats, beaming. The camera sees only the back of the paper, the sun glowing through it as soft coloured shapes.",
            [(1.4, 2.8, "Nour", "bursting with pride", "Daddy, look!")]),
           (4, "HARD CUT", "MCU", "47°", "handheld, from the passenger side",
            "{adam-before} at the wheel in right profile, eyes on the road, squinting into the low sun, smiling. At <0.6> he flips the sun visor down. He answers with his eyes on the road.",
@@ -573,8 +574,9 @@ run(id="G33", scene="8 · The road", nums="56, 57, 58, 59", look="M", attach=["a
     perf="Nour's whole body pleads; Adam's smile grows while his eyes hold the road.",
     phys="The paper flutters slightly in the window draught; the seatbelt presses into Nour's shoulder as she leans.",
     light="Golden hour, the sun low and straight ahead, strong in Adam's eyes; the paper glows translucent with light behind it. White balance 5600K.",
-    audio="The waltz on the car radio, road hum, wind, paper rustling. The only music is that radio song.",
+    audio="Road hum, wind at a cracked window, paper rustling. The song is laid in during the edit.",
     locks=["Seats stay fixed: Adam drives front left, Layla front right, Nour back right behind Layla with her seatbelt on.",
+           "Nour's seatbelt is worn the normal way: shoulder strap diagonal across her chest, lap strap across her thighs, buckle at her hip.",
            "The paper always shows its blank glowing back to the camera.",
            "Adam's eyes stay on the road for the whole clip."])
 
