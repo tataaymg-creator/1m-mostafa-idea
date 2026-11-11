@@ -1,68 +1,61 @@
-# LOOK — Higgsfield Elements and Reference Images
+# LOOK — Higgsfield Elements
 
-Everything is 16:9, 2K. Character sheets are laid out as: full body front, full body back, one face close-up. Location plates are a single three-quarter corner view with depth, empty of people.
+All 33 elements live in the Higgsfield project **baba look**. Every image is 16:9. In a prompt, call an element by its name with `@`, for example `@adam` or `@L02_dining`. Which elements each generation needs is listed in [`prompts.md`](prompts.md).
 
-Two versions of every image exist so a set can be chosen: **Set A** (GPT Image 2.6) and **Set B** (Nano Banana 2.1, same prompts). Only Set A has been registered as elements so far. No choice has been made yet.
+## How consistency was built
 
-## Decisions so far
-
-- Sheet layout: front, back, face close-up. No profile panel.
-- Locations: one three-quarter picture each.
-- Dialogue will be English only, with no Arabic words. To be applied when the shot prompts are written; `story.md` and `shot-list.md` still carry the earlier wording.
+- One living-room image is the master. The dining room, sewing corner, hallway and landing were generated from it, and the kitchen from the dining-room image, so the kitchen matches what is seen through the doorway.
+- Fixed props are baked into the location images: the radio in the kitchen, the rabbit, night-light and crayons in Nour's room, the bag on the hallway console, the crayons in the car.
+- Moving props stay separate elements: cup, plates, sandal, brush, dish, watch, bag contents, drawing, car exterior.
+- The watch comes from Layla's sheet; the bag contents from the watch, crayons and drawing; the sealed bag from the contents.
+- Two hallways: `L05b_hallway-bag` until the bag is opened (shot 72), `L05_hallway` after.
 
 ## Characters
 
-Use an element in a prompt as `<<<element id>>>`.
-
-| Tag | Who | Element id (Set A) | Set A job | Set B job |
-|---|---|---|---|---|
-| `adam` | Adam, present day: scar, stubble, grey shirt, bare feet | `3a9ef038-bc35-47c7-aaa0-c24578d1103f` | `29f95e34-6a87-44d6-995d-cf998caff5c9` | `c9c5af89-3295-4211-8714-b6622be9de16` |
-| `adam-before` | Adam in the memory: no scar, shaved, linen shirt | `a32ca6c6-aba8-4f5c-b89f-df0fa52a9a6e` | `4ee6925b-8200-437b-a254-693dcacc4f1e` | `4a4ffe34-4538-4d29-ad10-93fdaf678bd3` |
-| `layla` | Layla, the wife (memory only) | `5bd657d0-3460-475d-9083-c39ddb51c1d2` | `2e4a6a6a-5b07-4696-8f95-3e33b9c3242b` | `b895793f-29c7-4a5b-ad21-4065bd27d038` |
-| `nour` | Nour, the daughter, 6 (memory only) | `ae84ae06-82b1-4dc0-ae97-db84763ea350` | `00acc3d7-545b-4dcd-9de1-632b8f85bfdf` | `b49275fb-acdd-472d-b64a-68f022fb526d` |
-| `mona` | Mona, Layla's older sister | `e6c50bbb-acda-46ff-8432-b6cfe5e02294` | `46823e0a-b5e9-4a81-a10e-f21c79722658` | `8c162582-63a8-4be5-9315-70a300fb7be3` |
-| `doll-wife` | Adult mannequin in Layla's burgundy cardigan | `f81fbad2-2d6b-402f-be7c-bacb2fec90a0` | `0f70a97b-995e-46e4-a69b-2adb09899553` | `3babf057-0135-4ea9-94e5-855d1001ba35` |
-| `doll-daughter` | Child mannequin in the unfinished yellow dress | `534cd0ad-a3ae-46f4-a727-e0bfa4a52d2e` | `63e3d0b4-2b86-472f-9fce-857ce9a676f7` | `c39107dc-a1fb-45d2-a031-423d4844a5db` |
-
-Set A sheets are saved in [`characters/`](characters/).
+| Element | What | Element id |
+|---|---|---|
+| `adam` | Adam, present day: scar, stubble, grey-blue shirt, bare feet | `9c70b944-13a8-4231-93db-404db1428192` |
+| `adam-before` | Adam in the memory: no scar, shaved, linen shirt, no sunglasses | `bfb6bcd3-e1df-4cdb-9d4d-fb1e5aadaad1` |
+| `layla` | Layla, the wife (memory only) | `e712cf1e-37e2-40f8-b6a7-199f095de10b` |
+| `nour` | Nour, the daughter, 6 (memory only) | `c28a7770-b7af-4503-a6a5-ee7e13731382` |
+| `mona` | Mona, Layla's older sister | `fc203cad-8f11-4cb7-af5d-9f7e3aaeee2f` |
+| `doll-wife` | Adult mannequin in Layla's burgundy cardigan | `31a8cb88-f0e0-40b5-ac7c-f17e5e7caa36` |
+| `doll-daughter` | Child mannequin in the unfinished yellow dress | `28cdcfad-7312-4812-ac4e-a0215f63b939` |
 
 ## Locations
 
-| Tag | Where | Shots | Element id (Set A) | Set A job | Set B job |
-|---|---|---|---|---|---|
-| `LOOK_L01_kitchen` | Kitchen | 02, 04, 09, 22–23, 26 | `6573ed81-bd83-4726-851d-a54257631a04` | `f505225e-4784-4bba-8fcc-13dad7f8eb13` | `2e6013fd-6e89-4706-92f9-84b530e248d3` |
-| `LOOK_L02_dining` | Dining table by the curtained window | 03, 05–08, 39–44, 85 | `5c6427d8-a836-4804-b869-ca79b920a1af` | `529b883f-939d-4a11-8256-72b7474c395b` | `27ca3005-9e73-4f87-ba1c-dbcfb1e15cdb` |
-| `LOOK_L03_living-room` | Living room, curtains closed | 11–20, 27–38, 77–79 | `0f12a25c-08b2-4251-970a-1ce8434d60c4` | `1de5c7f8-6eda-4b7f-9c67-7626e64bd991` | `ae0b91e4-5a10-4fb3-bf2c-e0e8b377d702` |
-| `LOOK_L04_sewing-corner` | Layla's sewing corner, two empty stands | 21, 80 | `dcca9017-d2c7-47c8-89eb-01f53ceb99c0` | `12ad4d62-6eb2-45aa-996c-2ceb4c3ad730` | `1e055b71-eaee-4aab-a381-5d22106ebb8d` |
-| `LOOK_L05_hallway-door` | Hallway, front door, console with the bag | 10, 33–37, 45, 71–76, 81–82 | `c7c4b5d2-30de-42ef-b513-071402f677a4` | `aa7040cd-8d6f-434c-8293-286b8da36fb1` | `8e580894-f312-4c32-b6d7-822a8555ebe9` |
-| `LOOK_L06_nour-room` | Nour's bedroom, night, star light | 46–50, 67–70 | `3a5ea6e5-82f3-4da4-9af8-538d5fdc43df` | `36d62406-eeee-4ed3-b712-e1ceab8b89f3` | `d14e067d-3b0f-4252-aa00-139a2340a811` |
-| `LOOK_L07_car-interior` | Family sedan interior, golden hour | 12–13, 18–19, 24–25, 29, 42–43, 52–63 | `a6a6f99a-6e9b-40c0-97bb-40810893e05f` | `8d38bb29-88c4-45b0-a9a4-4d7b8346c598` | `cd76a6fc-82a2-4ab0-8015-9a15276d0f82` |
-| `LOOK_L08_desert-road` | Desert highway toward the sea | 51, 65–66 | `b2dd6548-52ee-428d-9ee2-a113369bbbe5` | `15892ca1-bdc9-4238-83e9-099b96d0388a` | `589c4e18-ede1-4891-ad9a-0faf66983508` |
-| `LOOK_L09_landing` | Stairwell landing outside the door | 83 | `297b2e07-7bda-4e26-be8b-8ed791b10eaf` | `6c9ce7d3-038b-47fd-873a-ea41a94c1d8f` | `61bcee3d-7da3-478e-931e-d1caf7dbbb5e` |
+| Element | What | Element id |
+|---|---|---|
+| `L01_kitchen` | Kitchen, radio on the shelf; matches the view through the dining-room doorway | `dae8d77b-2383-48d9-9884-26fa1c3c45d2` |
+| `L02_dining` | Dining table in front of the closed curtains | `c367b428-e15b-40a4-a5f6-f6a7034bd470` |
+| `L03_living-room` | Living room master, curtains closed | `56e98e89-8ed1-4031-9af0-6bf3763ebdb7` |
+| `L03b_living-day` | Living room, curtains open, morning sun | `da4c8ed4-3e9c-45af-b85a-16a58a215205` |
+| `L04_sewing-corner` | Sewing corner of the living room, framed mirror, two empty stands | `a1c9ec16-9d46-4a1d-925a-c97432ca6b8a` |
+| `L05_hallway` | Hallway and front door, no bag on the console | `a4efce0c-da8f-44b2-9d7b-c8d35de1e3bb` |
+| `L05b_hallway-bag` | Hallway with the sealed bag on the console (use until the bag is opened) | `3aac8199-6966-4d91-a3df-f0e9630570d1` |
+| `L06_nour-room` | Nour's bedroom at night: rabbit, star light, crayons at true size | `d7ca253d-c850-41c7-b93a-b9cfc1c39f56` |
+| `L07_car-front` | Car interior from the back seat, looking forward at the road | `849653b9-b12e-4156-a6fb-83fe988cff6b` |
+| `L07b_car-backseat` | Car back seat: book, paper, small crayons, swim ring | `c05fb424-4cb2-405d-b4ba-94c16bec6648` |
+| `L08_desert-road` | Desert highway toward the sea, golden hour | `fed473d5-0634-40e9-8c22-80aa4f4271a2` |
+| `L09_landing` | Stairwell landing outside the door | `50656263-4442-47a6-aa31-966ea97d1f1c` |
 
 ## Props
 
-All made with GPT Image 2.6, one object each on a white background. Saved in [`props/`](props/).
+| Element | What | Element id |
+|---|---|---|
+| `P01_yellow-cup` | Nour's yellow plastic cup | `dde5ccb9-b901-458e-8c3f-1ea163e10762` |
+| `P02_table-setting` | Three plates and three forks | `bc49dca7-2b90-4758-b200-10564e600be6` |
+| `P03_yellow-sandal` | Yellow child's sandal with a buckle | `9e5f729c-240b-410b-9964-c5629f0a2a92` |
+| `P04_hairbrush` | Worn wooden hairbrush | `72ee01a4-8fef-4a66-b07f-4e10698b33b6` |
+| `P05_radio` | Old portable radio | `3f1a4502-93ab-4d5a-bea3-e0216e994637` |
+| `P06_hospital-bag` | Sealed hospital bag, made from the contents image | `75c935d8-b381-4807-9491-59b501c25bc7` |
+| `P07_bag-contents` | Bag contents, made from the watch, crayons and drawing | `824a3b56-a588-4db2-a93e-b65af81301d5` |
+| `P08_layla-watch` | Layla's gold watch, cracked, taken from her character sheet | `5859adcb-6cb1-4ab3-bf5b-58d85d030a6e` |
+| `P09_drawing` | Nour's crayon drawing | `b079b600-d8a5-42f6-8165-a7b82587d41b` |
+| `P10_rabbit` | Worn grey stuffed rabbit | `e128d8c3-b571-4a6c-8bd7-fc4b2756a3d7` |
+| `P11_night-light` | Star-projector night-light | `52aa9996-7eda-4d94-a233-e0a85b40f505` |
+| `P12_crayons` | Worn wax crayons, yellow shortest | `85400f0e-6618-4491-9ee9-4c9c71627b4d` |
+| `P13_family-car` | Off-white family sedan, exterior | `b9330f8f-d81c-4b45-9390-079c60787c45` |
+| `P14_foil-dish` | Mona's foil-covered dish | `10082eb8-4c5e-4253-a10a-c9d9eb6adc38` |
 
-| Tag | What | Shots | Element id | Job |
-|---|---|---|---|---|
-| `LOOK_P01_yellow-cup` | Nour's yellow plastic cup | 03, 08, 39–40, 44, 85 | `1d52cad7-c334-409e-b187-a36fb68166ad` | `9d3aa437-d5bf-4e18-9d8a-1e881014ca19` |
-| `LOOK_P02_table-setting` | Three plates (two large, one small) and three forks | 03, 05, 08, 39 | `7d36a36d-dc7a-4534-b840-5b3af6120f82` | `6b54a887-062b-474e-95a9-6ba966e0522e` |
-| `LOOK_P03_yellow-sandal` | One yellow child's sandal with a buckle | 11, 13 | `e604a583-dee2-4b73-a30d-22432dfa4c32` | `669d665a-8306-43c8-97fc-6b1ae0d72b77` |
-| `LOOK_P04_hairbrush` | Worn wooden hairbrush | 16–17 | `17a24c1f-2123-4521-a607-97d1b68571f3` | `0e3335a2-588f-4032-babd-c42c218e3012` |
-| `LOOK_P05_radio` | Old portable kitchen radio | 22, 34 | `7044a34b-6446-40c4-9b94-a5333a826bb3` | `9a879a55-9a90-4f0c-b3b0-f5cad2649fd2` |
-| `LOOK_P06_hospital-bag` | Sealed hospital belongings bag, dusty | 10, 72 | `7d330d60-dc2a-4a30-a1bb-1fabc2a7cf75` | `3b6b366e-94f7-4dec-88e9-381b57424ea9` |
-| `LOOK_P07_bag-contents` | Bag contents laid out: watch, ring, crayon stub, folded paper | 73 | `44870e6d-97f0-46cb-b354-6c6ed2fe5ffc` | `88a70ce6-1670-442a-a5f3-987a20d00741` |
-| `LOOK_P08_layla-watch` | Layla's gold watch, glass cracked, stopped | 73 | `fe214644-c1b1-4141-af66-571764d295a2` | `564271b8-fb2a-4f1f-bcc0-bba3b834d7cf` |
-| `LOOK_P09_drawing` | Nour's crayon drawing (placeholder until a real one is scanned) | 76, 85 | `2660d338-39e2-4228-92f4-be64741fdcc5` | `cfa30a50-22de-4eb9-9c0e-aa8cf4393c7c` |
-| `LOOK_P10_rabbit` | Nour's worn grey stuffed rabbit | 46, 68 | `16787c01-e4cd-42ee-93e3-2b3bd456f9e9` | `10c6fd86-5d12-413d-b745-d2fb329a2e96` |
-| `LOOK_P11_night-light` | Star-projector night-light dome | 45–50, 67–70 | `b67da7ae-15a6-4c86-9855-bcd543da9bda` | `79ce65ab-7107-4084-90c5-1e88fca98f97` |
-| `LOOK_P12_crayons` | Worn wax crayons, the yellow one most used | 13, 53, 65 | `1d6b77b7-f572-46e2-ac8d-7c4f892887e1` | `15e91642-f76b-41fc-9641-00701e6f5640` |
-| `LOOK_P13_family-car` | The family's faded off-white sedan, exterior | 51 | `ac1bcba1-fc23-4339-8ed5-d966532bccaa` | `d968137b-af3c-4f12-abec-157b7e6fb049` |
-| `LOOK_P14_foil-dish` | Mona's foil-covered dish | 37, 83 | `1c05ae74-6536-418c-a44f-29b27a602aec` | `4f93cda8-5838-4ee1-b892-34e679549d1a` |
-
-## Still to make
-
-- Locations: choose between Set A and Set B, then revisit them (the director flagged these as important).
-- Living room with the curtains open, in daylight (shots 77–80).
-- A real child's drawing, scanned, to replace `LOOK_P09_drawing`.
+Images are saved in [`characters/`](characters/), [`locations/`](locations/) and [`props/`](props/).

@@ -13,7 +13,10 @@ A short film for the 1 Billion Followers Summit AI Film Award 2027.
 | [`LOOK-story-and-shot-list.pdf`](LOOK-story-and-shot-list.pdf) | Everything below in one PDF, for reading and review |
 | [`story.md`](story.md) | Logline, the idea behind the film, its rules, characters, beat-by-beat story, full dialogue, sound plan |
 | [`shot-list.md`](shot-list.md) | All 87 shots with timecodes, framing, camera, sound and dialogue; hero and cuttable shots marked |
-| [`elements.md`](elements.md) | Higgsfield element tags and ids for every character and location, plus the job ids of both image sets |
+| [`prompts.html`](prompts.html) / [`prompts.md`](prompts.md) | The 49 Seedance 2.5 generations that make the film: elements to attach, duration, aspect and the full timed prompt for each |
+| [`elements.md`](elements.md) | The 33 Higgsfield elements in the project *baba look*, with names and ids |
+| [`locations/`](locations/) | The twelve final location plates |
+| [`tools/build_prompts.py`](tools/build_prompts.py) | Source of the prompts. Edit a run there and re-run it; timecodes are recalculated. |
 | [`characters/`](characters/) | The seven character and mannequin sheets (front, back, face close-up) |
 | [`props/`](props/) | The fourteen prop reference images |
 | [`assets.md`](assets.md) | Character, mannequin, location and prop briefs to build next, plus the generation risks |
