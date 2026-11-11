@@ -19,7 +19,7 @@
 | [G03](#g03) | 1 · Morning | 05, 06 | 10s | 1 `adam`, 2 `doll-wife`, 3 `doll-daughter`, 4 `L02_dining` |
 | [G04](#g04) | 1 · Morning | 07 ★ | 5s | 1 `adam`, 2 `doll-wife`, 3 `L02_dining` |
 | [G05](#g05) | 1 · Morning | 08 ★ | 6s | 1 `adam`, 2 `doll-wife`, 3 `doll-daughter`, 4 `P01_yellow-cup`, 5 `L02_dining` |
-| [G06](#g06) | 1 · Morning | 09 ○ | 4s | 1 `L01_kitchen` |
+| [G06](#g06) | 1 · Morning | 09 ○ | 4s | 1 `adam`, 2 `L01_kitchen` |
 | [G07](#g07) | 1 · Morning | 10 | 5s | 1 `P06_hospital-bag`, 2 `L05b_hallway-bag` |
 | [G08](#g08) | 1 · Morning | 11, 14 | 10s | 1 `adam`, 2 `doll-daughter`, 3 `P03_yellow-sandal`, 4 `L02_dining` |
 | [G09](#g09) | 1 · Morning (flash 1) | 12, 13 | 5s | 1 `nour`, 2 `L07b_car-backseat`, 3 `P12_crayons` |
@@ -29,13 +29,13 @@
 | [G13](#g13) | 3 · The sewing corner | 21 | 5s | 1 `L03_living-dim` |
 | [G14](#g14) | 4 · The song & the dance | 22, 23, 26 | 13s | 1 `adam`, 2 `doll-wife`, 3 `P05_radio`, 4 `L01_kitchen` |
 | [G15](#g15) | 4 · The song & the dance (flash 3) | 24, 25 ★, 29 | 10s | 1 `layla`, 2 `adam-before`, 3 `L07_car-front` |
-| [G16](#g16) | 4 · The song & the dance | 27 ★ | 8s | 1 `adam`, 2 `doll-wife`, 3 `doll-daughter`, 4 `L03_living-dim` |
+| [G16](#g16) | 4 · The song & the dance | 27 ★ | 8s | 1 `adam`, 2 `doll-wife`, 3 `doll-daughter`, 4 `L03_living-dim`, 5 `F10_living-blocking` |
 | [G17](#g17) | 4 · The song & the dance | 28, 30 | 8s | 1 `adam`, 2 `doll-wife`, 3 `L03_living-dim` |
-| [G18](#g18) | 4 · The song & the dance | 31, 32 ★ | 10s | 1 `adam`, 2 `doll-wife`, 3 `doll-daughter`, 4 `L03_living-dim` |
+| [G18](#g18) | 4 · The song & the dance | 31, 32 ★ | 10s | 1 `adam`, 2 `doll-wife`, 3 `doll-daughter`, 4 `L03_living-dim`, 5 `F10_living-blocking` |
 | [G19](#g19) | 5 · The knock | 33 | 4s | 1 `L05b_hallway-bag` |
 | [G20](#g20) | 5 · The knock | 34 | 5s | 1 `adam`, 2 `P05_radio`, 3 `L01_kitchen` |
 | [G21](#g21) | 5 · The knock | 35 | 8s | 1 `adam`, 2 `L05b_hallway-bag` |
-| [G22](#g22) | 5 · The knock | 36 ★, 38 | 10s | 1 `adam`, 2 `doll-daughter`, 3 `L03_living-dim` |
+| [G22](#g22) | 5 · The knock | 36 ★, 38 | 10s | 1 `adam`, 2 `doll-daughter`, 3 `L03_living-dim`, 4 `F10_living-blocking` |
 | [G23](#g23) | 5 · The knock | 37 ○ | 4s | 1 `mona`, 2 `P14_foil-dish`, 3 `L09_landing` |
 | [G24](#g24) | 6 · Dinner & the headlights | 39, 40 | 10s | 1 `adam`, 2 `doll-wife`, 3 `doll-daughter`, 4 `P01_yellow-cup`, 5 `L02_dining` |
 | [G25](#g25) | 6 · Dinner & the headlights | 41 ★ | 5s | 1 `doll-wife`, 2 `doll-daughter`, 3 `adam`, 4 `L02_dining` |
@@ -400,17 +400,18 @@ POSITIVE LOCKS
 
 **1 · Morning · shots 09 ○ · 4s**  
 Seedance 2.5 Draft · 16:9 · audio ON · duration 4s  
-Attach in order: @image1 = `L01_kitchen`
+Attach in order: @image1 = `adam`, @image2 = `L01_kitchen`
 
 ```text
 SCENE CONTEXT
-Morning in the kitchen. Seen from above, a man's hand scrapes a plate of untouched toast triangles into a white plastic pedal bin already full of identical dry toast from other mornings.
+Morning in the kitchen. Seen from above, the hand of @image1 scrapes a plate of untouched toast triangles into a white plastic pedal bin already full of identical dry toast from other mornings.
 
 ACTIVE REFERENCES
-@image1 — the kitchen: curtained window and sink at left, white enamel gas stove at centre, wooden counter with a cutting board at right, the radio on a wall shelf above it, sage walls, terrazzo floor. 100% matches the reference.
+@image1 — Adam, 38, lean and tired; short untidy dark hair, stubble, a healed scar at his right temple; washed-out grey-blue shirt with rolled sleeves, charcoal trousers, bare feet, wedding ring; soft, low, slightly hoarse voice. 100% matches the reference.
+@image2 — the kitchen: curtained window and sink at left, white enamel gas stove at centre, wooden counter with a cutting board at right, the radio on a wall shelf above it, sage walls, terrazzo floor. 100% matches the reference.
 
 LOCATION MAP
-Camera above an open pedal bin standing on the terrazzo floor of @image1, beside the base of a cream cabinet.
+Camera above an open pedal bin standing on the terrazzo floor of @image2, beside the base of a cream cabinet.
 
 FIRST FRAME / BLOCKING
 The first frame is the open bin seen from above, filled with layers of dry golden toast triangles.
@@ -427,10 +428,10 @@ CAMERA
 Tonal character: wide latitude, gentle highlight roll-off, rich detail held in the shadows.
 
 ACTION
-0.0s to 4.0s — At 0.6s a hand with a rolled grey-blue sleeve tips a plate over the bin and a fork scrapes three fresh toast triangles onto the pile. At 2.8s the plate lifts away and the lid swings shut.
+0.0s to 4.0s — At 0.6s @image1's hand and forearm, his washed-out grey-blue sleeve rolled to the elbow and his wedding ring on, tip a plate over the bin and a fork scrapes three fresh toast triangles onto the pile. At 2.8s the plate lifts away and the lid swings shut.
 
 PERFORMANCE
-One practised, unhurried movement.
+One practised, unhurried movement. Real skin with visible pores and fine texture, living eyes with catch-lights, breath visible in the chest and shoulders.
 
 PHYSICS
 The triangles slide off the plate and land with soft weight on the pile; the lid closes with a light bounce.
@@ -446,6 +447,7 @@ STYLE
 Photoreal naturalistic film image, fine organic grain, soft contrast. A shut-in apartment palette: sage-green paint, grey upholstery and faded wood, with yellow objects carrying the only saturated colour. 16:9, composed centre-safe: faces, hands and key props sit inside the middle two-thirds of the frame.
 
 POSITIVE LOCKS
+- Adam matches @image1 in every frame he appears in: stubble, the healed scar at his right temple, the grey-blue shirt.
 - The camera stays on a tripod, locked, in every segment unless that segment names a move.
 - The curtains stay closed; the light comes from lamps and the glow through the curtains.
 - Yellow objects hold the only saturated colour.
@@ -527,26 +529,26 @@ ACTIVE REFERENCES
 @image4 — the dining area: table with a cream lace cloth and four wooden chairs in front of tall closed olive-grey curtains, sideboard with a mantel clock at right, pendant lamp above, kitchen doorway at right. 100% matches the reference.
 
 LOCATION MAP
-Camera low in @image4, by a wooden chair turned out from the table. Foreground: the mannequin's plastic feet and the yellow hem of its dress. Midground: Adam kneeling on the terrazzo. Background: the hanging edge of the lace cloth, the chair legs, the dim sideboard.
+Camera low in @image4, beside a wooden chair turned out from the table. Midground: the child mannequin seated upright on the chair, its two bare ivory plastic legs hanging straight down from under the yellow dress, its left foot already in a yellow sandal; Adam kneeling on the terrazzo in front of it, at frame right. Background: the hanging edge of the lace cloth, the dim sideboard.
 
 FIRST FRAME / BLOCKING
-The first frame is a rigid ivory plastic child's foot hanging from the chair, held in @image1's left hand, the yellow hem at the top of the frame.
+The first frame is a medium shot of the child mannequin from the knees down, seated on the chair, both smooth ivory plastic legs and feet clearly visible, the hem of the yellow dress at the top of the frame, @image1 kneeling at frame right holding one small yellow sandal open in his hands.
 
 FORMAT MODE
 Timed multishot: cuts only at the stated seconds; the camera holds each segment without cutting on its own.
 
 OPTICS
-0.0s to 5.0s — CU hands, 47° FOV.
+0.0s to 5.0s — MS, knees down, 47° FOV.
 5.0s to 10.0s — CU, 29° FOV.
 Clean rectilinear primes, natural perspective, crisp centre, soft falloff at the edges. No drift mid-segment.
 
 CAMERA
-0.0s to 5.0s — locked, low, at foot height.
+0.0s to 5.0s — locked, low, at knee height.
 5.0s to 10.0s — locked, at his kneeling eye level, on the shadow side of his face.
 Tonal character: wide latitude, gentle highlight roll-off, rich detail held in the shadows.
 
 ACTION
-0.0s to 5.0s — With his right hand he slides @image3 onto the foot, feeds the strap through, and at 3.6s presses the buckle shut. His hands stop dead on the click.
+0.0s to 5.0s — The mannequin's right foot is bare: smooth, hard, ivory plastic, toes moulded as one shape, a seam at the ankle. @image1 lifts the rigid foot a little with his left hand and with his right hand slips @image3 on from the toes, sole under the foot, until the heel sits in it at 2.0s. He brings the ankle strap across the front of the ankle and at 3.6s presses its metal buckle shut on the outer side. His hands stop dead on the click.
 5.0s HARD CUT
 5.0s to 10.0s — @image1's face, his eyes level with the mannequin's knees, which are a soft yellow blur at the frame edge. He is frozen, eyes unfocused, breath held. At 6.0s he blinks twice. At 6.8s two fingers of his right hand rise to the scar at his temple. At 8.0s he shakes his head once and looks up at the mannequin with a thin smile. 8.6s to 9.7s, Adam, under his breath, covering: "...Where were we."
 
@@ -554,7 +556,7 @@ PERFORMANCE
 The freeze is total stillness, then a tiny swallow before he moves. The smile is a mask put back on. Real skin with visible pores and fine texture, living eyes with catch-lights, breath visible in the chest and shoulders.
 
 PHYSICS
-The plastic ankle and toes stay rigid as he works the strap. The buckle snaps shut with a sharp metallic click. The mannequins are hollow, hard and rigid; they keep every joint at its angle and move only where Adam's hands carry them.
+The legs are hard hollow plastic: the ankle and toes keep one fixed shape and the whole leg lifts as one piece. The sandal's sole sits flat under the foot; the strap closes around the ankle. The buckle snaps shut with a sharp metallic click. The mannequins are hollow, hard and rigid; they keep every joint at its angle and move only where Adam's hands carry them.
 
 LIGHTING
 Soft daylight from the curtains at frame right, raking across his right temple so the scar reads clearly. Low fill. White balance 5000K.
@@ -574,7 +576,8 @@ POSITIVE LOCKS
 - The curtains stay closed; the light comes from lamps and the glow through the curtains.
 - Yellow objects hold the only saturated colour.
 - Every paper, label and envelope is blank.
-- The mannequin sits on a wooden chair, legs hanging, feet still.
+- The mannequin's legs are bare smooth ivory plastic, the same material as its face.
+- The sandal goes on sole-down, toes first, strap around the ankle.
 - Each line lands once, at its time, from its speaker.
 ```
 
@@ -597,7 +600,7 @@ LOCATION MAP
 Camera close on the right-hand side of the back seat of @image2. Foreground: the seatbelt buckle, then her knees and legs. Midground: the grey-beige seat with the picture book and @image3 beside her. Background: the door card and the side window with golden desert passing.
 
 FIRST FRAME / BLOCKING
-The first frame is a seatbelt tongue held in a small child's hand a centimetre from its buckle, her white t-shirt behind it.
+The first frame is the side of the back seat at hip height: the seatbelt buckle standing up from the seat cushion at her left hip, her small right hand pulling the belt's metal tongue down toward it, the belt running from above her right shoulder diagonally across her white t-shirt.
 
 FORMAT MODE
 Timed multishot: cuts only at the stated seconds; the camera holds each segment without cutting on its own.
@@ -613,7 +616,7 @@ CAMERA
 Tonal character: wide latitude, gentle highlight roll-off, rich detail held in the shadows.
 
 ACTION
-0.0s to 2.5s — At 0.4s the tongue snaps into the buckle. The small hand lets go and smooths the belt across the white t-shirt. Dust glitters in the low sun.
+0.0s to 2.5s — Her hand pushes the metal tongue down into the buckle at her hip and at 0.6s it clicks in. The belt now crosses her body correctly: the shoulder strap diagonally from her right shoulder down across her chest to her left hip, the lap strap flat across her thighs. She lets go and pats it once. Dust glitters in the low sun.
 2.5s HARD CUT
 2.5s to 5.0s — @image1's legs, seen from the waist down, hang off the edge of the seat and swing in turn, yellow sandals on both feet. Beside her the small crayons roll a little with the motion of the car.
 
@@ -638,6 +641,7 @@ POSITIVE LOCKS
 - The camera is handheld, close and breathing.
 - Every paper shows a blank back; the car is plain and unbadged.
 - Framing stays at her shoulders and below in both segments.
+- The seatbelt is worn the normal way: shoulder strap diagonal across the chest, lap strap across the thighs, buckle at the hip.
 - The crayons are paper-wrapped wax crayons with blunt worn tips, small and finger-thin.
 ```
 
@@ -1036,37 +1040,38 @@ POSITIVE LOCKS
 
 **4 · The song & the dance · shots 27 ★ · 8s**  
 Seedance 2.5 Draft · 16:9 · audio ON · duration 8s  
-Attach in order: @image1 = `adam`, @image2 = `doll-wife`, @image3 = `doll-daughter`, @image4 = `L03_living-dim`
+Attach in order: @image1 = `adam`, @image2 = `doll-wife`, @image3 = `doll-daughter`, @image4 = `L03_living-dim`, @image5 = `F10_living-blocking`
 
 ```text
 SCENE CONTEXT
-Evening in the living room, lit only by the floor lamp. A locked symmetrical wide: @image1 slow-dances with @image2 in front of the sofa while @image3 sits upright in the middle of the sofa behind them, facing the camera.
+Evening in the living room, lit only by the floor lamp. A locked medium close two-shot: @image1 slow-dances with @image2 in front of the sofa, held close, cheek to wig, while @image3 sits upright at the left end of the sofa behind them, soft in the background, exactly where it sits in @image5.
 
 ACTIVE REFERENCES
 @image1 — Adam, 38, lean and tired; short untidy dark hair, stubble, a healed scar at his right temple; washed-out grey-blue shirt with rolled sleeves, charcoal trousers, bare feet, wedding ring; soft, low, slightly hoarse voice. 100% matches the reference.
 @image2 — adult shop mannequin: matte ivory plastic, smooth blank face with only a sculpted nose and brow, crooked dark wig, burgundy cardigan over a grey dress, seams at neck, shoulders and wrists; a rigid object. 100% matches the reference.
 @image3 — child-size shop mannequin: matte ivory plastic, smooth blank face with only a sculpted nose and brow, dark wig in two uneven braids, unfinished yellow dress with pins, white tacking thread and one sleeve missing; a rigid object. 100% matches the reference.
 @image4 — the living room, curtains closed: floral armchair front left, grey sofa with a lace throw at centre, low coffee table, bookshelf on the left wall, floor lamp glowing behind the sofa, sewing corner at the back right with the black sewing machine, a tall framed mirror and two steel stands, closed curtains on the right wall. 100% matches the reference.
+@image5 — a frame from this same living room: take the room, the camera position and where the figures sit — the adult mannequin in the floral armchair at front left, the child mannequin seated upright at the left end of the sofa beside the armchair. Use it for geometry and placement only. 100% matches the reference.
 
 LOCATION MAP
-Camera at the room's entrance as in @image4, centred on the sofa. Foreground: the rug. Midground: Adam and the adult mannequin in a dance hold in front of the sofa, centre frame. Background: the child mannequin on the sofa, the glowing floor lamp, the dim sewing corner, the closed curtains at right.
+Camera in front of the sofa in @image4, at chest height, 2 metres from the dancers. Midground: Adam and the adult mannequin in a close dance hold, framed from the waist up, centre frame. Background, soft: the sofa, the child mannequin seated at its left end, the glowing floor lamp.
 
 FIRST FRAME / BLOCKING
-The first frame is @image1 holding the adult mannequin upright against him in a dance hold, centre frame, the child mannequin seated behind them.
+The first frame is @image1 and the adult mannequin from the waist up, centre frame, his cheek against its wig, its rigid arm over his shoulder, the child mannequin soft on the sofa behind them at frame left.
 
 FORMAT MODE
 One continuous shot; the camera holds it without cutting on its own.
 
 OPTICS
-0.0s to 8.0s — WS, 63° FOV.
+0.0s to 8.0s — MCU two-shot, 29° FOV.
 Clean rectilinear primes, natural perspective, crisp centre, soft falloff at the edges.
 
 CAMERA
-0.0s to 8.0s — locked, symmetrical, eye level.
+0.0s to 8.0s — locked, chest height.
 Tonal character: wide latitude, gentle highlight roll-off, rich detail held in the shadows.
 
 ACTION
-0.0s to 8.0s — His right arm is around the mannequin's waist, carrying its weight; its rigid left arm lies over his shoulder; his left hand holds its stiff right hand out to the side; his cheek rests against its wig. He shuffles in a slow circle, a quarter turn by 4.0s and a half turn by 8.0s; the mannequin turns with him as one rigid piece, its feet sliding lightly on the rug. His eyes are closed.
+0.0s to 8.0s — His right arm is around the mannequin's waist, carrying its weight; its rigid left arm lies over his shoulder; his left hand holds its stiff right hand against his chest; his cheek rests against its wig. He sways slowly from side to side and turns a few degrees, keeping both of them in the centre of the frame; the mannequin moves with him as one rigid piece. His eyes are closed.
 
 PERFORMANCE
 Total peace in his face and shoulders; slow steady breathing. Real skin with visible pores and fine texture, living eyes with catch-lights, breath visible in the chest and shoulders.
@@ -1091,7 +1096,8 @@ POSITIVE LOCKS
 - The curtains stay closed; the light comes from lamps and the glow through the curtains.
 - Yellow objects hold the only saturated colour.
 - Every paper, label and envelope is blank.
-- The camera holds still while he turns.
+- The camera holds still while he sways.
+- The child mannequin stays seated at the left end of the sofa for the whole shot.
 ```
 
 ### G17
@@ -1162,17 +1168,18 @@ POSITIVE LOCKS
 
 **4 · The song & the dance · shots 31, 32 ★ · 10s**  
 Seedance 2.5 Draft · 16:9 · audio ON · duration 10s  
-Attach in order: @image1 = `adam`, @image2 = `doll-wife`, @image3 = `doll-daughter`, @image4 = `L03_living-dim`
+Attach in order: @image1 = `adam`, @image2 = `doll-wife`, @image3 = `doll-daughter`, @image4 = `L03_living-dim`, @image5 = `F10_living-blocking`
 
 ```text
 SCENE CONTEXT
-Evening in the living room. The arm of @image2 lies on the rug while @image1 stands holding the one-armed figure; then, on his knees, he pushes the arm back into its socket far too gently and presses the plastic hand to his forehead. @image3 sits on the sofa behind them.
+Evening in the living room. The left arm of @image2 lies on the rug while @image1 stands holding the whole mannequin upright, wig, face and cardigan intact, one sleeve hanging empty; then he sits it in the armchair, kneels, pushes the arm back into its shoulder socket far too gently and presses the plastic hand to his forehead. @image3 sits at the left end of the sofa, as in @image5.
 
 ACTIVE REFERENCES
 @image1 — Adam, 38, lean and tired; short untidy dark hair, stubble, a healed scar at his right temple; washed-out grey-blue shirt with rolled sleeves, charcoal trousers, bare feet, wedding ring; soft, low, slightly hoarse voice. 100% matches the reference.
 @image2 — adult shop mannequin: matte ivory plastic, smooth blank face with only a sculpted nose and brow, crooked dark wig, burgundy cardigan over a grey dress, seams at neck, shoulders and wrists; a rigid object. 100% matches the reference.
 @image3 — child-size shop mannequin: matte ivory plastic, smooth blank face with only a sculpted nose and brow, dark wig in two uneven braids, unfinished yellow dress with pins, white tacking thread and one sleeve missing; a rigid object. 100% matches the reference.
 @image4 — the living room, curtains closed: floral armchair front left, grey sofa with a lace throw at centre, low coffee table, bookshelf on the left wall, floor lamp glowing behind the sofa, sewing corner at the back right with the black sewing machine, a tall framed mirror and two steel stands, closed curtains on the right wall. 100% matches the reference.
+@image5 — a frame from this same living room: take the room, the camera position and where the figures sit — the adult mannequin in the floral armchair at front left, the child mannequin seated upright at the left end of the sofa beside the armchair. Use it for geometry and placement only. 100% matches the reference.
 
 LOCATION MAP
 Camera at the room's entrance as in @image4. Foreground: the rug with the detached arm. Midground: Adam standing centre holding the adult mannequin by the waist. Background: the child mannequin on the sofa, the floor lamp, the sewing corner.
@@ -1194,15 +1201,15 @@ CAMERA
 Tonal character: wide latitude, gentle highlight roll-off, rich detail held in the shadows.
 
 ACTION
-0.0s to 4.0s — The arm rocks and comes to rest by 1.2s. He stands over it holding the mannequin, the empty shoulder socket toward the camera, staring down, completely still.
+0.0s to 4.0s — The arm, a smooth ivory plastic arm in a burgundy sleeve, rocks on the rug and comes to rest by 1.2s. He stands holding the complete mannequin upright against his side, its wigged head and blank face at his shoulder, the left cardigan sleeve hanging empty, and stares down at the arm, completely still.
 4.0s HARD CUT
-4.0s to 10.0s — @image1 on his knees beside the mannequin, which he has sat on the edge of the sofa. He holds the loose arm in both hands and works its ball joint back into the shoulder socket, gently and too fast, fumbling. At 6.6s it clicks in. At 7.8s he lifts the ivory plastic hand and holds it against his forehead, eyes shut. 4.4s to 6.2s, Adam, rushed, breaking, barely voiced: "I'm sorry. I'm sorry." 8.2s to 9.4s, Adam, a whisper into the plastic hand: "Did I hurt you?"
+4.0s to 10.0s — The adult mannequin now sits upright in the floral armchair, whole: wig, blank face, burgundy cardigan, the empty left sleeve. @image1 kneels in front of it. He feeds the plastic arm up into the empty sleeve and pushes its ball joint into the shoulder socket under the cardigan, gently and too fast, fumbling. At 6.6s it clicks in and the hand appears at the cuff. At 7.8s he lifts the ivory plastic hand and holds it against his forehead, eyes shut. 4.4s to 6.2s, Adam, rushed, breaking, barely voiced: "I'm sorry. I'm sorry." 8.2s to 9.4s, Adam, a whisper into the plastic hand: "Did I hurt you?"
 
 PERFORMANCE
 Panic in his hands, tenderness in his face; his breath comes short and his lower lip shakes. Real skin with visible pores and fine texture, living eyes with catch-lights, breath visible in the chest and shoulders.
 
 PHYSICS
-The arm rocks on its curve and settles; the joint seats with a hard click. The mannequin's body stays rigid as he works. The mannequins are hollow, hard and rigid; they keep every joint at its angle and move only where Adam's hands carry them.
+The arm rocks on its curve and settles; the joint seats inside the sleeve with a hard click. The mannequin keeps its head, wig and face on and sits rigid in the chair as he works. The mannequins are hollow, hard and rigid; they keep every joint at its angle and move only where Adam's hands carry them.
 
 LIGHTING
 The floor lamp as the only light, warm, from behind the sofa; his face half in shadow. White balance 4300K.
@@ -1223,6 +1230,7 @@ POSITIVE LOCKS
 - Yellow objects hold the only saturated colour.
 - Every paper, label and envelope is blank.
 - Both mannequins stay inert; only Adam moves.
+- The adult mannequin keeps its head, wig, blank face and cardigan in every frame.
 - Each line lands once, at its time, from its speaker.
 ```
 
@@ -1234,7 +1242,7 @@ Attach in order: @image1 = `L05b_hallway-bag`
 
 ```text
 SCENE CONTEXT
-Evening in the dark entrance hallway. Close on the inside of the front door, three knocks shake its chain.
+Evening in the dark entrance hallway. Close on the inside of the front door, three soft knocks sound on it.
 
 ACTIVE REFERENCES
 @image1 — the entrance hallway: glazed doors on the left, the dark front door at the far end, coat hooks, a wall mirror and a narrow console on the right holding a dead plant, mail and a sealed plastic bag. 100% matches the reference.
@@ -1257,16 +1265,16 @@ CAMERA
 Tonal character: wide latitude, gentle highlight roll-off, rich detail held in the shadows.
 
 ACTION
-0.0s to 4.0s — Stillness for a second. Three firm knocks at 1.0s, 1.5s and 2.0s; with each one the chain jumps and swings. It settles, still trembling, by 3.5s.
+0.0s to 4.0s — Stillness for a second. Three slow, gentle knocks with a knuckle at 1.0s, 1.8s and 2.6s, the knock of a tired relative. The chain gives a small shiver with each one and hangs still again by 3.5s.
 
 PHYSICS
-The door shudders slightly in its frame with each knock; the chain swings and damps out.
+The door stays steady in its frame; the chain barely moves.
 
 LIGHTING
 The hallway is dark; a thin line of yellowish stairwell light glows under the door, catching the lower edge of the frame. White balance 4300K.
 
 AUDIO
-Three knocks on solid wood, the chain rattling; under them, faint from the kitchen, the radio waltz. The only music is that faint radio song.
+Three soft, polite knocks on solid wood, a faint tick of the chain; under them, faint from the kitchen, the radio waltz. The only music is that faint radio song.
 The sound is only the room and the listed effects.
 
 STYLE
@@ -1347,14 +1355,14 @@ Attach in order: @image1 = `adam`, @image2 = `L05b_hallway-bag`
 
 ```text
 SCENE CONTEXT
-Evening, a deep wide down the dark hallway. @image1 stands small and still in the middle of the hall, his back to the camera, while a woman outside speaks to him through the closed front door. Her feet show only as two shadows in the line of light under the door.
+Evening, a deep wide down the dark hallway. @image1 stands small and still in the middle of the hall, his back to the camera, while a woman outside speaks to him through the closed front door. She is heard only.
 
 ACTIVE REFERENCES
 @image1 — Adam, 38, lean and tired; short untidy dark hair, stubble, a healed scar at his right temple; washed-out grey-blue shirt with rolled sleeves, charcoal trousers, bare feet, wedding ring; soft, low, slightly hoarse voice. 100% matches the reference.
 @image2 — the entrance hallway: glazed doors on the left, the dark front door at the far end, coat hooks, a wall mirror and a narrow console on the right holding a dead plant, mail and a sealed plastic bag. 100% matches the reference.
 
 LOCATION MAP
-Camera at the near end of the hallway, exactly as in @image2. Foreground: the terrazzo floor. Midground: Adam in the centre of the hall, back to camera. Background: the dark front door at the far end with a line of yellowish light beneath it, broken by two foot-shadows; glazed doors on the left, mirror and console on the right.
+Camera at the near end of the hallway, exactly as in @image2. Foreground: the terrazzo floor. Midground: Adam in the centre of the hall, back to camera. Background: the dark front door at the far end with an even, unbroken line of yellowish light beneath it; glazed doors on the left, mirror and console on the right.
 
 FIRST FRAME / BLOCKING
 The first frame is the hallway at the angle of @image2, @image1 standing dead still in the centre with his arms at his sides.
@@ -1371,13 +1379,13 @@ CAMERA
 Tonal character: wide latitude, gentle highlight roll-off, rich detail held in the shadows.
 
 ACTION
-0.0s to 8.0s — He holds still. Under the door the two foot-shadows shift once at 2.5s. At 6.0s his head lowers a little. 0.6s to 1.4s, Mona (unseen, through the door), low, steady: "Adam." 1.8s to 3.4s, Mona (unseen, through the door), gentle, certain: "I know you're in there." 4.0s to 5.4s, Mona (unseen, through the door), tired: "It's been four months..." 6.2s to 7.6s, Mona (unseen, through the door), her voice gives a little: "I lost them too."
+0.0s to 8.0s — He holds still. The line of light under the door stays even and unbroken. At 6.0s his head lowers a little. 0.6s to 1.4s, Mona (unseen, through the door), low, steady: "Adam." 1.8s to 3.4s, Mona (unseen, through the door), gentle, certain: "I know you're in there." 4.0s to 5.4s, Mona (unseen, through the door), tired: "It's been four months..." 6.2s to 7.6s, Mona (unseen, through the door), her voice gives a little: "I lost them too."
 
 PERFORMANCE
 Stillness as resistance; his shoulders rise once and settle. Real skin with visible pores and fine texture, living eyes with catch-lights, breath visible in the chest and shoulders.
 
 PHYSICS
-The light under the door is steady; only the shadows of her feet move.
+The light under the door is one steady, even strip from edge to edge.
 
 LIGHTING
 The hallway dark; the line of stairwell light under the door is the brightest thing in frame; faint cool spill from the glazed doors outlines Adam. White balance 4300K.
@@ -1405,16 +1413,17 @@ POSITIVE LOCKS
 
 **5 · The knock · shots 36 ★, 38 · 10s**  
 Seedance 2.5 Draft · 16:9 · audio ON · duration 10s  
-Attach in order: @image1 = `adam`, @image2 = `doll-daughter`, @image3 = `L03_living-dim`
+Attach in order: @image1 = `adam`, @image2 = `doll-daughter`, @image3 = `L03_living-dim`, @image4 = `F10_living-blocking`
 
 ```text
 SCENE CONTEXT
-Evening in the living room. @image1 crouches by @image2, seated on the sofa, and puts a finger to his lips as if it were a game; then a close-up of him alone, listening to footsteps going away, his face giving way for one second before the mask comes back.
+Evening in the living room. @image1 crouches by @image2, seated at the left end of the sofa as in @image4, and puts a finger to his lips as if it were a game; then a close-up of him alone, listening to footsteps going away, his face giving way for one second before the mask comes back.
 
 ACTIVE REFERENCES
 @image1 — Adam, 38, lean and tired; short untidy dark hair, stubble, a healed scar at his right temple; washed-out grey-blue shirt with rolled sleeves, charcoal trousers, bare feet, wedding ring; soft, low, slightly hoarse voice. 100% matches the reference.
 @image2 — child-size shop mannequin: matte ivory plastic, smooth blank face with only a sculpted nose and brow, dark wig in two uneven braids, unfinished yellow dress with pins, white tacking thread and one sleeve missing; a rigid object. 100% matches the reference.
 @image3 — the living room, curtains closed: floral armchair front left, grey sofa with a lace throw at centre, low coffee table, bookshelf on the left wall, floor lamp glowing behind the sofa, sewing corner at the back right with the black sewing machine, a tall framed mirror and two steel stands, closed curtains on the right wall. 100% matches the reference.
+@image4 — a frame from this same living room: take the room, the camera position and where the figures sit — the adult mannequin in the floral armchair at front left, the child mannequin seated upright at the left end of the sofa beside the armchair. Use it for geometry and placement only. 100% matches the reference.
 
 LOCATION MAP
 Camera low by the sofa in @image3. Midground: the child mannequin upright in the middle of the sofa at frame right; Adam crouched on the floor at its left (frame left), his face level with its face. Background: the lace throw and the lamp glow; the dark room toward the hallway at frame left.
