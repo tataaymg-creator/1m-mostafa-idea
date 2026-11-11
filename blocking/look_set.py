@@ -343,6 +343,7 @@ class Figure:
             hpitch = math.degrees(math.atan2(-d.z, math.hypot(d.x, d.y)))
         else:
             hyaw, hpitch = P.get("hyaw", 0), P.get("hpitch", 0)
+        self.hyaw, self.hpitch = hyaw, hpitch
         Rh = (Rt @ Euler((0, 0, rad(hyaw))).to_matrix() @
               Euler((rad(-hpitch), 0, 0)).to_matrix() @
               Euler((0, rad(P.get("hroll", 0)), 0)).to_matrix())

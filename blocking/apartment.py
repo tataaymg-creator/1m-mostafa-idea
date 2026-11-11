@@ -104,6 +104,8 @@ def build_apartment(st=None):
     lc = st.get("living_curtains", "closed")
     if lc == "closed":
         curtain("curtain_living", "y", 0.075, 0.15, 4.35)
+    elif lc == "none":
+        pass
     else:
         window_frame("window_living", "y", 0.075, 0.6, 3.9, 0.55, 2.45)
         curtain("curtain_living_a", "y", 0.075, 0.15, 0.6)
