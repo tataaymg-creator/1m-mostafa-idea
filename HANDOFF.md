@@ -1,5 +1,7 @@
 # LOOK — Handoff
 
+> **Hold:** do not generate yet. The prompts are being rewritten and blocking references added first; see [`BLOCKING-AND-PROMPTS.md`](BLOCKING-AND-PROMPTS.md). Use this brief once that task is finished.
+
 Paste this as the first message of a new session on this repository (environment **1m-mostafa-idea**, Higgsfield connected to the account with the project **baba look**):
 
 ```text
