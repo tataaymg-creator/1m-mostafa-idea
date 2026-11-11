@@ -1428,7 +1428,7 @@ ACTIVE REFERENCES
 @image4 — a frame from this same living room: take the room, the camera position and where the figures sit — the adult mannequin in the floral armchair at front left, the child mannequin seated upright at the left end of the sofa beside the armchair. Use it for geometry and placement only. 100% matches the reference.
 
 LOCATION MAP
-Camera low by the sofa in @image3. Midground: the child mannequin upright in the middle of the sofa at frame right; Adam crouched on the floor at its left (frame left), his face level with its face. Background: the lace throw and the lamp glow; the dark room toward the hallway at frame left.
+Camera low by the sofa in @image3. Midground: the child mannequin upright at the left end of the sofa, at frame right of the shot; Adam crouched on the floor beside it (frame left), his face level with its face. Background: the lace throw and the lamp glow; the dark room toward the hallway at frame left.
 
 FIRST FRAME / BLOCKING
 The first frame is @image1's face in profile at frame left, close to the blank ivory face of the child mannequin at frame right.

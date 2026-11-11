@@ -384,7 +384,7 @@ run(id="G21", scene="5 · The knock", nums="35", look="P", attach=["adam", "L05b
 
 run(id="G22", scene="5 · The knock", nums="36 ★, 38", look="P", attach=["adam", "doll-daughter", "L03_living-dim", "F10_living-blocking"],
     ctx="Evening in the living room. {adam} crouches by {doll-daughter}, seated at the left end of the sofa as in {F10_living-blocking}, and puts a finger to his lips as if it were a game; then a close-up of him alone, listening to footsteps going away, his face giving way for one second before the mask comes back.",
-    map="Camera low by the sofa in {L03_living-dim}. Midground: the child mannequin upright in the middle of the sofa at frame right; Adam crouched on the floor at its left (frame left), his face level with its face. Background: the lace throw and the lamp glow; the dark room toward the hallway at frame left.",
+    map="Camera low by the sofa in {L03_living-dim}. Midground: the child mannequin upright at the left end of the sofa, at frame right of the shot; Adam crouched on the floor beside it (frame left), his face level with its face. Background: the lace throw and the lamp glow; the dark room toward the hallway at frame left.",
     first="The first frame is {adam}'s face in profile at frame left, close to the blank ivory face of the child mannequin at frame right.",
     segs=[(5, None, "CU two-shot", "29°", "locked, at crouching head height",
            "At <0.8> he raises one finger to his lips and holds it there, eyes bright; at <4.0> a tiny nod. The mannequin holds perfectly still.",
