@@ -1215,7 +1215,7 @@ LIGHTING
 The floor lamp as the only light, warm, from behind the sofa; his face half in shadow. White balance 4300K.
 
 AUDIO
-A hollow plastic knock rocking to stillness; the radio waltz playing on, small and distant; plastic on plastic, a click, his breath. The only music is that radio song.
+A hollow plastic knock rocking to stillness; plastic on plastic, a click, his breath. The room is quiet apart from these sounds; the song is laid in during the edit.
 Lines, each spoken once, in English: 4.4s Adam: "I'm sorry. I'm sorry." · 8.2s Adam: "Did I hurt you?"
 Only these voices are heard.
 
@@ -1274,7 +1274,7 @@ LIGHTING
 The hallway is dark; a thin line of yellowish stairwell light glows under the door, catching the lower edge of the frame. White balance 4300K.
 
 AUDIO
-Three soft, polite knocks on solid wood, a faint tick of the chain; under them, faint from the kitchen, the radio waltz. The only music is that faint radio song.
+Three soft, polite knocks on solid wood, a faint tick of the chain, the quiet of the hallway.
 The sound is only the room and the listed effects.
 
 STYLE

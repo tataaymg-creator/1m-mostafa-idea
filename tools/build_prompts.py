@@ -338,7 +338,7 @@ run(id="G18", scene="4 · The song & the dance", nums="31, 32 ★", look="P", at
     perf="Panic in his hands, tenderness in his face; his breath comes short and his lower lip shakes.",
     phys="The arm rocks on its curve and settles; the joint seats inside the sleeve with a hard click. The mannequin keeps its head, wig and face on and sits rigid in the chair as he works.",
     light="The floor lamp as the only light, warm, from behind the sofa; his face half in shadow. White balance 4300K.",
-    audio="A hollow plastic knock rocking to stillness; the radio waltz playing on, small and distant; plastic on plastic, a click, his breath. The only music is that radio song.",
+    audio="A hollow plastic knock rocking to stillness; plastic on plastic, a click, his breath. The room is quiet apart from these sounds; the song is laid in during the edit.",
     locks=["Both mannequins stay inert; only Adam moves.", "The adult mannequin keeps its head, wig, blank face and cardigan in every frame."])
 
 # =========================================================== 5 · THE KNOCK
@@ -351,7 +351,7 @@ run(id="G19", scene="5 · The knock", nums="33", look="P", attach=["L05b_hallway
     perf="",
     phys="The door stays steady in its frame; the chain barely moves.",
     light="The hallway is dark; a thin line of yellowish stairwell light glows under the door, catching the lower edge of the frame. White balance 4300K.",
-    audio="Three soft, polite knocks on solid wood, a faint tick of the chain; under them, faint from the kitchen, the radio waltz. The only music is that faint radio song.",
+    audio="Three soft, polite knocks on solid wood, a faint tick of the chain, the quiet of the hallway.",
     locks=["The door stays shut."])
 
 run(id="G20", scene="5 · The knock", nums="34", look="P", attach=["adam", "P05_radio", "L01_kitchen"],
