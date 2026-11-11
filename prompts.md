@@ -4,9 +4,9 @@
 
 ## Settings for every run
 
-- Model: **Seedance 2.5**, omni reference, **draft on** (480p). Finalise a liked draft to 1080p within 7 days.
+- Model: **Seedance 2.5 Draft**. Generate a liked draft again in 1080p.
 - Audio on. Radio song and score in the clips are placeholders; the film's own 5-note music replaces them in the edit.
-- Aspect: **4:3** for the present (scenes 1–10), **16:9** for the memory and for everything from the curtains onward (scenes 11–12).
+- Aspect: **16:9 for every run.** The present (scenes 1–10) is framed centre-safe and cropped to 4:3 in the edit; the frame opens to full width on the curtain shot.
 - `@name` in a prompt is the element of that name in the project *baba look*. Attach exactly the elements listed above each prompt.
 - All dialogue is English. "Baba" is now "Daddy", "habibti" is "sweetheart", "Mama" is "Mommy".
 - Continuous action is one run with timed shots inside it. Where a memory flash interrupts a scene, the scene is still one run and the flash is cut in during the edit.
@@ -16,36 +16,36 @@
 
 | Run | Scene | Shots | Length | Aspect | Elements to attach |
 |---|---|---|---|---|---|
-| [G01](#g01) | 1 · Morning | 02, 04 | 10s | 4:3 | `adam`, `L01_kitchen` |
-| [G02](#g02) | 1 · Morning | 03 | 5s | 4:3 | `P02_table-setting`, `P01_yellow-cup`, `L02_dining` |
-| [G03](#g03) | 1 · Morning | 05, 06 | 10s | 4:3 | `adam`, `doll-wife`, `doll-daughter`, `L02_dining` |
-| [G04](#g04) | 1 · Morning | 07 ★ | 5s | 4:3 | `adam`, `doll-wife`, `L02_dining` |
-| [G05](#g05) | 1 · Morning | 08 ★ | 6s | 4:3 | `adam`, `doll-wife`, `doll-daughter`, `P01_yellow-cup`, `L02_dining` |
-| [G06](#g06) | 1 · Morning | 09 ○ | 4s | 4:3 | `L01_kitchen` |
-| [G07](#g07) | 1 · Morning | 10 | 5s | 4:3 | `P06_hospital-bag`, `L05b_hallway-bag` |
-| [G08](#g08) | 1 · Morning | 11, 14 | 10s | 4:3 | `adam`, `doll-daughter`, `P03_yellow-sandal`, `L02_dining` |
+| [G01](#g01) | 1 · Morning | 02, 04 | 10s | 16:9 | `adam`, `L01_kitchen` |
+| [G02](#g02) | 1 · Morning | 03 | 5s | 16:9 | `P02_table-setting`, `P01_yellow-cup`, `L02_dining` |
+| [G03](#g03) | 1 · Morning | 05, 06 | 10s | 16:9 | `adam`, `doll-wife`, `doll-daughter`, `L02_dining` |
+| [G04](#g04) | 1 · Morning | 07 ★ | 5s | 16:9 | `adam`, `doll-wife`, `L02_dining` |
+| [G05](#g05) | 1 · Morning | 08 ★ | 6s | 16:9 | `adam`, `doll-wife`, `doll-daughter`, `P01_yellow-cup`, `L02_dining` |
+| [G06](#g06) | 1 · Morning | 09 ○ | 4s | 16:9 | `L01_kitchen` |
+| [G07](#g07) | 1 · Morning | 10 | 5s | 16:9 | `P06_hospital-bag`, `L05b_hallway-bag` |
+| [G08](#g08) | 1 · Morning | 11, 14 | 10s | 16:9 | `adam`, `doll-daughter`, `P03_yellow-sandal`, `L02_dining` |
 | [G09](#g09) | 1 · Morning (flash 1) | 12, 13 | 5s | 16:9 | `nour`, `L07b_car-backseat`, `P12_crayons` |
-| [G10](#g10) | 2 · Hair | 15 | 5s | 4:3 | `adam`, `doll-daughter`, `doll-wife`, `L03_living-room` |
-| [G11](#g11) | 2 · Hair | 16, 17, 20 | 15s | 4:3 | `adam`, `doll-daughter`, `doll-wife`, `P04_hairbrush`, `L03_living-room` |
+| [G10](#g10) | 2 · Hair | 15 | 5s | 16:9 | `adam`, `doll-daughter`, `doll-wife`, `L03_living-room` |
+| [G11](#g11) | 2 · Hair | 16, 17, 20 | 15s | 16:9 | `adam`, `doll-daughter`, `doll-wife`, `P04_hairbrush`, `L03_living-room` |
 | [G12](#g12) | 2 · Hair (flash 2) | 18, 19 ○ | 6s | 16:9 | `nour`, `layla`, `L07b_car-backseat` |
-| [G13](#g13) | 3 · The sewing corner | 21 | 5s | 4:3 | `L04_sewing-corner` |
-| [G14](#g14) | 4 · The song & the dance | 22, 23, 26 | 13s | 4:3 | `adam`, `doll-wife`, `P05_radio`, `L01_kitchen` |
+| [G13](#g13) | 3 · The sewing corner | 21 | 5s | 16:9 | `L04_sewing-corner` |
+| [G14](#g14) | 4 · The song & the dance | 22, 23, 26 | 13s | 16:9 | `adam`, `doll-wife`, `P05_radio`, `L01_kitchen` |
 | [G15](#g15) | 4 · The song & the dance (flash 3) | 24, 25 ★, 29 | 10s | 16:9 | `layla`, `adam-before`, `L07_car-front` |
-| [G16](#g16) | 4 · The song & the dance | 27 ★ | 8s | 4:3 | `adam`, `doll-wife`, `doll-daughter`, `L03_living-room` |
-| [G17](#g17) | 4 · The song & the dance | 28, 30 | 8s | 4:3 | `adam`, `doll-wife`, `L03_living-room` |
-| [G18](#g18) | 4 · The song & the dance | 31, 32 ★ | 10s | 4:3 | `adam`, `doll-wife`, `doll-daughter`, `L03_living-room` |
-| [G19](#g19) | 5 · The knock | 33 | 4s | 4:3 | `L05b_hallway-bag` |
-| [G20](#g20) | 5 · The knock | 34 | 5s | 4:3 | `adam`, `P05_radio`, `L01_kitchen` |
-| [G21](#g21) | 5 · The knock | 35 | 8s | 4:3 | `adam`, `L05b_hallway-bag` |
-| [G22](#g22) | 5 · The knock | 36 ★, 38 | 10s | 4:3 | `adam`, `doll-daughter`, `L03_living-room` |
-| [G23](#g23) | 5 · The knock | 37 ○ | 4s | 4:3 | `mona`, `P14_foil-dish`, `L09_landing` |
-| [G24](#g24) | 6 · Dinner & the headlights | 39, 40 | 10s | 4:3 | `adam`, `doll-wife`, `doll-daughter`, `P01_yellow-cup`, `L02_dining` |
-| [G25](#g25) | 6 · Dinner & the headlights | 41 ★ | 5s | 4:3 | `doll-wife`, `doll-daughter`, `adam`, `L02_dining` |
-| [G26](#g26) | 6 · Dinner & the headlights | 44 | 5s | 4:3 | `adam`, `P01_yellow-cup`, `L02_dining` |
+| [G16](#g16) | 4 · The song & the dance | 27 ★ | 8s | 16:9 | `adam`, `doll-wife`, `doll-daughter`, `L03_living-room` |
+| [G17](#g17) | 4 · The song & the dance | 28, 30 | 8s | 16:9 | `adam`, `doll-wife`, `L03_living-room` |
+| [G18](#g18) | 4 · The song & the dance | 31, 32 ★ | 10s | 16:9 | `adam`, `doll-wife`, `doll-daughter`, `L03_living-room` |
+| [G19](#g19) | 5 · The knock | 33 | 4s | 16:9 | `L05b_hallway-bag` |
+| [G20](#g20) | 5 · The knock | 34 | 5s | 16:9 | `adam`, `P05_radio`, `L01_kitchen` |
+| [G21](#g21) | 5 · The knock | 35 | 8s | 16:9 | `adam`, `L05b_hallway-bag` |
+| [G22](#g22) | 5 · The knock | 36 ★, 38 | 10s | 16:9 | `adam`, `doll-daughter`, `L03_living-room` |
+| [G23](#g23) | 5 · The knock | 37 ○ | 4s | 16:9 | `mona`, `P14_foil-dish`, `L09_landing` |
+| [G24](#g24) | 6 · Dinner & the headlights | 39, 40 | 10s | 16:9 | `adam`, `doll-wife`, `doll-daughter`, `P01_yellow-cup`, `L02_dining` |
+| [G25](#g25) | 6 · Dinner & the headlights | 41 ★ | 5s | 16:9 | `doll-wife`, `doll-daughter`, `adam`, `L02_dining` |
+| [G26](#g26) | 6 · Dinner & the headlights | 44 | 5s | 16:9 | `adam`, `P01_yellow-cup`, `L02_dining` |
 | [G27](#g27) | 6 · Dinner & the headlights (flash 4) | 42, 43 | 5s | 16:9 | `layla`, `L07_car-front`, `L08_desert-road` |
-| [G28](#g28) | 7 · Bedtime | 45 | 5s | 4:3 | `adam`, `doll-daughter`, `L06_nour-room` |
-| [G29](#g29) | 7 · Bedtime | 46, 47, 48 | 16s | 4:3 | `adam`, `doll-daughter`, `P10_rabbit`, `L06_nour-room` |
-| [G30](#g30) | 7 · Bedtime | 49 ★, 50 ★ | 10s | 4:3 | `adam`, `L06_nour-room` |
+| [G28](#g28) | 7 · Bedtime | 45 | 5s | 16:9 | `adam`, `doll-daughter`, `L06_nour-room` |
+| [G29](#g29) | 7 · Bedtime | 46, 47, 48 | 16s | 16:9 | `adam`, `doll-daughter`, `P10_rabbit`, `L06_nour-room` |
+| [G30](#g30) | 7 · Bedtime | 49 ★, 50 ★ | 10s | 16:9 | `adam`, `L06_nour-room` |
 | [G31](#g31) | 8 · The road | 51 | 5s | 16:9 | `P13_family-car`, `L08_desert-road` |
 | [G32](#g32) | 8 · The road | 52, 53, 54, 55 | 15s | 16:9 | `adam-before`, `layla`, `nour`, `L07_car-front`, `L07b_car-backseat` |
 | [G33](#g33) | 8 · The road | 56, 57, 58, 59 | 14s | 16:9 | `adam-before`, `layla`, `nour`, `L07_car-front`, `L07b_car-backseat` |
@@ -53,11 +53,11 @@
 | [G35](#g35) | 8 · The road | 62, 63 | 5s | 16:9 | `layla`, `L07_car-front` |
 | [G36](#g36) | 8 · The road | 65 ★ | 5s | 16:9 | `P12_crayons`, `L08_desert-road` |
 | [G37](#g37) | 8 → 9 · Asphalt to floor (match cut) | 66 ★, 67 ★ | 10s | 16:9 | `adam`, `L06_nour-room` |
-| [G38](#g38) | 9 · The floor | 68 ★ | 5s | 4:3 | `doll-daughter`, `P10_rabbit`, `L06_nour-room` |
-| [G39](#g39) | 9 · The floor | 69 ★, 70 ○ | 12s | 4:3 | `adam`, `L06_nour-room` |
-| [G40](#g40) | 10 · The bag | 71 | 5s | 4:3 | `adam`, `L05b_hallway-bag` |
-| [G41](#g41) | 10 · The bag | 72, 73, 74 | 14s | 4:3 | `adam`, `P06_hospital-bag`, `P07_bag-contents`, `L05b_hallway-bag` |
-| [G42](#g42) | 10 · The bag | 75 ★ | 6s | 4:3 | `adam`, `L05b_hallway-bag` |
+| [G38](#g38) | 9 · The floor | 68 ★ | 5s | 16:9 | `doll-daughter`, `P10_rabbit`, `L06_nour-room` |
+| [G39](#g39) | 9 · The floor | 69 ★, 70 ○ | 12s | 16:9 | `adam`, `L06_nour-room` |
+| [G40](#g40) | 10 · The bag | 71 | 5s | 16:9 | `adam`, `L05b_hallway-bag` |
+| [G41](#g41) | 10 · The bag | 72, 73, 74 | 14s | 16:9 | `adam`, `P06_hospital-bag`, `P07_bag-contents`, `L05b_hallway-bag` |
+| [G42](#g42) | 10 · The bag | 75 ★ | 6s | 16:9 | `adam`, `L05b_hallway-bag` |
 | [G43](#g43) | 11 · Daylight | 77 ★ | 6s | 16:9 | `adam`, `doll-wife`, `doll-daughter`, `L03_living-room`, `L03b_living-day` |
 | [G44](#g44) | 11 · Daylight | 78, 79 | 11s | 16:9 | `adam`, `doll-wife`, `doll-daughter`, `L03b_living-day` |
 | [G45](#g45) | 11 · Daylight | 80 ★ | 6s | 16:9 | `adam`, `doll-wife`, `doll-daughter`, `L04_sewing-corner` |
@@ -73,7 +73,8 @@
 | 01 | Black screen, 6s | Sound only: road hum, wind, crayon on paper, a child humming five notes, a woman's soft laugh, a seatbelt click. Build it from the audio of G09, G12 and G32. |
 | 64 | White to black, 3s | The white at the end of G35, held, then cut to black. A thin high tone. |
 | 76 ★ | The drawing, 5s | Use the real image @P09_drawing full frame with a slow drift in the edit. Do not regenerate it: a video model will redraw it. |
-| 77 | Aspect change | Animate the mask from 4:3 to 16:9 across G43. |
+| 02–75 | 4:3 crop | Crop every present-day shot before the curtains to 4:3 from the centre. |
+| 77 | Aspect change | Animate the crop from 4:3 open to 16:9 across G43. |
 | 86 | Title, 4s | Black. Title: LOOK. The child's five-note hum, unfinished. |
 | 87 | Credits card, 3s | One card, plus an AI-tools disclosure if the rules ask for one. |
 
@@ -81,19 +82,19 @@
 
 ### G01
 
-**1 · Morning · shots 02, 04 · 10s · 4:3**  
-Seedance 2.5 · omni reference · draft ON (480p) · audio ON · duration 10s · aspect 4:3  
+**1 · Morning · shots 02, 04 · 10s · 16:9**  
+Seedance 2.5 Draft · audio ON · duration 10s · aspect 16:9  
 Attach: `adam`, `L01_kitchen`
 
 ```text
-A 10-second, 4:3 clip in two shots: a stove igniter catches under a small pot, then a man seen from behind cuts toast into triangles at the counter. Hard cut between them.
+A 10-second, 16:9 clip in two shots: a stove igniter catches under a small pot, then a man seen from behind cuts toast into triangles at the counter. Hard cut between them.
 
 REFERENCES
 @adam — Adam, present day. Take his face, stubble, the healed scar at his right temple, the washed-out grey-blue shirt with rolled sleeves, charcoal trousers, bare feet, wedding ring. Ignore the white background and the three-view sheet layout.
 @L01_kitchen — the kitchen, empty. Take the room exactly: window with a thin glowing curtain and the sink on the left, the white enamel gas stove in the middle, the wooden counter with the cutting board on the right, the radio on the wall shelf above it, sage walls, terrazzo floor.
 
 LOOK
-Naturalistic 35mm motion-picture look with fine grain, soft contrast, not glossy. 4:3 frame. The camera is on a tripod and locked unless a shot says otherwise. Lenses 35, 50 and 85mm. The apartment is shut in: curtains closed, still dusty air, sage-green walls, grey and faded wood. Yellow is the only saturated colour in the picture. Morning. The thin kitchen curtain glows with the daylight it keeps out; one bare warm bulb.
+Naturalistic 35mm motion-picture look with fine grain, soft contrast, not glossy. 16:9 frame, composed centre-safe: everything important stays inside the middle of the picture, and the far left and right edges hold only background. The camera is on a tripod and locked unless a shot says otherwise. Lenses 35, 50 and 85mm. The apartment is shut in: curtains closed, still dusty air, sage-green walls, grey and faded wood. Yellow is the only saturated colour in the picture. Morning. The thin kitchen curtain glows with the daylight it keeps out; one bare warm bulb.
 
 CHARACTERS
 Adam — 38, gentle, exhausted, quiet. Speaks softly and low, a little hoarse, unhurried, in plain English. He treats the mannequins with complete tenderness and never looks at them as objects. He never eats.
@@ -116,7 +117,8 @@ No dialogue. No voices, no narration, no added words.
 KEEP CONSISTENT
 - Adam's face, hair and clothes exactly as @adam in every frame.
 - Adam always has the stubble and the healed scar at his right temple.
-- 4:3 frame, tripod, locked camera; no zoom, no drift and no handheld unless a shot states it.
+- 16:9 frame, tripod, locked camera; no zoom, no drift and no handheld unless a shot states it.
+- Centre-safe: faces, hands and props stay in the middle of the frame, never in the outer eighth on either side.
 - The curtains stay closed. No direct sunlight in the apartment.
 - Yellow is the only saturated colour; everything else is muted.
 - Nobody else is in the apartment. No reflections of a crew, no extra people.
@@ -126,12 +128,12 @@ KEEP CONSISTENT
 
 ### G02
 
-**1 · Morning · shots 03 · 5s · 4:3**  
-Seedance 2.5 · omni reference · draft ON (480p) · audio ON · duration 5s · aspect 4:3  
+**1 · Morning · shots 03 · 5s · 16:9**  
+Seedance 2.5 Draft · audio ON · duration 5s · aspect 16:9  
 Attach: `P02_table-setting`, `P01_yellow-cup`, `L02_dining`
 
 ```text
-A 5-second, 4:3 top shot: a man's hands lay a wooden table for three.
+A 5-second, 16:9 top shot: a man's hands lay a wooden table for three.
 
 REFERENCES
 @P02_table-setting — the plates and forks: two large plain plates, one small plate, three forks. Take the objects only. Ignore the white background and their arrangement.
@@ -139,7 +141,7 @@ REFERENCES
 @L02_dining — the dining area, empty. Take the room exactly: the table with a lace cloth and four wooden chairs standing in front of the tall closed olive-grey curtains, the sideboard with a mantel clock, the pendant lamp, the kitchen doorway on the right.
 
 LOOK
-Naturalistic 35mm motion-picture look with fine grain, soft contrast, not glossy. 4:3 frame. The camera is on a tripod and locked unless a shot says otherwise. Lenses 35, 50 and 85mm. The apartment is shut in: curtains closed, still dusty air, sage-green walls, grey and faded wood. Yellow is the only saturated colour in the picture. Morning, dim. Soft grey light from the closed curtains.
+Naturalistic 35mm motion-picture look with fine grain, soft contrast, not glossy. 16:9 frame, composed centre-safe: everything important stays inside the middle of the picture, and the far left and right edges hold only background. The camera is on a tripod and locked unless a shot says otherwise. Lenses 35, 50 and 85mm. The apartment is shut in: curtains closed, still dusty air, sage-green walls, grey and faded wood. Yellow is the only saturated colour in the picture. Morning, dim. Soft grey light from the closed curtains.
 
 WHERE EVERYONE IS — fixed for the whole clip
 Dining table. Only Adam's forearms and hands enter the frame, from the bottom edge.
@@ -156,7 +158,8 @@ Ambience: Ceramic on wood, forks, a wall clock ticking.
 No dialogue. No voices, no narration, no added words.
 
 KEEP CONSISTENT
-- 4:3 frame, tripod, locked camera; no zoom, no drift and no handheld unless a shot states it.
+- 16:9 frame, tripod, locked camera; no zoom, no drift and no handheld unless a shot states it.
+- Centre-safe: faces, hands and props stay in the middle of the frame, never in the outer eighth on either side.
 - The curtains stay closed. No direct sunlight in the apartment.
 - Yellow is the only saturated colour; everything else is muted.
 - Nobody else is in the apartment. No reflections of a crew, no extra people.
@@ -167,12 +170,12 @@ KEEP CONSISTENT
 
 ### G03
 
-**1 · Morning · shots 05, 06 · 10s · 4:3**  
-Seedance 2.5 · omni reference · draft ON (480p) · audio ON · duration 10s · aspect 4:3  
+**1 · Morning · shots 05, 06 · 10s · 16:9**  
+Seedance 2.5 Draft · audio ON · duration 10s · aspect 16:9  
 Attach: `adam`, `doll-wife`, `doll-daughter`, `L02_dining`
 
 ```text
-A 10-second, 4:3 clip in two shots: seen through the kitchen doorway, a man serves breakfast to two seated silhouettes; then a close-up of him speaking to someone off screen and waiting for an answer. The two seated figures stay unreadable silhouettes.
+A 10-second, 16:9 clip in two shots: seen through the kitchen doorway, a man serves breakfast to two seated silhouettes; then a close-up of him speaking to someone off screen and waiting for an answer. The two seated figures stay unreadable silhouettes.
 
 REFERENCES
 @adam — Adam, present day. Take his face, stubble, the healed scar at his right temple, the washed-out grey-blue shirt with rolled sleeves, charcoal trousers, bare feet, wedding ring. Ignore the white background and the three-view sheet layout.
@@ -181,7 +184,7 @@ REFERENCES
 @L02_dining — the dining area, empty. Take the room exactly: the table with a lace cloth and four wooden chairs standing in front of the tall closed olive-grey curtains, the sideboard with a mantel clock, the pendant lamp, the kitchen doorway on the right.
 
 LOOK
-Naturalistic 35mm motion-picture look with fine grain, soft contrast, not glossy. 4:3 frame. The camera is on a tripod and locked unless a shot says otherwise. Lenses 35, 50 and 85mm. The apartment is shut in: curtains closed, still dusty air, sage-green walls, grey and faded wood. Yellow is the only saturated colour in the picture. Morning, dim. The closed curtains behind the table glow and backlight the figures.
+Naturalistic 35mm motion-picture look with fine grain, soft contrast, not glossy. 16:9 frame, composed centre-safe: everything important stays inside the middle of the picture, and the far left and right edges hold only background. The camera is on a tripod and locked unless a shot says otherwise. Lenses 35, 50 and 85mm. The apartment is shut in: curtains closed, still dusty air, sage-green walls, grey and faded wood. Yellow is the only saturated colour in the picture. Morning, dim. The closed curtains behind the table glow and backlight the figures.
 
 CHARACTERS
 Adam — 38, gentle, exhausted, quiet. Speaks softly and low, a little hoarse, unhurried, in plain English. He treats the mannequins with complete tenderness and never looks at them as objects. He never eats.
@@ -210,7 +213,8 @@ KEEP CONSISTENT
 - Adam's face, hair and clothes exactly as @adam in every frame.
 - Adam always has the stubble and the healed scar at his right temple.
 - The mannequins are rigid plastic objects with no eyes and no mouth; they never move, blink or breathe on their own.
-- 4:3 frame, tripod, locked camera; no zoom, no drift and no handheld unless a shot states it.
+- 16:9 frame, tripod, locked camera; no zoom, no drift and no handheld unless a shot states it.
+- Centre-safe: faces, hands and props stay in the middle of the frame, never in the outer eighth on either side.
 - The curtains stay closed. No direct sunlight in the apartment.
 - Yellow is the only saturated colour; everything else is muted.
 - Nobody else is in the apartment. No reflections of a crew, no extra people.
@@ -221,12 +225,12 @@ KEEP CONSISTENT
 
 ### G04
 
-**1 · Morning · shots 07 ★ · 5s · 4:3**  
-Seedance 2.5 · omni reference · draft ON (480p) · audio ON · duration 5s · aspect 4:3  
+**1 · Morning · shots 07 ★ · 5s · 16:9**  
+Seedance 2.5 Draft · audio ON · duration 5s · aspect 16:9  
 Attach: `adam`, `doll-wife`, `L02_dining`
 
 ```text
-A 5-second, 4:3 hero shot: a man bends to kiss his wife's forehead and the focus moves from his lips to her, and she is a mannequin. No camera move, no emphasis.
+A 5-second, 16:9 hero shot: a man bends to kiss his wife's forehead and the focus moves from his lips to her, and she is a mannequin. No camera move, no emphasis.
 
 REFERENCES
 @adam — Adam, present day. Take his face, stubble, the healed scar at his right temple, the washed-out grey-blue shirt with rolled sleeves, charcoal trousers, bare feet, wedding ring. Ignore the white background and the three-view sheet layout.
@@ -234,7 +238,7 @@ REFERENCES
 @L02_dining — the dining area, empty. Take the room exactly: the table with a lace cloth and four wooden chairs standing in front of the tall closed olive-grey curtains, the sideboard with a mantel clock, the pendant lamp, the kitchen doorway on the right.
 
 LOOK
-Naturalistic 35mm motion-picture look with fine grain, soft contrast, not glossy. 4:3 frame. The camera is on a tripod and locked unless a shot says otherwise. Lenses 35, 50 and 85mm. The apartment is shut in: curtains closed, still dusty air, sage-green walls, grey and faded wood. Yellow is the only saturated colour in the picture. Morning, dim. Soft glow from the closed curtains at the side.
+Naturalistic 35mm motion-picture look with fine grain, soft contrast, not glossy. 16:9 frame, composed centre-safe: everything important stays inside the middle of the picture, and the far left and right edges hold only background. The camera is on a tripod and locked unless a shot says otherwise. Lenses 35, 50 and 85mm. The apartment is shut in: curtains closed, still dusty air, sage-green walls, grey and faded wood. Yellow is the only saturated colour in the picture. Morning, dim. Soft glow from the closed curtains at the side.
 
 CHARACTERS
 Adam — 38, gentle, exhausted, quiet. Speaks softly and low, a little hoarse, unhurried, in plain English. He treats the mannequins with complete tenderness and never looks at them as objects. He never eats.
@@ -260,7 +264,8 @@ KEEP CONSISTENT
 - Adam's face, hair and clothes exactly as @adam in every frame.
 - Adam always has the stubble and the healed scar at his right temple.
 - The mannequins are rigid plastic objects with no eyes and no mouth; they never move, blink or breathe on their own.
-- 4:3 frame, tripod, locked camera; no zoom, no drift and no handheld unless a shot states it.
+- 16:9 frame, tripod, locked camera; no zoom, no drift and no handheld unless a shot states it.
+- Centre-safe: faces, hands and props stay in the middle of the frame, never in the outer eighth on either side.
 - The curtains stay closed. No direct sunlight in the apartment.
 - Yellow is the only saturated colour; everything else is muted.
 - Nobody else is in the apartment. No reflections of a crew, no extra people.
@@ -271,12 +276,12 @@ KEEP CONSISTENT
 
 ### G05
 
-**1 · Morning · shots 08 ★ · 6s · 4:3**  
-Seedance 2.5 · omni reference · draft ON (480p) · audio ON · duration 6s · aspect 4:3  
+**1 · Morning · shots 08 ★ · 6s · 16:9**  
+Seedance 2.5 Draft · audio ON · duration 6s · aspect 16:9  
 Attach: `adam`, `doll-wife`, `doll-daughter`, `P01_yellow-cup`, `L02_dining`
 
 ```text
-A 6-second, 4:3 hero shot: a locked, dead-centre, symmetrical wide of a man having breakfast between two mannequins. He talks. He does not eat.
+A 6-second, 16:9 hero shot: a locked, dead-centre, symmetrical wide of a man having breakfast between two mannequins. He talks. He does not eat.
 
 REFERENCES
 @adam — Adam, present day. Take his face, stubble, the healed scar at his right temple, the washed-out grey-blue shirt with rolled sleeves, charcoal trousers, bare feet, wedding ring. Ignore the white background and the three-view sheet layout.
@@ -286,7 +291,7 @@ REFERENCES
 @L02_dining — the dining area, empty. Take the room exactly: the table with a lace cloth and four wooden chairs standing in front of the tall closed olive-grey curtains, the sideboard with a mantel clock, the pendant lamp, the kitchen doorway on the right.
 
 LOOK
-Naturalistic 35mm motion-picture look with fine grain, soft contrast, not glossy. 4:3 frame. The camera is on a tripod and locked unless a shot says otherwise. Lenses 35, 50 and 85mm. The apartment is shut in: curtains closed, still dusty air, sage-green walls, grey and faded wood. Yellow is the only saturated colour in the picture. Morning, dim. The closed curtains behind the table glow softly; faces are lit from the front by the room.
+Naturalistic 35mm motion-picture look with fine grain, soft contrast, not glossy. 16:9 frame, composed centre-safe: everything important stays inside the middle of the picture, and the far left and right edges hold only background. The camera is on a tripod and locked unless a shot says otherwise. Lenses 35, 50 and 85mm. The apartment is shut in: curtains closed, still dusty air, sage-green walls, grey and faded wood. Yellow is the only saturated colour in the picture. Morning, dim. The closed curtains behind the table glow softly; faces are lit from the front by the room.
 
 CHARACTERS
 Adam — 38, gentle, exhausted, quiet. Speaks softly and low, a little hoarse, unhurried, in plain English. He treats the mannequins with complete tenderness and never looks at them as objects. He never eats.
@@ -314,7 +319,8 @@ KEEP CONSISTENT
 - Adam's face, hair and clothes exactly as @adam in every frame.
 - Adam always has the stubble and the healed scar at his right temple.
 - The mannequins are rigid plastic objects with no eyes and no mouth; they never move, blink or breathe on their own.
-- 4:3 frame, tripod, locked camera; no zoom, no drift and no handheld unless a shot states it.
+- 16:9 frame, tripod, locked camera; no zoom, no drift and no handheld unless a shot states it.
+- Centre-safe: faces, hands and props stay in the middle of the frame, never in the outer eighth on either side.
 - The curtains stay closed. No direct sunlight in the apartment.
 - Yellow is the only saturated colour; everything else is muted.
 - Nobody else is in the apartment. No reflections of a crew, no extra people.
@@ -326,18 +332,18 @@ KEEP CONSISTENT
 
 ### G06
 
-**1 · Morning · shots 09 ○ · 4s · 4:3**  
-Seedance 2.5 · omni reference · draft ON (480p) · audio ON · duration 4s · aspect 4:3  
+**1 · Morning · shots 09 ○ · 4s · 16:9**  
+Seedance 2.5 Draft · audio ON · duration 4s · aspect 16:9  
 Attach: `L01_kitchen`
 
 ```text
-A 4-second, 4:3 insert: a plate is scraped into a kitchen bin that is already full of identical untouched toast triangles.
+A 4-second, 16:9 insert: a plate is scraped into a kitchen bin that is already full of identical untouched toast triangles.
 
 REFERENCES
 @L01_kitchen — the kitchen, empty. Take the room exactly: window with a thin glowing curtain and the sink on the left, the white enamel gas stove in the middle, the wooden counter with the cutting board on the right, the radio on the wall shelf above it, sage walls, terrazzo floor.
 
 LOOK
-Naturalistic 35mm motion-picture look with fine grain, soft contrast, not glossy. 4:3 frame. The camera is on a tripod and locked unless a shot says otherwise. Lenses 35, 50 and 85mm. The apartment is shut in: curtains closed, still dusty air, sage-green walls, grey and faded wood. Yellow is the only saturated colour in the picture. Morning. Dim kitchen, soft glow from the curtained window.
+Naturalistic 35mm motion-picture look with fine grain, soft contrast, not glossy. 16:9 frame, composed centre-safe: everything important stays inside the middle of the picture, and the far left and right edges hold only background. The camera is on a tripod and locked unless a shot says otherwise. Lenses 35, 50 and 85mm. The apartment is shut in: curtains closed, still dusty air, sage-green walls, grey and faded wood. Yellow is the only saturated colour in the picture. Morning. Dim kitchen, soft glow from the curtained window.
 
 WHERE EVERYONE IS — fixed for the whole clip
 Kitchen floor by the counter. Only Adam's hand, a plate and a fork enter the frame.
@@ -354,7 +360,8 @@ Ambience: Fork scraping ceramic, a soft thud of toast, the lid closing. A wall c
 No dialogue. No voices, no narration, no added words.
 
 KEEP CONSISTENT
-- 4:3 frame, tripod, locked camera; no zoom, no drift and no handheld unless a shot states it.
+- 16:9 frame, tripod, locked camera; no zoom, no drift and no handheld unless a shot states it.
+- Centre-safe: faces, hands and props stay in the middle of the frame, never in the outer eighth on either side.
 - The curtains stay closed. No direct sunlight in the apartment.
 - Yellow is the only saturated colour; everything else is muted.
 - Nobody else is in the apartment. No reflections of a crew, no extra people.
@@ -363,19 +370,19 @@ KEEP CONSISTENT
 
 ### G07
 
-**1 · Morning · shots 10 · 5s · 4:3**  
-Seedance 2.5 · omni reference · draft ON (480p) · audio ON · duration 5s · aspect 4:3  
+**1 · Morning · shots 10 · 5s · 16:9**  
+Seedance 2.5 Draft · audio ON · duration 5s · aspect 16:9  
 Attach: `P06_hospital-bag`, `L05b_hallway-bag`
 
 ```text
-A 5-second, 4:3 insert with a very slow push-in: the console by the front door, four months of mail, a dead plant, car keys and a sealed hospital bag nobody has touched.
+A 5-second, 16:9 insert with a very slow push-in: the console by the front door, four months of mail, a dead plant, car keys and a sealed hospital bag nobody has touched.
 
 REFERENCES
 @P06_hospital-bag — the sealed clear plastic hospital belongings bag with a watch, a ring, a yellow crayon stub and a folded sheet of paper inside. Its label is blank. Ignore the white background.
 @L05b_hallway-bag — the entrance hallway, empty, with the sealed hospital bag lying on the console under the mail. Take it exactly: glazed doors on the left, the dark front door at the far end, coat hooks, the wall mirror and the narrow console table with a dead plant, mail and the bag on the right.
 
 LOOK
-Naturalistic 35mm motion-picture look with fine grain, soft contrast, not glossy. 4:3 frame. The camera is on a tripod and locked unless a shot says otherwise. Lenses 35, 50 and 85mm. The apartment is shut in: curtains closed, still dusty air, sage-green walls, grey and faded wood. Yellow is the only saturated colour in the picture. Morning. The hallway is dim; a little cool light from the glazed doors.
+Naturalistic 35mm motion-picture look with fine grain, soft contrast, not glossy. 16:9 frame, composed centre-safe: everything important stays inside the middle of the picture, and the far left and right edges hold only background. The camera is on a tripod and locked unless a shot says otherwise. Lenses 35, 50 and 85mm. The apartment is shut in: curtains closed, still dusty air, sage-green walls, grey and faded wood. Yellow is the only saturated colour in the picture. Morning. The hallway is dim; a little cool light from the glazed doors.
 
 WHERE EVERYONE IS — fixed for the whole clip
 Entrance hallway, the narrow console table on the right wall near the front door. Nobody in frame.
@@ -392,7 +399,8 @@ Ambience: A wall clock, further away. A neighbour's door closing somewhere in th
 No dialogue. No voices, no narration, no added words.
 
 KEEP CONSISTENT
-- 4:3 frame, tripod, locked camera; no zoom, no drift and no handheld unless a shot states it.
+- 16:9 frame, tripod, locked camera; no zoom, no drift and no handheld unless a shot states it.
+- Centre-safe: faces, hands and props stay in the middle of the frame, never in the outer eighth on either side.
 - The curtains stay closed. No direct sunlight in the apartment.
 - Yellow is the only saturated colour; everything else is muted.
 - Nobody else is in the apartment. No reflections of a crew, no extra people.
@@ -403,12 +411,12 @@ KEEP CONSISTENT
 
 ### G08
 
-**1 · Morning · shots 11, 14 · 10s · 4:3**  
-Seedance 2.5 · omni reference · draft ON (480p) · audio ON · duration 10s · aspect 4:3  
+**1 · Morning · shots 11, 14 · 10s · 16:9**  
+Seedance 2.5 Draft · audio ON · duration 10s · aspect 16:9  
 Attach: `adam`, `doll-daughter`, `P03_yellow-sandal`, `L02_dining`
 
 ```text
-A 10-second, 4:3 clip in two shots: a man kneels and buckles a yellow sandal onto a child mannequin's rigid foot; then a close-up of him frozen on his knees, as if the click took him somewhere else, before he shakes it off. (In the edit a 4-second memory flash sits between the two shots.)
+A 10-second, 16:9 clip in two shots: a man kneels and buckles a yellow sandal onto a child mannequin's rigid foot; then a close-up of him frozen on his knees, as if the click took him somewhere else, before he shakes it off. (In the edit a 4-second memory flash sits between the two shots.)
 
 REFERENCES
 @adam — Adam, present day. Take his face, stubble, the healed scar at his right temple, the washed-out grey-blue shirt with rolled sleeves, charcoal trousers, bare feet, wedding ring. Ignore the white background and the three-view sheet layout.
@@ -417,7 +425,7 @@ REFERENCES
 @L02_dining — the dining area, empty. Take the room exactly: the table with a lace cloth and four wooden chairs standing in front of the tall closed olive-grey curtains, the sideboard with a mantel clock, the pendant lamp, the kitchen doorway on the right.
 
 LOOK
-Naturalistic 35mm motion-picture look with fine grain, soft contrast, not glossy. 4:3 frame. The camera is on a tripod and locked unless a shot says otherwise. Lenses 35, 50 and 85mm. The apartment is shut in: curtains closed, still dusty air, sage-green walls, grey and faded wood. Yellow is the only saturated colour in the picture. Morning, dim. Low soft light under the table edge, glow from the closed curtains.
+Naturalistic 35mm motion-picture look with fine grain, soft contrast, not glossy. 16:9 frame, composed centre-safe: everything important stays inside the middle of the picture, and the far left and right edges hold only background. The camera is on a tripod and locked unless a shot says otherwise. Lenses 35, 50 and 85mm. The apartment is shut in: curtains closed, still dusty air, sage-green walls, grey and faded wood. Yellow is the only saturated colour in the picture. Morning, dim. Low soft light under the table edge, glow from the closed curtains.
 
 CHARACTERS
 Adam — 38, gentle, exhausted, quiet. Speaks softly and low, a little hoarse, unhurried, in plain English. He treats the mannequins with complete tenderness and never looks at them as objects. He never eats.
@@ -446,7 +454,8 @@ KEEP CONSISTENT
 - Adam's face, hair and clothes exactly as @adam in every frame.
 - Adam always has the stubble and the healed scar at his right temple.
 - The mannequins are rigid plastic objects with no eyes and no mouth; they never move, blink or breathe on their own.
-- 4:3 frame, tripod, locked camera; no zoom, no drift and no handheld unless a shot states it.
+- 16:9 frame, tripod, locked camera; no zoom, no drift and no handheld unless a shot states it.
+- Centre-safe: faces, hands and props stay in the middle of the frame, never in the outer eighth on either side.
 - The curtains stay closed. No direct sunlight in the apartment.
 - Yellow is the only saturated colour; everything else is muted.
 - Nobody else is in the apartment. No reflections of a crew, no extra people.
@@ -458,7 +467,7 @@ KEEP CONSISTENT
 ### G09
 
 **1 · Morning (flash 1) · shots 12, 13 · 5s · 16:9**  
-Seedance 2.5 · omni reference · draft ON (480p) · audio ON · duration 5s · aspect 16:9  
+Seedance 2.5 Draft · audio ON · duration 5s · aspect 16:9  
 Attach: `nour`, `L07b_car-backseat`, `P12_crayons`
 
 ```text
@@ -502,12 +511,12 @@ KEEP CONSISTENT
 
 ### G10
 
-**2 · Hair · shots 15 · 5s · 4:3**  
-Seedance 2.5 · omni reference · draft ON (480p) · audio ON · duration 5s · aspect 4:3  
+**2 · Hair · shots 15 · 5s · 16:9**  
+Seedance 2.5 Draft · audio ON · duration 5s · aspect 16:9  
 Attach: `adam`, `doll-daughter`, `doll-wife`, `L03_living-room`
 
 ```text
-A 5-second, 4:3 wide: a man carries a child-size mannequin across the living room the way you carry a sleeping child and sets it on the sofa. Staged from behind him.
+A 5-second, 16:9 wide: a man carries a child-size mannequin across the living room the way you carry a sleeping child and sets it on the sofa. Staged from behind him.
 
 REFERENCES
 @adam — Adam, present day. Take his face, stubble, the healed scar at his right temple, the washed-out grey-blue shirt with rolled sleeves, charcoal trousers, bare feet, wedding ring. Ignore the white background and the three-view sheet layout.
@@ -516,7 +525,7 @@ REFERENCES
 @L03_living-room — the living room with the curtains closed, empty. Take the room exactly: the grey sofa with a lace throw in the middle, the floral armchair at front left, the low coffee table, the bookshelf on the left wall, the floor lamp, the sewing corner at the back right, the closed curtains on the right wall.
 
 LOOK
-Naturalistic 35mm motion-picture look with fine grain, soft contrast, not glossy. 4:3 frame. The camera is on a tripod and locked unless a shot says otherwise. Lenses 35, 50 and 85mm. The apartment is shut in: curtains closed, still dusty air, sage-green walls, grey and faded wood. Yellow is the only saturated colour in the picture. Late morning. Curtains closed, the floor lamp on, dim.
+Naturalistic 35mm motion-picture look with fine grain, soft contrast, not glossy. 16:9 frame, composed centre-safe: everything important stays inside the middle of the picture, and the far left and right edges hold only background. The camera is on a tripod and locked unless a shot says otherwise. Lenses 35, 50 and 85mm. The apartment is shut in: curtains closed, still dusty air, sage-green walls, grey and faded wood. Yellow is the only saturated colour in the picture. Late morning. Curtains closed, the floor lamp on, dim.
 
 CHARACTERS
 Adam — 38, gentle, exhausted, quiet. Speaks softly and low, a little hoarse, unhurried, in plain English. He treats the mannequins with complete tenderness and never looks at them as objects. He never eats.
@@ -542,7 +551,8 @@ KEEP CONSISTENT
 - Adam's face, hair and clothes exactly as @adam in every frame.
 - Adam always has the stubble and the healed scar at his right temple.
 - The mannequins are rigid plastic objects with no eyes and no mouth; they never move, blink or breathe on their own.
-- 4:3 frame, tripod, locked camera; no zoom, no drift and no handheld unless a shot states it.
+- 16:9 frame, tripod, locked camera; no zoom, no drift and no handheld unless a shot states it.
+- Centre-safe: faces, hands and props stay in the middle of the frame, never in the outer eighth on either side.
 - The curtains stay closed. No direct sunlight in the apartment.
 - Yellow is the only saturated colour; everything else is muted.
 - Nobody else is in the apartment. No reflections of a crew, no extra people.
@@ -552,12 +562,12 @@ KEEP CONSISTENT
 
 ### G11
 
-**2 · Hair · shots 16, 17, 20 · 15s · 4:3**  
-Seedance 2.5 · omni reference · draft ON (480p) · audio ON · duration 15s · aspect 4:3  
+**2 · Hair · shots 16, 17, 20 · 15s · 16:9**  
+Seedance 2.5 Draft · audio ON · duration 15s · aspect 16:9  
 Attach: `adam`, `doll-daughter`, `doll-wife`, `P04_hairbrush`, `L03_living-room`
 
 ```text
-A 15-second, 4:3 clip in three shots: a father brushes and tries to braid a child mannequin's wig; the brush snags and the wig slides off bare plastic; then, guiltily, he straightens it. (In the edit a memory flash sits between shots two and three.)
+A 15-second, 16:9 clip in three shots: a father brushes and tries to braid a child mannequin's wig; the brush snags and the wig slides off bare plastic; then, guiltily, he straightens it. (In the edit a memory flash sits between shots two and three.)
 
 REFERENCES
 @adam — Adam, present day. Take his face, stubble, the healed scar at his right temple, the washed-out grey-blue shirt with rolled sleeves, charcoal trousers, bare feet, wedding ring. Ignore the white background and the three-view sheet layout.
@@ -567,7 +577,7 @@ REFERENCES
 @L03_living-room — the living room with the curtains closed, empty. Take the room exactly: the grey sofa with a lace throw in the middle, the floral armchair at front left, the low coffee table, the bookshelf on the left wall, the floor lamp, the sewing corner at the back right, the closed curtains on the right wall.
 
 LOOK
-Naturalistic 35mm motion-picture look with fine grain, soft contrast, not glossy. 4:3 frame. The camera is on a tripod and locked unless a shot says otherwise. Lenses 35, 50 and 85mm. The apartment is shut in: curtains closed, still dusty air, sage-green walls, grey and faded wood. Yellow is the only saturated colour in the picture. Late morning. Curtains closed, warm floor lamp behind the sofa, dim.
+Naturalistic 35mm motion-picture look with fine grain, soft contrast, not glossy. 16:9 frame, composed centre-safe: everything important stays inside the middle of the picture, and the far left and right edges hold only background. The camera is on a tripod and locked unless a shot says otherwise. Lenses 35, 50 and 85mm. The apartment is shut in: curtains closed, still dusty air, sage-green walls, grey and faded wood. Yellow is the only saturated colour in the picture. Late morning. Curtains closed, warm floor lamp behind the sofa, dim.
 
 CHARACTERS
 Adam — 38, gentle, exhausted, quiet. Speaks softly and low, a little hoarse, unhurried, in plain English. He treats the mannequins with complete tenderness and never looks at them as objects. He never eats.
@@ -597,7 +607,8 @@ KEEP CONSISTENT
 - Adam's face, hair and clothes exactly as @adam in every frame.
 - Adam always has the stubble and the healed scar at his right temple.
 - The mannequins are rigid plastic objects with no eyes and no mouth; they never move, blink or breathe on their own.
-- 4:3 frame, tripod, locked camera; no zoom, no drift and no handheld unless a shot states it.
+- 16:9 frame, tripod, locked camera; no zoom, no drift and no handheld unless a shot states it.
+- Centre-safe: faces, hands and props stay in the middle of the frame, never in the outer eighth on either side.
 - The curtains stay closed. No direct sunlight in the apartment.
 - Yellow is the only saturated colour; everything else is muted.
 - Nobody else is in the apartment. No reflections of a crew, no extra people.
@@ -609,7 +620,7 @@ KEEP CONSISTENT
 ### G12
 
 **2 · Hair (flash 2) · shots 18, 19 ○ · 6s · 16:9**  
-Seedance 2.5 · omni reference · draft ON (480p) · audio ON · duration 6s · aspect 16:9  
+Seedance 2.5 Draft · audio ON · duration 6s · aspect 16:9  
 Attach: `nour`, `layla`, `L07b_car-backseat`
 
 ```text
@@ -654,18 +665,18 @@ KEEP CONSISTENT
 
 ### G13
 
-**3 · The sewing corner · shots 21 · 5s · 4:3**  
-Seedance 2.5 · omni reference · draft ON (480p) · audio ON · duration 5s · aspect 4:3  
+**3 · The sewing corner · shots 21 · 5s · 16:9**  
+Seedance 2.5 Draft · audio ON · duration 5s · aspect 16:9  
 Attach: `L04_sewing-corner`
 
 ```text
-A 5-second, 4:3 wide with a slow push-in: a dressmaker's corner left exactly as it was, and two empty mannequin stands.
+A 5-second, 16:9 wide with a slow push-in: a dressmaker's corner left exactly as it was, and two empty mannequin stands.
 
 REFERENCES
 @L04_sewing-corner — the sewing corner of the living room, empty. Take it exactly: floor lamp and sofa end on the left, the sewing table with the black machine threaded with yellow and the yellow sleeve under the needle, bentwood chair, fabric shelves and paper patterns on the wall, the tall framed mirror leaning on the wall, two bare steel mannequin stands, the closed curtains on the right.
 
 LOOK
-Naturalistic 35mm motion-picture look with fine grain, soft contrast, not glossy. 4:3 frame. The camera is on a tripod and locked unless a shot says otherwise. Lenses 35, 50 and 85mm. The apartment is shut in: curtains closed, still dusty air, sage-green walls, grey and faded wood. Yellow is the only saturated colour in the picture. Late morning. Curtains closed, one thin blade of daylight at their edge, the floor lamp on.
+Naturalistic 35mm motion-picture look with fine grain, soft contrast, not glossy. 16:9 frame, composed centre-safe: everything important stays inside the middle of the picture, and the far left and right edges hold only background. The camera is on a tripod and locked unless a shot says otherwise. Lenses 35, 50 and 85mm. The apartment is shut in: curtains closed, still dusty air, sage-green walls, grey and faded wood. Yellow is the only saturated colour in the picture. Late morning. Curtains closed, one thin blade of daylight at their edge, the floor lamp on.
 
 WHERE EVERYONE IS — fixed for the whole clip
 The sewing corner of the living room. Nobody in frame.
@@ -682,7 +693,8 @@ Ambience: The wall clock. At 3.5s, from another room, a radio dial clicks on and
 No dialogue. No voices, no narration, no added words.
 
 KEEP CONSISTENT
-- 4:3 frame, tripod, locked camera; no zoom, no drift and no handheld unless a shot states it.
+- 16:9 frame, tripod, locked camera; no zoom, no drift and no handheld unless a shot states it.
+- Centre-safe: faces, hands and props stay in the middle of the frame, never in the outer eighth on either side.
 - The curtains stay closed. No direct sunlight in the apartment.
 - Yellow is the only saturated colour; everything else is muted.
 - Nobody else is in the apartment. No reflections of a crew, no extra people.
@@ -693,12 +705,12 @@ KEEP CONSISTENT
 
 ### G14
 
-**4 · The song & the dance · shots 22, 23, 26 · 13s · 4:3**  
-Seedance 2.5 · omni reference · draft ON (480p) · audio ON · duration 13s · aspect 4:3  
+**4 · The song & the dance · shots 22, 23, 26 · 13s · 16:9**  
+Seedance 2.5 Draft · audio ON · duration 13s · aspect 16:9  
 Attach: `adam`, `doll-wife`, `P05_radio`, `L01_kitchen`
 
 ```text
-A 13-second, 4:3 clip in three shots: a hand tunes an old radio to a warm old song; a man cooks and talks to a mannequin he has stood in the kitchen doorway; then, close on him, he holds out a hand and asks her to dance. (In the edit a memory flash sits between shots two and three.)
+A 13-second, 16:9 clip in three shots: a hand tunes an old radio to a warm old song; a man cooks and talks to a mannequin he has stood in the kitchen doorway; then, close on him, he holds out a hand and asks her to dance. (In the edit a memory flash sits between shots two and three.)
 
 REFERENCES
 @adam — Adam, present day. Take his face, stubble, the healed scar at his right temple, the washed-out grey-blue shirt with rolled sleeves, charcoal trousers, bare feet, wedding ring. Ignore the white background and the three-view sheet layout.
@@ -707,7 +719,7 @@ REFERENCES
 @L01_kitchen — the kitchen, empty. Take the room exactly: window with a thin glowing curtain and the sink on the left, the white enamel gas stove in the middle, the wooden counter with the cutting board on the right, the radio on the wall shelf above it, sage walls, terrazzo floor.
 
 LOOK
-Naturalistic 35mm motion-picture look with fine grain, soft contrast, not glossy. 4:3 frame. The camera is on a tripod and locked unless a shot says otherwise. Lenses 35, 50 and 85mm. The apartment is shut in: curtains closed, still dusty air, sage-green walls, grey and faded wood. Yellow is the only saturated colour in the picture. Evening. The curtain is dark now; the bare warm bulb lights the kitchen.
+Naturalistic 35mm motion-picture look with fine grain, soft contrast, not glossy. 16:9 frame, composed centre-safe: everything important stays inside the middle of the picture, and the far left and right edges hold only background. The camera is on a tripod and locked unless a shot says otherwise. Lenses 35, 50 and 85mm. The apartment is shut in: curtains closed, still dusty air, sage-green walls, grey and faded wood. Yellow is the only saturated colour in the picture. Evening. The curtain is dark now; the bare warm bulb lights the kitchen.
 
 CHARACTERS
 Adam — 38, gentle, exhausted, quiet. Speaks softly and low, a little hoarse, unhurried, in plain English. He treats the mannequins with complete tenderness and never looks at them as objects. He never eats.
@@ -737,7 +749,8 @@ KEEP CONSISTENT
 - Adam's face, hair and clothes exactly as @adam in every frame.
 - Adam always has the stubble and the healed scar at his right temple.
 - The mannequins are rigid plastic objects with no eyes and no mouth; they never move, blink or breathe on their own.
-- 4:3 frame, tripod, locked camera; no zoom, no drift and no handheld unless a shot states it.
+- 16:9 frame, tripod, locked camera; no zoom, no drift and no handheld unless a shot states it.
+- Centre-safe: faces, hands and props stay in the middle of the frame, never in the outer eighth on either side.
 - The curtains stay closed. No direct sunlight in the apartment.
 - Yellow is the only saturated colour; everything else is muted.
 - Nobody else is in the apartment. No reflections of a crew, no extra people.
@@ -749,7 +762,7 @@ KEEP CONSISTENT
 ### G15
 
 **4 · The song & the dance (flash 3) · shots 24, 25 ★, 29 · 10s · 16:9**  
-Seedance 2.5 · omni reference · draft ON (480p) · audio ON · duration 10s · aspect 16:9  
+Seedance 2.5 Draft · audio ON · duration 10s · aspect 16:9  
 Attach: `layla`, `adam-before`, `L07_car-front`
 
 ```text
@@ -797,12 +810,12 @@ KEEP CONSISTENT
 
 ### G16
 
-**4 · The song & the dance · shots 27 ★ · 8s · 4:3**  
-Seedance 2.5 · omni reference · draft ON (480p) · audio ON · duration 8s · aspect 4:3  
+**4 · The song & the dance · shots 27 ★ · 8s · 16:9**  
+Seedance 2.5 Draft · audio ON · duration 8s · aspect 16:9  
 Attach: `adam`, `doll-wife`, `doll-daughter`, `L03_living-room`
 
 ```text
-An 8-second, 4:3 hero shot, the poster of the film: a locked symmetrical wide of a man slow-dancing with a mannequin in lamplight while a child mannequin sits on the sofa facing them.
+An 8-second, 16:9 hero shot, the poster of the film: a locked symmetrical wide of a man slow-dancing with a mannequin in lamplight while a child mannequin sits on the sofa facing them.
 
 REFERENCES
 @adam — Adam, present day. Take his face, stubble, the healed scar at his right temple, the washed-out grey-blue shirt with rolled sleeves, charcoal trousers, bare feet, wedding ring. Ignore the white background and the three-view sheet layout.
@@ -811,7 +824,7 @@ REFERENCES
 @L03_living-room — the living room with the curtains closed, empty. Take the room exactly: the grey sofa with a lace throw in the middle, the floral armchair at front left, the low coffee table, the bookshelf on the left wall, the floor lamp, the sewing corner at the back right, the closed curtains on the right wall.
 
 LOOK
-Naturalistic 35mm motion-picture look with fine grain, soft contrast, not glossy. 4:3 frame. The camera is on a tripod and locked unless a shot says otherwise. Lenses 35, 50 and 85mm. The apartment is shut in: curtains closed, still dusty air, sage-green walls, grey and faded wood. Yellow is the only saturated colour in the picture. Evening. Curtains closed; the floor lamp is the only light, warm, with deep shadow around it.
+Naturalistic 35mm motion-picture look with fine grain, soft contrast, not glossy. 16:9 frame, composed centre-safe: everything important stays inside the middle of the picture, and the far left and right edges hold only background. The camera is on a tripod and locked unless a shot says otherwise. Lenses 35, 50 and 85mm. The apartment is shut in: curtains closed, still dusty air, sage-green walls, grey and faded wood. Yellow is the only saturated colour in the picture. Evening. Curtains closed; the floor lamp is the only light, warm, with deep shadow around it.
 
 CHARACTERS
 Adam — 38, gentle, exhausted, quiet. Speaks softly and low, a little hoarse, unhurried, in plain English. He treats the mannequins with complete tenderness and never looks at them as objects. He never eats.
@@ -837,7 +850,8 @@ KEEP CONSISTENT
 - Adam's face, hair and clothes exactly as @adam in every frame.
 - Adam always has the stubble and the healed scar at his right temple.
 - The mannequins are rigid plastic objects with no eyes and no mouth; they never move, blink or breathe on their own.
-- 4:3 frame, tripod, locked camera; no zoom, no drift and no handheld unless a shot states it.
+- 16:9 frame, tripod, locked camera; no zoom, no drift and no handheld unless a shot states it.
+- Centre-safe: faces, hands and props stay in the middle of the frame, never in the outer eighth on either side.
 - The curtains stay closed. No direct sunlight in the apartment.
 - Yellow is the only saturated colour; everything else is muted.
 - Nobody else is in the apartment. No reflections of a crew, no extra people.
@@ -848,12 +862,12 @@ KEEP CONSISTENT
 
 ### G17
 
-**4 · The song & the dance · shots 28, 30 · 8s · 4:3**  
-Seedance 2.5 · omni reference · draft ON (480p) · audio ON · duration 8s · aspect 4:3  
+**4 · The song & the dance · shots 28, 30 · 8s · 16:9**  
+Seedance 2.5 Draft · audio ON · duration 8s · aspect 16:9  
 Attach: `adam`, `doll-wife`, `L03_living-room`
 
 ```text
-An 8-second, 4:3 clip in two shots: a man's face at peace against a mannequin's plastic cheek; then the mannequin's arm slips out of its shoulder socket and slides down his back. (In the edit a memory flash sits between them.)
+An 8-second, 16:9 clip in two shots: a man's face at peace against a mannequin's plastic cheek; then the mannequin's arm slips out of its shoulder socket and slides down his back. (In the edit a memory flash sits between them.)
 
 REFERENCES
 @adam — Adam, present day. Take his face, stubble, the healed scar at his right temple, the washed-out grey-blue shirt with rolled sleeves, charcoal trousers, bare feet, wedding ring. Ignore the white background and the three-view sheet layout.
@@ -861,7 +875,7 @@ REFERENCES
 @L03_living-room — the living room with the curtains closed, empty. Take the room exactly: the grey sofa with a lace throw in the middle, the floral armchair at front left, the low coffee table, the bookshelf on the left wall, the floor lamp, the sewing corner at the back right, the closed curtains on the right wall.
 
 LOOK
-Naturalistic 35mm motion-picture look with fine grain, soft contrast, not glossy. 4:3 frame. The camera is on a tripod and locked unless a shot says otherwise. Lenses 35, 50 and 85mm. The apartment is shut in: curtains closed, still dusty air, sage-green walls, grey and faded wood. Yellow is the only saturated colour in the picture. Evening. Warm floor lamp from behind, deep shadow.
+Naturalistic 35mm motion-picture look with fine grain, soft contrast, not glossy. 16:9 frame, composed centre-safe: everything important stays inside the middle of the picture, and the far left and right edges hold only background. The camera is on a tripod and locked unless a shot says otherwise. Lenses 35, 50 and 85mm. The apartment is shut in: curtains closed, still dusty air, sage-green walls, grey and faded wood. Yellow is the only saturated colour in the picture. Evening. Warm floor lamp from behind, deep shadow.
 
 CHARACTERS
 Adam — 38, gentle, exhausted, quiet. Speaks softly and low, a little hoarse, unhurried, in plain English. He treats the mannequins with complete tenderness and never looks at them as objects. He never eats.
@@ -888,7 +902,8 @@ KEEP CONSISTENT
 - Adam's face, hair and clothes exactly as @adam in every frame.
 - Adam always has the stubble and the healed scar at his right temple.
 - The mannequins are rigid plastic objects with no eyes and no mouth; they never move, blink or breathe on their own.
-- 4:3 frame, tripod, locked camera; no zoom, no drift and no handheld unless a shot states it.
+- 16:9 frame, tripod, locked camera; no zoom, no drift and no handheld unless a shot states it.
+- Centre-safe: faces, hands and props stay in the middle of the frame, never in the outer eighth on either side.
 - The curtains stay closed. No direct sunlight in the apartment.
 - Yellow is the only saturated colour; everything else is muted.
 - Nobody else is in the apartment. No reflections of a crew, no extra people.
@@ -898,12 +913,12 @@ KEEP CONSISTENT
 
 ### G18
 
-**4 · The song & the dance · shots 31, 32 ★ · 10s · 4:3**  
-Seedance 2.5 · omni reference · draft ON (480p) · audio ON · duration 10s · aspect 4:3  
+**4 · The song & the dance · shots 31, 32 ★ · 10s · 16:9**  
+Seedance 2.5 Draft · audio ON · duration 10s · aspect 16:9  
 Attach: `adam`, `doll-wife`, `doll-daughter`, `L03_living-room`
 
 ```text
-A 10-second, 4:3 clip in two shots: the mannequin's arm lies on the floor while he stands holding a one-armed figure; then, on his knees, he pushes the arm back into its socket far too gently and presses the plastic hand to his forehead.
+A 10-second, 16:9 clip in two shots: the mannequin's arm lies on the floor while he stands holding a one-armed figure; then, on his knees, he pushes the arm back into its socket far too gently and presses the plastic hand to his forehead.
 Opens mid-situation: the dance has just stopped; the mannequin's left arm has fallen off.
 
 REFERENCES
@@ -913,7 +928,7 @@ REFERENCES
 @L03_living-room — the living room with the curtains closed, empty. Take the room exactly: the grey sofa with a lace throw in the middle, the floral armchair at front left, the low coffee table, the bookshelf on the left wall, the floor lamp, the sewing corner at the back right, the closed curtains on the right wall.
 
 LOOK
-Naturalistic 35mm motion-picture look with fine grain, soft contrast, not glossy. 4:3 frame. The camera is on a tripod and locked unless a shot says otherwise. Lenses 35, 50 and 85mm. The apartment is shut in: curtains closed, still dusty air, sage-green walls, grey and faded wood. Yellow is the only saturated colour in the picture. Evening. Warm floor lamp, deep shadow.
+Naturalistic 35mm motion-picture look with fine grain, soft contrast, not glossy. 16:9 frame, composed centre-safe: everything important stays inside the middle of the picture, and the far left and right edges hold only background. The camera is on a tripod and locked unless a shot says otherwise. Lenses 35, 50 and 85mm. The apartment is shut in: curtains closed, still dusty air, sage-green walls, grey and faded wood. Yellow is the only saturated colour in the picture. Evening. Warm floor lamp, deep shadow.
 
 CHARACTERS
 Adam — 38, gentle, exhausted, quiet. Speaks softly and low, a little hoarse, unhurried, in plain English. He treats the mannequins with complete tenderness and never looks at them as objects. He never eats.
@@ -942,7 +957,8 @@ KEEP CONSISTENT
 - Adam's face, hair and clothes exactly as @adam in every frame.
 - Adam always has the stubble and the healed scar at his right temple.
 - The mannequins are rigid plastic objects with no eyes and no mouth; they never move, blink or breathe on their own.
-- 4:3 frame, tripod, locked camera; no zoom, no drift and no handheld unless a shot states it.
+- 16:9 frame, tripod, locked camera; no zoom, no drift and no handheld unless a shot states it.
+- Centre-safe: faces, hands and props stay in the middle of the frame, never in the outer eighth on either side.
 - The curtains stay closed. No direct sunlight in the apartment.
 - Yellow is the only saturated colour; everything else is muted.
 - Nobody else is in the apartment. No reflections of a crew, no extra people.
@@ -953,18 +969,18 @@ KEEP CONSISTENT
 
 ### G19
 
-**5 · The knock · shots 33 · 4s · 4:3**  
-Seedance 2.5 · omni reference · draft ON (480p) · audio ON · duration 4s · aspect 4:3  
+**5 · The knock · shots 33 · 4s · 16:9**  
+Seedance 2.5 Draft · audio ON · duration 4s · aspect 16:9  
 Attach: `L05b_hallway-bag`
 
 ```text
-A 4-second, 4:3 insert: the front door from inside as three knocks shake its chain.
+A 4-second, 16:9 insert: the front door from inside as three knocks shake its chain.
 
 REFERENCES
 @L05b_hallway-bag — the entrance hallway, empty, with the sealed hospital bag lying on the console under the mail. Take it exactly: glazed doors on the left, the dark front door at the far end, coat hooks, the wall mirror and the narrow console table with a dead plant, mail and the bag on the right.
 
 LOOK
-Naturalistic 35mm motion-picture look with fine grain, soft contrast, not glossy. 4:3 frame. The camera is on a tripod and locked unless a shot says otherwise. Lenses 35, 50 and 85mm. The apartment is shut in: curtains closed, still dusty air, sage-green walls, grey and faded wood. Yellow is the only saturated colour in the picture. Evening. The hallway is dark; a line of yellowish stairwell light under the front door.
+Naturalistic 35mm motion-picture look with fine grain, soft contrast, not glossy. 16:9 frame, composed centre-safe: everything important stays inside the middle of the picture, and the far left and right edges hold only background. The camera is on a tripod and locked unless a shot says otherwise. Lenses 35, 50 and 85mm. The apartment is shut in: curtains closed, still dusty air, sage-green walls, grey and faded wood. Yellow is the only saturated colour in the picture. Evening. The hallway is dark; a line of yellowish stairwell light under the front door.
 
 WHERE EVERYONE IS — fixed for the whole clip
 Entrance hallway, close on the inside of the front door. Nobody in frame.
@@ -981,7 +997,8 @@ Ambience: Three knocks on solid wood, the chain rattling. Under them, faint from
 No dialogue. No voices, no narration, no added words.
 
 KEEP CONSISTENT
-- 4:3 frame, tripod, locked camera; no zoom, no drift and no handheld unless a shot states it.
+- 16:9 frame, tripod, locked camera; no zoom, no drift and no handheld unless a shot states it.
+- Centre-safe: faces, hands and props stay in the middle of the frame, never in the outer eighth on either side.
 - The curtains stay closed. No direct sunlight in the apartment.
 - Yellow is the only saturated colour; everything else is muted.
 - Nobody else is in the apartment. No reflections of a crew, no extra people.
@@ -991,12 +1008,12 @@ KEEP CONSISTENT
 
 ### G20
 
-**5 · The knock · shots 34 · 5s · 4:3**  
-Seedance 2.5 · omni reference · draft ON (480p) · audio ON · duration 5s · aspect 4:3  
+**5 · The knock · shots 34 · 5s · 16:9**  
+Seedance 2.5 Draft · audio ON · duration 5s · aspect 16:9  
 Attach: `adam`, `P05_radio`, `L01_kitchen`
 
 ```text
-A 5-second, 4:3 close-up: a man freezes at the sound of knocking, then reaches up and turns the radio off.
+A 5-second, 16:9 close-up: a man freezes at the sound of knocking, then reaches up and turns the radio off.
 
 REFERENCES
 @adam — Adam, present day. Take his face, stubble, the healed scar at his right temple, the washed-out grey-blue shirt with rolled sleeves, charcoal trousers, bare feet, wedding ring. Ignore the white background and the three-view sheet layout.
@@ -1004,7 +1021,7 @@ REFERENCES
 @L01_kitchen — the kitchen, empty. Take the room exactly: window with a thin glowing curtain and the sink on the left, the white enamel gas stove in the middle, the wooden counter with the cutting board on the right, the radio on the wall shelf above it, sage walls, terrazzo floor.
 
 LOOK
-Naturalistic 35mm motion-picture look with fine grain, soft contrast, not glossy. 4:3 frame. The camera is on a tripod and locked unless a shot says otherwise. Lenses 35, 50 and 85mm. The apartment is shut in: curtains closed, still dusty air, sage-green walls, grey and faded wood. Yellow is the only saturated colour in the picture. Evening. The bare warm bulb.
+Naturalistic 35mm motion-picture look with fine grain, soft contrast, not glossy. 16:9 frame, composed centre-safe: everything important stays inside the middle of the picture, and the far left and right edges hold only background. The camera is on a tripod and locked unless a shot says otherwise. Lenses 35, 50 and 85mm. The apartment is shut in: curtains closed, still dusty air, sage-green walls, grey and faded wood. Yellow is the only saturated colour in the picture. Evening. The bare warm bulb.
 
 CHARACTERS
 Adam — 38, gentle, exhausted, quiet. Speaks softly and low, a little hoarse, unhurried, in plain English. He treats the mannequins with complete tenderness and never looks at them as objects. He never eats.
@@ -1026,7 +1043,8 @@ No dialogue. No voices, no narration, no added words.
 KEEP CONSISTENT
 - Adam's face, hair and clothes exactly as @adam in every frame.
 - Adam always has the stubble and the healed scar at his right temple.
-- 4:3 frame, tripod, locked camera; no zoom, no drift and no handheld unless a shot states it.
+- 16:9 frame, tripod, locked camera; no zoom, no drift and no handheld unless a shot states it.
+- Centre-safe: faces, hands and props stay in the middle of the frame, never in the outer eighth on either side.
 - The curtains stay closed. No direct sunlight in the apartment.
 - Yellow is the only saturated colour; everything else is muted.
 - Nobody else is in the apartment. No reflections of a crew, no extra people.
@@ -1035,19 +1053,19 @@ KEEP CONSISTENT
 
 ### G21
 
-**5 · The knock · shots 35 · 8s · 4:3**  
-Seedance 2.5 · omni reference · draft ON (480p) · audio ON · duration 8s · aspect 4:3  
+**5 · The knock · shots 35 · 8s · 16:9**  
+Seedance 2.5 Draft · audio ON · duration 8s · aspect 16:9  
 Attach: `adam`, `L05b_hallway-bag`
 
 ```text
-An 8-second, 4:3 wide down the hallway: a man stands small and still in the middle of the hall while a woman speaks to him through the closed front door.
+An 8-second, 16:9 wide down the hallway: a man stands small and still in the middle of the hall while a woman speaks to him through the closed front door.
 
 REFERENCES
 @adam — Adam, present day. Take his face, stubble, the healed scar at his right temple, the washed-out grey-blue shirt with rolled sleeves, charcoal trousers, bare feet, wedding ring. Ignore the white background and the three-view sheet layout.
 @L05b_hallway-bag — the entrance hallway, empty, with the sealed hospital bag lying on the console under the mail. Take it exactly: glazed doors on the left, the dark front door at the far end, coat hooks, the wall mirror and the narrow console table with a dead plant, mail and the bag on the right.
 
 LOOK
-Naturalistic 35mm motion-picture look with fine grain, soft contrast, not glossy. 4:3 frame. The camera is on a tripod and locked unless a shot says otherwise. Lenses 35, 50 and 85mm. The apartment is shut in: curtains closed, still dusty air, sage-green walls, grey and faded wood. Yellow is the only saturated colour in the picture. Evening. The hallway is dark; yellowish stairwell light in a line under the front door.
+Naturalistic 35mm motion-picture look with fine grain, soft contrast, not glossy. 16:9 frame, composed centre-safe: everything important stays inside the middle of the picture, and the far left and right edges hold only background. The camera is on a tripod and locked unless a shot says otherwise. Lenses 35, 50 and 85mm. The apartment is shut in: curtains closed, still dusty air, sage-green walls, grey and faded wood. Yellow is the only saturated colour in the picture. Evening. The hallway is dark; yellowish stairwell light in a line under the front door.
 
 CHARACTERS
 Adam — 38, gentle, exhausted, quiet. Speaks softly and low, a little hoarse, unhurried, in plain English. He treats the mannequins with complete tenderness and never looks at them as objects. He never eats.
@@ -1071,7 +1089,8 @@ No added words, no other voices, no narration.
 KEEP CONSISTENT
 - Adam's face, hair and clothes exactly as @adam in every frame.
 - Adam always has the stubble and the healed scar at his right temple.
-- 4:3 frame, tripod, locked camera; no zoom, no drift and no handheld unless a shot states it.
+- 16:9 frame, tripod, locked camera; no zoom, no drift and no handheld unless a shot states it.
+- Centre-safe: faces, hands and props stay in the middle of the frame, never in the outer eighth on either side.
 - The curtains stay closed. No direct sunlight in the apartment.
 - Yellow is the only saturated colour; everything else is muted.
 - Nobody else is in the apartment. No reflections of a crew, no extra people.
@@ -1083,12 +1102,12 @@ KEEP CONSISTENT
 
 ### G22
 
-**5 · The knock · shots 36 ★, 38 · 10s · 4:3**  
-Seedance 2.5 · omni reference · draft ON (480p) · audio ON · duration 10s · aspect 4:3  
+**5 · The knock · shots 36 ★, 38 · 10s · 16:9**  
+Seedance 2.5 Draft · audio ON · duration 10s · aspect 16:9  
 Attach: `adam`, `doll-daughter`, `L03_living-room`
 
 ```text
-A 10-second, 4:3 clip in two shots: a father crouches by a child mannequin and puts a finger to his lips; then, alone in close-up, he listens to footsteps going away and for one second his face shows that he knows. (In the edit an insert sits between them.)
+A 10-second, 16:9 clip in two shots: a father crouches by a child mannequin and puts a finger to his lips; then, alone in close-up, he listens to footsteps going away and for one second his face shows that he knows. (In the edit an insert sits between them.)
 
 REFERENCES
 @adam — Adam, present day. Take his face, stubble, the healed scar at his right temple, the washed-out grey-blue shirt with rolled sleeves, charcoal trousers, bare feet, wedding ring. Ignore the white background and the three-view sheet layout.
@@ -1096,7 +1115,7 @@ REFERENCES
 @L03_living-room — the living room with the curtains closed, empty. Take the room exactly: the grey sofa with a lace throw in the middle, the floral armchair at front left, the low coffee table, the bookshelf on the left wall, the floor lamp, the sewing corner at the back right, the closed curtains on the right wall.
 
 LOOK
-Naturalistic 35mm motion-picture look with fine grain, soft contrast, not glossy. 4:3 frame. The camera is on a tripod and locked unless a shot says otherwise. Lenses 35, 50 and 85mm. The apartment is shut in: curtains closed, still dusty air, sage-green walls, grey and faded wood. Yellow is the only saturated colour in the picture. Evening. Warm floor lamp behind the sofa, deep shadow.
+Naturalistic 35mm motion-picture look with fine grain, soft contrast, not glossy. 16:9 frame, composed centre-safe: everything important stays inside the middle of the picture, and the far left and right edges hold only background. The camera is on a tripod and locked unless a shot says otherwise. Lenses 35, 50 and 85mm. The apartment is shut in: curtains closed, still dusty air, sage-green walls, grey and faded wood. Yellow is the only saturated colour in the picture. Evening. Warm floor lamp behind the sofa, deep shadow.
 
 CHARACTERS
 Adam — 38, gentle, exhausted, quiet. Speaks softly and low, a little hoarse, unhurried, in plain English. He treats the mannequins with complete tenderness and never looks at them as objects. He never eats.
@@ -1125,7 +1144,8 @@ KEEP CONSISTENT
 - Adam's face, hair and clothes exactly as @adam in every frame.
 - Adam always has the stubble and the healed scar at his right temple.
 - The mannequins are rigid plastic objects with no eyes and no mouth; they never move, blink or breathe on their own.
-- 4:3 frame, tripod, locked camera; no zoom, no drift and no handheld unless a shot states it.
+- 16:9 frame, tripod, locked camera; no zoom, no drift and no handheld unless a shot states it.
+- Centre-safe: faces, hands and props stay in the middle of the frame, never in the outer eighth on either side.
 - The curtains stay closed. No direct sunlight in the apartment.
 - Yellow is the only saturated colour; everything else is muted.
 - Nobody else is in the apartment. No reflections of a crew, no extra people.
@@ -1136,12 +1156,12 @@ KEEP CONSISTENT
 
 ### G23
 
-**5 · The knock · shots 37 ○ · 4s · 4:3**  
-Seedance 2.5 · omni reference · draft ON (480p) · audio ON · duration 4s · aspect 4:3  
+**5 · The knock · shots 37 ○ · 4s · 16:9**  
+Seedance 2.5 Draft · audio ON · duration 4s · aspect 16:9  
 Attach: `mona`, `P14_foil-dish`, `L09_landing`
 
 ```text
-A 4-second, 4:3 floor-level insert on the landing: a woman sets a foil-covered dish down in front of the closed apartment door and walks away. Her face is never shown.
+A 4-second, 16:9 floor-level insert on the landing: a woman sets a foil-covered dish down in front of the closed apartment door and walks away. Her face is never shown.
 
 REFERENCES
 @mona — Mona, Layla's older sister, mid-forties. Take her face, grey-streaked hair in a bun, tortoiseshell glasses, navy dress, long grey cardigan. Ignore the white background and the sheet layout.
@@ -1149,7 +1169,7 @@ REFERENCES
 @L09_landing — the stairwell landing outside the apartment, empty. Take it exactly: the dark wooden apartment door on the right, the doormat, the stairs with an iron railing on the left, the small frosted window.
 
 LOOK
-Naturalistic 35mm motion-picture look with fine grain, soft contrast, not glossy. 4:3 frame. The camera is on a tripod and locked unless a shot says otherwise. Lenses 35, 50 and 85mm. The apartment is shut in: curtains closed, still dusty air, sage-green walls, grey and faded wood. Yellow is the only saturated colour in the picture. Evening. A dim stairwell bulb, greenish-grey walls.
+Naturalistic 35mm motion-picture look with fine grain, soft contrast, not glossy. 16:9 frame, composed centre-safe: everything important stays inside the middle of the picture, and the far left and right edges hold only background. The camera is on a tripod and locked unless a shot says otherwise. Lenses 35, 50 and 85mm. The apartment is shut in: curtains closed, still dusty air, sage-green walls, grey and faded wood. Yellow is the only saturated colour in the picture. Evening. A dim stairwell bulb, greenish-grey walls.
 
 CHARACTERS
 Mona — mid-forties, tired, kind, steady. Speaks low and plainly, in plain English.
@@ -1170,7 +1190,8 @@ No dialogue. No voices, no narration, no added words.
 
 KEEP CONSISTENT
 - Mona's face, hair and clothes exactly as @mona in every frame.
-- 4:3 frame, tripod, locked camera; no zoom, no drift and no handheld unless a shot states it.
+- 16:9 frame, tripod, locked camera; no zoom, no drift and no handheld unless a shot states it.
+- Centre-safe: faces, hands and props stay in the middle of the frame, never in the outer eighth on either side.
 - The curtains stay closed. No direct sunlight in the apartment.
 - Yellow is the only saturated colour; everything else is muted.
 - Nobody else is in the apartment. No reflections of a crew, no extra people.
@@ -1181,12 +1202,12 @@ KEEP CONSISTENT
 
 ### G24
 
-**6 · Dinner & the headlights · shots 39, 40 · 10s · 4:3**  
-Seedance 2.5 · omni reference · draft ON (480p) · audio ON · duration 10s · aspect 4:3  
+**6 · Dinner & the headlights · shots 39, 40 · 10s · 16:9**  
+Seedance 2.5 Draft · audio ON · duration 10s · aspect 16:9  
 Attach: `adam`, `doll-wife`, `doll-daughter`, `P01_yellow-cup`, `L02_dining`
 
 ```text
-A 10-second, 4:3 clip in two shots: the breakfast tableau again, at night, steam rising off three plates while he promises them the sea; then an insert of him pouring water into the yellow cup and not stopping.
+A 10-second, 16:9 clip in two shots: the breakfast tableau again, at night, steam rising off three plates while he promises them the sea; then an insert of him pouring water into the yellow cup and not stopping.
 
 REFERENCES
 @adam — Adam, present day. Take his face, stubble, the healed scar at his right temple, the washed-out grey-blue shirt with rolled sleeves, charcoal trousers, bare feet, wedding ring. Ignore the white background and the three-view sheet layout.
@@ -1196,7 +1217,7 @@ REFERENCES
 @L02_dining — the dining area, empty. Take the room exactly: the table with a lace cloth and four wooden chairs standing in front of the tall closed olive-grey curtains, the sideboard with a mantel clock, the pendant lamp, the kitchen doorway on the right.
 
 LOOK
-Naturalistic 35mm motion-picture look with fine grain, soft contrast, not glossy. 4:3 frame. The camera is on a tripod and locked unless a shot says otherwise. Lenses 35, 50 and 85mm. The apartment is shut in: curtains closed, still dusty air, sage-green walls, grey and faded wood. Yellow is the only saturated colour in the picture. Night. The curtains behind the table are black; one pendant lamp lights the table in a pool, the room around it dark.
+Naturalistic 35mm motion-picture look with fine grain, soft contrast, not glossy. 16:9 frame, composed centre-safe: everything important stays inside the middle of the picture, and the far left and right edges hold only background. The camera is on a tripod and locked unless a shot says otherwise. Lenses 35, 50 and 85mm. The apartment is shut in: curtains closed, still dusty air, sage-green walls, grey and faded wood. Yellow is the only saturated colour in the picture. Night. The curtains behind the table are black; one pendant lamp lights the table in a pool, the room around it dark.
 
 CHARACTERS
 Adam — 38, gentle, exhausted, quiet. Speaks softly and low, a little hoarse, unhurried, in plain English. He treats the mannequins with complete tenderness and never looks at them as objects. He never eats.
@@ -1225,7 +1246,8 @@ KEEP CONSISTENT
 - Adam's face, hair and clothes exactly as @adam in every frame.
 - Adam always has the stubble and the healed scar at his right temple.
 - The mannequins are rigid plastic objects with no eyes and no mouth; they never move, blink or breathe on their own.
-- 4:3 frame, tripod, locked camera; no zoom, no drift and no handheld unless a shot states it.
+- 16:9 frame, tripod, locked camera; no zoom, no drift and no handheld unless a shot states it.
+- Centre-safe: faces, hands and props stay in the middle of the frame, never in the outer eighth on either side.
 - The curtains stay closed. No direct sunlight in the apartment.
 - Yellow is the only saturated colour; everything else is muted.
 - Nobody else is in the apartment. No reflections of a crew, no extra people.
@@ -1237,12 +1259,12 @@ KEEP CONSISTENT
 
 ### G25
 
-**6 · Dinner & the headlights · shots 41 ★ · 5s · 4:3**  
-Seedance 2.5 · omni reference · draft ON (480p) · audio ON · duration 5s · aspect 4:3  
+**6 · Dinner & the headlights · shots 41 ★ · 5s · 16:9**  
+Seedance 2.5 Draft · audio ON · duration 5s · aspect 16:9  
 Attach: `doll-wife`, `doll-daughter`, `adam`, `L02_dining`
 
 ```text
-A 5-second, 4:3 hero shot: a vehicle passes in the street and its headlights come through the gap in the curtains, sweep across the wall and slide over two blank plastic faces. Only the light moves.
+A 5-second, 16:9 hero shot: a vehicle passes in the street and its headlights come through the gap in the curtains, sweep across the wall and slide over two blank plastic faces. Only the light moves.
 
 REFERENCES
 @doll-wife — the adult mannequin. A life-size shop display mannequin in matte ivory plastic, smooth head with NO eyes and NO mouth, a slightly crooked dark wig, Layla's burgundy cardigan over a plain grey dress, visible seams at neck, shoulders and wrists. Ignore the white background and the sheet layout.
@@ -1251,7 +1273,7 @@ REFERENCES
 @L02_dining — the dining area, empty. Take the room exactly: the table with a lace cloth and four wooden chairs standing in front of the tall closed olive-grey curtains, the sideboard with a mantel clock, the pendant lamp, the kitchen doorway on the right.
 
 LOOK
-Naturalistic 35mm motion-picture look with fine grain, soft contrast, not glossy. 4:3 frame. The camera is on a tripod and locked unless a shot says otherwise. Lenses 35, 50 and 85mm. The apartment is shut in: curtains closed, still dusty air, sage-green walls, grey and faded wood. Yellow is the only saturated colour in the picture. Night. Pendant lamp over the table. A narrow gap between the curtains.
+Naturalistic 35mm motion-picture look with fine grain, soft contrast, not glossy. 16:9 frame, composed centre-safe: everything important stays inside the middle of the picture, and the far left and right edges hold only background. The camera is on a tripod and locked unless a shot says otherwise. Lenses 35, 50 and 85mm. The apartment is shut in: curtains closed, still dusty air, sage-green walls, grey and faded wood. Yellow is the only saturated colour in the picture. Night. Pendant lamp over the table. A narrow gap between the curtains.
 
 CHARACTERS
 Adam — 38, gentle, exhausted, quiet. Speaks softly and low, a little hoarse, unhurried, in plain English. He treats the mannequins with complete tenderness and never looks at them as objects. He never eats.
@@ -1277,7 +1299,8 @@ KEEP CONSISTENT
 - Adam's face, hair and clothes exactly as @adam in every frame.
 - Adam always has the stubble and the healed scar at his right temple.
 - The mannequins are rigid plastic objects with no eyes and no mouth; they never move, blink or breathe on their own.
-- 4:3 frame, tripod, locked camera; no zoom, no drift and no handheld unless a shot states it.
+- 16:9 frame, tripod, locked camera; no zoom, no drift and no handheld unless a shot states it.
+- Centre-safe: faces, hands and props stay in the middle of the frame, never in the outer eighth on either side.
 - The curtains stay closed. No direct sunlight in the apartment.
 - Yellow is the only saturated colour; everything else is muted.
 - Nobody else is in the apartment. No reflections of a crew, no extra people.
@@ -1287,12 +1310,12 @@ KEEP CONSISTENT
 
 ### G26
 
-**6 · Dinner & the headlights · shots 44 · 5s · 4:3**  
-Seedance 2.5 · omni reference · draft ON (480p) · audio ON · duration 5s · aspect 4:3  
+**6 · Dinner & the headlights · shots 44 · 5s · 16:9**  
+Seedance 2.5 Draft · audio ON · duration 5s · aspect 16:9  
 Attach: `adam`, `P01_yellow-cup`, `L02_dining`
 
 ```text
-A 5-second, 4:3 close-up: he comes back from the memory gripping the table edge, the cup on its side, and ends the evening.
+A 5-second, 16:9 close-up: he comes back from the memory gripping the table edge, the cup on its side, and ends the evening.
 Opens mid-situation: the yellow cup has been knocked over and water covers the table.
 
 REFERENCES
@@ -1301,7 +1324,7 @@ REFERENCES
 @L02_dining — the dining area, empty. Take the room exactly: the table with a lace cloth and four wooden chairs standing in front of the tall closed olive-grey curtains, the sideboard with a mantel clock, the pendant lamp, the kitchen doorway on the right.
 
 LOOK
-Naturalistic 35mm motion-picture look with fine grain, soft contrast, not glossy. 4:3 frame. The camera is on a tripod and locked unless a shot says otherwise. Lenses 35, 50 and 85mm. The apartment is shut in: curtains closed, still dusty air, sage-green walls, grey and faded wood. Yellow is the only saturated colour in the picture. Night. Pendant lamp from above, hard on his face.
+Naturalistic 35mm motion-picture look with fine grain, soft contrast, not glossy. 16:9 frame, composed centre-safe: everything important stays inside the middle of the picture, and the far left and right edges hold only background. The camera is on a tripod and locked unless a shot says otherwise. Lenses 35, 50 and 85mm. The apartment is shut in: curtains closed, still dusty air, sage-green walls, grey and faded wood. Yellow is the only saturated colour in the picture. Night. Pendant lamp from above, hard on his face.
 
 CHARACTERS
 Adam — 38, gentle, exhausted, quiet. Speaks softly and low, a little hoarse, unhurried, in plain English. He treats the mannequins with complete tenderness and never looks at them as objects. He never eats.
@@ -1325,7 +1348,8 @@ No added words, no other voices, no narration.
 KEEP CONSISTENT
 - Adam's face, hair and clothes exactly as @adam in every frame.
 - Adam always has the stubble and the healed scar at his right temple.
-- 4:3 frame, tripod, locked camera; no zoom, no drift and no handheld unless a shot states it.
+- 16:9 frame, tripod, locked camera; no zoom, no drift and no handheld unless a shot states it.
+- Centre-safe: faces, hands and props stay in the middle of the frame, never in the outer eighth on either side.
 - The curtains stay closed. No direct sunlight in the apartment.
 - Yellow is the only saturated colour; everything else is muted.
 - Nobody else is in the apartment. No reflections of a crew, no extra people.
@@ -1336,7 +1360,7 @@ KEEP CONSISTENT
 ### G27
 
 **6 · Dinner & the headlights (flash 4) · shots 42, 43 · 5s · 16:9**  
-Seedance 2.5 · omni reference · draft ON (480p) · audio ON · duration 5s · aspect 16:9  
+Seedance 2.5 Draft · audio ON · duration 5s · aspect 16:9  
 Attach: `layla`, `L07_car-front`, `L08_desert-road`
 
 ```text
@@ -1380,12 +1404,12 @@ KEEP CONSISTENT
 
 ### G28
 
-**7 · Bedtime · shots 45 · 5s · 4:3**  
-Seedance 2.5 · omni reference · draft ON (480p) · audio ON · duration 5s · aspect 4:3  
+**7 · Bedtime · shots 45 · 5s · 16:9**  
+Seedance 2.5 Draft · audio ON · duration 5s · aspect 16:9  
 Attach: `adam`, `doll-daughter`, `L06_nour-room`
 
 ```text
-A 5-second, 4:3 wide from behind: a man carries a child-size mannequin down a dark corridor toward a room glowing with a star night-light.
+A 5-second, 16:9 wide from behind: a man carries a child-size mannequin down a dark corridor toward a room glowing with a star night-light.
 
 REFERENCES
 @adam — Adam, present day. Take his face, stubble, the healed scar at his right temple, the washed-out grey-blue shirt with rolled sleeves, charcoal trousers, bare feet, wedding ring. Ignore the white background and the three-view sheet layout.
@@ -1393,7 +1417,7 @@ REFERENCES
 @L06_nour-room — Nour's bedroom at night, empty. Take it exactly: the small bed against the left wall, the rabbit on the pillow, the star night-light on the bedside table, the curtained window on the back wall, the small desk with paper and crayons on the right, the open door at far right, crayon scribbles taped above the bed, stars projected on the walls and ceiling.
 
 LOOK
-Naturalistic 35mm motion-picture look with fine grain, soft contrast, not glossy. 4:3 frame. The camera is on a tripod and locked unless a shot says otherwise. Lenses 35, 50 and 85mm. The apartment is shut in: curtains closed, still dusty air, sage-green walls, grey and faded wood. Yellow is the only saturated colour in the picture. Night. A dark corridor; the only light is the warm star glow from the open bedroom door ahead.
+Naturalistic 35mm motion-picture look with fine grain, soft contrast, not glossy. 16:9 frame, composed centre-safe: everything important stays inside the middle of the picture, and the far left and right edges hold only background. The camera is on a tripod and locked unless a shot says otherwise. Lenses 35, 50 and 85mm. The apartment is shut in: curtains closed, still dusty air, sage-green walls, grey and faded wood. Yellow is the only saturated colour in the picture. Night. A dark corridor; the only light is the warm star glow from the open bedroom door ahead.
 
 CHARACTERS
 Adam — 38, gentle, exhausted, quiet. Speaks softly and low, a little hoarse, unhurried, in plain English. He treats the mannequins with complete tenderness and never looks at them as objects. He never eats.
@@ -1419,7 +1443,8 @@ KEEP CONSISTENT
 - Adam's face, hair and clothes exactly as @adam in every frame.
 - Adam always has the stubble and the healed scar at his right temple.
 - The mannequins are rigid plastic objects with no eyes and no mouth; they never move, blink or breathe on their own.
-- 4:3 frame, tripod, locked camera; no zoom, no drift and no handheld unless a shot states it.
+- 16:9 frame, tripod, locked camera; no zoom, no drift and no handheld unless a shot states it.
+- Centre-safe: faces, hands and props stay in the middle of the frame, never in the outer eighth on either side.
 - The curtains stay closed. No direct sunlight in the apartment.
 - Yellow is the only saturated colour; everything else is muted.
 - Nobody else is in the apartment. No reflections of a crew, no extra people.
@@ -1429,12 +1454,12 @@ KEEP CONSISTENT
 
 ### G29
 
-**7 · Bedtime · shots 46, 47, 48 · 16s · 4:3**  
-Seedance 2.5 · omni reference · draft ON (480p) · audio ON · duration 16s · aspect 4:3  
+**7 · Bedtime · shots 46, 47, 48 · 16s · 16:9**  
+Seedance 2.5 Draft · audio ON · duration 16s · aspect 16:9  
 Attach: `adam`, `doll-daughter`, `P10_rabbit`, `L06_nour-room`
 
 ```text
-A 16-second, 4:3 clip in three shots: he tucks the child mannequin into bed and sets the rabbit beside it; he kisses its forehead and stays a moment too long while projected stars drift over his face; from the doorway he switches off the lamp and only the stars remain.
+A 16-second, 16:9 clip in three shots: he tucks the child mannequin into bed and sets the rabbit beside it; he kisses its forehead and stays a moment too long while projected stars drift over his face; from the doorway he switches off the lamp and only the stars remain.
 
 REFERENCES
 @adam — Adam, present day. Take his face, stubble, the healed scar at his right temple, the washed-out grey-blue shirt with rolled sleeves, charcoal trousers, bare feet, wedding ring. Ignore the white background and the three-view sheet layout.
@@ -1443,7 +1468,7 @@ REFERENCES
 @L06_nour-room — Nour's bedroom at night, empty. Take it exactly: the small bed against the left wall, the rabbit on the pillow, the star night-light on the bedside table, the curtained window on the back wall, the small desk with paper and crayons on the right, the open door at far right, crayon scribbles taped above the bed, stars projected on the walls and ceiling.
 
 LOOK
-Naturalistic 35mm motion-picture look with fine grain, soft contrast, not glossy. 4:3 frame. The camera is on a tripod and locked unless a shot says otherwise. Lenses 35, 50 and 85mm. The apartment is shut in: curtains closed, still dusty air, sage-green walls, grey and faded wood. Yellow is the only saturated colour in the picture. Night. A small bedside lamp and the star night-light; warm amber on deep blue. After the lamp goes off, only the stars.
+Naturalistic 35mm motion-picture look with fine grain, soft contrast, not glossy. 16:9 frame, composed centre-safe: everything important stays inside the middle of the picture, and the far left and right edges hold only background. The camera is on a tripod and locked unless a shot says otherwise. Lenses 35, 50 and 85mm. The apartment is shut in: curtains closed, still dusty air, sage-green walls, grey and faded wood. Yellow is the only saturated colour in the picture. Night. A small bedside lamp and the star night-light; warm amber on deep blue. After the lamp goes off, only the stars.
 
 CHARACTERS
 Adam — 38, gentle, exhausted, quiet. Speaks softly and low, a little hoarse, unhurried, in plain English. He treats the mannequins with complete tenderness and never looks at them as objects. He never eats.
@@ -1473,7 +1498,8 @@ KEEP CONSISTENT
 - Adam's face, hair and clothes exactly as @adam in every frame.
 - Adam always has the stubble and the healed scar at his right temple.
 - The mannequins are rigid plastic objects with no eyes and no mouth; they never move, blink or breathe on their own.
-- 4:3 frame, tripod, locked camera; no zoom, no drift and no handheld unless a shot states it.
+- 16:9 frame, tripod, locked camera; no zoom, no drift and no handheld unless a shot states it.
+- Centre-safe: faces, hands and props stay in the middle of the frame, never in the outer eighth on either side.
 - The curtains stay closed. No direct sunlight in the apartment.
 - Yellow is the only saturated colour; everything else is muted.
 - Nobody else is in the apartment. No reflections of a crew, no extra people.
@@ -1485,19 +1511,19 @@ KEEP CONSISTENT
 
 ### G30
 
-**7 · Bedtime · shots 49 ★, 50 ★ · 10s · 4:3**  
-Seedance 2.5 · omni reference · draft ON (480p) · audio ON · duration 10s · aspect 4:3  
+**7 · Bedtime · shots 49 ★, 50 ★ · 10s · 16:9**  
+Seedance 2.5 Draft · audio ON · duration 10s · aspect 16:9  
 Attach: `adam`, `L06_nour-room`
 
 ```text
-A 10-second, 4:3 hero clip in two shots: in the doorway, about to leave, he stops; a child's voice behind him says two words; he does not turn around. The camera never shows the bed.
+A 10-second, 16:9 hero clip in two shots: in the doorway, about to leave, he stops; a child's voice behind him says two words; he does not turn around. The camera never shows the bed.
 
 REFERENCES
 @adam — Adam, present day. Take his face, stubble, the healed scar at his right temple, the washed-out grey-blue shirt with rolled sleeves, charcoal trousers, bare feet, wedding ring. Ignore the white background and the three-view sheet layout.
 @L06_nour-room — Nour's bedroom at night, empty. Take it exactly: the small bed against the left wall, the rabbit on the pillow, the star night-light on the bedside table, the curtained window on the back wall, the small desk with paper and crayons on the right, the open door at far right, crayon scribbles taped above the bed, stars projected on the walls and ceiling.
 
 LOOK
-Naturalistic 35mm motion-picture look with fine grain, soft contrast, not glossy. 4:3 frame. The camera is on a tripod and locked unless a shot says otherwise. Lenses 35, 50 and 85mm. The apartment is shut in: curtains closed, still dusty air, sage-green walls, grey and faded wood. Yellow is the only saturated colour in the picture. Night. Only the star night-light: slow amber stars over deep blue; his face half in darkness.
+Naturalistic 35mm motion-picture look with fine grain, soft contrast, not glossy. 16:9 frame, composed centre-safe: everything important stays inside the middle of the picture, and the far left and right edges hold only background. The camera is on a tripod and locked unless a shot says otherwise. Lenses 35, 50 and 85mm. The apartment is shut in: curtains closed, still dusty air, sage-green walls, grey and faded wood. Yellow is the only saturated colour in the picture. Night. Only the star night-light: slow amber stars over deep blue; his face half in darkness.
 
 CHARACTERS
 Adam — 38, gentle, exhausted, quiet. Speaks softly and low, a little hoarse, unhurried, in plain English. He treats the mannequins with complete tenderness and never looks at them as objects. He never eats.
@@ -1522,7 +1548,8 @@ No added words, no other voices, no narration.
 KEEP CONSISTENT
 - Adam's face, hair and clothes exactly as @adam in every frame.
 - Adam always has the stubble and the healed scar at his right temple.
-- 4:3 frame, tripod, locked camera; no zoom, no drift and no handheld unless a shot states it.
+- 16:9 frame, tripod, locked camera; no zoom, no drift and no handheld unless a shot states it.
+- Centre-safe: faces, hands and props stay in the middle of the frame, never in the outer eighth on either side.
 - The curtains stay closed. No direct sunlight in the apartment.
 - Yellow is the only saturated colour; everything else is muted.
 - Nobody else is in the apartment. No reflections of a crew, no extra people.
@@ -1535,7 +1562,7 @@ KEEP CONSISTENT
 ### G31
 
 **8 · The road · shots 51 · 5s · 16:9**  
-Seedance 2.5 · omni reference · draft ON (480p) · audio ON · duration 5s · aspect 16:9  
+Seedance 2.5 Draft · audio ON · duration 5s · aspect 16:9  
 Attach: `P13_family-car`, `L08_desert-road`
 
 ```text
@@ -1573,7 +1600,7 @@ KEEP CONSISTENT
 ### G32
 
 **8 · The road · shots 52, 53, 54, 55 · 15s · 16:9**  
-Seedance 2.5 · omni reference · draft ON (480p) · audio ON · duration 15s · aspect 16:9  
+Seedance 2.5 Draft · audio ON · duration 15s · aspect 16:9  
 Attach: `adam-before`, `layla`, `nour`, `L07_car-front`, `L07b_car-backseat`
 
 ```text
@@ -1630,7 +1657,7 @@ KEEP CONSISTENT
 ### G33
 
 **8 · The road · shots 56, 57, 58, 59 · 14s · 16:9**  
-Seedance 2.5 · omni reference · draft ON (480p) · audio ON · duration 14s · aspect 16:9  
+Seedance 2.5 Draft · audio ON · duration 14s · aspect 16:9  
 Attach: `adam-before`, `layla`, `nour`, `L07_car-front`, `L07b_car-backseat`
 
 ```text
@@ -1688,7 +1715,7 @@ KEEP CONSISTENT
 ### G34
 
 **8 · The road · shots 60 ★, 61 · 8s · 16:9**  
-Seedance 2.5 · omni reference · draft ON (480p) · audio ON · duration 8s · aspect 16:9  
+Seedance 2.5 Draft · audio ON · duration 8s · aspect 16:9  
 Attach: `adam-before`, `nour`, `L07_car-front`, `L07b_car-backseat`
 
 ```text
@@ -1738,7 +1765,7 @@ KEEP CONSISTENT
 ### G35
 
 **8 · The road · shots 62, 63 · 5s · 16:9**  
-Seedance 2.5 · omni reference · draft ON (480p) · audio ON · duration 5s · aspect 16:9  
+Seedance 2.5 Draft · audio ON · duration 5s · aspect 16:9  
 Attach: `layla`, `L07_car-front`
 
 ```text
@@ -1785,7 +1812,7 @@ KEEP CONSISTENT
 ### G36
 
 **8 · The road · shots 65 ★ · 5s · 16:9**  
-Seedance 2.5 · omni reference · draft ON (480p) · audio ON · duration 5s · aspect 16:9  
+Seedance 2.5 Draft · audio ON · duration 5s · aspect 16:9  
 Attach: `P12_crayons`, `L08_desert-road`
 
 ```text
@@ -1823,11 +1850,11 @@ KEEP CONSISTENT
 ### G37
 
 **8 → 9 · Asphalt to floor (match cut) · shots 66 ★, 67 ★ · 10s · 16:9**  
-Seedance 2.5 · omni reference · draft ON (480p) · audio ON · duration 10s · aspect 16:9  
+Seedance 2.5 Draft · audio ON · duration 10s · aspect 16:9  
 Attach: `adam`, `L06_nour-room`
 
 ```text
-A 10-second, 16:9 hero clip built on one MATCH CUT: an extreme close-up of a man's open eye, his cheek on asphalt at dusk; cut to the same eye, same size, same angle, his cheek on a bedroom floor four months later. Generate at 16:9 and keep the eye centred: shot two is cropped to 4:3 in the edit.
+A 10-second, 16:9 hero clip built on one MATCH CUT: an extreme close-up of a man's open eye, his cheek on asphalt at dusk; cut to the same eye, same size, same angle, his cheek on a bedroom floor four months later. Keep the eye exactly centred in both shots.
 
 REFERENCES
 @adam — Adam, present day. Take his face, stubble, the healed scar at his right temple, the washed-out grey-blue shirt with rolled sleeves, charcoal trousers, bare feet, wedding ring. Ignore the white background and the three-view sheet layout.
@@ -1866,12 +1893,12 @@ KEEP CONSISTENT
 
 ### G38
 
-**9 · The floor · shots 68 ★ · 5s · 4:3**  
-Seedance 2.5 · omni reference · draft ON (480p) · audio ON · duration 5s · aspect 4:3  
+**9 · The floor · shots 68 ★ · 5s · 16:9**  
+Seedance 2.5 Draft · audio ON · duration 5s · aspect 16:9  
 Attach: `doll-daughter`, `P10_rabbit`, `L06_nour-room`
 
 ```text
-A 5-second, 4:3 hero shot from the floor: the bed, and under the blanket, plainly, a child-size plastic figure with its wig askew. Nothing moves. Nothing speaks.
+A 5-second, 16:9 hero shot from the floor: the bed, and under the blanket, plainly, a child-size plastic figure with its wig askew. Nothing moves. Nothing speaks.
 
 REFERENCES
 @doll-daughter — the child mannequin. A child-size display mannequin in matte ivory plastic, smooth head with NO eyes and NO mouth, a dark wig in two bad braids, an unfinished yellow dress with pins, white tacking thread and one sleeve missing. Ignore the white background and the sheet layout.
@@ -1879,7 +1906,7 @@ REFERENCES
 @L06_nour-room — Nour's bedroom at night, empty. Take it exactly: the small bed against the left wall, the rabbit on the pillow, the star night-light on the bedside table, the curtained window on the back wall, the small desk with paper and crayons on the right, the open door at far right, crayon scribbles taped above the bed, stars projected on the walls and ceiling.
 
 LOOK
-Naturalistic 35mm motion-picture look with fine grain, soft contrast, not glossy. 4:3 frame. The camera is on a tripod and locked unless a shot says otherwise. Lenses 35, 50 and 85mm. The apartment is shut in: curtains closed, still dusty air, sage-green walls, grey and faded wood. Yellow is the only saturated colour in the picture. Night. Only the star night-light: amber stars drifting over deep blue.
+Naturalistic 35mm motion-picture look with fine grain, soft contrast, not glossy. 16:9 frame, composed centre-safe: everything important stays inside the middle of the picture, and the far left and right edges hold only background. The camera is on a tripod and locked unless a shot says otherwise. Lenses 35, 50 and 85mm. The apartment is shut in: curtains closed, still dusty air, sage-green walls, grey and faded wood. Yellow is the only saturated colour in the picture. Night. Only the star night-light: amber stars drifting over deep blue.
 
 MANNEQUIN RULE
 The mannequins are rigid, hard, hollow plastic objects. They never blink, breathe, turn, nod, bend or shift on their own. They have no eyes and no mouth. They move only when Adam's hands move them, the way a chair moves. They never speak and nothing answers him.
@@ -1900,7 +1927,8 @@ No dialogue. No voices, no narration, no added words.
 
 KEEP CONSISTENT
 - The mannequins are rigid plastic objects with no eyes and no mouth; they never move, blink or breathe on their own.
-- 4:3 frame, tripod, locked camera; no zoom, no drift and no handheld unless a shot states it.
+- 16:9 frame, tripod, locked camera; no zoom, no drift and no handheld unless a shot states it.
+- Centre-safe: faces, hands and props stay in the middle of the frame, never in the outer eighth on either side.
 - The curtains stay closed. No direct sunlight in the apartment.
 - Yellow is the only saturated colour; everything else is muted.
 - Nobody else is in the apartment. No reflections of a crew, no extra people.
@@ -1911,19 +1939,19 @@ KEEP CONSISTENT
 
 ### G39
 
-**9 · The floor · shots 69 ★, 70 ○ · 12s · 4:3**  
-Seedance 2.5 · omni reference · draft ON (480p) · audio ON · duration 12s · aspect 4:3  
+**9 · The floor · shots 69 ★, 70 ○ · 12s · 16:9**  
+Seedance 2.5 Draft · audio ON · duration 12s · aspect 16:9  
 Attach: `adam`, `L06_nour-room`
 
 ```text
-A 12-second, 4:3 hero clip in two shots: he pulls himself up against the bed and finally breaks, silently, then aloud, the first real crying in the film; then a wide of the room as dawn reaches the window and he has not moved.
+A 12-second, 16:9 hero clip in two shots: he pulls himself up against the bed and finally breaks, silently, then aloud, the first real crying in the film; then a wide of the room as dawn reaches the window and he has not moved.
 
 REFERENCES
 @adam — Adam, present day. Take his face, stubble, the healed scar at his right temple, the washed-out grey-blue shirt with rolled sleeves, charcoal trousers, bare feet, wedding ring. Ignore the white background and the three-view sheet layout.
 @L06_nour-room — Nour's bedroom at night, empty. Take it exactly: the small bed against the left wall, the rabbit on the pillow, the star night-light on the bedside table, the curtained window on the back wall, the small desk with paper and crayons on the right, the open door at far right, crayon scribbles taped above the bed, stars projected on the walls and ceiling.
 
 LOOK
-Naturalistic 35mm motion-picture look with fine grain, soft contrast, not glossy. 4:3 frame. The camera is on a tripod and locked unless a shot says otherwise. Lenses 35, 50 and 85mm. The apartment is shut in: curtains closed, still dusty air, sage-green walls, grey and faded wood. Yellow is the only saturated colour in the picture. Night going to dawn. Amber stars on deep blue; by the last shot the edge of the curtain turns from blue to grey-gold.
+Naturalistic 35mm motion-picture look with fine grain, soft contrast, not glossy. 16:9 frame, composed centre-safe: everything important stays inside the middle of the picture, and the far left and right edges hold only background. The camera is on a tripod and locked unless a shot says otherwise. Lenses 35, 50 and 85mm. The apartment is shut in: curtains closed, still dusty air, sage-green walls, grey and faded wood. Yellow is the only saturated colour in the picture. Night going to dawn. Amber stars on deep blue; by the last shot the edge of the curtain turns from blue to grey-gold.
 
 CHARACTERS
 Adam — 38, gentle, exhausted, quiet. Speaks softly and low, a little hoarse, unhurried, in plain English. He treats the mannequins with complete tenderness and never looks at them as objects. He never eats.
@@ -1946,7 +1974,8 @@ No dialogue. No voices, no narration, no added words.
 KEEP CONSISTENT
 - Adam's face, hair and clothes exactly as @adam in every frame.
 - Adam always has the stubble and the healed scar at his right temple.
-- 4:3 frame, tripod, locked camera; no zoom, no drift and no handheld unless a shot states it.
+- 16:9 frame, tripod, locked camera; no zoom, no drift and no handheld unless a shot states it.
+- Centre-safe: faces, hands and props stay in the middle of the frame, never in the outer eighth on either side.
 - The curtains stay closed. No direct sunlight in the apartment.
 - Yellow is the only saturated colour; everything else is muted.
 - Nobody else is in the apartment. No reflections of a crew, no extra people.
@@ -1957,19 +1986,19 @@ KEEP CONSISTENT
 
 ### G40
 
-**10 · The bag · shots 71 · 5s · 4:3**  
-Seedance 2.5 · omni reference · draft ON (480p) · audio ON · duration 5s · aspect 4:3  
+**10 · The bag · shots 71 · 5s · 16:9**  
+Seedance 2.5 Draft · audio ON · duration 5s · aspect 16:9  
 Attach: `adam`, `L05b_hallway-bag`
 
 ```text
-A 5-second, 4:3 wide down the hallway: he walks slowly to the console by the front door and stops in front of it.
+A 5-second, 16:9 wide down the hallway: he walks slowly to the console by the front door and stops in front of it.
 
 REFERENCES
 @adam — Adam, present day. Take his face, stubble, the healed scar at his right temple, the washed-out grey-blue shirt with rolled sleeves, charcoal trousers, bare feet, wedding ring. Ignore the white background and the three-view sheet layout.
 @L05b_hallway-bag — the entrance hallway, empty, with the sealed hospital bag lying on the console under the mail. Take it exactly: glazed doors on the left, the dark front door at the far end, coat hooks, the wall mirror and the narrow console table with a dead plant, mail and the bag on the right.
 
 LOOK
-Naturalistic 35mm motion-picture look with fine grain, soft contrast, not glossy. 4:3 frame. The camera is on a tripod and locked unless a shot says otherwise. Lenses 35, 50 and 85mm. The apartment is shut in: curtains closed, still dusty air, sage-green walls, grey and faded wood. Yellow is the only saturated colour in the picture. Dawn. Grey-blue light through the glazed doors; the hallway is cold and pale.
+Naturalistic 35mm motion-picture look with fine grain, soft contrast, not glossy. 16:9 frame, composed centre-safe: everything important stays inside the middle of the picture, and the far left and right edges hold only background. The camera is on a tripod and locked unless a shot says otherwise. Lenses 35, 50 and 85mm. The apartment is shut in: curtains closed, still dusty air, sage-green walls, grey and faded wood. Yellow is the only saturated colour in the picture. Dawn. Grey-blue light through the glazed doors; the hallway is cold and pale.
 
 CHARACTERS
 Adam — 38, gentle, exhausted, quiet. Speaks softly and low, a little hoarse, unhurried, in plain English. He treats the mannequins with complete tenderness and never looks at them as objects. He never eats.
@@ -1991,7 +2020,8 @@ No dialogue. No voices, no narration, no added words.
 KEEP CONSISTENT
 - Adam's face, hair and clothes exactly as @adam in every frame.
 - Adam always has the stubble and the healed scar at his right temple.
-- 4:3 frame, tripod, locked camera; no zoom, no drift and no handheld unless a shot states it.
+- 16:9 frame, tripod, locked camera; no zoom, no drift and no handheld unless a shot states it.
+- Centre-safe: faces, hands and props stay in the middle of the frame, never in the outer eighth on either side.
 - The curtains stay closed. No direct sunlight in the apartment.
 - Yellow is the only saturated colour; everything else is muted.
 - Nobody else is in the apartment. No reflections of a crew, no extra people.
@@ -2001,12 +2031,12 @@ KEEP CONSISTENT
 
 ### G41
 
-**10 · The bag · shots 72, 73, 74 · 14s · 4:3**  
-Seedance 2.5 · omni reference · draft ON (480p) · audio ON · duration 14s · aspect 4:3  
+**10 · The bag · shots 72, 73, 74 · 14s · 16:9**  
+Seedance 2.5 Draft · audio ON · duration 14s · aspect 16:9  
 Attach: `adam`, `P06_hospital-bag`, `P07_bag-contents`, `L05b_hallway-bag`
 
 ```text
-A 14-second, 4:3 clip in three shots: his hands lift the sealed hospital bag out from under the mail and tear it open; a top shot of what was in it, laid on the wood; his hands unfold the sheet of paper, its back to us.
+A 14-second, 16:9 clip in three shots: his hands lift the sealed hospital bag out from under the mail and tear it open; a top shot of what was in it, laid on the wood; his hands unfold the sheet of paper, its back to us.
 
 REFERENCES
 @adam — Adam, present day. Take his face, stubble, the healed scar at his right temple, the washed-out grey-blue shirt with rolled sleeves, charcoal trousers, bare feet, wedding ring. Ignore the white background and the three-view sheet layout.
@@ -2015,7 +2045,7 @@ REFERENCES
 @L05b_hallway-bag — the entrance hallway, empty, with the sealed hospital bag lying on the console under the mail. Take it exactly: glazed doors on the left, the dark front door at the far end, coat hooks, the wall mirror and the narrow console table with a dead plant, mail and the bag on the right.
 
 LOOK
-Naturalistic 35mm motion-picture look with fine grain, soft contrast, not glossy. 4:3 frame. The camera is on a tripod and locked unless a shot says otherwise. Lenses 35, 50 and 85mm. The apartment is shut in: curtains closed, still dusty air, sage-green walls, grey and faded wood. Yellow is the only saturated colour in the picture. Dawn. Cold pale light from the left; the console top in soft grey.
+Naturalistic 35mm motion-picture look with fine grain, soft contrast, not glossy. 16:9 frame, composed centre-safe: everything important stays inside the middle of the picture, and the far left and right edges hold only background. The camera is on a tripod and locked unless a shot says otherwise. Lenses 35, 50 and 85mm. The apartment is shut in: curtains closed, still dusty air, sage-green walls, grey and faded wood. Yellow is the only saturated colour in the picture. Dawn. Cold pale light from the left; the console top in soft grey.
 
 CHARACTERS
 Adam — 38, gentle, exhausted, quiet. Speaks softly and low, a little hoarse, unhurried, in plain English. He treats the mannequins with complete tenderness and never looks at them as objects. He never eats.
@@ -2039,7 +2069,8 @@ No dialogue. No voices, no narration, no added words.
 KEEP CONSISTENT
 - Adam's face, hair and clothes exactly as @adam in every frame.
 - Adam always has the stubble and the healed scar at his right temple.
-- 4:3 frame, tripod, locked camera; no zoom, no drift and no handheld unless a shot states it.
+- 16:9 frame, tripod, locked camera; no zoom, no drift and no handheld unless a shot states it.
+- Centre-safe: faces, hands and props stay in the middle of the frame, never in the outer eighth on either side.
 - The curtains stay closed. No direct sunlight in the apartment.
 - Yellow is the only saturated colour; everything else is muted.
 - Nobody else is in the apartment. No reflections of a crew, no extra people.
@@ -2051,19 +2082,19 @@ KEEP CONSISTENT
 
 ### G42
 
-**10 · The bag · shots 75 ★ · 6s · 4:3**  
-Seedance 2.5 · omni reference · draft ON (480p) · audio ON · duration 6s · aspect 4:3  
+**10 · The bag · shots 75 ★ · 6s · 16:9**  
+Seedance 2.5 Draft · audio ON · duration 6s · aspect 16:9  
 Attach: `adam`, `L05b_hallway-bag`
 
 ```text
-A 6-second, 4:3 hero close-up with a very slow push-in: his face as he finally looks at his daughter's drawing. Grief, and then, impossibly, a breath of a laugh.
+A 6-second, 16:9 hero close-up with a very slow push-in: his face as he finally looks at his daughter's drawing. Grief, and then, impossibly, a breath of a laugh.
 
 REFERENCES
 @adam — Adam, present day. Take his face, stubble, the healed scar at his right temple, the washed-out grey-blue shirt with rolled sleeves, charcoal trousers, bare feet, wedding ring. Ignore the white background and the three-view sheet layout.
 @L05b_hallway-bag — the entrance hallway, empty, with the sealed hospital bag lying on the console under the mail. Take it exactly: glazed doors on the left, the dark front door at the far end, coat hooks, the wall mirror and the narrow console table with a dead plant, mail and the bag on the right.
 
 LOOK
-Naturalistic 35mm motion-picture look with fine grain, soft contrast, not glossy. 4:3 frame. The camera is on a tripod and locked unless a shot says otherwise. Lenses 35, 50 and 85mm. The apartment is shut in: curtains closed, still dusty air, sage-green walls, grey and faded wood. Yellow is the only saturated colour in the picture. Dawn. Cold pale light from the left, a little warmth beginning in it.
+Naturalistic 35mm motion-picture look with fine grain, soft contrast, not glossy. 16:9 frame, composed centre-safe: everything important stays inside the middle of the picture, and the far left and right edges hold only background. The camera is on a tripod and locked unless a shot says otherwise. Lenses 35, 50 and 85mm. The apartment is shut in: curtains closed, still dusty air, sage-green walls, grey and faded wood. Yellow is the only saturated colour in the picture. Dawn. Cold pale light from the left, a little warmth beginning in it.
 
 CHARACTERS
 Adam — 38, gentle, exhausted, quiet. Speaks softly and low, a little hoarse, unhurried, in plain English. He treats the mannequins with complete tenderness and never looks at them as objects. He never eats.
@@ -2087,7 +2118,8 @@ No added words, no other voices, no narration.
 KEEP CONSISTENT
 - Adam's face, hair and clothes exactly as @adam in every frame.
 - Adam always has the stubble and the healed scar at his right temple.
-- 4:3 frame, tripod, locked camera; no zoom, no drift and no handheld unless a shot states it.
+- 16:9 frame, tripod, locked camera; no zoom, no drift and no handheld unless a shot states it.
+- Centre-safe: faces, hands and props stay in the middle of the frame, never in the outer eighth on either side.
 - The curtains stay closed. No direct sunlight in the apartment.
 - Yellow is the only saturated colour; everything else is muted.
 - Nobody else is in the apartment. No reflections of a crew, no extra people.
@@ -2100,11 +2132,11 @@ KEEP CONSISTENT
 ### G43
 
 **11 · Daylight · shots 77 ★ · 6s · 16:9**  
-Seedance 2.5 · omni reference · draft ON (480p) · audio ON · duration 6s · aspect 16:9  
+Seedance 2.5 Draft · audio ON · duration 6s · aspect 16:9  
 Attach: `adam`, `doll-wife`, `doll-daughter`, `L03_living-room`, `L03b_living-day`
 
 ```text
-A 6-second, 16:9 hero shot: he drags the heavy curtains open and daylight floods the living room for the first time in the film. (The frame is widened from 4:3 to 16:9 across this shot in the edit, so keep him and the window in the centre.)
+A 6-second, 16:9 hero shot: he drags the heavy curtains open and daylight floods the living room for the first time in the film. (Keep him and the window in the centre of the frame.)
 
 REFERENCES
 @adam — Adam, present day. Take his face, stubble, the healed scar at his right temple, the washed-out grey-blue shirt with rolled sleeves, charcoal trousers, bare feet, wedding ring. Ignore the white background and the three-view sheet layout.
@@ -2150,7 +2182,7 @@ KEEP CONSISTENT
 ### G44
 
 **11 · Daylight · shots 78, 79 · 11s · 16:9**  
-Seedance 2.5 · omni reference · draft ON (480p) · audio ON · duration 11s · aspect 16:9  
+Seedance 2.5 Draft · audio ON · duration 11s · aspect 16:9  
 Attach: `adam`, `doll-wife`, `doll-daughter`, `L03b_living-day`
 
 ```text
@@ -2200,7 +2232,7 @@ KEEP CONSISTENT
 ### G45
 
 **11 · Daylight · shots 80 ★ · 6s · 16:9**  
-Seedance 2.5 · omni reference · draft ON (480p) · audio ON · duration 6s · aspect 16:9  
+Seedance 2.5 Draft · audio ON · duration 6s · aspect 16:9  
 Attach: `adam`, `doll-wife`, `doll-daughter`, `L04_sewing-corner`
 
 ```text
@@ -2249,7 +2281,7 @@ KEEP CONSISTENT
 ### G46
 
 **12 · The door · shots 81 · 4s · 16:9**  
-Seedance 2.5 · omni reference · draft ON (480p) · audio ON · duration 4s · aspect 16:9  
+Seedance 2.5 Draft · audio ON · duration 4s · aspect 16:9  
 Attach: `L05_hallway`
 
 ```text
@@ -2285,7 +2317,7 @@ KEEP CONSISTENT
 ### G47
 
 **12 · The door · shots 82 · 5s · 16:9**  
-Seedance 2.5 · omni reference · draft ON (480p) · audio ON · duration 5s · aspect 16:9  
+Seedance 2.5 Draft · audio ON · duration 5s · aspect 16:9  
 Attach: `adam`, `L05_hallway`
 
 ```text
@@ -2328,7 +2360,7 @@ KEEP CONSISTENT
 ### G48
 
 **12 · The door · shots 83, 84 ★ · 11s · 16:9**  
-Seedance 2.5 · omni reference · draft ON (480p) · audio ON · duration 11s · aspect 16:9  
+Seedance 2.5 Draft · audio ON · duration 11s · aspect 16:9  
 Attach: `mona`, `adam`, `P14_foil-dish`, `L09_landing`
 
 ```text
@@ -2379,7 +2411,7 @@ KEEP CONSISTENT
 ### G49
 
 **12 · The door · shots 85 ★ · 6s · 16:9**  
-Seedance 2.5 · omni reference · draft ON (480p) · audio ON · duration 6s · aspect 16:9  
+Seedance 2.5 Draft · audio ON · duration 6s · aspect 16:9  
 Attach: `adam`, `mona`, `P09_drawing`, `P01_yellow-cup`, `L05_hallway`
 
 ```text

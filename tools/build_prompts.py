@@ -49,7 +49,7 @@ REF = {
 }
 
 LOOKS = {
-    "P": ("4:3", "Naturalistic 35mm motion-picture look with fine grain, soft contrast, not glossy. 4:3 frame. The camera is on a tripod and locked unless a shot says otherwise. Lenses 35, 50 and 85mm. The apartment is shut in: curtains closed, still dusty air, sage-green walls, grey and faded wood. Yellow is the only saturated colour in the picture."),
+    "P": ("16:9", "Naturalistic 35mm motion-picture look with fine grain, soft contrast, not glossy. 16:9 frame, composed centre-safe: everything important stays inside the middle of the picture, and the far left and right edges hold only background. The camera is on a tripod and locked unless a shot says otherwise. Lenses 35, 50 and 85mm. The apartment is shut in: curtains closed, still dusty air, sage-green walls, grey and faded wood. Yellow is the only saturated colour in the picture."),
     "PW": ("16:9", "Naturalistic 35mm motion-picture look with fine grain, soft contrast, not glossy. 16:9 frame. The camera is on a tripod and locked. Lenses 35, 50 and 85mm. The same apartment, now with real daylight in it: sage-green walls, grey and faded wood, dust hanging in the sun. Yellow is the only saturated colour in the picture."),
     "M": ("16:9", "Naturalistic 35mm motion-picture look with fine grain. 16:9 frame. Handheld camera that breathes and stays close, 24 to 50mm, shallow focus. Golden hour: the sun is low and straight ahead of the car, warm amber light, flares, dust on the glass, wind. Skin tones warm and alive."),
 }
@@ -66,7 +66,8 @@ MANNEQUIN_RULE = "MANNEQUIN RULE\nThe mannequins are rigid, hard, hollow plastic
 
 KEEP = {
     "P": [
-        "4:3 frame, tripod, locked camera; no zoom, no drift and no handheld unless a shot states it.",
+        "16:9 frame, tripod, locked camera; no zoom, no drift and no handheld unless a shot states it.",
+        "Centre-safe: faces, hands and props stay in the middle of the frame, never in the outer eighth on either side.",
         "The curtains stay closed. No direct sunlight in the apartment.",
         "Yellow is the only saturated colour; everything else is muted.",
         "Nobody else is in the apartment. No reflections of a crew, no extra people.",
@@ -93,7 +94,7 @@ KEEP["ML"] = [
     "No badges or logos. No on-screen text, no subtitles, no watermark.",
 ]
 
-SETTINGS = "Seedance 2.5 · omni reference · draft ON (480p) · audio ON"
+SETTINGS = "Seedance 2.5 Draft · audio ON"
 
 # --------------------------------------------------------------------- runs
 # shot tuple: (duration, heading, text, lines)
@@ -108,7 +109,7 @@ def run(**kw):
 # ============================================================ 1 · MORNING
 run(id="G01", scene="1 · Morning", nums="02, 04", look="P", refs=["adam", "L01_kitchen"],
     light="Morning. The thin kitchen curtain glows with the daylight it keeps out; one bare warm bulb.",
-    logline="A 10-second, 4:3 clip in two shots: a stove igniter catches under a small pot, then a man seen from behind cuts toast into triangles at the counter. Hard cut between them.",
+    logline="A 10-second, 16:9 clip in two shots: a stove igniter catches under a small pot, then a man seen from behind cuts toast into triangles at the counter. Hard cut between them.",
     where="Kitchen. Adam stands at the wooden counter on the right side of the room, his back to the camera. Nobody else.",
     behind="Behind the stove: the off-white tiled backsplash. In front of Adam: the counter with the cutting board, and above it the wall shelf with the radio.",
     shots=[
@@ -122,7 +123,7 @@ run(id="G01", scene="1 · Morning", nums="02, 04", look="P", refs=["adam", "L01_
 
 run(id="G02", scene="1 · Morning", nums="03", look="P", refs=["P02_table-setting", "P01_yellow-cup", "L02_dining"],
     light="Morning, dim. Soft grey light from the closed curtains.",
-    logline="A 5-second, 4:3 top shot: a man's hands lay a wooden table for three.",
+    logline="A 5-second, 16:9 top shot: a man's hands lay a wooden table for three.",
     where="Dining table. Only Adam's forearms and hands enter the frame, from the bottom edge.",
     behind="The whole frame is the table top: the cream lace tablecloth over dark wood.",
     shots=[
@@ -134,7 +135,7 @@ run(id="G02", scene="1 · Morning", nums="03", look="P", refs=["P02_table-settin
 
 run(id="G03", scene="1 · Morning", nums="05, 06", look="P", refs=["adam", "doll-wife", "doll-daughter", "L02_dining"],
     light="Morning, dim. The closed curtains behind the table glow and backlight the figures.",
-    logline="A 10-second, 4:3 clip in two shots: seen through the kitchen doorway, a man serves breakfast to two seated silhouettes; then a close-up of him speaking to someone off screen and waiting for an answer. The two seated figures stay unreadable silhouettes.",
+    logline="A 10-second, 16:9 clip in two shots: seen through the kitchen doorway, a man serves breakfast to two seated silhouettes; then a close-up of him speaking to someone off screen and waiting for an answer. The two seated figures stay unreadable silhouettes.",
     where="Dining table, seen from the kitchen doorway, the closed curtains behind it. The adult figure sits at the left end of the table, the child-size figure at the right end, both in profile to the camera. Adam's chair is on the far side, centre, facing the camera. The near side is empty.",
     behind="Behind all three: the tall closed olive-grey curtains, glowing. At the right edge: the sideboard with the clock.",
     shots=[
@@ -150,7 +151,7 @@ run(id="G03", scene="1 · Morning", nums="05, 06", look="P", refs=["adam", "doll
 
 run(id="G04", scene="1 · Morning", nums="07 ★", look="P", refs=["adam", "doll-wife", "L02_dining"],
     light="Morning, dim. Soft glow from the closed curtains at the side.",
-    logline="A 5-second, 4:3 hero shot: a man bends to kiss his wife's forehead and the focus moves from his lips to her, and she is a mannequin. No camera move, no emphasis.",
+    logline="A 5-second, 16:9 hero shot: a man bends to kiss his wife's forehead and the focus moves from his lips to her, and she is a mannequin. No camera move, no emphasis.",
     where="Dining table. The mannequin sits on a chair at the left end of the table. Adam stands beside it and bends down.",
     behind="Behind the mannequin's head: the closed olive-grey curtains, soft. Behind Adam: the dim room.",
     shots=[
@@ -162,7 +163,7 @@ run(id="G04", scene="1 · Morning", nums="07 ★", look="P", refs=["adam", "doll
 
 run(id="G05", scene="1 · Morning", nums="08 ★", look="P", refs=["adam", "doll-wife", "doll-daughter", "P01_yellow-cup", "L02_dining"],
     light="Morning, dim. The closed curtains behind the table glow softly; faces are lit from the front by the room.",
-    logline="A 6-second, 4:3 hero shot: a locked, dead-centre, symmetrical wide of a man having breakfast between two mannequins. He talks. He does not eat.",
+    logline="A 6-second, 16:9 hero shot: a locked, dead-centre, symmetrical wide of a man having breakfast between two mannequins. He talks. He does not eat.",
     where="Dining table, frontal, the closed curtains directly behind it. Adam sits on the far side at the centre, facing the camera. The adult mannequin sits at the left end of the table (screen left), turned toward the table. The child mannequin sits at the right end (screen right), turned toward the table. The near side is empty.",
     behind="Behind Adam: the centre of the closed olive-grey curtains. Behind the adult mannequin: curtains and the room's left corner. Behind the child mannequin: curtains, then the sideboard with the clock at the right edge.",
     shots=[
@@ -175,7 +176,7 @@ run(id="G05", scene="1 · Morning", nums="08 ★", look="P", refs=["adam", "doll
 
 run(id="G06", scene="1 · Morning", nums="09 ○", look="P", refs=["L01_kitchen"],
     light="Morning. Dim kitchen, soft glow from the curtained window.",
-    logline="A 4-second, 4:3 insert: a plate is scraped into a kitchen bin that is already full of identical untouched toast triangles.",
+    logline="A 4-second, 16:9 insert: a plate is scraped into a kitchen bin that is already full of identical untouched toast triangles.",
     where="Kitchen floor by the counter. Only Adam's hand, a plate and a fork enter the frame.",
     behind="Around the bin: the speckled terrazzo floor and the base of a cream cabinet.",
     shots=[
@@ -187,7 +188,7 @@ run(id="G06", scene="1 · Morning", nums="09 ○", look="P", refs=["L01_kitchen"
 
 run(id="G07", scene="1 · Morning", nums="10", look="P", refs=["P06_hospital-bag", "L05b_hallway-bag"],
     light="Morning. The hallway is dim; a little cool light from the glazed doors.",
-    logline="A 5-second, 4:3 insert with a very slow push-in: the console by the front door, four months of mail, a dead plant, car keys and a sealed hospital bag nobody has touched.",
+    logline="A 5-second, 16:9 insert with a very slow push-in: the console by the front door, four months of mail, a dead plant, car keys and a sealed hospital bag nobody has touched.",
     where="Entrance hallway, the narrow console table on the right wall near the front door. Nobody in frame.",
     behind="Behind the console: the sage wall and the lower edge of the wall mirror. At the left edge: the dark front door.",
     shots=[
@@ -199,7 +200,7 @@ run(id="G07", scene="1 · Morning", nums="10", look="P", refs=["P06_hospital-bag
 
 run(id="G08", scene="1 · Morning", nums="11, 14", look="P", refs=["adam", "doll-daughter", "P03_yellow-sandal", "L02_dining"],
     light="Morning, dim. Low soft light under the table edge, glow from the closed curtains.",
-    logline="A 10-second, 4:3 clip in two shots: a man kneels and buckles a yellow sandal onto a child mannequin's rigid foot; then a close-up of him frozen on his knees, as if the click took him somewhere else, before he shakes it off. (In the edit a 4-second memory flash sits between the two shots.)",
+    logline="A 10-second, 16:9 clip in two shots: a man kneels and buckles a yellow sandal onto a child mannequin's rigid foot; then a close-up of him frozen on his knees, as if the click took him somewhere else, before he shakes it off. (In the edit a 4-second memory flash sits between the two shots.)",
     where="Dining area. The child mannequin sits on a wooden chair turned away from the table. Adam kneels on the terrazzo floor in front of it.",
     behind="Behind the mannequin's legs: the chair legs and the hanging edge of the lace tablecloth. Behind Adam: the dim room and the sideboard.",
     shots=[
@@ -229,7 +230,7 @@ run(id="G09", scene="1 · Morning (flash 1)", nums="12, 13", look="M", refs=["no
 # ============================================================== 2 · HAIR
 run(id="G10", scene="2 · Hair", nums="15", look="P", refs=["adam", "doll-daughter", "doll-wife", "L03_living-room"],
     light="Late morning. Curtains closed, the floor lamp on, dim.",
-    logline="A 5-second, 4:3 wide: a man carries a child-size mannequin across the living room the way you carry a sleeping child and sets it on the sofa. Staged from behind him.",
+    logline="A 5-second, 16:9 wide: a man carries a child-size mannequin across the living room the way you carry a sleeping child and sets it on the sofa. Staged from behind him.",
     where="Living room. The adult mannequin already sits in the floral armchair at front left, facing the sofa. Adam enters from the left, behind the armchair, carrying the child mannequin, and crosses to the sofa in the middle of the room.",
     behind="Behind Adam as he walks: the bookshelf and the framed pictures on the left wall. Behind the sofa: the floor lamp and the sewing corner. At right: the closed curtains.",
     shots=[
@@ -241,7 +242,7 @@ run(id="G10", scene="2 · Hair", nums="15", look="P", refs=["adam", "doll-daught
 
 run(id="G11", scene="2 · Hair", nums="16, 17, 20", look="P", refs=["adam", "doll-daughter", "doll-wife", "P04_hairbrush", "L03_living-room"],
     light="Late morning. Curtains closed, warm floor lamp behind the sofa, dim.",
-    logline="A 15-second, 4:3 clip in three shots: a father brushes and tries to braid a child mannequin's wig; the brush snags and the wig slides off bare plastic; then, guiltily, he straightens it. (In the edit a memory flash sits between shots two and three.)",
+    logline="A 15-second, 16:9 clip in three shots: a father brushes and tries to braid a child mannequin's wig; the brush snags and the wig slides off bare plastic; then, guiltily, he straightens it. (In the edit a memory flash sits between shots two and three.)",
     where="Living room sofa. The child mannequin sits upright in the middle of the sofa, facing forward. Adam sits beside it on its right side (screen right), turned toward it. The adult mannequin sits in the armchair, off frame to screen left.",
     behind="Behind both: the lace throw on the sofa back, then the warm floor lamp and the dim sage wall.",
     shots=[
@@ -274,7 +275,7 @@ run(id="G12", scene="2 · Hair (flash 2)", nums="18, 19 ○", look="M", refs=["n
 # ==================================================== 3 · SEWING CORNER
 run(id="G13", scene="3 · The sewing corner", nums="21", look="P", refs=["L04_sewing-corner"],
     light="Late morning. Curtains closed, one thin blade of daylight at their edge, the floor lamp on.",
-    logline="A 5-second, 4:3 wide with a slow push-in: a dressmaker's corner left exactly as it was, and two empty mannequin stands.",
+    logline="A 5-second, 16:9 wide with a slow push-in: a dressmaker's corner left exactly as it was, and two empty mannequin stands.",
     where="The sewing corner of the living room. Nobody in frame.",
     behind="Left: floor lamp and sofa end. Centre: the sewing table against the sage wall, shelves of folded fabric and paper patterns above. Right of the table: the framed mirror leaning on the wall, the two bare steel stands, the closed curtains.",
     shots=[
@@ -287,7 +288,7 @@ run(id="G13", scene="3 · The sewing corner", nums="21", look="P", refs=["L04_se
 # ================================================= 4 · SONG AND DANCE
 run(id="G14", scene="4 · The song & the dance", nums="22, 23, 26", look="P", refs=["adam", "doll-wife", "P05_radio", "L01_kitchen"],
     light="Evening. The curtain is dark now; the bare warm bulb lights the kitchen.",
-    logline="A 13-second, 4:3 clip in three shots: a hand tunes an old radio to a warm old song; a man cooks and talks to a mannequin he has stood in the kitchen doorway; then, close on him, he holds out a hand and asks her to dance. (In the edit a memory flash sits between shots two and three.)",
+    logline="A 13-second, 16:9 clip in three shots: a hand tunes an old radio to a warm old song; a man cooks and talks to a mannequin he has stood in the kitchen doorway; then, close on him, he holds out a hand and asks her to dance. (In the edit a memory flash sits between shots two and three.)",
     where="Kitchen. Adam stands at the stove in the middle of the room. The adult mannequin stands upright in the kitchen doorway, at the left edge of frame in the foreground, facing into the kitchen toward him.",
     behind="Behind Adam: the tiled backsplash, the dark curtained window to his left, the shelf with the radio to his right. Behind the mannequin: the dark varnished door frame.",
     shots=[
@@ -323,7 +324,7 @@ run(id="G15", scene="4 · The song & the dance (flash 3)", nums="24, 25 ★, 29"
 
 run(id="G16", scene="4 · The song & the dance", nums="27 ★", look="P", refs=["adam", "doll-wife", "doll-daughter", "L03_living-room"],
     light="Evening. Curtains closed; the floor lamp is the only light, warm, with deep shadow around it.",
-    logline="An 8-second, 4:3 hero shot, the poster of the film: a locked symmetrical wide of a man slow-dancing with a mannequin in lamplight while a child mannequin sits on the sofa facing them.",
+    logline="An 8-second, 16:9 hero shot, the poster of the film: a locked symmetrical wide of a man slow-dancing with a mannequin in lamplight while a child mannequin sits on the sofa facing them.",
     where="Living room. Adam and the adult mannequin stand in the open floor in front of the sofa, centre frame. The child mannequin sits upright in the middle of the sofa behind them, facing the camera.",
     behind="Behind the dancers: the sofa with the child mannequin, the glowing floor lamp, the dim sewing corner. Right: the closed curtains. Left: the bookshelf.",
     shots=[
@@ -336,7 +337,7 @@ run(id="G16", scene="4 · The song & the dance", nums="27 ★", look="P", refs=[
 
 run(id="G17", scene="4 · The song & the dance", nums="28, 30", look="P", refs=["adam", "doll-wife", "L03_living-room"],
     light="Evening. Warm floor lamp from behind, deep shadow.",
-    logline="An 8-second, 4:3 clip in two shots: a man's face at peace against a mannequin's plastic cheek; then the mannequin's arm slips out of its shoulder socket and slides down his back. (In the edit a memory flash sits between them.)",
+    logline="An 8-second, 16:9 clip in two shots: a man's face at peace against a mannequin's plastic cheek; then the mannequin's arm slips out of its shoulder socket and slides down his back. (In the edit a memory flash sits between them.)",
     where="Living room, in front of the sofa. Adam holds the adult mannequin in a dance hold, its left arm over his right shoulder.",
     behind="Behind them: the warm glow of the floor lamp and the dim sage wall, out of focus.",
     shots=[
@@ -351,7 +352,7 @@ run(id="G17", scene="4 · The song & the dance", nums="28, 30", look="P", refs=[
 
 run(id="G18", scene="4 · The song & the dance", nums="31, 32 ★", look="P", refs=["adam", "doll-wife", "doll-daughter", "L03_living-room"],
     light="Evening. Warm floor lamp, deep shadow.",
-    logline="A 10-second, 4:3 clip in two shots: the mannequin's arm lies on the floor while he stands holding a one-armed figure; then, on his knees, he pushes the arm back into its socket far too gently and presses the plastic hand to his forehead.",
+    logline="A 10-second, 16:9 clip in two shots: the mannequin's arm lies on the floor while he stands holding a one-armed figure; then, on his knees, he pushes the arm back into its socket far too gently and presses the plastic hand to his forehead.",
     opens="Opens mid-situation: the dance has just stopped; the mannequin's left arm has fallen off.",
     where="Living room, in front of the sofa. Adam stands centre holding the adult mannequin upright; the detached arm lies on the rug at their feet. The child mannequin sits in the middle of the sofa behind them.",
     behind="Behind them: the sofa with the child mannequin, the floor lamp, the dim sewing corner; the closed curtains at right.",
@@ -369,7 +370,7 @@ run(id="G18", scene="4 · The song & the dance", nums="31, 32 ★", look="P", re
 # ========================================================= 5 · THE KNOCK
 run(id="G19", scene="5 · The knock", nums="33", look="P", refs=["L05b_hallway-bag"],
     light="Evening. The hallway is dark; a line of yellowish stairwell light under the front door.",
-    logline="A 4-second, 4:3 insert: the front door from inside as three knocks shake its chain.",
+    logline="A 4-second, 16:9 insert: the front door from inside as three knocks shake its chain.",
     where="Entrance hallway, close on the inside of the front door. Nobody in frame.",
     behind="The dark varnished front door fills the frame; the brass chain and handle at the right; a slice of sage wall at the edge.",
     shots=[
@@ -382,7 +383,7 @@ run(id="G19", scene="5 · The knock", nums="33", look="P", refs=["L05b_hallway-b
 
 run(id="G20", scene="5 · The knock", nums="34", look="P", refs=["adam", "P05_radio", "L01_kitchen"],
     light="Evening. The bare warm bulb.",
-    logline="A 5-second, 4:3 close-up: a man freezes at the sound of knocking, then reaches up and turns the radio off.",
+    logline="A 5-second, 16:9 close-up: a man freezes at the sound of knocking, then reaches up and turns the radio off.",
     where="Kitchen. Adam stands by the counter under the shelf with the radio, at the right side of the room.",
     behind="Behind Adam: the tiled backsplash and the stove, soft. Above and beside him at screen right: the shelf with the radio.",
     shots=[
@@ -395,7 +396,7 @@ run(id="G20", scene="5 · The knock", nums="34", look="P", refs=["adam", "P05_ra
 
 run(id="G21", scene="5 · The knock", nums="35", look="P", refs=["adam", "L05b_hallway-bag"],
     light="Evening. The hallway is dark; yellowish stairwell light in a line under the front door.",
-    logline="An 8-second, 4:3 wide down the hallway: a man stands small and still in the middle of the hall while a woman speaks to him through the closed front door.",
+    logline="An 8-second, 16:9 wide down the hallway: a man stands small and still in the middle of the hall while a woman speaks to him through the closed front door.",
     where="Entrance hallway. Adam stands in the middle of the hall, his back to the camera, facing the front door at the far end. The speaker is outside the door and never seen.",
     behind="In front of Adam: the dark front door with a line of light under it, broken by the shadows of two feet. Left: the glazed doors. Right: the mirror and the console with the mail and the bag.",
     shots=[
@@ -408,7 +409,7 @@ run(id="G21", scene="5 · The knock", nums="35", look="P", refs=["adam", "L05b_h
 
 run(id="G22", scene="5 · The knock", nums="36 ★, 38", look="P", refs=["adam", "doll-daughter", "L03_living-room"],
     light="Evening. Warm floor lamp behind the sofa, deep shadow.",
-    logline="A 10-second, 4:3 clip in two shots: a father crouches by a child mannequin and puts a finger to his lips; then, alone in close-up, he listens to footsteps going away and for one second his face shows that he knows. (In the edit an insert sits between them.)",
+    logline="A 10-second, 16:9 clip in two shots: a father crouches by a child mannequin and puts a finger to his lips; then, alone in close-up, he listens to footsteps going away and for one second his face shows that he knows. (In the edit an insert sits between them.)",
     where="Living room sofa. The child mannequin sits upright in the middle of the sofa. Adam crouches on the floor in front of it, at its left (screen left), his face level with its face.",
     behind="Behind the mannequin: the lace throw and the lamp glow. Behind Adam: the dark room toward the hallway.",
     shots=[
@@ -424,7 +425,7 @@ run(id="G22", scene="5 · The knock", nums="36 ★, 38", look="P", refs=["adam",
 
 run(id="G23", scene="5 · The knock", nums="37 ○", look="P", refs=["mona", "P14_foil-dish", "L09_landing"],
     light="Evening. A dim stairwell bulb, greenish-grey walls.",
-    logline="A 4-second, 4:3 floor-level insert on the landing: a woman sets a foil-covered dish down in front of the closed apartment door and walks away. Her face is never shown.",
+    logline="A 4-second, 16:9 floor-level insert on the landing: a woman sets a foil-covered dish down in front of the closed apartment door and walks away. Her face is never shown.",
     where="The landing outside the apartment. The closed apartment door on the right, the doormat in front of it. Mona stands at the door; only her shoes, the hem of her navy dress and long grey cardigan, and her hands are seen.",
     behind="Behind the dish: the bottom of the dark wooden door and the doormat. Left: the first steps of the staircase and its iron railing.",
     shots=[
@@ -437,7 +438,7 @@ run(id="G23", scene="5 · The knock", nums="37 ○", look="P", refs=["mona", "P1
 # ========================================================== 6 · DINNER
 run(id="G24", scene="6 · Dinner & the headlights", nums="39, 40", look="P", refs=["adam", "doll-wife", "doll-daughter", "P01_yellow-cup", "L02_dining"],
     light="Night. The curtains behind the table are black; one pendant lamp lights the table in a pool, the room around it dark.",
-    logline="A 10-second, 4:3 clip in two shots: the breakfast tableau again, at night, steam rising off three plates while he promises them the sea; then an insert of him pouring water into the yellow cup and not stopping.",
+    logline="A 10-second, 16:9 clip in two shots: the breakfast tableau again, at night, steam rising off three plates while he promises them the sea; then an insert of him pouring water into the yellow cup and not stopping.",
     where="Dining table, frontal, the closed curtains directly behind it. Adam sits on the far side at the centre, facing the camera. The adult mannequin sits at the left end (screen left). The child mannequin sits at the right end (screen right). The near side is empty.",
     behind="Behind Adam: the dark closed curtains. Behind the adult mannequin: curtains and darkness. Behind the child mannequin: curtains, then the sideboard with the clock at the right edge.",
     shots=[
@@ -452,7 +453,7 @@ run(id="G24", scene="6 · Dinner & the headlights", nums="39, 40", look="P", ref
 
 run(id="G25", scene="6 · Dinner & the headlights", nums="41 ★", look="P", refs=["doll-wife", "doll-daughter", "adam", "L02_dining"],
     light="Night. Pendant lamp over the table. A narrow gap between the curtains.",
-    logline="A 5-second, 4:3 hero shot: a vehicle passes in the street and its headlights come through the gap in the curtains, sweep across the wall and slide over two blank plastic faces. Only the light moves.",
+    logline="A 5-second, 16:9 hero shot: a vehicle passes in the street and its headlights come through the gap in the curtains, sweep across the wall and slide over two blank plastic faces. Only the light moves.",
     where="Dining table seen from the side. The adult mannequin sits at the near end of the table in profile; the child mannequin sits at the far end, facing it. Adam sits between them on the curtain side, a dark shape, head down.",
     behind="Behind the mannequins: the sage wall with the two framed pictures and the sideboard. At frame left: the closed curtains with a finger-wide gap.",
     shots=[
@@ -464,7 +465,7 @@ run(id="G25", scene="6 · Dinner & the headlights", nums="41 ★", look="P", ref
 
 run(id="G26", scene="6 · Dinner & the headlights", nums="44", look="P", refs=["adam", "P01_yellow-cup", "L02_dining"],
     light="Night. Pendant lamp from above, hard on his face.",
-    logline="A 5-second, 4:3 close-up: he comes back from the memory gripping the table edge, the cup on its side, and ends the evening.",
+    logline="A 5-second, 16:9 close-up: he comes back from the memory gripping the table edge, the cup on its side, and ends the evening.",
     opens="Opens mid-situation: the yellow cup has been knocked over and water covers the table.",
     where="Dining table. Adam sits on the far side at the centre, facing the camera. The mannequins are off frame at left and right.",
     behind="Behind Adam: the dark closed curtains.",
@@ -493,7 +494,7 @@ run(id="G27", scene="6 · Dinner & the headlights (flash 4)", nums="42, 43", loo
 # ========================================================= 7 · BEDTIME
 run(id="G28", scene="7 · Bedtime", nums="45", look="P", refs=["adam", "doll-daughter", "L06_nour-room"],
     light="Night. A dark corridor; the only light is the warm star glow from the open bedroom door ahead.",
-    logline="A 5-second, 4:3 wide from behind: a man carries a child-size mannequin down a dark corridor toward a room glowing with a star night-light.",
+    logline="A 5-second, 16:9 wide from behind: a man carries a child-size mannequin down a dark corridor toward a room glowing with a star night-light.",
     where="A narrow dark corridor inside the apartment. Adam walks away from the camera down its centre, carrying the child mannequin. The open door of Nour's room is at the far end on the right.",
     behind="Ahead of Adam: the open bedroom door, amber light and drifting star shapes spilling onto the corridor wall and floor. The corridor walls are dark sage.",
     shots=[
@@ -505,7 +506,7 @@ run(id="G28", scene="7 · Bedtime", nums="45", look="P", refs=["adam", "doll-dau
 
 run(id="G29", scene="7 · Bedtime", nums="46, 47, 48", look="P", refs=["adam", "doll-daughter", "P10_rabbit", "L06_nour-room"],
     light="Night. A small bedside lamp and the star night-light; warm amber on deep blue. After the lamp goes off, only the stars.",
-    logline="A 16-second, 4:3 clip in three shots: he tucks the child mannequin into bed and sets the rabbit beside it; he kisses its forehead and stays a moment too long while projected stars drift over his face; from the doorway he switches off the lamp and only the stars remain.",
+    logline="A 16-second, 16:9 clip in three shots: he tucks the child mannequin into bed and sets the rabbit beside it; he kisses its forehead and stays a moment too long while projected stars drift over his face; from the doorway he switches off the lamp and only the stars remain.",
     where="Nour's bedroom. The bed is against the left wall, the bedside table with the night-light at its head. The child mannequin lies on its back in the bed. Adam sits on the edge of the bed, then stands in the open doorway at the far right.",
     behind="Behind the bed: the sage wall with the taped crayon scribbles, stars drifting across it. Behind Adam when he sits: the curtained window and the small desk. Behind him in the doorway: the black corridor.",
     shots=[
@@ -522,7 +523,7 @@ run(id="G29", scene="7 · Bedtime", nums="46, 47, 48", look="P", refs=["adam", "
 
 run(id="G30", scene="7 · Bedtime", nums="49 ★, 50 ★", look="P", refs=["adam", "L06_nour-room"],
     light="Night. Only the star night-light: slow amber stars over deep blue; his face half in darkness.",
-    logline="A 10-second, 4:3 hero clip in two shots: in the doorway, about to leave, he stops; a child's voice behind him says two words; he does not turn around. The camera never shows the bed.",
+    logline="A 10-second, 16:9 hero clip in two shots: in the doorway, about to leave, he stops; a child's voice behind him says two words; he does not turn around. The camera never shows the bed.",
     where="The open doorway of Nour's bedroom. Adam stands in it facing out toward the dark corridor, the room behind him. The bed is behind him and off frame for the whole clip.",
     behind="Behind Adam: the dim bedroom wall with stars drifting across it. In front of him: the black corridor.",
     shots=[
@@ -638,7 +639,7 @@ run(id="G36", scene="8 · The road", nums="65 ★", look="ML", refs=["P12_crayon
 
 run(id="G37", scene="8 → 9 · Asphalt to floor (match cut)", nums="66 ★, 67 ★", look="ML", refs=["adam", "L06_nour-room"],
     light="Shot one: dusk, blue-grey, an orange hazard light blinking. Shot two: night, amber projected stars turning slowly.",
-    logline="A 10-second, 16:9 hero clip built on one MATCH CUT: an extreme close-up of a man's open eye, his cheek on asphalt at dusk; cut to the same eye, same size, same angle, his cheek on a bedroom floor four months later. Generate at 16:9 and keep the eye centred: shot two is cropped to 4:3 in the edit.",
+    logline="A 10-second, 16:9 hero clip built on one MATCH CUT: an extreme close-up of a man's open eye, his cheek on asphalt at dusk; cut to the same eye, same size, same angle, his cheek on a bedroom floor four months later. Keep the eye exactly centred in both shots.",
     where="Shot one: Adam lies on his left side on the road, his left cheek on the asphalt, the camera on the ground a few centimetres from his face. Shot two: Adam lies in exactly the same position on the terrazzo floor of Nour's bedroom.",
     behind="Shot one: blurred asphalt, the orange blink, dusk sky. Shot two: blurred terrazzo floor, the edge of the small round rug, slow stars on the wall.",
     shots=[
@@ -653,7 +654,7 @@ run(id="G37", scene="8 → 9 · Asphalt to floor (match cut)", nums="66 ★, 67 
 # ======================================================= 9 · THE FLOOR
 run(id="G38", scene="9 · The floor", nums="68 ★", look="P", refs=["doll-daughter", "P10_rabbit", "L06_nour-room"],
     light="Night. Only the star night-light: amber stars drifting over deep blue.",
-    logline="A 5-second, 4:3 hero shot from the floor: the bed, and under the blanket, plainly, a child-size plastic figure with its wig askew. Nothing moves. Nothing speaks.",
+    logline="A 5-second, 16:9 hero shot from the floor: the bed, and under the blanket, plainly, a child-size plastic figure with its wig askew. Nothing moves. Nothing speaks.",
     where="Nour's bedroom, seen from the floor beside the bed, looking up. The child mannequin lies on its back in the bed, the blanket to its chin, the rabbit beside its shoulder. Nobody else in frame.",
     behind="Behind the bed: the sage wall, the taped scribbles, slow stars. At the head of the bed: the glowing dome on the bedside table.",
     shots=[
@@ -665,7 +666,7 @@ run(id="G38", scene="9 · The floor", nums="68 ★", look="P", refs=["doll-daugh
 
 run(id="G39", scene="9 · The floor", nums="69 ★, 70 ○", look="P", refs=["adam", "L06_nour-room"],
     light="Night going to dawn. Amber stars on deep blue; by the last shot the edge of the curtain turns from blue to grey-gold.",
-    logline="A 12-second, 4:3 hero clip in two shots: he pulls himself up against the bed and finally breaks, silently, then aloud, the first real crying in the film; then a wide of the room as dawn reaches the window and he has not moved.",
+    logline="A 12-second, 16:9 hero clip in two shots: he pulls himself up against the bed and finally breaks, silently, then aloud, the first real crying in the film; then a wide of the room as dawn reaches the window and he has not moved.",
     where="Nour's bedroom. Adam sits on the floor with his back against the side of the bed, at the left of the room. The bed and what lies in it are behind and above him.",
     behind="Behind Adam: the side of the bed and the hanging edge of the patterned blanket. In the wide: the curtained window on the back wall, the desk at right, the open door at far right.",
     shots=[
@@ -681,7 +682,7 @@ run(id="G39", scene="9 · The floor", nums="69 ★, 70 ○", look="P", refs=["ad
 # ========================================================= 10 · THE BAG
 run(id="G40", scene="10 · The bag", nums="71", look="P", refs=["adam", "L05b_hallway-bag"],
     light="Dawn. Grey-blue light through the glazed doors; the hallway is cold and pale.",
-    logline="A 5-second, 4:3 wide down the hallway: he walks slowly to the console by the front door and stops in front of it.",
+    logline="A 5-second, 16:9 wide down the hallway: he walks slowly to the console by the front door and stops in front of it.",
     where="Entrance hallway. Adam walks away from the camera down the middle of the hall toward the front door, then stops at the console on the right wall.",
     behind="Ahead of Adam: the dark front door. Right: the mirror and the console with the mail, the dead plant and the bag. Left: the glazed doors, pale with dawn.",
     shots=[
@@ -694,7 +695,7 @@ run(id="G40", scene="10 · The bag", nums="71", look="P", refs=["adam", "L05b_ha
 
 run(id="G41", scene="10 · The bag", nums="72, 73, 74", look="P", refs=["adam", "P06_hospital-bag", "P07_bag-contents", "L05b_hallway-bag"],
     light="Dawn. Cold pale light from the left; the console top in soft grey.",
-    logline="A 14-second, 4:3 clip in three shots: his hands lift the sealed hospital bag out from under the mail and tear it open; a top shot of what was in it, laid on the wood; his hands unfold the sheet of paper, its back to us.",
+    logline="A 14-second, 16:9 clip in three shots: his hands lift the sealed hospital bag out from under the mail and tear it open; a top shot of what was in it, laid on the wood; his hands unfold the sheet of paper, its back to us.",
     where="The console by the front door. Adam stands at it; only his hands and forearms are in frame in all three shots.",
     behind="Under his hands: the dark wood of the console top, dusty, with envelopes pushed to one side. Behind: the sage wall.",
     shots=[
@@ -710,7 +711,7 @@ run(id="G41", scene="10 · The bag", nums="72, 73, 74", look="P", refs=["adam", 
 
 run(id="G42", scene="10 · The bag", nums="75 ★", look="P", refs=["adam", "L05b_hallway-bag"],
     light="Dawn. Cold pale light from the left, a little warmth beginning in it.",
-    logline="A 6-second, 4:3 hero close-up with a very slow push-in: his face as he finally looks at his daughter's drawing. Grief, and then, impossibly, a breath of a laugh.",
+    logline="A 6-second, 16:9 hero close-up with a very slow push-in: his face as he finally looks at his daughter's drawing. Grief, and then, impossibly, a breath of a laugh.",
     where="The hallway by the console. Adam stands holding the unfolded sheet of paper in both hands just below the frame; its top edge shows at the bottom of the picture, back to us.",
     behind="Behind Adam: the sage wall and the edge of the wall mirror, out of focus.",
     shots=[
@@ -725,7 +726,7 @@ run(id="G42", scene="10 · The bag", nums="75 ★", look="P", refs=["adam", "L05
 # ====================================================== 11 · DAYLIGHT
 run(id="G43", scene="11 · Daylight", nums="77 ★", look="PW", refs=["adam", "doll-wife", "doll-daughter", "L03_living-room", "L03b_living-day"],
     light="Morning. The shot begins in the closed-curtain gloom and ends in full sun.",
-    logline="A 6-second, 16:9 hero shot: he drags the heavy curtains open and daylight floods the living room for the first time in the film. (The frame is widened from 4:3 to 16:9 across this shot in the edit, so keep him and the window in the centre.)",
+    logline="A 6-second, 16:9 hero shot: he drags the heavy curtains open and daylight floods the living room for the first time in the film. (Keep him and the window in the centre of the frame.)",
     where="Living room. Adam stands at the curtains on the right-hand wall, his back to the room. Both mannequins sit side by side on the sofa in the middle of the room, facing forward.",
     behind="Behind Adam: the olive-grey curtains, then the window and the city. Left of him: the sofa with the two mannequins, the coffee table, the armchair, the bookshelf.",
     shots=[
@@ -819,7 +820,8 @@ EDIT_ONLY = [
     ("01", "Black screen, 6s", "Sound only: road hum, wind, crayon on paper, a child humming five notes, a woman's soft laugh, a seatbelt click. Build it from the audio of G09, G12 and G32."),
     ("64", "White to black, 3s", "The white at the end of G35, held, then cut to black. A thin high tone."),
     ("76 ★", "The drawing, 5s", "Use the real image @P09_drawing full frame with a slow drift in the edit. Do not regenerate it: a video model will redraw it."),
-    ("77", "Aspect change", "Animate the mask from 4:3 to 16:9 across G43."),
+    ("02–75", "4:3 crop", "Crop every present-day shot before the curtains to 4:3 from the centre."),
+    ("77", "Aspect change", "Animate the crop from 4:3 open to 16:9 across G43."),
     ("86", "Title, 4s", "Black. Title: LOOK. The child's five-note hum, unfinished."),
     ("87", "Credits card, 3s", "One card, plus an AI-tools disclosure if the rules ask for one."),
 ]
@@ -910,9 +912,9 @@ def main(md_path, html_path):
           f"**{len(built)} generations · {total} seconds of footage** for the 87-shot film. "
           "Every block is one generation: attach the listed elements, paste the prompt, set the duration and aspect, run it as a draft, and finalise the takes you like in 1080p.", "",
           "## Settings for every run", "",
-          "- Model: **Seedance 2.5**, omni reference, **draft on** (480p). Finalise a liked draft to 1080p within 7 days.",
+          "- Model: **Seedance 2.5 Draft**. Generate a liked draft again in 1080p.",
           "- Audio on. Radio song and score in the clips are placeholders; the film's own 5-note music replaces them in the edit.",
-          "- Aspect: **4:3** for the present (scenes 1–10), **16:9** for the memory and for everything from the curtains onward (scenes 11–12).",
+          "- Aspect: **16:9 for every run.** The present (scenes 1–10) is framed centre-safe and cropped to 4:3 in the edit; the frame opens to full width on the curtain shot.",
           "- `@name` in a prompt is the element of that name in the project *baba look*. Attach exactly the elements listed above each prompt.",
           "- All dialogue is English. \"Baba\" is now \"Daddy\", \"habibti\" is \"sweetheart\", \"Mama\" is \"Mommy\".",
           "- Continuous action is one run with timed shots inside it. Where a memory flash interrupts a scene, the scene is still one run and the flash is cut in during the edit.",
@@ -962,8 +964,8 @@ pre{{white-space:pre-wrap;word-break:break-word;background:var(--bg);border:1px 
 </style></head><body><main>
 <h1>LOOK — Seedance 2.5 prompts</h1>
 <p class="lead">{len(built)} generations · {total} seconds of footage · 87-shot film</p>
-<ul><li>Seedance 2.5, omni reference, <b>draft on</b>, audio on. Finalise liked drafts to 1080p within 7 days.</li>
-<li><b>4:3</b> for the present, <b>16:9</b> for the memory and from the curtains onward.</li>
+<ul><li><b>Seedance 2.5 Draft</b>, audio on. Generate liked drafts again in 1080p.</li>
+<li><b>16:9 for every run.</b> The present is framed centre-safe and cropped to 4:3 in the edit.</li>
 <li>Attach exactly the elements listed on each card; <code>@name</code> in the prompt is that element.</li>
 <li>All dialogue is English: Daddy, sweetheart, Mommy.</li>
 <li>Radio song and score in the clips are placeholders for the film's own music.</li></ul>
