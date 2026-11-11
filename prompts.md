@@ -532,7 +532,7 @@ LOCATION MAP
 Camera low in @image4, beside a wooden chair turned out from the table. Midground: the child mannequin seated upright on the chair, its two bare ivory plastic legs hanging straight down from under the yellow dress, its left foot already in a yellow sandal; Adam kneeling on the terrazzo in front of it, at frame right. Background: the hanging edge of the lace cloth, the dim sideboard.
 
 FIRST FRAME / BLOCKING
-The first frame is a medium shot of the child mannequin from the knees down, seated on the chair, both smooth ivory plastic legs and feet clearly visible, the hem of the yellow dress at the top of the frame, @image1 kneeling at frame right holding one small yellow sandal open in his hands.
+The first frame is a medium shot of the child mannequin from the knees down, seated on the chair, both smooth ivory plastic legs and feet clearly visible, the hem of the yellow dress at the top of the frame, @image1 kneeling at frame right, looking down at the bare right foot, already holding the small yellow sandal in his right hand: a plain flat child's sandal, a yellow sole with one strap over the toes and one thin ankle strap with a small metal buckle.
 
 FORMAT MODE
 Timed multishot: cuts only at the stated seconds; the camera holds each segment without cutting on its own.
@@ -548,7 +548,7 @@ CAMERA
 Tonal character: wide latitude, gentle highlight roll-off, rich detail held in the shadows.
 
 ACTION
-0.0s to 5.0s — The mannequin's right foot is bare: smooth, hard, ivory plastic, toes moulded as one shape, a seam at the ankle. @image1 lifts the rigid foot a little with his left hand and with his right hand slips @image3 on from the toes, sole under the foot, until the heel sits in it at 2.0s. He brings the ankle strap across the front of the ankle and at 3.6s presses its metal buckle shut on the outer side. His hands stop dead on the click.
+0.0s to 5.0s — The mannequin's right foot is bare: smooth, hard, ivory plastic, toes moulded as one shape, a seam at the ankle. @image1 keeps his eyes on the foot the whole time. He cups the plastic heel in his left hand, and with his right hand guides @image3 slowly onto the foot, toes first under the front strap, then lowers the heel onto the sole at 2.0s. He draws the thin ankle strap round the back of the ankle, threads it through the small buckle and at 3.6s presses the pin shut. His hands stop dead on the click.
 5.0s HARD CUT
 5.0s to 10.0s — @image1's face, his eyes level with the mannequin's knees, which are a soft yellow blur at the frame edge. He is frozen, eyes unfocused, breath held. At 6.0s he blinks twice. At 6.8s two fingers of his right hand rise to the scar at his temple. At 8.0s he shakes his head once and looks up at the mannequin with a thin smile. 8.6s to 9.7s, Adam, under his breath, covering: "...Where were we."
 
@@ -577,7 +577,8 @@ POSITIVE LOCKS
 - Yellow objects hold the only saturated colour.
 - Every paper, label and envelope is blank.
 - The mannequin's legs are bare smooth ivory plastic, the same material as its face.
-- The sandal goes on sole-down, toes first, strap around the ankle.
+- The sandal is in Adam's right hand from the first frame; one simple flat yellow sandal, sole-down, toes first, strap around the ankle.
+- Adam's eyes stay on the foot and the sandal for the whole first segment.
 - Each line lands once, at its time, from its speaker.
 ```
 
@@ -1054,16 +1055,16 @@ ACTIVE REFERENCES
 @image5 — a frame from this same living room: take the room, the camera position and where the figures sit — the adult mannequin in the floral armchair at front left, the child mannequin seated upright at the left end of the sofa beside the armchair. Use it for geometry and placement only. 100% matches the reference.
 
 LOCATION MAP
-Camera in front of the sofa in @image4, at chest height, 2 metres from the dancers. Midground: Adam and the adult mannequin in a close dance hold, framed from the waist up, centre frame. Background, soft: the sofa, the child mannequin seated at its left end, the glowing floor lamp.
+Camera in the open floor of @image4, at chest height, 3 metres from the dancers, looking toward the sofa. Foreground: the rug. Midground: Adam and the adult mannequin in a close dance hold on the rug, framed from the knees up, centre frame. Directly behind them, between the dancers and the sofa: the low wooden coffee table with its lace doily and glass dish, its top visible behind their legs. Background: the sofa, the child mannequin seated at its left end, the glowing floor lamp.
 
 FIRST FRAME / BLOCKING
-The first frame is @image1 and the adult mannequin from the waist up, centre frame, his cheek against its wig, its rigid arm over his shoulder, the child mannequin soft on the sofa behind them at frame left.
+The first frame is @image1 and the adult mannequin from the knees up, centre frame, his cheek against its wig, its rigid arm over his shoulder; behind their legs the low coffee table with the doily and glass dish; behind that the sofa with the child mannequin at its left end.
 
 FORMAT MODE
 One continuous shot; the camera holds it without cutting on its own.
 
 OPTICS
-0.0s to 8.0s — MCU two-shot, 29° FOV.
+0.0s to 8.0s — MS two-shot, knees up, 47° FOV.
 Clean rectilinear primes, natural perspective, crisp centre, soft falloff at the edges.
 
 CAMERA
@@ -1098,6 +1099,7 @@ POSITIVE LOCKS
 - Every paper, label and envelope is blank.
 - The camera holds still while he sways.
 - The child mannequin stays seated at the left end of the sofa for the whole shot.
+- The coffee table stands in the middle of the room between the dancers and the sofa in every frame, as in @image4.
 ```
 
 ### G17
@@ -1203,7 +1205,7 @@ Tonal character: wide latitude, gentle highlight roll-off, rich detail held in t
 ACTION
 0.0s to 4.0s — The arm, a smooth ivory plastic arm in a burgundy sleeve, rocks on the rug and comes to rest by 1.2s. He stands holding the complete mannequin upright against his side, its wigged head and blank face at his shoulder, the left cardigan sleeve hanging empty, and stares down at the arm, completely still.
 4.0s HARD CUT
-4.0s to 10.0s — The adult mannequin now sits upright in the floral armchair, whole: wig, blank face, burgundy cardigan, the empty left sleeve. @image1 kneels in front of it. He feeds the plastic arm up into the empty sleeve and pushes its ball joint into the shoulder socket under the cardigan, gently and too fast, fumbling. At 6.6s it clicks in and the hand appears at the cuff. At 7.8s he lifts the ivory plastic hand and holds it against his forehead, eyes shut. 4.4s to 6.2s, Adam, rushed, breaking, barely voiced: "I'm sorry. I'm sorry." 8.2s to 9.4s, Adam, a whisper into the plastic hand: "Did I hurt you?"
+4.0s to 10.0s — The adult mannequin now sits upright in the floral armchair, whole: wig, blank face, burgundy cardigan, the empty left sleeve hanging flat. @image1 kneels beside it holding the whole detached arm in both hands from the first frame of this segment: one smooth ivory plastic arm, rounded ball joint at the top, hand at the bottom. He pushes the ball end up inside the empty sleeve and into the shoulder socket under the cardigan, gently and too fast, fumbling; the sleeve fills as the arm goes in. At 6.6s it clicks into place and the plastic hand now hangs at the end of the sleeve, joined to the arm. At 7.8s he lifts that attached hand, still joined to the arm in the sleeve, and holds it against his forehead, eyes shut. 4.4s to 6.2s, Adam, rushed, breaking, barely voiced: "I'm sorry. I'm sorry." 8.2s to 9.4s, Adam, a whisper into the plastic hand: "Did I hurt you?"
 
 PERFORMANCE
 Panic in his hands, tenderness in his face; his breath comes short and his lower lip shakes. Real skin with visible pores and fine texture, living eyes with catch-lights, breath visible in the chest and shoulders.
@@ -1231,6 +1233,7 @@ POSITIVE LOCKS
 - Every paper, label and envelope is blank.
 - Both mannequins stay inert; only Adam moves.
 - The adult mannequin keeps its head, wig, blank face and cardigan in every frame.
+- There is exactly one loose arm: on the rug in the first segment, in Adam's hands at the start of the second, then fixed in the sleeve; the hand stays joined to that arm.
 - Each line lands once, at its time, from its speaker.
 ```
 
