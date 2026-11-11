@@ -10,10 +10,12 @@ A short film for the 1 Billion Followers Summit AI Film Award 2027.
 
 | File | What it is |
 |---|---|
+| [`LOOK-story-and-shot-list.pdf`](LOOK-story-and-shot-list.pdf) | Everything below in one PDF, for reading and review |
 | [`story.md`](story.md) | Logline, the idea behind the film, its rules, characters, beat-by-beat story, full dialogue, sound plan |
 | [`shot-list.md`](shot-list.md) | All 87 shots with timecodes, framing, camera, sound and dialogue; hero and cuttable shots marked |
 | [`assets.md`](assets.md) | Character, mannequin, location and prop briefs to build next, plus the generation risks |
 | [`tools/build_shotlist.py`](tools/build_shotlist.py) | Source of the shot list. Edit a shot or a duration there and re-run it; timecodes are recalculated. |
+| [`tools/build_pdf.py`](tools/build_pdf.py) | Rebuilds the PDF from the story, shot list and asset briefs |
 
 To rebuild the shot list after an edit:
 
