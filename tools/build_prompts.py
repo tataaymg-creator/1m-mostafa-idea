@@ -48,7 +48,7 @@ ANCHOR = {
     "F24_end": "a frame from this same dinner: take the room, the lighting, Adam's clothes and where everyone sits. Use it for continuity only",
     "L05_hallway": "the entrance hallway: glazed doors on the left, the dark front door at the far end, coat hooks, a wall mirror and a narrow console with a dead plant and mail on the right",
     "L05b_hallway-bag": "the entrance hallway: glazed doors on the left, the dark front door at the far end, coat hooks, a wall mirror and a narrow console on the right holding a dead plant, mail and a sealed plastic bag",
-    "L06_nour-room": "a child's bedroom at night: small bed against the left wall with a rabbit on the pillow, star night-light on the bedside table, curtained window on the back wall, small desk with paper and crayons at right, open door at far right, crayon scribbles taped above the bed",
+    "L06_nour-room": "a child's bedroom at night seen from its entrance: a single dark-wood bed along the left wall, headboard against the back wall, a grey rabbit on the floral pillow and a pink floral blanket; a bedside table with a glowing star-projector dome right of the headboard; four crayon drawings taped on the back wall above the bed; a curtained window in the middle of the back wall; a wall shelf with books and a plant; a small desk and chair at right; a round woven rug; a dark wooden door on the right wall; sage walls, white cornice, terrazzo floor",
     "L07_car-front": "the car cabin seen from the back seat: left-hand drive, grey-beige fabric seats, plain grey dashboard with a simple radio, rear-view mirror, the straight desert road ahead",
     "L07b_car-backseat": "the car's back seat: grey-beige bench seat, seatbelt on the right-hand side, a picture book with a sheet of paper, small crayons, a swim ring on the rear shelf",
     "L08_desert-road": "a straight two-lane desert highway at golden hour, sandy shoulders, low scrub, poles, a thin line of sea on the horizon",
@@ -480,8 +480,8 @@ run(id="G28", scene="7 · Bedtime", nums="45", look="P", attach=["adam", "doll-d
     locks=["The camera holds the exact wide of the start frame for the whole shot.", "The mannequin stays in his arms, lined up along the length of the bed.", "The bed, the bedside table, the night-light, the desk and the rug keep the exact places and sizes of {L06_nour-room}.", "Adam stays standing for the whole shot."])
 
 run(id="G29", scene="7 · Bedtime", nums="46, 47, 48", look="P", attach=["adam", "doll-daughter", "P10_rabbit", "L06_nour-room"],
-    ctx="Night in a child's bedroom. {adam} tucks {doll-daughter} into bed and sets the stuffed rabbit beside it; he kisses its forehead and stays a moment too long as projected stars drift over his face; from the doorway he switches off the lamp and only the stars remain.",
-    map="Camera inside {L06_nour-room}. The bed against the left wall, the bedside table with the star night-light at its head, the small desk at right, the open door at far right. Background: the sage wall with taped crayon scribbles, stars drifting across it.",
+    ctx="Night in a child's bedroom. {adam} tucks {doll-daughter} into bed and sets the stuffed rabbit beside it; he kisses its forehead and stays a moment too long as projected stars drift over his face; at the door he looks back once and leaves, and only the stars remain.",
+    map="Camera inside {L06_nour-room}. The bed along the left wall, headboard against the back wall, the bedside table with the star night-light beside the headboard, the crayon drawings on the back wall above it; the desk at right; the door on the right wall. Stars drift across the walls and ceiling.",
     first="The first frame is the bed from its foot at a three-quarter angle, the child mannequin lying flat on its back, head on the pillow, {adam} seated on the bed's edge.",
     segs=[(6, None, "MS", "47°", "locked, at seated height",
            "From the first frame {P10_rabbit} already lies on the pillow beside the mannequin's head. At <1.5> he pulls the patterned blanket up to the plastic chin and smooths it over the stiff shape. At <3.5> he straightens the rabbit against the mannequin's shoulder with one hand.", []),
@@ -490,11 +490,11 @@ run(id="G29", scene="7 · Bedtime", nums="46, 47, 48", look="P", attach=["adam",
            [(3.8, 4.8, "Adam", "a whisper", "Tomorrow, the sea."),
             (5.0, 5.8, "Adam", "barely there", "Sleep now.")]),
           (4, "HARD CUT", "WS", "63°", "locked, eye level, the room's angle",
-           "The room at the angle of {L06_nour-room}. {adam} stands at the open door at far right, his hand on the light switch. He looks back at the bed for a second and at <1.6> presses the switch: the bedside lamp goes out, leaving the night-light dome and its slow stars; he becomes a black silhouette in the doorway.", [])],
+           "The room at the angle of {L06_nour-room}, the child mannequin tucked in the bed at left. {adam} stands at the dark wooden door on the right wall, holding it open. He looks back at the bed for a second, then at <2.0> steps out and draws the door half closed behind him; only the night-light dome and its slow stars remain.", [])],
     perf="Ritual tenderness; the held kiss shows in the stillness of his shoulders.",
     phys="The blanket drapes over a rigid straight shape. The rabbit is small, about 30 cm, smaller than the pillow.",
-    light="A small warm bedside lamp and the amber star night-light on deep blue; after the switch, only the stars. White balance 4300K.",
-    audio="Blanket fabric, the faint tick of the night-light motor, his breathing, a light-switch click at 13.6s.",
+    light="Only the amber star night-light on deep blue. White balance 4300K.",
+    audio="Blanket fabric, the faint tick of the night-light motor, his breathing, the door closing softly at the end.",
     locks=[])
 
 run(id="G30", scene="7 · Bedtime", nums="49 ★, 50 ★", look="P", attach=["adam", "L06_nour-room"],
@@ -648,7 +648,7 @@ run(id="G38", scene="9 · The floor", nums="68 ★", look="P", attach=["doll-dau
 
 run(id="G39", scene="9 · The floor", nums="69 ★, 70 ○", look="P", attach=["adam", "L06_nour-room"],
     ctx="Night turning to dawn in a child's bedroom. {adam} pulls himself up to sit against the side of the bed and finally breaks: silent at first, then aloud. Then a wide of the room as the light at the curtain edge turns grey-gold and he sits where he is.",
-    map="Camera inside {L06_nour-room}. Midground: Adam on the floor with his back against the side of the bed at the left of the room, knees drawn up. Background: the curtained window on the back wall, the desk at right, the open door at far right.",
+    map="Camera inside {L06_nour-room}. Midground: Adam on the floor with his back against the right side of the bed, the bed along the left wall, knees drawn up. Background: the curtained window on the back wall, the desk at right, the door on the right wall.",
     first="The first frame is {adam} on the floor beside the bed, pushing himself up from lying to sitting.",
     segs=[(8.5, None, "MS", "47°", "locked, at floor-sitting height",
            "His back comes to rest against the bed frame at <1.5>. He stares ahead. At <2.5> his face folds and he cries in silence, mouth open, shoulders shaking; at <5.0> the sound comes, low and broken; at <7.0> he presses the heels of his hands into his eyes. Stars drift over him. Above him the bed shows only as a dark edge of blanket.", []),

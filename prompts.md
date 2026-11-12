@@ -1747,7 +1747,7 @@ ACTIVE REFERENCES
 @image1 — Adam, 38, lean and tired; short untidy dark hair, stubble, a healed scar at his right temple; washed-out grey-blue shirt with rolled sleeves, charcoal trousers, bare feet, wedding ring; soft, low, slightly hoarse voice. 100% matches the reference.
 @image2 — child-size shop mannequin: matte ivory plastic, smooth blank face with only a sculpted nose and brow, dark wig in two uneven braids, unfinished yellow dress with pins, white tacking thread and one sleeve missing; a rigid object. 100% matches the reference.
 @image3 — a small worn grey stuffed rabbit, about 30 cm tall. 100% matches the reference.
-@image4 — a child's bedroom at night: small bed against the left wall with a rabbit on the pillow, star night-light on the bedside table, curtained window on the back wall, small desk with paper and crayons at right, open door at far right, crayon scribbles taped above the bed. 100% matches the reference.
+@image4 — a child's bedroom at night seen from its entrance: a single dark-wood bed along the left wall, headboard against the back wall, a grey rabbit on the floral pillow and a pink floral blanket; a bedside table with a glowing star-projector dome right of the headboard; four crayon drawings taped on the back wall above the bed; a curtained window in the middle of the back wall; a wall shelf with books and a plant; a small desk and chair at right; a round woven rug; a dark wooden door on the right wall; sage walls, white cornice, terrazzo floor. 100% matches the reference.
 
 LOCATION MAP
 Camera exactly as in the start frame: the whole room in one wide. Frame left: the bed along the left wall with @image3 on the pillow, the bedside table and glowing night-light. Centre: the round rug. Frame right: the small desk and chair, the open door at the far right edge.
@@ -1806,16 +1806,16 @@ Attach in order: @image1 = `adam`, @image2 = `doll-daughter`, @image3 = `P10_rab
 
 ```text
 SCENE CONTEXT
-Night in a child's bedroom. @image1 tucks @image2 into bed and sets the stuffed rabbit beside it; he kisses its forehead and stays a moment too long as projected stars drift over his face; from the doorway he switches off the lamp and only the stars remain.
+Night in a child's bedroom. @image1 tucks @image2 into bed and sets the stuffed rabbit beside it; he kisses its forehead and stays a moment too long as projected stars drift over his face; at the door he looks back once and leaves, and only the stars remain.
 
 ACTIVE REFERENCES
 @image1 — Adam, 38, lean and tired; short untidy dark hair, stubble, a healed scar at his right temple; washed-out grey-blue shirt with rolled sleeves, charcoal trousers, bare feet, wedding ring; soft, low, slightly hoarse voice. 100% matches the reference.
 @image2 — child-size shop mannequin: matte ivory plastic, smooth blank face with only a sculpted nose and brow, dark wig in two uneven braids, unfinished yellow dress with pins, white tacking thread and one sleeve missing; a rigid object. 100% matches the reference.
 @image3 — a small worn grey stuffed rabbit, about 30 cm tall. 100% matches the reference.
-@image4 — a child's bedroom at night: small bed against the left wall with a rabbit on the pillow, star night-light on the bedside table, curtained window on the back wall, small desk with paper and crayons at right, open door at far right, crayon scribbles taped above the bed. 100% matches the reference.
+@image4 — a child's bedroom at night seen from its entrance: a single dark-wood bed along the left wall, headboard against the back wall, a grey rabbit on the floral pillow and a pink floral blanket; a bedside table with a glowing star-projector dome right of the headboard; four crayon drawings taped on the back wall above the bed; a curtained window in the middle of the back wall; a wall shelf with books and a plant; a small desk and chair at right; a round woven rug; a dark wooden door on the right wall; sage walls, white cornice, terrazzo floor. 100% matches the reference.
 
 LOCATION MAP
-Camera inside @image4. The bed against the left wall, the bedside table with the star night-light at its head, the small desk at right, the open door at far right. Background: the sage wall with taped crayon scribbles, stars drifting across it.
+Camera inside @image4. The bed along the left wall, headboard against the back wall, the bedside table with the star night-light beside the headboard, the crayon drawings on the back wall above it; the desk at right; the door on the right wall. Stars drift across the walls and ceiling.
 
 FIRST FRAME / BLOCKING
 The first frame is the bed from its foot at a three-quarter angle, the child mannequin lying flat on its back, head on the pillow, @image1 seated on the bed's edge.
@@ -1840,7 +1840,7 @@ ACTION
 6.0s HARD CUT
 6.0s to 12.0s — @image1 leans down and at 7.0s kisses the ivory forehead; he stays there, lips on the plastic, eyes closed, until 9.2s. Star shapes drift slowly over his face and the pillow. He pulls back a few centimetres and speaks. 9.8s to 10.8s, Adam, a whisper: "Tomorrow, the sea." 11.0s to 11.8s, Adam, barely there: "Sleep now."
 12.0s HARD CUT
-12.0s to 16.0s — The room at the angle of @image4. @image1 stands at the open door at far right, his hand on the light switch. He looks back at the bed for a second and at 13.6s presses the switch: the bedside lamp goes out, leaving the night-light dome and its slow stars; he becomes a black silhouette in the doorway.
+12.0s to 16.0s — The room at the angle of @image4, the child mannequin tucked in the bed at left. @image1 stands at the dark wooden door on the right wall, holding it open. He looks back at the bed for a second, then at 14.0s steps out and draws the door half closed behind him; only the night-light dome and its slow stars remain.
 
 PERFORMANCE
 Ritual tenderness; the held kiss shows in the stillness of his shoulders. Real skin with visible pores and fine texture, living eyes with catch-lights, breath visible in the chest and shoulders.
@@ -1849,10 +1849,10 @@ PHYSICS
 The blanket drapes over a rigid straight shape. The rabbit is small, about 30 cm, smaller than the pillow. The mannequins are hollow, hard and rigid; they keep every joint at its angle and move only where Adam's hands carry them.
 
 LIGHTING
-A small warm bedside lamp and the amber star night-light on deep blue; after the switch, only the stars. White balance 4300K.
+Only the amber star night-light on deep blue. White balance 4300K.
 
 AUDIO
-Blanket fabric, the faint tick of the night-light motor, his breathing, a light-switch click at 13.6s.
+Blanket fabric, the faint tick of the night-light motor, his breathing, the door closing softly at the end.
 Lines, each spoken once, in English: 9.8s Adam: "Tomorrow, the sea." · 11.0s Adam: "Sleep now."
 Only these voices are heard.
 
@@ -1881,7 +1881,7 @@ Night, in the doorway of a child's bedroom lit only by a star night-light. @imag
 
 ACTIVE REFERENCES
 @image1 — Adam, 38, lean and tired; short untidy dark hair, stubble, a healed scar at his right temple; washed-out grey-blue shirt with rolled sleeves, charcoal trousers, bare feet, wedding ring; soft, low, slightly hoarse voice. 100% matches the reference.
-@image2 — a child's bedroom at night: small bed against the left wall with a rabbit on the pillow, star night-light on the bedside table, curtained window on the back wall, small desk with paper and crayons at right, open door at far right, crayon scribbles taped above the bed. 100% matches the reference.
+@image2 — a child's bedroom at night seen from its entrance: a single dark-wood bed along the left wall, headboard against the back wall, a grey rabbit on the floral pillow and a pink floral blanket; a bedside table with a glowing star-projector dome right of the headboard; four crayon drawings taped on the back wall above the bed; a curtained window in the middle of the back wall; a wall shelf with books and a plant; a small desk and chair at right; a round woven rug; a dark wooden door on the right wall; sage walls, white cornice, terrazzo floor. 100% matches the reference.
 
 LOCATION MAP
 Camera in the corridor and the doorway of @image2. Midground: Adam in the doorway facing out toward the corridor. Background: the dim bedroom wall behind him with stars drifting across it.
@@ -2339,7 +2339,7 @@ A match cut on one eye: an extreme close-up of @image1's open eye, his cheek on 
 
 ACTIVE REFERENCES
 @image1 — Adam, 38, lean and tired; short untidy dark hair, stubble, a healed scar at his right temple; washed-out grey-blue shirt with rolled sleeves, charcoal trousers, bare feet, wedding ring; soft, low, slightly hoarse voice. 100% matches the reference.
-@image2 — a child's bedroom at night: small bed against the left wall with a rabbit on the pillow, star night-light on the bedside table, curtained window on the back wall, small desk with paper and crayons at right, open door at far right, crayon scribbles taped above the bed. 100% matches the reference.
+@image2 — a child's bedroom at night seen from its entrance: a single dark-wood bed along the left wall, headboard against the back wall, a grey rabbit on the floral pillow and a pink floral blanket; a bedside table with a glowing star-projector dome right of the headboard; four crayon drawings taped on the back wall above the bed; a curtained window in the middle of the back wall; a wall shelf with books and a plant; a small desk and chair at right; a round woven rug; a dark wooden door on the right wall; sage walls, white cornice, terrazzo floor. 100% matches the reference.
 
 LOCATION MAP
 First segment: camera on the asphalt a few centimetres from his face, Adam lying on his left side. Second segment: camera on the terrazzo floor of @image2 in exactly the same position, Adam lying the same way.
@@ -2404,7 +2404,7 @@ Night in a child's bedroom, seen from the floor beside the bed: under the blanke
 ACTIVE REFERENCES
 @image1 — child-size shop mannequin: matte ivory plastic, smooth blank face with only a sculpted nose and brow, dark wig in two uneven braids, unfinished yellow dress with pins, white tacking thread and one sleeve missing; a rigid object. 100% matches the reference.
 @image2 — a small worn grey stuffed rabbit, about 30 cm tall. 100% matches the reference.
-@image3 — a child's bedroom at night: small bed against the left wall with a rabbit on the pillow, star night-light on the bedside table, curtained window on the back wall, small desk with paper and crayons at right, open door at far right, crayon scribbles taped above the bed. 100% matches the reference.
+@image3 — a child's bedroom at night seen from its entrance: a single dark-wood bed along the left wall, headboard against the back wall, a grey rabbit on the floral pillow and a pink floral blanket; a bedside table with a glowing star-projector dome right of the headboard; four crayon drawings taped on the back wall above the bed; a curtained window in the middle of the back wall; a wall shelf with books and a plant; a small desk and chair at right; a round woven rug; a dark wooden door on the right wall; sage walls, white cornice, terrazzo floor. 100% matches the reference.
 
 LOCATION MAP
 Camera on the floor beside the bed in @image3, looking up. Foreground: the mattress edge across the lower frame. Midground: the mannequin lying on its back, its head on the pillow, @image2 beside it, exactly as in the start frame. Background: the sage wall, the taped scribbles, slow stars, the glowing dome on the bedside table.
@@ -2461,10 +2461,10 @@ Night turning to dawn in a child's bedroom. @image1 pulls himself up to sit agai
 
 ACTIVE REFERENCES
 @image1 — Adam, 38, lean and tired; short untidy dark hair, stubble, a healed scar at his right temple; washed-out grey-blue shirt with rolled sleeves, charcoal trousers, bare feet, wedding ring; soft, low, slightly hoarse voice. 100% matches the reference.
-@image2 — a child's bedroom at night: small bed against the left wall with a rabbit on the pillow, star night-light on the bedside table, curtained window on the back wall, small desk with paper and crayons at right, open door at far right, crayon scribbles taped above the bed. 100% matches the reference.
+@image2 — a child's bedroom at night seen from its entrance: a single dark-wood bed along the left wall, headboard against the back wall, a grey rabbit on the floral pillow and a pink floral blanket; a bedside table with a glowing star-projector dome right of the headboard; four crayon drawings taped on the back wall above the bed; a curtained window in the middle of the back wall; a wall shelf with books and a plant; a small desk and chair at right; a round woven rug; a dark wooden door on the right wall; sage walls, white cornice, terrazzo floor. 100% matches the reference.
 
 LOCATION MAP
-Camera inside @image2. Midground: Adam on the floor with his back against the side of the bed at the left of the room, knees drawn up. Background: the curtained window on the back wall, the desk at right, the open door at far right.
+Camera inside @image2. Midground: Adam on the floor with his back against the right side of the bed, the bed along the left wall, knees drawn up. Background: the curtained window on the back wall, the desk at right, the door on the right wall.
 
 FIRST FRAME / BLOCKING
 The first frame is @image1 on the floor beside the bed, pushing himself up from lying to sitting.
