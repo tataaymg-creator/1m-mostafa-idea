@@ -71,3 +71,7 @@ Dropped: G02, G15 (main), G24, G39b, G45.
 - G15 3a2554e0 back in: cut the radio opening (G15a covers it) and flip the close-up of her holding his hand so she reads as the passenger.
 - Spill: G25 starts with the cup already spilled; play it as a jump cut (he drifted off).
 - Last image: G49z a1eca541 (awaiting review): from the G49k end frame, camera tilts down and back; the drawing enters lower left on the hallway floor in front of the kitchen door. By the end only their legs are in frame.
+
+## Cut as of 2026-11-12 15:40 — 41 takes in FAVOURITES
+Dropped by the user since: G13 18ce6352 (sewing machine alone), G19 2cf11c7f (knock; G46 used once), G28 39fe0751, G42 bf11d1e5 (G42b replaces it), G38 c4d92076 (G39 already shows the mannequin in the bed). Added: G42b 9c30858b, G49z a1eca541.
+Upscale: 41 takes = 354 s = 5,664 credits; + G15 3a2554e0 (pending the user's decision) = 364 s = 5,824. Balance about 6,190.
