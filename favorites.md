@@ -63,3 +63,10 @@ Dropped: G02, G15 (main), G24, G39b, G45.
 - Knock: upscale one knock shot only and use it twice; lay the "I know you're in there" audio on the first use, the plain knock on the second. G19 is the dim night hallway, G46 is morning light: grade the reused shot to match.
 - G43 and G44 stay two separate shots.
 - All takes are 480p drafts: finalise to 1080p (draft_job_id) once the cut is locked.
+
+## 1080p finalise cost (checked 2026-11-12)
+- Seedance 2.5 finalise from a draft = **16 credits per second** (5 s = 80, 10 s = 160).
+- 45 takes in FAVOURITES = 377 s → **6,032 credits**. With G15 (10 s) added: 387 s → **6,192**. Balance now 6,213.
+- Savings: drop G42 bf11d1e5 if G42b replaces it (−96); upscale one knock only, G46, and drop G19 (−64); G28 is inserts only (−160 if skipped).
+- G15 3a2554e0 back in: cut the radio opening (G15a covers it) and flip the close-up of her holding his hand so she reads as the passenger.
+- Spill: G25 starts with the cup already spilled; play it as a jump cut (he drifted off).
