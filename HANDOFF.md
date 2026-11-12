@@ -39,5 +39,5 @@ v3 had no ceiling in the blocking, so the model invented a broken one. v4 (`loca
 The v2 fix still had broken walls. v3 (`locations/L06_nour-room_v3.png`, Higgsfield 57cb6223) is rendered from an exact perspective blocking built in `tools/room_blocking.py` (`locations/L06_blocking.png`, real metres, one camera). Render it from the blocking ALONE: when the old photo is also attached, the image model copies the old photo and ignores the blocking. `L06_nour-room` now points to v3. Pending: user approval, then redo the G28 start frame and every bedroom shot on v3.
 
 ## Bedroom shots on plate v4 (done)
-G28 f253a420 (start F28_start 92e93a22) · G29 fe2c6c1d · G30 a41bfe89 · G38 c4d92076 (start F38_bed e82a1245, pose from G29 at 5.5s) · G39 6e3a97e8.
+G28 f253a420 (start F28_start 92e93a22) · G29 fe2c6c1d · G30 a41bfe89 · G38 c4d92076 (start F38_bed e82a1245, pose from G29 at 5.5s) · G39 9b8ba5d8 (use 0–15 s, the crying) + G39b 6c18dc34 (dawn wide, start F39_wide 4fa14d9f).
 G37 kept as 3232ee7d: its bedroom half is an extreme close-up of the eye on the terrazzo floor, so the plate never shows.
