@@ -1,6 +1,6 @@
 # LOOK — Seedance 2.5 prompts
 
-**48 generations · 383 seconds of footage.** Written to the seedance-clean structure.
+**48 generations · 379 seconds of footage.** Written to the seedance-clean structure.
 
 ## Settings for every run
 
@@ -39,8 +39,8 @@
 | [G23](#g23) | 5 · The knock | 37 ○ | 4s | 1 `mona`, 2 `P14_foil-dish`, 3 `L09_landing` |
 | [G24](#g24) | 6 · Dinner | 39, 40 | 10s | 1 `adam`, 2 `doll-wife`, 3 `doll-daughter`, 4 `P01_yellow-cup`, 5 `L02_dining` |
 | [G25](#g25) | 6 · Dinner | 41 ★, 44 | 8s | 1 `adam`, 2 `doll-wife`, 3 `doll-daughter`, 4 `P01_yellow-cup`, 5 `L02_dining` |
-| [G27](#g27) | 6 · Dinner & the headlights (flash 4) | 42, 43 | 5s | 1 `layla`, 2 `L07_car-front`, 3 `L08_desert-road` |
-| [G28](#g28) | 7 · Bedtime | 45 | 10s | 1 `adam`, 2 `doll-daughter`, 3 `L06_nour-room` |
+| [G27](#g27) | 6 · Dinner & the headlights (flash 4) | 42, 43 | 5s | 1 `layla`, 2 `L07_car-front`, 3 `F35_truck` |
+| [G28](#g28) | 7 · Bedtime | 45 | 6s | 1 `adam`, 2 `doll-daughter`, 3 `P10_rabbit`, 4 `L06_nour-room` |
 | [G29](#g29) | 7 · Bedtime | 46, 47, 48 | 16s | 1 `adam`, 2 `doll-daughter`, 3 `P10_rabbit`, 4 `L06_nour-room` |
 | [G30](#g30) | 7 · Bedtime | 49 ★, 50 ★ | 10s | 1 `adam`, 2 `L06_nour-room` |
 | [G31](#g31) | 8 · The road | 51 | 5s | 1 `P13_family-car`, 2 `L08_desert-road` |
@@ -1679,22 +1679,22 @@ POSITIVE LOCKS
 
 **6 · Dinner & the headlights (flash 4) · shots 42, 43 · 5s**  
 Seedance 2.5 Draft · 16:9 · audio ON · duration 5s  
-Attach in order: @image1 = `layla`, @image2 = `L07_car-front`, @image3 = `L08_desert-road`
+Attach in order: @image1 = `layla`, @image2 = `L07_car-front`, @image3 = `F35_truck`
 
 ```text
 SCENE CONTEXT
-A memory at dusk in a moving car: through the windshield, headlights bloom far ahead on the desert road; then @image1, in the front right seat, turns from the back seat to the road and her smile falls as white light climbs over her face. The clip ends on white.
+A memory at golden hour in the family car driving forward along the desert road: through the windshield, far ahead in the oncoming lane, the same silver truck as @image3 appears small in the distance with its headlights on; then @image1, in the front right seat, turns from the back seat to the road and her smile falls as white light climbs over her face. The clip ends on white.
 
 ACTIVE REFERENCES
 @image1 — Layla, 34, warm and quick to laugh; shoulder-length dark wavy hair, burgundy cardigan over a cream floral dress, slim gold watch, wedding ring; bright voice. 100% matches the reference.
 @image2 — the car cabin seen from the back seat: left-hand drive, grey-beige fabric seats, plain grey dashboard with a simple radio, rear-view mirror, the straight desert road ahead. 100% matches the reference.
-@image3 — a straight two-lane desert highway at golden hour, sandy shoulders, low scrub, poles, a thin line of sea on the horizon. 100% matches the reference.
+@image3 — a frame from the crash shot: this exact truck, this road, this golden-hour light and this windshield view. 100% matches the reference.
 
 LOCATION MAP
-First segment: the driver's view through the dusty windshield of @image2 onto the road of @image3 at dusk. Second segment: camera on the driver's side looking across at Layla, her side window behind her.
+First segment: the driver's view through the windshield of @image2, exactly the framing of @image3: the rear-view mirror at top, the steering wheel and dashboard at the bottom, the straight road running ahead toward the low sun. Second segment: camera on the driver's side looking across at Layla, her side window and the golden desert behind her.
 
 FIRST FRAME / BLOCKING
-The first frame is the dashboard top and the straight two-lane road at dusk through dusty glass, a pair of small headlights far ahead.
+The first frame is the windshield view of @image3, but the truck is still far away: a small silver shape with two headlights in the oncoming lane near the horizon, the low sun beside it.
 
 FORMAT MODE
 Timed multishot: cuts only at the stated seconds; the camera holds each segment without cutting on its own.
@@ -1705,12 +1705,12 @@ OPTICS
 Rectilinear primes wide open, shallow focus, warm flare when the sun enters frame, natural motion blur. No drift mid-segment.
 
 CAMERA
-0.0s to 2.5s — handheld, at driver eye level.
+0.0s to 2.5s — handheld, at driver eye level, the car moving forward.
 2.5s to 5.0s — handheld, from the driver's seat.
 Tonal character: wide latitude, gentle highlight roll-off, rich detail held in the shadows.
 
 ACTION
-0.0s to 2.5s — The far headlights swell and bloom across the dirt on the windshield until the glare covers most of the glass at 2.2s.
+0.0s to 2.5s — The car drives forward at 90 km/h: the lane lines stream toward the camera and pass under the car. Far ahead the silver truck comes toward us, growing slowly larger, its headlights blooming across the dust on the glass.
 2.5s HARD CUT
 2.5s to 5.0s — @image1 in left profile, smiling toward the back seat; at 3.1s her eyes go to the road ahead and the smile falls away as white light climbs over her face. The frame burns out to pure white over the last half second.
 
@@ -1718,10 +1718,10 @@ PERFORMANCE
 Her smile drains in a single beat: lips part, eyes widen, brows lift. Real skin with visible pores and fine texture, living eyes with catch-lights, breath visible in the chest and shoulders.
 
 PHYSICS
-Glare blooms through dust and smears on the glass.
+Our car moves forward the whole time: the road comes toward the camera and slides under the bonnet; the truck approaches from far ahead in its own lane.
 
 LIGHTING
-Dusk: the sky orange going blue, the cabin dim; the oncoming headlights a cold white that rises to fill the frame. White balance 5600K.
+Golden hour exactly as in @image3: the low sun ahead, warm amber light in the cabin; the truck's headlights a cold white that rises to fill the frame. White balance 5600K.
 
 AUDIO
 Road hum and a truck horn rising steadily through both segments; silence on the last frame.
@@ -1734,56 +1734,55 @@ POSITIVE LOCKS
 - Layla matches @image1 in face, hair and clothes in every frame she appears in.
 - The camera is handheld, close and breathing.
 - Every paper shows a blank back; the car is plain and unbadged.
+- The truck is the same silver truck as @image3.
+- Our car drives forward; the road streams toward the camera.
 - The clip ends on pure white with the road clear and the car whole.
 ```
 
 ### G28
 
-**7 · Bedtime · shots 45 · 10s**  
-Seedance 2.5 Draft · 16:9 · audio ON · duration 10s  
-Attach in order: @image1 = `adam`, @image2 = `doll-daughter`, @image3 = `L06_nour-room`
+**7 · Bedtime · shots 45 · 6s**  
+Seedance 2.5 Draft · 16:9 · audio ON · duration 6s  
+Attach in order: @image1 = `adam`, @image2 = `doll-daughter`, @image3 = `P10_rabbit`, @image4 = `L06_nour-room`
 
 ```text
 SCENE CONTEXT
-Night. @image1 carries @image2 down a dark corridor toward a bedroom glowing with a star night-light; then, inside the room, he comes through the door facing the camera and lays it on the bed.
+Night in the child's bedroom lit by the star night-light. @image1 is already well inside the room, carrying @image2 across his arms; he walks to the bed and sets it down sitting back against the pillow, ending exactly on the end frame.
 
 ACTIVE REFERENCES
 @image1 — Adam, 38, lean and tired; short untidy dark hair, stubble, a healed scar at his right temple; washed-out grey-blue shirt with rolled sleeves, charcoal trousers, bare feet, wedding ring; soft, low, slightly hoarse voice. 100% matches the reference.
 @image2 — child-size shop mannequin: matte ivory plastic, smooth blank face with only a sculpted nose and brow, dark wig in two uneven braids, unfinished yellow dress with pins, white tacking thread and one sleeve missing; a rigid object. 100% matches the reference.
-@image3 — a child's bedroom at night: small bed against the left wall with a rabbit on the pillow, star night-light on the bedside table, curtained window on the back wall, small desk with paper and crayons at right, open door at far right, crayon scribbles taped above the bed. 100% matches the reference.
+@image3 — a small worn grey stuffed rabbit, about 30 cm tall. 100% matches the reference.
+@image4 — a child's bedroom at night: small bed against the left wall with a rabbit on the pillow, star night-light on the bedside table, curtained window on the back wall, small desk with paper and crayons at right, open door at far right, crayon scribbles taped above the bed. 100% matches the reference.
 
 LOCATION MAP
-First segment: camera at the near end of a narrow dark corridor, the open door of the bedroom from @image3 at the far end, amber stars spilling onto the corridor wall. Second segment: camera inside the bedroom by the window, looking at the open door, the bed in the left foreground.
+Camera inside @image4, at the foot of the bed side, looking toward the head of the bed and the bedside table with the glowing night-light, as in the end frame. Midground: the bed with the pillow and @image3. Adam comes in from frame right, well inside the room, the doorway out of frame.
 
 FIRST FRAME / BLOCKING
-The first frame is @image1 from behind in the middle of the dark corridor, walking away from the camera toward the glowing doorway, the child mannequin lying across his arms, its stiff legs straight out to one side.
+The first frame is the bedroom as in the end frame but with the bed empty except for the rabbit, and @image1 entering from frame right, already well inside the room, the child mannequin lying across both his arms, its legs held close against his body.
 
 FORMAT MODE
-Timed multishot: cuts only at the stated seconds; the camera holds each segment without cutting on its own.
+One continuous shot; the camera holds it without cutting on its own.
 
 OPTICS
-0.0s to 4.0s — WS from behind, 63° FOV.
-4.0s to 10.0s — WS, 63° FOV.
-Clean rectilinear primes, natural perspective, crisp centre, soft falloff at the edges. No drift mid-segment.
+0.0s to 6.0s — MS, 47° FOV.
+Clean rectilinear primes, natural perspective, crisp centre, soft falloff at the edges.
 
 CAMERA
-0.0s to 4.0s — locked, eye level, in the corridor.
-4.0s to 10.0s — locked, eye level, inside the bedroom facing the door.
+0.0s to 6.0s — locked, eye level.
 Tonal character: wide latitude, gentle highlight roll-off, rich detail held in the shadows.
 
 ACTION
-0.0s to 4.0s — He walks away from the camera at 2 km/h, his back to us, toward the glowing doorway at the far end. The braided wig hangs over his elbow.
-4.0s HARD CUT
-4.0s to 10.0s — @image1 steps through the doorway into the room, his face and chest toward the camera, the mannequin across his arms. He walks straight to the bed in the left foreground, and at 7.5s bends and lays the mannequin flat on its back on the bed, its head on the pillow. He straightens and looks down at it.
+0.0s to 6.0s — He walks slowly to the side of the bed, the mannequin across his arms, its legs held close to his body. At 2.5s he bends and sets it down on the bed, sitting it back against the pillow, its head resting on the pillow beside the rabbit. At 4.5s he reaches for the blanket and begins to draw it up, ending exactly on the end frame.
 
 PERFORMANCE
-Careful, quiet steps; his head bent over the figure; tenderness in his face as he lays it down. Real skin with visible pores and fine texture, living eyes with catch-lights, breath visible in the chest and shoulders.
+Careful, quiet movements; his head bent over the figure; tenderness in his face as he sets it down. Real skin with visible pores and fine texture, living eyes with catch-lights, breath visible in the chest and shoulders.
 
 PHYSICS
-The mannequin keeps its rigid straight shape in his arms and on the bed; only the wig's braids swing. The mannequins are hollow, hard and rigid; they keep every joint at its angle and move only where Adam's hands carry them.
+The mannequin keeps its rigid shape in his arms and on the bed; only the wig's braids swing. Its legs stay clear of the furniture and walls. The mannequins are hollow, hard and rigid; they keep every joint at its angle and move only where Adam's hands carry them.
 
 LIGHTING
-The corridor dark, lit only by the warm glow from the bedroom door; inside, the star night-light on the bedside table, amber stars drifting over the walls and over Adam. White balance 4300K.
+Only the star night-light on the bedside table: amber stars drifting over the walls, the bed and Adam. White balance 4300K.
 
 AUDIO
 Slow bare footsteps; the faint tick of the night-light motor; the bed creaking softly.
@@ -1799,8 +1798,8 @@ POSITIVE LOCKS
 - The curtains stay closed; the light comes from lamps and the glow through the curtains.
 - Yellow objects hold the only saturated colour.
 - Every paper, label and envelope is blank.
-- In the second segment Adam walks into the room facing the camera, from the door to the bed.
-- The mannequin stays in his arms until he lays it on the bed.
+- The shot stays inside the bedroom; the doorway stays out of frame.
+- The mannequin ends sitting back against the pillow exactly as in the end frame.
 ```
 
 ### G29
