@@ -2407,7 +2407,7 @@ ACTIVE REFERENCES
 @image3 — a child's bedroom at night seen from its entrance: a single dark-wood bed along the left wall, headboard against the back wall, a grey rabbit on the floral pillow and a pink floral blanket; a bedside table with a glowing star-projector dome right of the headboard; four crayon drawings taped on the back wall above the bed; a curtained window in the middle of the back wall; a wall shelf with books and a plant; a small desk and chair at right; a round woven rug; a dark wooden door on the right wall; sage walls, white cornice, terrazzo floor. 100% matches the reference.
 
 LOCATION MAP
-Camera on the floor beside the bed in @image3, looking up. Foreground: the mattress edge across the lower frame. Midground: the mannequin lying on its back, its head on the pillow, @image2 beside it, exactly as in the start frame. Background: the sage wall, the taped scribbles, slow stars, the glowing dome on the bedside table.
+Camera on the floor beside the bed in @image3, looking up. Foreground: the mattress edge across the lower frame. Midground: the mannequin lying on its back, its head on the pillow, @image2 beside it, exactly as in the start frame. Background: the dark-wood headboard, the crayon drawings on the sage back wall above it, slow stars, the glowing dome on the bedside table at right.
 
 FIRST FRAME / BLOCKING
 The first frame is the start image itself: the bed from floor level, the child mannequin lying on its back exactly as shown, the smooth ivory face and the seam at its neck plain to see.
