@@ -1,6 +1,6 @@
 # LOOK — Seedance 2.5 prompts
 
-**49 generations · 391 seconds of footage.** Written to the seedance-clean structure.
+**49 generations · 396 seconds of footage.** Written to the seedance-clean structure.
 
 ## Settings for every run
 
@@ -62,7 +62,7 @@
 | [G46](#g46) | 12 · The door | 81 | 4s | 1 `L05_hallway` |
 | [G47](#g47) | 12 · The door | 82 | 6s | 1 `adam`, 2 `L05_hallway` |
 | [G48](#g48) | 12 · The door | 83, 84 ★ | 11s | 1 `mona`, 2 `adam`, 3 `P14_foil-dish`, 4 `L09_landing` |
-| [G49](#g49) | 12 · The door | 85 ★ | 6s | 1 `adam`, 2 `mona`, 3 `P09_drawing`, 4 `P01_yellow-cup`, 5 `L05_hallway` |
+| [G49](#g49) | 12 · The door | 85 ★ | 11s | 1 `adam`, 2 `mona`, 3 `P14_foil-dish`, 4 `P09_drawing`, 5 `P01_yellow-cup`, 6 `L05_hallway` |
 
 ## Made in the edit, not generated
 
@@ -3150,52 +3150,57 @@ POSITIVE LOCKS
 
 ### G49
 
-**12 · The door · shots 85 ★ · 6s**  
-Seedance 2.5 Draft · 16:9 · audio ON · duration 6s  
-References: `@adam`, `@mona`, `@P09_drawing`, `@P01_yellow-cup`, `@L05_hallway`
+**12 · The door · shots 85 ★ · 11s**  
+Seedance 2.5 Draft · 16:9 · audio ON · duration 11s  
+References: `@adam`, `@mona`, `@P14_foil-dish`, `@P09_drawing`, `@P01_yellow-cup`, `@L05_hallway`
 
 ```text
 SCENE CONTEXT
-Morning, a wide from inside the apartment looking down the hallway to the open front door: @mona steps in and holds @adam , two silhouettes in the bright doorway, while in the soft foreground the child's drawing stands propped against the yellow cup.
+Morning, just inside the open front door. @mona steps in, sets her dish down and takes @adam in her arms; he holds out for a moment, then breaks and cries on her shoulder. Then the child's drawing, propped against the yellow cup, with the two of them soft behind it.
 
 ACTIVE REFERENCES
 @adam — Adam, 38, lean and tired; short untidy dark hair, stubble, a healed scar at his right temple; washed-out grey-blue shirt with rolled sleeves, charcoal trousers, bare feet, wedding ring; soft, low, slightly hoarse voice. 100% matches the reference.
 @mona — Mona, mid-forties; grey-streaked hair in a bun, tortoiseshell glasses, navy dress, long grey cardigan; low steady voice. 100% matches the reference.
+@P14_foil-dish — an oven dish covered with aluminium foil. 100% matches the reference.
 @P09_drawing — a child's crayon drawing: three figures holding hands, a strip of blue sea, a little car, a huge yellow sun. 100% matches the reference.
 @P01_yellow-cup — the child's yellow plastic cup. 100% matches the reference.
 @L05_hallway — the entrance hallway: glazed doors on the left, the dark front door at the far end, coat hooks, a wall mirror and a narrow console with a dead plant and mail on the right. 100% matches the reference.
 
 LOCATION MAP
-Camera inside the apartment, looking down the hallway of @L05_hallway to the open front door. Foreground, lower left: the corner of the lace-covered dining table with @P09_drawing leaning upright against @P01_yellow-cup , soft. Midground: the hallway walls, the console and mirror. Background: Adam in the open doorway, the bright stairwell behind.
+Inside the hallway of @L05_hallway , at the front door. First segment: camera inside the hall beside the console, side-on to the open doorway; Adam just inside the threshold at frame right facing left, Mona stepping in from the landing at frame left; the console with mail and a dead plant in the lower right. Second segment: camera low behind the lace-covered dining table further inside the apartment, looking down the hall to the doorway.
 
 FIRST FRAME / BLOCKING
-The first frame is the hallway receding to the open door, @adam a dark figure in it with his head down, the drawing and the yellow cup soft in the foreground.
+The first frame is a medium two-shot from the side: @adam standing just inside the open front door at frame right, head down, arms hanging; @mona on the threshold at frame left holding @P14_foil-dish ; both faces in soft daylight, clearly seen in profile.
 
 FORMAT MODE
-One continuous shot; the camera holds it without cutting on its own.
+Timed multishot: cuts only at the stated seconds; the camera holds each segment without cutting on its own.
 
 OPTICS
-0.0s to 6.0s — WS, 63° FOV.
-Clean rectilinear primes, natural perspective, crisp centre.
+0.0s to 7.0s — MS two-shot, side-on, 47° FOV.
+7.0s to 11.0s — CU insert, 29° FOV.
+Clean rectilinear primes, natural perspective, crisp centre. No drift mid-segment.
 
 CAMERA
-0.0s to 6.0s — locked, eye level, focus on the doorway.
+0.0s to 7.0s — locked, eye level.
+7.0s to 11.0s — locked, low at table height, focus on the drawing.
 Tonal character: wide latitude, gentle highlight roll-off, rich detail held in the shadows.
 
 ACTION
-0.0s to 6.0s — At 1.0s @mona steps over the threshold and puts her arms around him; he stands rigid, then at 2.8s folds into her, his forehead on her shoulder. They hold, two silhouettes in the light. At 5.0s the focus eases forward to the drawing: the huge yellow sun, three small figures, a strip of blue.
+0.0s to 7.0s — At 0.6s @mona steps over the threshold and sets the dish down on the console at 1.2s. At 1.8s she puts both arms around him and pulls him in. He stands rigid, arms at his sides. At 3.2s his face crumples; he folds into her, his forehead on her shoulder, his hands closing on the back of her cardigan, and he cries, his back shaking. She holds the back of his head, eyes closed, her cheek against his hair. They hold.
+7.0s HARD CUT
+7.0s to 11.0s — On the lace-covered dining table, @P09_drawing stands propped against @P01_yellow-cup , sharp and plain to see: three figures holding hands, a strip of blue sea, a little car, a huge yellow sun. Far behind it, out of focus down the hall, the two figures still holding each other in the bright doorway.
 
 PERFORMANCE
-His collapse into her is slow, starting at the shoulders. Real skin with visible pores and fine texture, living eyes with catch-lights, breath visible in the chest and shoulders.
+His collapse is slow, starting at the shoulders; real sobbing, wet face, breath catching. Mona is steady, silent, eyes closed. Real skin with visible pores and fine texture, living eyes with catch-lights, breath visible in the chest and shoulders.
 
 PHYSICS
-Her cardigan bunches under his hands; his back rises and falls.
+Her cardigan bunches under his hands; his back rises and falls with each sob. The dish sits on the console with its own weight.
 
 LIGHTING
-The open front door is the brightest thing in the frame, burning out; the foreground in soft shade. White balance 5600K.
+Soft morning daylight from the open rooms and the stairwell lights both faces from the side; the doorway bright but not burning out. White balance 5600K.
 
 AUDIO
-Street sound, far; cloth; one long shaking breath out. The score is laid in during the edit.
+Street sound, far; cloth; his breath breaking into quiet sobs. The score is laid in during the edit.
 The sound is only the room and the listed effects.
 
 STYLE
@@ -3207,6 +3212,7 @@ POSITIVE LOCKS
 - The camera stays on a tripod, locked, in every segment.
 - Yellow objects hold the only saturated colour.
 - Every paper, label and envelope is blank.
-- The camera holds still; only the focus shifts at the end.
-- The drawing carries pictures only.
+- Both faces are seen and lit in the first segment; they are never black silhouettes.
+- The drawing carries pictures only and matches @P09_drawing .
+- Mona stays silent; Adam says nothing.
 ```

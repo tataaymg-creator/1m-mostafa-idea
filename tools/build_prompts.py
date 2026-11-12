@@ -814,17 +814,21 @@ run(id="G48", scene="12 · The door", nums="83, 84 ★", look="PW", attach=["mon
            "Mona stays on the doormat, close to the door, for the whole clip.",
            "The door never moves on its own: Adam's hand opens it and holds it."])
 
-run(id="G49", scene="12 · The door", nums="85 ★", look="PW", attach=["adam", "mona", "P09_drawing", "P01_yellow-cup", "L05_hallway"],
-    ctx="Morning, a wide from inside the apartment looking down the hallway to the open front door: {mona} steps in and holds {adam}, two silhouettes in the bright doorway, while in the soft foreground the child's drawing stands propped against the yellow cup.",
-    map="Camera inside the apartment, looking down the hallway of {L05_hallway} to the open front door. Foreground, lower left: the corner of the lace-covered dining table with {P09_drawing} leaning upright against {P01_yellow-cup}, soft. Midground: the hallway walls, the console and mirror. Background: Adam in the open doorway, the bright stairwell behind.",
-    first="The first frame is the hallway receding to the open door, {adam} a dark figure in it with his head down, the drawing and the yellow cup soft in the foreground.",
-    segs=[(6, None, "WS", "63°", "locked, eye level, focus on the doorway",
-           "At <1.0> {mona} steps over the threshold and puts her arms around him; he stands rigid, then at <2.8> folds into her, his forehead on her shoulder. They hold, two silhouettes in the light. At <5.0> the focus eases forward to the drawing: the huge yellow sun, three small figures, a strip of blue.", [])],
-    perf="His collapse into her is slow, starting at the shoulders.",
-    phys="Her cardigan bunches under his hands; his back rises and falls.",
-    light="The open front door is the brightest thing in the frame, burning out; the foreground in soft shade. White balance 5600K.",
-    audio="Street sound, far; cloth; one long shaking breath out. The score is laid in during the edit.",
-    locks=["The camera holds still; only the focus shifts at the end.", "The drawing carries pictures only."])
+run(id="G49", scene="12 · The door", nums="85 ★", look="PW", attach=["adam", "mona", "P14_foil-dish", "P09_drawing", "P01_yellow-cup", "L05_hallway"],
+    ctx="Morning, just inside the open front door. {mona} steps in, sets her dish down and takes {adam} in her arms; he holds out for a moment, then breaks and cries on her shoulder. Then the child's drawing, propped against the yellow cup, with the two of them soft behind it.",
+    map="Inside the hallway of {L05_hallway}, at the front door. First segment: camera inside the hall beside the console, side-on to the open doorway; Adam just inside the threshold at frame right facing left, Mona stepping in from the landing at frame left; the console with mail and a dead plant in the lower right. Second segment: camera low behind the lace-covered dining table further inside the apartment, looking down the hall to the doorway.",
+    first="The first frame is a medium two-shot from the side: {adam} standing just inside the open front door at frame right, head down, arms hanging; {mona} on the threshold at frame left holding {P14_foil-dish}; both faces in soft daylight, clearly seen in profile.",
+    segs=[(7, None, "MS two-shot, side-on", "47°", "locked, eye level",
+           "At <0.6> {mona} steps over the threshold and sets the dish down on the console at <1.2>. At <1.8> she puts both arms around him and pulls him in. He stands rigid, arms at his sides. At <3.2> his face crumples; he folds into her, his forehead on her shoulder, his hands closing on the back of her cardigan, and he cries, his back shaking. She holds the back of his head, eyes closed, her cheek against his hair. They hold.", []),
+          (4, "HARD CUT", "CU insert", "29°", "locked, low at table height, focus on the drawing",
+           "On the lace-covered dining table, {P09_drawing} stands propped against {P01_yellow-cup}, sharp and plain to see: three figures holding hands, a strip of blue sea, a little car, a huge yellow sun. Far behind it, out of focus down the hall, the two figures still holding each other in the bright doorway.", [])],
+    perf="His collapse is slow, starting at the shoulders; real sobbing, wet face, breath catching. Mona is steady, silent, eyes closed.",
+    phys="Her cardigan bunches under his hands; his back rises and falls with each sob. The dish sits on the console with its own weight.",
+    light="Soft morning daylight from the open rooms and the stairwell lights both faces from the side; the doorway bright but not burning out. White balance 5600K.",
+    audio="Street sound, far; cloth; his breath breaking into quiet sobs. The score is laid in during the edit.",
+    locks=["Both faces are seen and lit in the first segment; they are never black silhouettes.",
+           "The drawing carries pictures only and matches {P09_drawing}.",
+           "Mona stays silent; Adam says nothing."])
 
 EDIT_ONLY = [
     ("01", "Black screen, 6s", "Sound only: road hum, wind, crayon on paper, a child humming five notes, a woman's soft laugh, a seatbelt click."),
