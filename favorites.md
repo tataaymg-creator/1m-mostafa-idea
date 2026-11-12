@@ -1,6 +1,6 @@
 # Favourites audit (baba look, 2026-11-12, second pass)
 
-49 favourite videos. The final shot is the kitchen hug G49k (42387b13); the doorway G49 versions are dropped.
+49 favourite videos, copied in film order into the Higgsfield folder **FAVOURITES** (`4cedb244-0db3-4268-bd61-d9b64006743d`) inside baba look. The final shot is the kitchen hug G49k (42387b13); the doorway G49 versions are dropped.
 
 ## New favourites this session
 G34 1b465623 · G40 b16bd237 · G47 2fcc33c6 · G48 6aada38e · G49k 42387b13
