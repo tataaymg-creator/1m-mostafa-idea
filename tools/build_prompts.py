@@ -42,6 +42,7 @@ ANCHOR = {
     "F43_end": "the frame the shot starts on: the sunlit room, the two mannequins seated on the sofa, Adam at the window",
     "F35_truck": "a frame from the crash shot: this exact truck, this road, this golden-hour light and this windshield view",
     "F29_start": "the frame the shot ends on: the bed, how the child mannequin sits against the pillow, the rabbit, Adam beside the bed",
+    "F28_start": "the frame the shot starts on: the bedroom at this exact wide angle, Adam on the rug carrying the child mannequin, the empty bed at left",
     "F24_cup": "the dinner frame the shot starts on: the room, the daylight, where everyone sits and the full yellow cup in front of Adam",
     "F25_low": "the low-angle frame the shot starts on: the room, the daylight, where everyone sits, the spilled cup",
     "F24_end": "a frame from this same dinner: take the room, the lighting, Adam's clothes and where everyone sits. Use it for continuity only",
@@ -450,32 +451,20 @@ run(id="G25", scene="6 · Dinner", nums="41 ★, 44", look="P", attach=["adam", 
     audio="Water dripping; the electrical buzz and tick of the flickering bulb; his breathing; the wall clock.",
     locks=["The seating stays exactly as in the start frame: adult mannequin left, Adam centre, child mannequin right.", "Only the pendant lamp flickers; the daylight in the curtains stays steady.", "The camera stays low and locked for the whole shot."])
 
-run(id="G27", scene="6 · Dinner & the headlights (flash 4)", nums="42, 43", look="M", attach=["layla", "L07_car-front", "F35_truck"],
-    ctx="A memory at golden hour in the family car driving forward along the desert road: through the windshield, far ahead in the oncoming lane, the same silver truck as {F35_truck} appears small in the distance with its headlights on; then {layla}, in the front right seat, turns from the back seat to the road and her smile falls as white light climbs over her face. The clip ends on white.",
-    map="First segment: the driver's view through the windshield of {L07_car-front}, exactly the framing of {F35_truck}: the rear-view mirror at top, the steering wheel and dashboard at the bottom, the straight road running ahead toward the low sun. Second segment: camera on the driver's side looking across at Layla, her side window and the golden desert behind her.",
-    first="The first frame is the windshield view of {F35_truck}, but the truck is still far away: a small silver shape with two headlights in the oncoming lane near the horizon, the low sun beside it.",
-    segs=[(2.5, None, "POV through the windshield", "84°", "handheld, at driver eye level, the car moving forward",
-           "The car drives forward at 90 km/h: the lane lines stream toward the camera and pass under the car. Far ahead the silver truck comes toward us, growing slowly larger, its headlights blooming across the dust on the glass.", []),
-          (2.5, "HARD CUT", "CU", "47°", "handheld, from the driver's seat",
-           "{layla} in left profile, smiling toward the back seat; at <0.6> her eyes go to the road ahead and the smile falls away as white light climbs over her face. The frame burns out to pure white over the last half second.", [])],
-    perf="Her smile drains in a single beat: lips part, eyes widen, brows lift.",
-    phys="Our car moves forward the whole time: the road comes toward the camera and slides under the bonnet; the truck approaches from far ahead in its own lane.",
-    light="Golden hour exactly as in {F35_truck}: the low sun ahead, warm amber light in the cabin; the truck's headlights a cold white that rises to fill the frame. White balance 5600K.",
-    audio="Road hum and a truck horn rising steadily through both segments; silence on the last frame.",
-    locks=["The truck is the same silver truck as {F35_truck}.", "Our car drives forward; the road streams toward the camera.", "The clip ends on pure white with the road clear and the car whole."])
+# G27 is not generated: it is cut in the edit from G35 (Layla 0.0-1.4s, truck 2.6-3.9s, then fade to white), so the truck, the light and Layla match the crash exactly.
 
 # ================================================================ 7 · BEDTIME
-run(id="G28", scene="7 · Bedtime", nums="45", look="P", attach=["adam", "doll-daughter", "P10_rabbit", "L06_nour-room"], end="F29_start",
-    ctx="Night in the child's bedroom lit by the star night-light. {adam} is already well inside the room, carrying {doll-daughter} across his arms; he walks to the bed and sets it down sitting back against the pillow, ending exactly on the end frame.",
-    map="Camera inside {L06_nour-room}, at the foot of the bed side, looking toward the head of the bed and the bedside table with the glowing night-light, as in the end frame. Midground: the bed with the pillow and {P10_rabbit}. Adam comes in from frame right, well inside the room, the doorway out of frame.",
-    first="The first frame is the bedroom as in the end frame but with the bed empty except for the rabbit, and {adam} entering from frame right, already well inside the room, the child mannequin lying across both his arms, its legs held close against his body.",
-    segs=[(6, None, "MS", "47°", "locked, eye level",
-           "He walks slowly to the side of the bed, the mannequin across his arms, its legs held close to his body. At <2.5> he bends and sets it down on the bed, sitting it back against the pillow, its head resting on the pillow beside the rabbit. At <4.5> he reaches for the blanket and begins to draw it up, ending exactly on the end frame.", [])],
-    perf="Careful, quiet movements; his head bent over the figure; tenderness in his face as he sets it down.",
-    phys="The mannequin keeps its rigid shape in his arms and on the bed; only the wig's braids swing. Its legs stay clear of the furniture and walls.",
-    light="Only the star night-light on the bedside table: amber stars drifting over the walls, the bed and Adam. White balance 4300K.",
-    audio="Slow bare footsteps; the faint tick of the night-light motor; the bed creaking softly.",
-    locks=["The shot stays inside the bedroom; the doorway stays out of frame.", "The mannequin ends sitting back against the pillow exactly as in the end frame."])
+run(id="G28", scene="7 · Bedtime", nums="45", look="P", attach=["adam", "doll-daughter", "P10_rabbit", "L06_nour-room"], start="F28_start",
+    ctx="Night in the child's bedroom lit by the star night-light, one locked wide starting exactly on the start frame: {adam} stands on the round rug carrying {doll-daughter} across his arms; he turns to the bed at frame left, carries it over and kneels beside the bed with it still in his arms.",
+    map="Camera exactly as in the start frame: the whole room in one wide. Frame left: the bed along the left wall with {P10_rabbit} on the pillow, the bedside table and glowing night-light. Centre: the round rug. Frame right: the small desk and chair, the open door at the far right edge.",
+    first="The first frame is the start image itself: Adam on the rug, the child mannequin across his arms with its head toward the bed, the bed empty except for the rabbit.",
+    segs=[(5, None, "WS", "63°", "locked, eye level, the frame of the start image",
+           "At <0.5> he turns toward the bed and walks two slow steps to its side, carrying the mannequin level, its head toward the pillow and its legs toward the foot of the bed. At <3.0> he kneels on the floor beside the bed, the mannequin still in his arms just above the blanket, lined up along the length of the bed, and holds there, looking down at it.", [])],
+    perf="Careful, quiet steps; his head bent over the figure; tenderness in his face.",
+    phys="The mannequin keeps its rigid straight shape in his arms; only the wig's braids swing. Its legs stay clear of the furniture and walls.",
+    light="Only the star night-light on the bedside table: amber stars drifting over the walls, the ceiling and Adam. White balance 4300K.",
+    audio="Slow bare footsteps on terrazzo; the faint tick of the night-light motor; his knee on the floor.",
+    locks=["The camera holds the exact wide of the start frame for the whole shot.", "The mannequin stays in his arms, lined up along the length of the bed.", "The bed keeps its place and size along the left wall."])
 
 run(id="G29", scene="7 · Bedtime", nums="46, 47, 48", look="P", attach=["adam", "doll-daughter", "P10_rabbit", "L06_nour-room"],
     ctx="Night in a child's bedroom. {adam} tucks {doll-daughter} into bed and sets the stuffed rabbit beside it; he kisses its forehead and stays a moment too long as projected stars drift over his face; from the doorway he switches off the lamp and only the stars remain.",
