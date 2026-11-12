@@ -4,8 +4,10 @@ written to the seedance-clean structure.
 
 Usage: python3 tools/build_prompts.py prompts.md prompts.html
 
-{name} in text is an attached element and becomes @image1, @image2... in
-attach order; <1.5> means 1.5 s after the segment starts.
+{name} in text is an attached element. If it is a saved Higgsfield element
+(tools/element_ids.json) it is written " @name " (a space on both sides, as in
+the Higgsfield UI); anything else (start frames, the v4 bedroom plate) becomes
+@image1, @image2... in attach order among the non-element attachments; <1.5> means 1.5 s after the segment starts.
 """
 import html
 import re
@@ -87,6 +89,8 @@ LOCKS = {
 SKIN = "Real skin with visible pores and fine texture, living eyes with catch-lights, breath visible in the chest and shoulders."
 SETTINGS = "Seedance 2.5 Draft · 16:9 · audio ON"
 RUNS = []
+import json as _json, os as _os
+ELEMENTS = _json.load(open(_os.path.join(_os.path.dirname(_os.path.abspath(__file__)), "element_ids.json")))
 
 
 def run(**kw):
@@ -579,19 +583,22 @@ run(id="G33", scene="8 · The road", nums="56, 57, 58, 59", look="M", attach=["a
            "The paper always shows its blank glowing back to the camera.",
            "Adam's eyes stay on the road for the whole clip."])
 
-run(id="G34", scene="8 · The road", nums="60 ★, 61", look="M", attach=["adam-before", "nour", "L07_car-front", "L07b_car-backseat"],
-    ctx="A memory at golden hour, in slow motion: {adam-before}, driving in the front left seat, turns his head back to look at his daughter's drawing and his face opens into joy; then his view of {nour} in the back right seat, the paper so backlit that the sun burns it to pure white.",
-    map="Inside the car. Adam in the front left seat, turning to the right and back. Nour in the back right seat, belted, holding the paper up toward him. Behind Adam: his side window and the golden desert, as in {L07_car-front}. Behind Nour: the rear window blazing with sun, as in {L07b_car-backseat}.",
-    first="The first frame is {adam-before}'s face in left three-quarter view from behind his right shoulder, eyes on the road, a smile starting.",
-    segs=[(5, None, "CU", "47°", "handheld, from the back seat side, slow motion",
-           "From <0.5> to <2.5> he turns his head to the right and back toward the camera. As his eyes land on what she holds, at <3.0>, his whole face opens: brows lift, eyes shine, cheeks rise, a laugh begins. Sunlight slides across his face.", []),
+run(id="G34", scene="8 · The road", nums="60 ★, 61", look="M", attach=["adam-before", "nour", "P09_drawing", "L07_car-front", "L07b_car-backseat"],
+    ctx="A memory at golden hour, in slow motion: {adam-before}, driving in the front left seat, turns his head back to look at his daughter's drawing and his face opens into joy, while behind him, through the windshield, a big truck is coming straight at the car in their lane. Then his view of {nour} in the back right seat holding up {P09_drawing}.",
+    map="Inside the car. First segment: camera in the back seat behind the front passenger seat, looking forward at Adam over his right shoulder; behind his head the windshield and the straight road ahead, as in {L07_car-front}, with a truck in their lane coming toward them. Second segment: Nour in the back right seat, belted, as in {L07b_car-backseat}, the side window and the golden desert behind her.",
+    first="The first frame is {adam-before}'s face in left three-quarter view from behind his right shoulder, eyes on the road, a smile starting; through the windshield, far ahead in the middle of their lane, a big silver-white truck with its headlights on.",
+    segs=[(5, None, "CU", "47°", "handheld, from the back seat, slow motion",
+           "From <0.5> to <2.5> he turns his head to the right and back toward the camera, away from the road. As his eyes land on what she holds, at <3.0>, his whole face opens: brows lift, eyes shine, cheeks rise, a laugh begins. Behind his head, through the windshield, the truck keeps coming straight at the car in their lane: small at <0.5>, bigger at <2.5>, and at <5.0> its high flat front and two blazing headlights fill half the windshield. He does not see it.", []),
           (3, "HARD CUT", "POV", "63°", "handheld, slow motion, at his eye line",
-           "{nour} in the back right seat, beaming, missing tooth, holding the sheet up in both hands toward the camera. The sun sits directly behind the paper: it is a blazing white-gold rectangle, her fingers dark at its edges, her face glowing beside it.", [])],
+           "{nour} in the back right seat, beaming, missing tooth, holding {P09_drawing} up in both hands, its picture facing the camera and plain to see: three figures holding hands, a strip of blue sea, a little car and a huge yellow sun in crayon. Warm side light on her face and on the paper.", [])],
     perf="The happiest face in the film, built from muscle: crow's feet, lifted cheeks, open mouth, wet bright eyes.",
-    phys="Slow motion in both segments: hair and dust drift slowly through the light.",
-    light="Golden hour pouring through the rear window behind Nour and across Adam's face; the paper fully burned out by the sun. White balance 5600K.",
-    audio="All sound falls to a muffled underwater hush; only her small breath stays clear and close. The hummed melody is laid in during the edit.",
-    locks=["Both segments play in slow motion.", "The drawing reads only as burned-out white light.", "The frame stays inside the car on the two faces."])
+    phys="Slow motion in both segments: hair and dust drift slowly through the light. The truck grows steadily in the windshield; the car holds its lane.",
+    light="Golden hour from the side windows across both faces; the truck's two headlights burn white in the windshield behind Adam. The drawing is lit evenly, its colours clear. White balance 5600K.",
+    audio="All sound falls to a muffled underwater hush; only her small breath stays clear and close; under it, far off, a truck engine rising. The hummed melody is laid in during the edit.",
+    locks=["Both segments play in slow motion.",
+           "The drawing faces the camera and matches {P09_drawing}: the three figures, the sea, the car, the yellow sun; it is never a blank sheet.",
+           "In the first segment the truck is always visible through the windshield behind Adam, in their lane, coming at the car.",
+           "The frame stays inside the car on the two faces."])
 
 run(id="G35", scene="8 · The road", nums="62, 63", look="M", attach=["layla", "L07_car-front"],
     ctx="A memory at golden hour turning to glare: {layla}, in the front right seat, looks to the road and her smile falls as she says his name; then, through the windshield, the headlights of a truck fill the glass. The clip ends on pure white.",
@@ -679,14 +686,15 @@ run(id="G39b", scene="9 · The floor", nums="70 ○", look="P", attach=["adam", 
 run(id="G40", scene="10 · The bag", nums="71", look="P", attach=["adam", "L05b_hallway-bag"],
     ctx="Dawn in the hallway. {adam} walks slowly up the hall to the console by the front door and stops in front of it, looking down at what lies there.",
     map="Camera at the near end of the hallway, exactly as in {L05b_hallway-bag}. Midground: Adam's path up the centre of the hall. Background: the dark front door; on the right the mirror and the console with the mail, the dead plant and the bag; on the left the glazed doors, pale with dawn.",
-    first="The first frame is the hallway at the angle of {L05b_hallway-bag}, {adam} entering the bottom of the frame from behind the camera, barefoot, seen from behind.",
+    first="The first frame is the hallway at the angle of {L05b_hallway-bag}, {adam} already standing a third of the way up the hall, seen from behind, his whole figure in frame from his head to his bare feet on the level terrazzo floor.",
     segs=[(5, None, "WS", "63°", "locked, eye level",
-           "He walks slowly up the hall at 2 km/h. At <3.5> he stops at the console and turns to face it, his profile toward the camera, looking down. His hands hang at his sides.", [])],
-    perf="Heavy, slow steps; his head bowed.",
+           "He walks slowly away from the camera up the level hall at 2 km/h, his whole figure always in frame. At <3.5> he stops at the console and turns to face it, his profile toward the camera, looking down. His hands hang at his sides.", [])],
+    perf="Heavy, slow steps on a flat floor; his head bowed.",
     phys="",
     light="Cool grey-blue dawn light through the glazed doors at frame left; the hallway pale and cold. White balance 5000K.",
     audio="Bare feet on terrazzo; first birds, faint. The score is laid in during the edit.",
-    locks=["His hands stay at his sides; the console stays untouched."])
+    locks=["His hands stay at his sides; the console stays untouched.",
+           "The hallway floor is flat: no stairs, no steps; his head and feet stay at the same height as he walks."])
 
 run(id="G41", scene="10 · The bag", nums="72, 73, 74", look="P", attach=["adam", "P06_hospital-bag", "P07_bag-contents", "L05b_hallway-bag"],
     ctx="Dawn at the console by the front door, only {adam}'s hands in frame: he lifts the sealed belongings bag out from under the mail and tears it open; a top shot of the four things inside laid out on the wood; his hands unfold a folded sheet of paper, its back to the camera.",
@@ -773,21 +781,23 @@ run(id="G46", scene="12 · The door", nums="81", look="PW", attach=["L05_hallway
     locks=["The door stays shut."])
 
 run(id="G47", scene="12 · The door", nums="82", look="PW", attach=["adam", "L05_hallway"],
-    ctx="Morning, a wide down the pale hallway: {adam} walks all the way to the front door, slides the chain off and puts his hand on the handle.",
+    ctx="Morning, a wide down the pale hallway: {adam} walks all the way to the front door, takes the handle and opens it in one easy move.",
     map="Camera at the near end of the hallway, exactly as in {L05_hallway}. Midground: Adam walking up the centre. Background: the front door; the mirror and the console with mail and a dead plant on the right; the glazed doors bright on the left.",
     first="The first frame is the hallway at the angle of {L05_hallway}, {adam} already in the middle of the hall, seen from behind, walking steadily toward the door.",
     segs=[(5, None, "WS", "63°", "locked, eye level",
-           "He walks at 3 km/h and reaches the door at <2.2>. At <2.8> he slides the chain off; at <3.6> his hand closes on the handle. His shoulders rise with one breath and he holds there, the door still shut.", [])],
-    perf="Steady, decided steps; one breath at the door.",
-    phys="The chain slides along its track and drops, swinging.",
+           "He walks at 3 km/h and reaches the door at <2.2>. At <2.6> his right hand closes on the handle. His shoulders rise with one breath. At <3.8> he presses the handle down and the door swings inward a hand's width, a line of stairwell light falling across his face.", [])],
+    perf="Steady, decided steps; one breath at the door; the opening is simple and sure.",
+    phys="The handle turns down in one smooth move; the door is unlocked and swings freely on its hinges.",
     light="Morning daylight from the rooms behind the camera; the hallway clear and pale. White balance 5600K.",
-    audio="Bare footsteps, the chain sliding and dropping, one breath.",
-    locks=["The console holds mail and a dead plant only.", "On the last frame the door is still shut."])
+    audio="Bare footsteps, one breath, the latch clicking open.",
+    locks=["The console holds mail and a dead plant only.",
+           "The door is not locked: no key, no bolt, no chain is touched; one press of the handle opens it.",
+           "On the last frame the door stands open a hand's width."])
 
 run(id="G48", scene="12 · The door", nums="83, 84 ★", look="PW", attach=["mona", "adam", "P14_foil-dish", "L09_landing"],
-    ctx="Morning on the stairwell landing. The apartment door opens on {adam}; {mona}, standing on the doormat with a foil-covered dish, sees his face and understands before he speaks. Yesterday's identical dish sits on the floor at her feet. Then a close-up of him as he tries, fails, and finally says it.",
-    map="Camera on {L09_landing}. Foreground: Mona at frame left in three-quarter back view, facing the door, {P14_foil-dish} in her hands and a second identical dish on the mat at her feet. Midground: the dark wooden apartment door at frame right. Background: the stairs and railing behind her; once the door opens, the bright apartment hallway behind Adam.",
-    first="The first frame is {mona} in three-quarter back view at frame left, facing the closed door at frame right, the dish in her hands, the other dish at her feet.",
+    ctx="Morning on the stairwell landing. The apartment door opens on {adam}; {mona}, standing on the doormat right at the door with a foil-covered dish, sees his face and understands before he speaks. Then a close-up of him as he tries, fails, and finally says it.",
+    map="Camera on {L09_landing}, to the left of the door. Midground: Mona in three-quarter back view on the doormat, one short step from the dark wooden apartment door, facing it, {P14_foil-dish} in both hands; the door at frame right, close beside her. Background: the stairs and railing behind her; once the door opens, the bright apartment hallway behind Adam.",
+    first="The first frame is {mona} in three-quarter back view on the doormat, one short step from the closed door at frame right, the dish held in both hands; the floor around her is bare.",
     segs=[(5, None, "WS two-shot from the landing", "47°", "locked, eye level",
            "At <0.8> the door opens inward and warm daylight falls across her. {adam} stands in the doorway: grey-blue shirt, bare feet, red eyes. They look at each other. At <3.0> her face, in three-quarter profile, changes: her brows lift and soften, her lips part. She stays silent.", []),
           (6, "REVERSE CUT", "CU", "29°", "locked, at her eye line",
@@ -797,7 +807,9 @@ run(id="G48", scene="12 · The door", nums="83, 84 ★", look="PW", attach=["mon
     phys="The door swings inward on its hinges; daylight spills across the landing floor.",
     light="The stairwell dim and grey-green; warm daylight pours out of the apartment as the door opens. White balance 5600K.",
     audio="The latch and the hinge, stairwell echo, street sound from inside the apartment.",
-    locks=["Mona stays silent.", "Two foil dishes: one in her hands, one on the mat at her feet."])
+    locks=["Mona stays silent.",
+           "One foil dish only, in her hands; nothing lies on the floor.",
+           "Mona stays on the doormat, close to the door, for the whole clip."])
 
 run(id="G49", scene="12 · The door", nums="85 ★", look="PW", attach=["adam", "mona", "P09_drawing", "P01_yellow-cup", "L05_hallway"],
     ctx="Morning, a wide from inside the apartment looking down the hallway to the open front door: {mona} steps in and holds {adam}, two silhouettes in the bright doorway, while in the soft foreground the child's drawing stands propped against the yellow cup.",
@@ -828,7 +840,8 @@ def fmt(t):
 
 def build(r):
     att = r["attach"]
-    tag = {h: f"@image{i + 1}" for i, h in enumerate(att)}
+    imgs = [h for h in att if h not in ELEMENTS]
+    tag = {h: (f" @{h} " if h in ELEMENTS else f"@image{imgs.index(h) + 1}") for h in att}
 
     def sub(text, start=0.0):
         def t(m):
@@ -901,7 +914,9 @@ def build(r):
     if lines:
         locks.append("Each line lands once, at its time, from its speaker.")
     o += ["- " + k for k in locks]
-    return "\n".join(o), tag
+    text = "\n".join(o)
+    text = re.sub(r"(?m)^ +", "", re.sub(r" {2,}", " ", text))
+    return text, tag
 
 
 def main(md_path, html_path):
@@ -911,7 +926,7 @@ def main(md_path, html_path):
           f"**{len(built)} generations · {total} seconds of footage.** Written to the seedance-clean structure.", "",
           "## Settings for every run", "",
           "- **Seedance 2.5 Draft**, **16:9**, audio on. Generate a liked draft again in 1080p.",
-          "- **Attach the element images in the order listed.** In the prompt the first is `@image1`, the second `@image2`, and so on.",
+          "- **Saved elements are called by name** with a space on both sides: ` @adam `. Only start frames and the v4 bedroom plate go in as image references (`@image1`, `@image2`... in the order listed).",
           "- The present (scenes 1–10) is framed centre-safe and cropped to 4:3 in the edit; the frame opens to 16:9 on the curtain shot.",
           "- All dialogue is English. Radio song and score in the clips are placeholders for the film's own music.",
           "- ★ hero shot · ○ can be dropped.", "",
@@ -925,7 +940,7 @@ def main(md_path, html_path):
     for r, p, tag in built:
         md += [f"### {r['id']}", "", f"**{r['scene']} · shots {r['nums']} · {r['dur']}s**  ",
                f"{SETTINGS} · duration {r['dur']}s  ",
-               "Attach in order: " + ", ".join(f"@image{i + 1} = `{h}`" for i, h in enumerate(r["attach"])), "",
+               "References: " + ", ".join(f"`{tag[h].strip()}`" + ("" if h in ELEMENTS else f" = `{h}`") for h in r["attach"]), "",
                "```text", p, "```", ""]
     open(md_path, "w").write("\n".join(md))
     e = html.escape
@@ -936,8 +951,8 @@ def main(md_path, html_path):
         f"<section id='{r['id']}'><header><h2>{r['id']}</h2><div class='meta'><b>{e(r['scene'])}</b> · shots {e(r['nums'])}"
         f" · <span class='pill'>{r['dur']}s</span> <span class='pill'>16:9</span></div>"
         f"<button onclick=\"cp(this)\">Copy prompt</button></header>"
-        f"<div class='att'>Attach in order: {''.join(f'<code>@image{i + 1} = {e(h)}</code>' for i, h in enumerate(r['attach']))}</div>"
-        f"<pre>{e(p)}</pre></section>" for r, p, _ in built)
+        f"<div class='att'>References: {''.join(f'<code>{e(tag[h].strip())}' + ('' if h in ELEMENTS else f' = {e(h)}') + '</code>' for h in r['attach'])}</div>"
+        f"<pre>{e(p)}</pre></section>" for r, p, tag in built)
     edit = "".join(f"<tr><td>{e(s)}</td><td>{e(w)}</td><td>{e(h)}</td></tr>" for s, w, h in EDIT_ONLY)
     page = f"""<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>LOOK Prompts</title><style>
