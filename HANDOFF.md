@@ -12,3 +12,6 @@ Generate with Seedance 2.5 Draft, 16:9, audio on, into "baba look". Attach the e
 
 Start with G01 to G09.
 ```
+
+## Flagged — revisit later
+- **G24 + G25 (dinner: cup knock and low-angle lamp flicker).** The user flagged these to come back to. Latest drafts: G24 `fed778a7`, G25 `4d694069`. Start frames: `locations/F24_cup.png`, `locations/F25_low.png`.

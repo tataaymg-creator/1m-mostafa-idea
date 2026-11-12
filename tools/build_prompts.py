@@ -583,7 +583,7 @@ run(id="G34", scene="8 · The road", nums="60 ★, 61", look="M", attach=["adam-
     perf="The happiest face in the film, built from muscle: crow's feet, lifted cheeks, open mouth, wet bright eyes.",
     phys="Slow motion in both segments: hair and dust drift slowly through the light.",
     light="Golden hour pouring through the rear window behind Nour and across Adam's face; the paper fully burned out by the sun. White balance 5600K.",
-    audio="All sound falls to a muffled underwater hush; only a child humming five notes stays clear and close.",
+    audio="All sound falls to a muffled underwater hush; only her small breath stays clear and close. The hummed melody is laid in during the edit.",
     locks=["Both segments play in slow motion.", "The drawing reads only as burned-out white light.", "The frame stays inside the car on the two faces."])
 
 run(id="G35", scene="8 · The road", nums="62, 63", look="M", attach=["layla", "L07_car-front"],
@@ -652,7 +652,7 @@ run(id="G39", scene="9 · The floor", nums="69 ★, 70 ○", look="P", attach=["
     perf="Real, unpretty crying: the face crumples, the chin shakes, breath catches in hiccups; his eyes stay down.",
     phys="His shoulders heave; tears wet his cheeks and the heels of his hands.",
     light="Amber stars on deep blue; in the last segment cool dawn light slowly grows at the curtain edge. White balance 4300K.",
-    audio="His crying, silent at first and then voiced; the night-light motor; in the last segment the first birds. From 5.0s, very sparse score: five single slow piano notes.",
+    audio="His crying, silent at first and then voiced; the night-light motor; in the last segment the first birds.",
     locks=["Adam's eyes stay down, away from the lens."])
 
 # ============================================================== 10 · THE BAG
@@ -665,7 +665,7 @@ run(id="G40", scene="10 · The bag", nums="71", look="P", attach=["adam", "L05b_
     perf="Heavy, slow steps; his head bowed.",
     phys="",
     light="Cool grey-blue dawn light through the glazed doors at frame left; the hallway pale and cold. White balance 5000K.",
-    audio="Bare feet on terrazzo; first birds, faint. One long held piano note.",
+    audio="Bare feet on terrazzo; first birds, faint. The score is laid in during the edit.",
     locks=["His hands stay at his sides; the console stays untouched."])
 
 run(id="G41", scene="10 · The bag", nums="72, 73, 74", look="P", attach=["adam", "P06_hospital-bag", "P07_bag-contents", "L05b_hallway-bag"],
@@ -695,7 +695,7 @@ run(id="G42", scene="10 · The bag", nums="75 ★", look="P", attach=["adam", "L
     perf="Grief and love in the same face: wet eyes, a trembling lower lip, the corners of the mouth lifting.",
     phys="The paper trembles slightly in his hands at the frame edge.",
     light="Cold pale dawn from frame left with the first warmth in it, catching the tears. White balance 5000K.",
-    audio="His breath, the paper; birds outside. Sparse piano: five notes, slowly.",
+    audio="His breath, the paper; birds outside. The score is laid in during the edit.",
     locks=["The paper shows only its blank back.", "His eyes stay on the paper for the whole shot."])
 
 # ============================================================= 11 · DAYLIGHT
@@ -734,7 +734,7 @@ run(id="G45", scene="11 · Daylight", nums="80 ★", look="PW", attach=["adam", 
     perf="Quiet completion; his hands hang loose at the end.",
     phys="The sleeve drapes softly over the hard shoulder. The stands hold the mannequins upright and still.",
     light="Morning sun from the open window at frame right falling across the corner and the stands. White balance 5600K.",
-    audio="Street sound, softer; cloth on plastic; his two steps. Warm, quiet piano: the five notes.",
+    audio="Street sound, softer; cloth on plastic; his two steps. The score is laid in during the edit.",
     locks=["The adult mannequin is bare, bald ivory plastic; the child mannequin is bald and wears only the yellow dress.",
            "The yellow dress and sleeve hold the only saturated colour."])
 
@@ -787,7 +787,7 @@ run(id="G49", scene="12 · The door", nums="85 ★", look="PW", attach=["adam", 
     perf="His collapse into her is slow, starting at the shoulders.",
     phys="Her cardigan bunches under his hands; his back rises and falls.",
     light="The open front door is the brightest thing in the frame, burning out; the foreground in soft shade. White balance 5600K.",
-    audio="Street sound, far; cloth; one long shaking breath out. Full, warm piano and strings completing the five-note tune.",
+    audio="Street sound, far; cloth; one long shaking breath out. The score is laid in during the edit.",
     locks=["The camera holds still; only the focus shifts at the end.", "The drawing carries pictures only."])
 
 EDIT_ONLY = [

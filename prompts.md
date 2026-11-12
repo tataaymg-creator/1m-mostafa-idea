@@ -2199,7 +2199,7 @@ LIGHTING
 Golden hour pouring through the rear window behind Nour and across Adam's face; the paper fully burned out by the sun. White balance 5600K.
 
 AUDIO
-All sound falls to a muffled underwater hush; only a child humming five notes stays clear and close.
+All sound falls to a muffled underwater hush; only her small breath stays clear and close. The hummed melody is laid in during the edit.
 The sound is only the room and the listed effects.
 
 STYLE
@@ -2500,7 +2500,7 @@ LIGHTING
 Amber stars on deep blue; in the last segment cool dawn light slowly grows at the curtain edge. White balance 4300K.
 
 AUDIO
-His crying, silent at first and then voiced; the night-light motor; in the last segment the first birds. From 5.0s, very sparse score: five single slow piano notes.
+His crying, silent at first and then voiced; the night-light motor; in the last segment the first birds.
 The sound is only the room and the listed effects.
 
 STYLE
@@ -2556,7 +2556,7 @@ LIGHTING
 Cool grey-blue dawn light through the glazed doors at frame left; the hallway pale and cold. White balance 5000K.
 
 AUDIO
-Bare feet on terrazzo; first birds, faint. One long held piano note.
+Bare feet on terrazzo; first birds, faint. The score is laid in during the edit.
 The sound is only the room and the listed effects.
 
 STYLE
@@ -2685,7 +2685,7 @@ LIGHTING
 Cold pale dawn from frame left with the first warmth in it, catching the tears. White balance 5000K.
 
 AUDIO
-His breath, the paper; birds outside. Sparse piano: five notes, slowly.
+His breath, the paper; birds outside. The score is laid in during the edit.
 Lines, each spoken once, in English: 3.2s Adam: "...I'm looking, sweetheart." · 4.8s Adam: "I'm looking."
 Only these voices are heard.
 
@@ -2877,7 +2877,7 @@ LIGHTING
 Morning sun from the open window at frame right falling across the corner and the stands. White balance 5600K.
 
 AUDIO
-Street sound, softer; cloth on plastic; his two steps. Warm, quiet piano: the five notes.
+Street sound, softer; cloth on plastic; his two steps. The score is laid in during the edit.
 The sound is only the room and the listed effects.
 
 STYLE
@@ -3120,7 +3120,7 @@ LIGHTING
 The open front door is the brightest thing in the frame, burning out; the foreground in soft shade. White balance 5600K.
 
 AUDIO
-Street sound, far; cloth; one long shaking breath out. Full, warm piano and strings completing the five-note tune.
+Street sound, far; cloth; one long shaking breath out. The score is laid in during the edit.
 The sound is only the room and the listed effects.
 
 STYLE
