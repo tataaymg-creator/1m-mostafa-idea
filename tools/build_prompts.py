@@ -469,7 +469,7 @@ run(id="G25", scene="6 · Dinner", nums="41 ★, 44", look="P", attach=["adam", 
 # ================================================================ 7 · BEDTIME
 run(id="G28", scene="7 · Bedtime", nums="45", look="P", attach=["adam", "doll-daughter", "P10_rabbit", "L06_nour-room"], start="F28_start",
     ctx="Night in the child's bedroom lit by the star night-light, one locked wide starting exactly on the start frame: {adam} stands on the round rug carrying {doll-daughter} across his arms; he turns to the bed at frame left and carries it over to the bedside.",
-    map="Camera exactly as in the start frame: the whole room in one wide. Frame left: the bed along the left wall with {P10_rabbit} on the pillow, the bedside table and glowing night-light. Centre: the round rug. Frame right: the small desk and chair, the open door at the far right edge.",
+    map="Camera exactly as in the start frame: the whole room in one wide. Frame left: the bed along the left wall with {P10_rabbit} on the pillow, the bedside table and glowing night-light. Centre: the round rug. Frame right: the small desk and chair, the dark wooden door on the right wall.",
     first="The first frame is the start image itself: Adam on the rug, the child mannequin across his arms with its head toward the bed, the bed empty except for the rabbit.",
     segs=[(4, None, "WS", "63°", "locked, eye level, the frame of the start image",
            "At <0.5> he walks slowly to frame left, off the rug, three steps toward the side of the bed, carrying the mannequin level, its head toward the pillow. At <3.0> he stops beside the bed, still standing, the mannequin in his arms over the blanket, and looks down at it.", [])],
