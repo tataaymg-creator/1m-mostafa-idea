@@ -21,7 +21,7 @@ for r in bp.RUNS[a:b + 1]:
     medias = ([{"role": "start_image", "value": M[r["start"]]}] if r.get("start") else []) \
         + [{"role": "image_references", "value": M[h]} for h in r["attach"] if h not in E] \
         + ([{"role": "end_image", "value": M[r["end"]]}] if r.get("end") else [])
-    out.append({"index": int("".join(c for c in r["id"][1:] if c.isdigit())), "params": {"model": "seedance_2_5", "mode": "omni_reference", "draft": True,
+    out.append({"index": int("".join(c for c in r["id"][1:] if c.isdigit())), "params": {"model": "seedance_2_5", **({"mode": "omni_reference"} if medias else {}), "draft": True,
         "resolution": "480p", "generate_audio": True, "aspect_ratio": "16:9", "duration": r["dur"],
         "folder_id": "92c8dd8a-7d90-4f19-9975-375b4becd001", "medias": medias, "prompt": p}})
 print(json.dumps(out, ensure_ascii=False))
