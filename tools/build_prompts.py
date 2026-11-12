@@ -952,7 +952,10 @@ def build(r):
     if dolls:
         locks.append(" and ".join(tag[h] for h in dolls) + (" stay" if len(dolls) > 1 else " stays")
                      + " rigid and motionless as furniture, with smooth blank faces.")
-    locks += LOCKS[r["look"]] + [sub(k) for k in r["locks"]]
+    base = LOCKS[r["look"]]
+    if "P09_drawing" in att:
+        base = [k.replace("Every paper, label and envelope is blank.", "Every label and envelope is blank; the child's drawing keeps its crayon picture.") for k in base]
+    locks += base + [sub(k) for k in r["locks"]]
     if lines:
         locks.append("Each line lands once, at its time, from its speaker.")
     o += ["- " + k for k in locks]

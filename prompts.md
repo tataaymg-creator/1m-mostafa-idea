@@ -2837,7 +2837,7 @@ POSITIVE LOCKS
 - The camera stays on a tripod, locked, in every segment unless that segment names a move.
 - The curtains stay closed; the light comes from lamps and the glow through the curtains.
 - Yellow objects hold the only saturated colour.
-- Every paper, label and envelope is blank.
+- Every label and envelope is blank; the child's drawing keeps its crayon picture.
 - In the first and third segments the camera sees only the blank back of the sheet; in the second segment the drawing faces the camera and matches @P09_drawing .
 - His eyes stay on the drawing for the whole clip.
 - Each line lands once, at its time, from its speaker.
