@@ -44,3 +44,7 @@ G37 kept as 3232ee7d: its bedroom half is an extreme close-up of the eye on the 
 
 ## Bedtime order (user decision)
 G28 5281b684 (he carries her down the corridor toward the doorway camera and passes it) → hard cut → G29 fe2c6c1d (tuck-in, kiss, he leaves). No shot of him laying her down.
+
+## G37 final
+41bdd36a: the original take 1ee87ab2 (user's favourite) run through Seedance `video_edit` to remove the orange glow from his eyes; everything else unchanged. Replaces 3232ee7d.
+Lesson: when a take is good except one detail, use mode `video_edit` with the take as `video_references` instead of regenerating.
