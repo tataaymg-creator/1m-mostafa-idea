@@ -27,4 +27,7 @@ G36 crayon accepted as is.
 ## G22 / G27 / G28
 - G22 6e8ca41d — approved.
 - G27 — not generated. Cut in the edit from G35: Layla 0.0–1.4s + truck 2.6–3.9s + 0.5s fade to white (3.1s). Same truck, light and Layla as the crash.
-- G28 2c228601 — locked wide built on the exact L06 plate (start `locations/F28_start.png`, job 109fba97): he carries her from the rug to the bedside, standing. G29 then starts with her on the bed. Laying her down on camera kept breaking (wrong orientation, camera drift), so it is left between the cut.
+- G28 02cf7379 — locked wide built on the FIXED L06 plate (start `locations/F28_start.png`, job 109fba97): he carries her from the rug to the bedside, standing. G29 then starts with her on the bed. Laying her down on camera kept breaking (wrong orientation, camera drift), so it is left between the cut.
+
+## Bedroom plate fixed
+`locations/L06_nour-room_v2.png` (Higgsfield 39f98068) replaces the old plate, whose bed was warped (mattress wider than the footboard, a loose leg). The old file is kept as `locations/L06_nour-room_old-warped-bed.jpg`. Every bedroom shot generated from now on uses the fixed plate. Already-approved G29/G30 were made on the old plate; if they read differently in the cut, regenerate them on v2.
