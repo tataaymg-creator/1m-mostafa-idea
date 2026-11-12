@@ -56,8 +56,8 @@
 | [G41](#g41) | 10 · The bag | 72, 73, 74 | 14s | 1 `adam`, 2 `P06_hospital-bag`, 3 `P07_bag-contents`, 4 `L05b_hallway-bag` |
 | [G42](#g42) | 10 · The bag | 75 ★ | 6s | 1 `adam`, 2 `L05b_hallway-bag` |
 | [G43](#g43) | 11 · Daylight | 77 ★ | 6s | 1 `adam`, 2 `doll-wife`, 3 `doll-daughter`, 4 `L03_living-dim`, 5 `L03b_living-day` |
-| [G44](#g44) | 11 · Daylight | 78, 79 | 11s | 1 `adam`, 2 `doll-wife`, 3 `doll-daughter`, 4 `L03b_living-day` |
-| [G45](#g45) | 11 · Daylight | 80 ★ | 6s | 1 `adam`, 2 `doll-wife`, 3 `doll-daughter`, 4 `L03b_living-day` |
+| [G44](#g44) | 11 · Daylight | 78, 79 | 11s | 1 `adam`, 2 `doll-wife`, 3 `doll-daughter`, 4 `doll-wife-bare`, 5 `L03b_living-day` |
+| [G45](#g45) | 11 · Daylight | 80 ★ | 6s | 1 `adam`, 2 `doll-wife-bare`, 3 `doll-daughter`, 4 `L03b_living-day` |
 | [G46](#g46) | 12 · The door | 81 | 4s | 1 `L05_hallway` |
 | [G47](#g47) | 12 · The door | 82 | 5s | 1 `adam`, 2 `L05_hallway` |
 | [G48](#g48) | 12 · The door | 83, 84 ★ | 11s | 1 `mona`, 2 `adam`, 3 `P14_foil-dish`, 4 `L09_landing` |
@@ -2366,9 +2366,9 @@ CAMERA
 Tonal character: wide latitude, gentle highlight roll-off, rich detail held in the shadows.
 
 ACTION
-0.0s to 4.0s — Clean-shaven skin dusted with grit. An orange light blinks in the wet of his eye about once a second. At 1.5s a sheet of white paper drifts across the far background, out of focus. His eye stays open and still.
+0.0s to 4.0s — Clean-shaven skin dusted with grit. Far behind him, out of focus, a small orange light blinks on the road about once a second; his eye itself keeps its natural dark-brown iris and white, with one small soft catch-light. At 1.5s a sheet of white paper drifts across the far background, out of focus. His eye stays open and still.
 4.0s MATCH CUT
-4.0s to 10.0s — The same eye in the same place at the same size. The asphalt becomes speckled terrazzo and the orange blink becomes small amber stars turning slowly over his face; stubble now covers his cheek and the healed scar shows at the frame edge by his temple. At 5.5s he blinks once. At 8.0s a tear gathers and runs across the bridge of his nose.
+4.0s to 10.0s — The same eye in the same place at the same size. The asphalt becomes speckled terrazzo and the orange blink becomes small amber stars turning slowly over his cheek and the floor; stubble now covers his cheek and the healed scar shows at the frame edge by his temple. At 5.5s he blinks once. At 8.0s a tear gathers and runs across the bridge of his nose.
 
 PERFORMANCE
 The eye is alive in both: a wet surface, a catch-light, a tiny tremor of the lower lid. Real skin with visible pores and fine texture, living eyes with catch-lights, breath visible in the chest and shoulders.
@@ -2393,6 +2393,7 @@ POSITIVE LOCKS
 - At 4.0s only the ground, the light and the stubble change; the eye keeps its exact place and size.
 - His skin is whole and clean in both segments.
 - The eye stays centred in both segments.
+- His eye stays natural in both segments: dark-brown iris, white sclera, a single soft catch-light.
 ```
 
 ### G38
@@ -2403,7 +2404,7 @@ Attach in order: @image1 = `doll-daughter`, @image2 = `P10_rabbit`, @image3 = `L
 
 ```text
 SCENE CONTEXT
-Night in a child's bedroom, seen from the floor beside the bed: under the blanket, plainly, lies @image1, a plastic figure with its wig slipped askew. Only the projected stars move.
+Night in a child's bedroom, seen from the floor beside the bed: under the blanket, plainly, lies @image1, exactly as he tucked it in: on its back, head on the pillow, the blanket to its chest, the rabbit beside it. A plastic figure. Only the projected stars move.
 
 ACTIVE REFERENCES
 @image1 — child-size shop mannequin: matte ivory plastic, smooth blank face with only a sculpted nose and brow, dark wig in two uneven braids, unfinished yellow dress with pins, white tacking thread and one sleeve missing; a rigid object. 100% matches the reference.
@@ -2411,10 +2412,10 @@ ACTIVE REFERENCES
 @image3 — a child's bedroom at night: small bed against the left wall with a rabbit on the pillow, star night-light on the bedside table, curtained window on the back wall, small desk with paper and crayons at right, open door at far right, crayon scribbles taped above the bed. 100% matches the reference.
 
 LOCATION MAP
-Camera on the floor beside the bed in @image3, looking up. Foreground: the mattress edge across the lower frame. Midground: the mannequin's head in profile on the pillow, @image2 beside it. Background: the sage wall, the taped scribbles, slow stars, the glowing dome on the bedside table.
+Camera on the floor beside the bed in @image3, looking up. Foreground: the mattress edge across the lower frame. Midground: the mannequin lying on its back, its head on the pillow, @image2 beside it, exactly as in the start frame. Background: the sage wall, the taped scribbles, slow stars, the glowing dome on the bedside table.
 
 FIRST FRAME / BLOCKING
-The first frame is the side of the bed from floor level, the smooth ivory head of the child mannequin in profile on the pillow, the wig slipped sideways off a bare plastic scalp.
+The first frame is the start image itself: the bed from floor level, the child mannequin lying on its back exactly as shown, the smooth ivory face and the seam at its neck plain to see.
 
 FORMAT MODE
 One continuous shot; the camera holds it without cutting on its own.
@@ -2449,6 +2450,7 @@ POSITIVE LOCKS
 - The curtains stay closed; the light comes from lamps and the glow through the curtains.
 - Yellow objects hold the only saturated colour.
 - Every paper, label and envelope is blank.
+- The mannequin keeps exactly the pose of the start frame.
 - Everything in the room is still except the projected stars.
 ```
 
@@ -2591,7 +2593,7 @@ LOCATION MAP
 Camera at the console in @image4. The dark dusty wood of the console top fills the frame, envelopes pushed to one side, the sage wall behind.
 
 FIRST FRAME / BLOCKING
-The first frame is the console top, @image2 lying dusty and sealed half under a slide of blank envelopes.
+The first frame is the console top, @image2 lying dusty and sealed half under a slide of blank envelopes: clear see-through plastic with a red seal strip along the top, the watch, ring, crayon and folded paper visible inside it.
 
 FORMAT MODE
 Timed multishot: cuts only at the stated seconds; the camera holds each segment without cutting on its own.
@@ -2609,7 +2611,7 @@ CAMERA
 Tonal character: wide latitude, gentle highlight roll-off, rich detail held in the shadows.
 
 ACTION
-0.0s to 4.5s — @image1's hands come in; at 0.8s he draws the bag out and dust slides off it. He holds it in both hands, thumbs on the seal, motionless until 2.6s. Then he tears the seal open along the top.
+0.0s to 4.5s — @image1's hands come in; at 0.8s he draws the clear plastic bag out and dust slides off it; the things inside show through the plastic. He holds it in both hands, thumbs on the red seal strip, motionless until 2.6s. Then he tears the red strip open along the top.
 4.5s HARD CUT
 4.5s to 9.5s — The console top from directly above. One at a time his hand sets down the things from @image3 in a row: at 5.0s the gold watch with the brown strap, its glass cracked, its hands stopped; at 6.1s a wedding ring; at 7.1s a short stub of yellow crayon; at 8.1s a sheet of paper folded in four, creased and dirty. His hand withdraws.
 9.5s HARD CUT
@@ -2637,6 +2639,7 @@ POSITIVE LOCKS
 - The curtains stay closed; the light comes from lamps and the glow through the curtains.
 - Yellow objects hold the only saturated colour.
 - Every paper, label and envelope is blank.
+- The bag is clear plastic, its contents visible through it.
 - The paper shows only its blank back.
 - The watch hands stay stopped.
 ```
@@ -2770,7 +2773,7 @@ POSITIVE LOCKS
 
 **11 · Daylight · shots 78, 79 · 11s**  
 Seedance 2.5 Draft · 16:9 · audio ON · duration 11s  
-Attach in order: @image1 = `adam`, @image2 = `doll-wife`, @image3 = `doll-daughter`, @image4 = `L03b_living-day`
+Attach in order: @image1 = `adam`, @image2 = `doll-wife`, @image3 = `doll-daughter`, @image4 = `doll-wife-bare`, @image5 = `L03b_living-day`
 
 ```text
 SCENE CONTEXT
@@ -2780,13 +2783,14 @@ ACTIVE REFERENCES
 @image1 — Adam, 38, lean and tired; short untidy dark hair, stubble, a healed scar at his right temple; washed-out grey-blue shirt with rolled sleeves, charcoal trousers, bare feet, wedding ring; soft, low, slightly hoarse voice. 100% matches the reference.
 @image2 — adult shop mannequin: matte ivory plastic, smooth blank face with only a sculpted nose and brow, crooked dark wig, burgundy cardigan over a grey dress, seams at neck, shoulders and wrists; a rigid object. 100% matches the reference.
 @image3 — child-size shop mannequin: matte ivory plastic, smooth blank face with only a sculpted nose and brow, dark wig in two uneven braids, unfinished yellow dress with pins, white tacking thread and one sleeve missing; a rigid object. 100% matches the reference.
-@image4 — the same living room from the same camera, curtains open, morning sun across the rug, the city in the window at right, the sewing corner at the back right. 100% matches the reference.
+@image4 — the same adult shop mannequin with the burgundy cardigan taken off: a plain short-sleeved grey dress, ivory plastic arms, the same crooked dark wig, smooth blank face; a rigid object. 100% matches the reference.
+@image5 — the same living room from the same camera, curtains open, morning sun across the rug, the city in the window at right, the sewing corner at the back right. 100% matches the reference.
 
 LOCATION MAP
-Camera exactly as in @image4. Midground: the adult mannequin at the left of the sofa and the child mannequin at the right, side by side, facing forward; Adam in front of the sofa at frame left, his back three-quarters to the camera. Background: the floor lamp switched off, the sewing corner, the open window and sun at right.
+Camera exactly as in @image5. Midground: the adult mannequin at the left of the sofa and the child mannequin at the right, side by side, facing forward; Adam in front of the sofa at frame left, his back three-quarters to the camera. Background: the floor lamp switched off, the sewing corner, the open window and sun at right.
 
 FIRST FRAME / BLOCKING
-The first frame is the sunlit room at the angle of @image4, @image1 standing still, arms at his sides, looking at the sofa.
+The first frame is the sunlit room at the angle of @image5, @image1 standing still, arms at his sides, looking at the sofa.
 
 FORMAT MODE
 Timed multishot: cuts only at the stated seconds; the camera holds each segment without cutting on its own.
@@ -2804,7 +2808,7 @@ Tonal character: wide latitude, gentle highlight roll-off, rich detail held in t
 ACTION
 0.0s to 5.0s — In the sun the two figures are plainly things: scuffed plastic, visible seams, a cheap crooked wig, pins glinting in the yellow dress. Dust drifts through the light. At 3.5s he takes one step toward the adult mannequin.
 5.0s HARD CUT
-5.0s to 11.0s — His hands at the front of the burgundy cardigan on the adult mannequin's rigid torso. He undoes three buttons at 5.6s, 6.3s and 7.0s, slides the cardigan off the stiff shoulders at 8.0s, folds it once against his chest, and at 9.4s lifts it and presses it to his face, eyes closed, breathing in.
+5.0s to 11.0s — His hands at the front of the burgundy cardigan on the adult mannequin's rigid torso. He undoes three buttons at 5.6s, 6.3s and 7.0s, slides the cardigan off the stiff shoulders at 8.0s, uncovering the plain short-sleeved grey dress beneath, folds it once against his chest, and at 9.4s lifts it and presses it to his face, eyes closed, breathing in.
 
 PERFORMANCE
 Calm, slow hands; the breath into the wool is long and shaky. Real skin with visible pores and fine texture, living eyes with catch-lights, breath visible in the chest and shoulders.
@@ -2824,10 +2828,11 @@ Photoreal naturalistic film image, fine organic grain, soft contrast. Daylight f
 
 POSITIVE LOCKS
 - Adam matches @image1 in every frame he appears in: stubble, the healed scar at his right temple, the grey-blue shirt.
-- @image2 and @image3 stay rigid and motionless as furniture, with smooth blank faces.
+- @image2 and @image3 and @image4 stay rigid and motionless as furniture, with smooth blank faces.
 - The camera stays on a tripod, locked, in every segment.
 - Yellow objects hold the only saturated colour.
 - Every paper, label and envelope is blank.
+- Under the cardigan the adult mannequin wears the plain short-sleeved grey dress of @image4.
 - The mannequins stay still; only Adam's hands move them.
 ```
 
@@ -2835,23 +2840,23 @@ POSITIVE LOCKS
 
 **11 · Daylight · shots 80 ★ · 6s**  
 Seedance 2.5 Draft · 16:9 · audio ON · duration 6s  
-Attach in order: @image1 = `adam`, @image2 = `doll-wife`, @image3 = `doll-daughter`, @image4 = `L03b_living-day`
+Attach in order: @image1 = `adam`, @image2 = `doll-wife-bare`, @image3 = `doll-daughter`, @image4 = `L03b_living-day`
 
 ```text
 SCENE CONTEXT
-Morning, the sunlit living room with the sewing corner at the back: @image2 and @image3 stand back on their steel stands by the mirror. @image1 lays the loose yellow sleeve over the small one's shoulder and steps back.
+Morning, the sunlit living room, right after he took the cardigan off: @image2 and @image3 still sit side by side on the sofa where they have always sat. @image1, the folded burgundy cardigan over one arm, lays the loose yellow sleeve over the small one's bare shoulder and steps back.
 
 ACTIVE REFERENCES
 @image1 — Adam, 38, lean and tired; short untidy dark hair, stubble, a healed scar at his right temple; washed-out grey-blue shirt with rolled sleeves, charcoal trousers, bare feet, wedding ring; soft, low, slightly hoarse voice. 100% matches the reference.
-@image2 — adult shop mannequin: matte ivory plastic, smooth blank face with only a sculpted nose and brow, crooked dark wig, burgundy cardigan over a grey dress, seams at neck, shoulders and wrists; a rigid object. 100% matches the reference.
+@image2 — the same adult shop mannequin with the burgundy cardigan taken off: a plain short-sleeved grey dress, ivory plastic arms, the same crooked dark wig, smooth blank face; a rigid object. 100% matches the reference.
 @image3 — child-size shop mannequin: matte ivory plastic, smooth blank face with only a sculpted nose and brow, dark wig in two uneven braids, unfinished yellow dress with pins, white tacking thread and one sleeve missing; a rigid object. 100% matches the reference.
 @image4 — the same living room from the same camera, curtains open, morning sun across the rug, the city in the window at right, the sewing corner at the back right. 100% matches the reference.
 
 LOCATION MAP
-Camera exactly as in @image4. Foreground: the armchair and the corner of the dining table. Midground: the sofa and coffee table, sun across the rug. Background: the two mannequins upright on their stands by the framed mirror in the sewing corner, Adam beside the child one, the sewing table and machine, the open window at right.
+Camera exactly as in @image4. Foreground: the armchair at frame left. Midground: the sofa with the adult mannequin at its left end and the child mannequin at its right end, the coffee table, sun across the rug; Adam standing in front of the child mannequin. Background: the sewing corner, the open window and sun at right.
 
 FIRST FRAME / BLOCKING
-The first frame is the sunlit room at the angle of @image4, the adult mannequin bare on the left stand, the child mannequin on the right stand in the unfinished yellow dress, @image1 beside it holding the small yellow sleeve.
+The first frame is the sunlit room at the angle of @image4: the adult mannequin on the left of the sofa in its plain short-sleeved grey dress, the child mannequin on the right in the unfinished yellow dress, @image1 standing before it with the folded cardigan over his left arm and the small yellow sleeve already in his right hand.
 
 FORMAT MODE
 One continuous shot; the camera holds it without cutting on its own.
@@ -2865,16 +2870,16 @@ CAMERA
 Tonal character: wide latitude, gentle highlight roll-off, rich detail held in the shadows.
 
 ACTION
-0.0s to 6.0s — At 1.5s he lays the sleeve over the child mannequin's bare shoulder, where the missing sleeve belongs, and smooths it once. At 3.5s he takes two steps back toward the sewing table and stands looking at them, hands empty.
+0.0s to 6.0s — At 1.5s he leans in and lays the sleeve over the child mannequin's bare shoulder, where the missing sleeve belongs, and smooths it once. At 3.5s he straightens, takes two steps back, and stands looking at the two of them on the sofa, the cardigan held against his chest.
 
 PERFORMANCE
-Quiet completion; his hands hang loose at the end. Real skin with visible pores and fine texture, living eyes with catch-lights, breath visible in the chest and shoulders.
+Quiet completion; a long breath out at the end. Real skin with visible pores and fine texture, living eyes with catch-lights, breath visible in the chest and shoulders.
 
 PHYSICS
-The sleeve drapes softly over the hard shoulder. The stands hold the mannequins upright and still. The mannequins are hollow, hard and rigid; they keep every joint at its angle and move only where Adam's hands carry them.
+The sleeve drapes softly over the hard shoulder. The mannequins sit upright and still. The mannequins are hollow, hard and rigid; they keep every joint at its angle and move only where Adam's hands carry them.
 
 LIGHTING
-Morning sun from the open window at frame right falling across the corner and the stands. White balance 5600K.
+Morning sun from the open window at frame right falling across the sofa and the rug. White balance 5600K.
 
 AUDIO
 Street sound, softer; cloth on plastic; his two steps. The score is laid in during the edit.
@@ -2889,7 +2894,8 @@ POSITIVE LOCKS
 - The camera stays on a tripod, locked, in every segment.
 - Yellow objects hold the only saturated colour.
 - Every paper, label and envelope is blank.
-- The adult mannequin is bare, bald ivory plastic; the child mannequin is bald and wears only the yellow dress.
+- The adult mannequin wears only the plain grey dress, exactly as @image2; the cardigan stays over Adam's arm.
+- Both mannequins keep their wigs and stay seated on the sofa.
 - The yellow dress and sleeve hold the only saturated colour.
 ```
 

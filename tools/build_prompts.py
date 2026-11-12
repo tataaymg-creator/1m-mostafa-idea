@@ -37,6 +37,8 @@ ANCHOR = {
     "L03b_living-day": "the same living room from the same camera, curtains open, morning sun across the rug, the city in the window at right, the sewing corner at the back right",
     "F10_living-blocking": "a frame from this same living room: take the room, the camera position and where the figures sit — the adult mannequin in the floral armchair at front left, the child mannequin seated upright at the left end of the sofa beside the armchair. Use it for geometry and placement only",
     "F24_dinner-seating": "a frame from this same dinner: take the camera position and exactly where everyone sits — the adult mannequin on a chair at the left end of the table, Adam at the centre on the far side facing the camera, the child mannequin on a chair at the right end, the yellow cup by the small plate at right. Use it for geometry and placement only",
+    "doll-wife-bare": "the same adult shop mannequin with the burgundy cardigan taken off: a plain short-sleeved grey dress, ivory plastic arms, the same crooked dark wig, smooth blank face; a rigid object",
+    "F38_bed": "the frame the shot starts on: the bed, the blanket, the rabbit and exactly how the child mannequin lies",
     "F24_cup": "the dinner frame the shot starts on: the room, the daylight, where everyone sits and the full yellow cup in front of Adam",
     "F25_low": "the low-angle frame the shot starts on: the room, the daylight, where everyone sits, the spilled cup",
     "F24_end": "a frame from this same dinner: take the room, the lighting, Adam's clothes and where everyone sits. Use it for continuity only",
@@ -49,7 +51,7 @@ ANCHOR = {
     "L09_landing": "the stairwell landing: the dark wooden apartment door at right, a doormat, stairs with an iron railing at left, a small frosted window",
 }
 CHARS = ("adam", "adam-before", "layla", "nour", "mona")
-DOLLS = ("doll-wife", "doll-daughter")
+DOLLS = ("doll-wife", "doll-wife-bare", "doll-daughter")
 STYLE = {
     "P": "Photoreal naturalistic film image, fine organic grain, soft contrast. A shut-in apartment palette: sage-green paint, grey upholstery and faded wood, with yellow objects carrying the only saturated colour. 16:9, composed centre-safe: faces, hands and key props sit inside the middle two-thirds of the frame.",
     "PW": "Photoreal naturalistic film image, fine organic grain, soft contrast. Daylight fills the apartment: sage-green paint, grey upholstery and faded wood made plain by the sun, with yellow objects carrying the only saturated colour. 16:9.",
@@ -618,28 +620,28 @@ run(id="G37", scene="8 → 9 · Asphalt to floor (match cut)", nums="66 ★, 67 
     map="First segment: camera on the asphalt a few centimetres from his face, Adam lying on his left side. Second segment: camera on the terrazzo floor of {L06_nour-room} in exactly the same position, Adam lying the same way.",
     first="The first frame is {adam}'s right eye, open, centred in the frame, the bridge of his nose at one edge, his cheek pressed on rough asphalt along the bottom.",
     segs=[(4, None, "ECU", "12°", "locked, at ground level",
-           "Clean-shaven skin dusted with grit. An orange light blinks in the wet of his eye about once a second. At <1.5> a sheet of white paper drifts across the far background, out of focus. His eye stays open and still.", []),
+           "Clean-shaven skin dusted with grit. Far behind him, out of focus, a small orange light blinks on the road about once a second; his eye itself keeps its natural dark-brown iris and white, with one small soft catch-light. At <1.5> a sheet of white paper drifts across the far background, out of focus. His eye stays open and still.", []),
           (6, "MATCH CUT", "ECU", "12°", "locked, at floor level, the same lens and position",
-           "The same eye in the same place at the same size. The asphalt becomes speckled terrazzo and the orange blink becomes small amber stars turning slowly over his face; stubble now covers his cheek and the healed scar shows at the frame edge by his temple. At <1.5> he blinks once. At <4.0> a tear gathers and runs across the bridge of his nose.", [])],
+           "The same eye in the same place at the same size. The asphalt becomes speckled terrazzo and the orange blink becomes small amber stars turning slowly over his cheek and the floor; stubble now covers his cheek and the healed scar shows at the frame edge by his temple. At <1.5> he blinks once. At <4.0> a tear gathers and runs across the bridge of his nose.", [])],
     perf="The eye is alive in both: a wet surface, a catch-light, a tiny tremor of the lower lid.",
     phys="The tear runs with gravity across the nose and drops; the stars move slowly and evenly.",
     light="First segment: dusk blue-grey with an orange blink. Second segment: night, deep blue with amber projected stars. White balance 5600K in both.",
     audio="A thin high tone and a slow ticking relay, his shallow breath; across the cut the tick continues unbroken and becomes the soft tick of a night-light motor, and the tone fades away.",
     locks=["At 4.0s only the ground, the light and the stubble change; the eye keeps its exact place and size.",
-           "His skin is whole and clean in both segments.", "The eye stays centred in both segments."])
+           "His skin is whole and clean in both segments.", "The eye stays centred in both segments.", "His eye stays natural in both segments: dark-brown iris, white sclera, a single soft catch-light."])
 
 # ============================================================= 9 · THE FLOOR
-run(id="G38", scene="9 · The floor", nums="68 ★", look="P", attach=["doll-daughter", "P10_rabbit", "L06_nour-room"],
-    ctx="Night in a child's bedroom, seen from the floor beside the bed: under the blanket, plainly, lies {doll-daughter}, a plastic figure with its wig slipped askew. Only the projected stars move.",
-    map="Camera on the floor beside the bed in {L06_nour-room}, looking up. Foreground: the mattress edge across the lower frame. Midground: the mannequin's head in profile on the pillow, {P10_rabbit} beside it. Background: the sage wall, the taped scribbles, slow stars, the glowing dome on the bedside table.",
-    first="The first frame is the side of the bed from floor level, the smooth ivory head of the child mannequin in profile on the pillow, the wig slipped sideways off a bare plastic scalp.",
+run(id="G38", scene="9 · The floor", nums="68 ★", look="P", attach=["doll-daughter", "P10_rabbit", "L06_nour-room"], start="F38_bed",
+    ctx="Night in a child's bedroom, seen from the floor beside the bed: under the blanket, plainly, lies {doll-daughter}, exactly as he tucked it in: on its back, head on the pillow, the blanket to its chest, the rabbit beside it. A plastic figure. Only the projected stars move.",
+    map="Camera on the floor beside the bed in {L06_nour-room}, looking up. Foreground: the mattress edge across the lower frame. Midground: the mannequin lying on its back, its head on the pillow, {P10_rabbit} beside it, exactly as in the start frame. Background: the sage wall, the taped scribbles, slow stars, the glowing dome on the bedside table.",
+    first="The first frame is the start image itself: the bed from floor level, the child mannequin lying on its back exactly as shown, the smooth ivory face and the seam at its neck plain to see.",
     segs=[(5, None, "Low angle from the floor", "63°", "locked, at floor level",
            "The blank face, the seam at the neck above the blanket, the small grey rabbit beside it. It is an object under a blanket. The projected stars drift slowly across it and the wall.", [])],
     perf="",
     phys="The blanket lies flat over a rigid straight shape; the stars glide evenly.",
     light="Only the star night-light: amber stars drifting over deep blue, a soft amber edge on the plastic. White balance 4300K.",
     audio="Silence; the faint tick of the night-light motor.",
-    locks=["Everything in the room is still except the projected stars."])
+    locks=["The mannequin keeps exactly the pose of the start frame.", "Everything in the room is still except the projected stars."])
 
 run(id="G39", scene="9 · The floor", nums="69 ★, 70 ○", look="P", attach=["adam", "L06_nour-room"],
     ctx="Night turning to dawn in a child's bedroom. {adam} pulls himself up to sit against the side of the bed and finally breaks: silent at first, then aloud. Then a wide of the room as the light at the curtain edge turns grey-gold and he sits where he is.",
@@ -671,9 +673,9 @@ run(id="G40", scene="10 · The bag", nums="71", look="P", attach=["adam", "L05b_
 run(id="G41", scene="10 · The bag", nums="72, 73, 74", look="P", attach=["adam", "P06_hospital-bag", "P07_bag-contents", "L05b_hallway-bag"],
     ctx="Dawn at the console by the front door, only {adam}'s hands in frame: he lifts the sealed belongings bag out from under the mail and tears it open; a top shot of the four things inside laid out on the wood; his hands unfold a folded sheet of paper, its back to the camera.",
     map="Camera at the console in {L05b_hallway-bag}. The dark dusty wood of the console top fills the frame, envelopes pushed to one side, the sage wall behind.",
-    first="The first frame is the console top, {P06_hospital-bag} lying dusty and sealed half under a slide of blank envelopes.",
+    first="The first frame is the console top, {P06_hospital-bag} lying dusty and sealed half under a slide of blank envelopes: clear see-through plastic with a red seal strip along the top, the watch, ring, crayon and folded paper visible inside it.",
     segs=[(4.5, None, "CU hands", "47°", "locked, at console height",
-           "{adam}'s hands come in; at <0.8> he draws the bag out and dust slides off it. He holds it in both hands, thumbs on the seal, motionless until <2.6>. Then he tears the seal open along the top.", []),
+           "{adam}'s hands come in; at <0.8> he draws the clear plastic bag out and dust slides off it; the things inside show through the plastic. He holds it in both hands, thumbs on the red seal strip, motionless until <2.6>. Then he tears the red strip open along the top.", []),
           (5, "HARD CUT", "Top shot", "47°", "locked, straight down",
            "The console top from directly above. One at a time his hand sets down the things from {P07_bag-contents} in a row: at <0.5> the gold watch with the brown strap, its glass cracked, its hands stopped; at <1.6> a wedding ring; at <2.6> a short stub of yellow crayon; at <3.6> a sheet of paper folded in four, creased and dirty. His hand withdraws.", []),
           (4.5, "HARD CUT", "CU hands", "47°", "locked, at chest height",
@@ -682,7 +684,7 @@ run(id="G41", scene="10 · The bag", nums="72, 73, 74", look="P", attach=["adam"
     phys="Thick plastic stretches and tears; dust falls in a small cloud. Each object lands on wood with its own weight and contact shadow. Paper unfolds stiffly along old creases.",
     light="Cold pale dawn from frame left, soft shadows on the wood. White balance 5000K.",
     audio="Envelopes sliding, thick plastic tearing, a watch, a ring and a crayon set on wood, paper unfolding, his breath.",
-    locks=["The paper shows only its blank back.", "The watch hands stay stopped."])
+    locks=["The bag is clear plastic, its contents visible through it.", "The paper shows only its blank back.", "The watch hands stay stopped."])
 
 run(id="G42", scene="10 · The bag", nums="75 ★", look="P", attach=["adam", "L05b_hallway-bag"],
     ctx="Dawn in the hallway, a very slow push-in on {adam}'s face as he finally looks at his daughter's drawing: grief, and then a breath of a laugh.",
@@ -711,31 +713,32 @@ run(id="G43", scene="11 · Daylight", nums="77 ★", look="PW", attach=["adam", 
     audio="Curtain rings scraping on the rail; then the street, alive: traffic, voices, a street vendor calling in the distance, sparrows.",
     locks=["The mannequins stay seated and still.", "Adam and the window stay in the middle of the frame."])
 
-run(id="G44", scene="11 · Daylight", nums="78, 79", look="PW", attach=["adam", "doll-wife", "doll-daughter", "L03b_living-day"],
+run(id="G44", scene="11 · Daylight", nums="78, 79", look="PW", attach=["adam", "doll-wife", "doll-daughter", "doll-wife-bare", "L03b_living-day"],
     ctx="Morning in the sunlit living room. {adam} stands looking at {doll-wife} and {doll-daughter} on the sofa, plainly objects in borrowed clothes; then his hands unbutton the burgundy cardigan from the adult one, fold it and press it to his face for one breath.",
     map="Camera exactly as in {L03b_living-day}. Midground: the adult mannequin at the left of the sofa and the child mannequin at the right, side by side, facing forward; Adam in front of the sofa at frame left, his back three-quarters to the camera. Background: the floor lamp switched off, the sewing corner, the open window and sun at right.",
     first="The first frame is the sunlit room at the angle of {L03b_living-day}, {adam} standing still, arms at his sides, looking at the sofa.",
     segs=[(5, None, "WS", "63°", "locked, eye level",
            "In the sun the two figures are plainly things: scuffed plastic, visible seams, a cheap crooked wig, pins glinting in the yellow dress. Dust drifts through the light. At <3.5> he takes one step toward the adult mannequin.", []),
           (6, "HARD CUT", "CU hands", "47°", "locked, at chest height",
-           "His hands at the front of the burgundy cardigan on the adult mannequin's rigid torso. He undoes three buttons at <0.6>, <1.3> and <2.0>, slides the cardigan off the stiff shoulders at <3.0>, folds it once against his chest, and at <4.4> lifts it and presses it to his face, eyes closed, breathing in.", [])],
+           "His hands at the front of the burgundy cardigan on the adult mannequin's rigid torso. He undoes three buttons at <0.6>, <1.3> and <2.0>, slides the cardigan off the stiff shoulders at <3.0>, uncovering the plain short-sleeved grey dress beneath, folds it once against his chest, and at <4.4> lifts it and presses it to his face, eyes closed, breathing in.", [])],
     perf="Calm, slow hands; the breath into the wool is long and shaky.",
     phys="The mannequin is handled like a shop dummy; its arms stay at their angles as the sleeves slide off. Wool folds softly.",
     light="Hard daylight from the open window at frame right, crisp shadows, dust in the beams. White balance 5600K.",
     audio="Street sound through the open window; buttons, wool sliding off plastic, one long breath in.",
-    locks=["The mannequins stay still; only Adam's hands move them."])
+    locks=["Under the cardigan the adult mannequin wears the plain short-sleeved grey dress of {doll-wife-bare}.", "The mannequins stay still; only Adam's hands move them."])
 
-run(id="G45", scene="11 · Daylight", nums="80 ★", look="PW", attach=["adam", "doll-wife", "doll-daughter", "L03b_living-day"],
-    ctx="Morning, the sunlit living room with the sewing corner at the back: {doll-wife} and {doll-daughter} stand back on their steel stands by the mirror. {adam} lays the loose yellow sleeve over the small one's shoulder and steps back.",
-    map="Camera exactly as in {L03b_living-day}. Foreground: the armchair and the corner of the dining table. Midground: the sofa and coffee table, sun across the rug. Background: the two mannequins upright on their stands by the framed mirror in the sewing corner, Adam beside the child one, the sewing table and machine, the open window at right.",
-    first="The first frame is the sunlit room at the angle of {L03b_living-day}, the adult mannequin bare on the left stand, the child mannequin on the right stand in the unfinished yellow dress, {adam} beside it holding the small yellow sleeve.",
+run(id="G45", scene="11 · Daylight", nums="80 ★", look="PW", attach=["adam", "doll-wife-bare", "doll-daughter", "L03b_living-day"],
+    ctx="Morning, the sunlit living room, right after he took the cardigan off: {doll-wife-bare} and {doll-daughter} still sit side by side on the sofa where they have always sat. {adam}, the folded burgundy cardigan over one arm, lays the loose yellow sleeve over the small one's bare shoulder and steps back.",
+    map="Camera exactly as in {L03b_living-day}. Foreground: the armchair at frame left. Midground: the sofa with the adult mannequin at its left end and the child mannequin at its right end, the coffee table, sun across the rug; Adam standing in front of the child mannequin. Background: the sewing corner, the open window and sun at right.",
+    first="The first frame is the sunlit room at the angle of {L03b_living-day}: the adult mannequin on the left of the sofa in its plain short-sleeved grey dress, the child mannequin on the right in the unfinished yellow dress, {adam} standing before it with the folded cardigan over his left arm and the small yellow sleeve already in his right hand.",
     segs=[(6, None, "WS", "63°", "locked, eye level",
-           "At <1.5> he lays the sleeve over the child mannequin's bare shoulder, where the missing sleeve belongs, and smooths it once. At <3.5> he takes two steps back toward the sewing table and stands looking at them, hands empty.", [])],
-    perf="Quiet completion; his hands hang loose at the end.",
-    phys="The sleeve drapes softly over the hard shoulder. The stands hold the mannequins upright and still.",
-    light="Morning sun from the open window at frame right falling across the corner and the stands. White balance 5600K.",
+           "At <1.5> he leans in and lays the sleeve over the child mannequin's bare shoulder, where the missing sleeve belongs, and smooths it once. At <3.5> he straightens, takes two steps back, and stands looking at the two of them on the sofa, the cardigan held against his chest.", [])],
+    perf="Quiet completion; a long breath out at the end.",
+    phys="The sleeve drapes softly over the hard shoulder. The mannequins sit upright and still.",
+    light="Morning sun from the open window at frame right falling across the sofa and the rug. White balance 5600K.",
     audio="Street sound, softer; cloth on plastic; his two steps. The score is laid in during the edit.",
-    locks=["The adult mannequin is bare, bald ivory plastic; the child mannequin is bald and wears only the yellow dress.",
+    locks=["The adult mannequin wears only the plain grey dress, exactly as {doll-wife-bare}; the cardigan stays over Adam's arm.",
+           "Both mannequins keep their wigs and stay seated on the sofa.",
            "The yellow dress and sleeve hold the only saturated colour."])
 
 # ============================================================= 12 · THE DOOR
