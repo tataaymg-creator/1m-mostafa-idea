@@ -70,4 +70,4 @@ Dropped: G02, G15 (main), G24, G39b, G45.
 - Savings: drop G42 bf11d1e5 if G42b replaces it (−96); upscale one knock only, G46, and drop G19 (−64); G28 is inserts only (−160 if skipped).
 - G15 3a2554e0 back in: cut the radio opening (G15a covers it) and flip the close-up of her holding his hand so she reads as the passenger.
 - Spill: G25 starts with the cup already spilled; play it as a jump cut (he drifted off).
-- Last image: G49z draft 7586d0bc rejected (drawing in a spot already seen empty). New take a1eca541: from the G49k end frame, slow pull back + tilt down-left reveals the drawing at the foot of the left door frame.
+- Last image: G49z a1eca541 (awaiting review): from the G49k end frame, camera tilts down and back; the drawing enters lower left on the hallway floor in front of the kitchen door. By the end only their legs are in frame.
