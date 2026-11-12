@@ -41,3 +41,6 @@ The v2 fix still had broken walls. v3 (`locations/L06_nour-room_v3.png`, Higgsfi
 ## Bedroom shots on plate v4 (done)
 G28 f253a420 (start F28_start 92e93a22) · G29 fe2c6c1d · G30 a41bfe89 · G38 c4d92076 (start F38_bed e82a1245, pose from G29 at 5.5s) · G39 9b8ba5d8 (use 0–15 s, the crying) + G39b 6c18dc34 (dawn wide, start F39_wide 4fa14d9f).
 G37 kept as 3232ee7d: its bedroom half is an extreme close-up of the eye on the terrazzo floor, so the plate never shows.
+
+## Bedtime order (user decision)
+G28 5281b684 (he carries her down the corridor toward the doorway camera and passes it) → hard cut → G29 fe2c6c1d (tuck-in, kiss, he leaves). No shot of him laying her down.
