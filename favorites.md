@@ -70,3 +70,4 @@ Dropped: G02, G15 (main), G24, G39b, G45.
 - Savings: drop G42 bf11d1e5 if G42b replaces it (−96); upscale one knock only, G46, and drop G19 (−64); G28 is inserts only (−160 if skipped).
 - G15 3a2554e0 back in: cut the radio opening (G15a covers it) and flip the close-up of her holding his hand so she reads as the passenger.
 - Spill: G25 starts with the cup already spilled; play it as a jump cut (he drifted off).
+- Last image: G49z (job 7586d0bc) from start frame F49z_drawing (8d5fa036): the G49k end frame with the drawing standing on the floor against the stool legs, lower left. No yellow cup.
