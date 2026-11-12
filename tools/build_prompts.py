@@ -44,6 +44,7 @@ ANCHOR = {
     "F29_start": "the frame the shot ends on: the bed, how the child mannequin sits against the pillow, the rabbit, Adam beside the bed",
     "F28_start": "the frame the shot starts on: the bedroom at this exact wide angle, Adam on the rug carrying the child mannequin, the empty bed at left",
     "F29_tucked": "how the child mannequin lies in the bed tonight: on its back, face up, head on the pillow, blanket to the chin, the rabbit beside it",
+    "F39_wide": "the frame the shot starts on: the room at dawn, the child mannequin tucked in the bed, Adam on the floor against the bed",
     "F24_cup": "the dinner frame the shot starts on: the room, the daylight, where everyone sits and the full yellow cup in front of Adam",
     "F25_low": "the low-angle frame the shot starts on: the room, the daylight, where everyone sits, the spilled cup",
     "F24_end": "a frame from this same dinner: take the room, the lighting, Adam's clothes and where everyone sits. Use it for continuity only",
@@ -660,6 +661,19 @@ run(id="G39", scene="9 · The floor", nums="69 ★, 70 ○", look="P", attach=["
     light="Amber stars on deep blue; in the last segment cool dawn light slowly grows at the curtain edge. White balance 4300K.",
     audio="His crying, silent at first and then voiced; the night-light motor; in the last segment the first birds.",
     locks=["The child mannequin lies in the bed in both segments, exactly as in {F29_tucked}.", "Adam's eyes stay down or shut, away from the lens."])
+
+# In the edit, G39 is used for its first 15 s only (the crying); the wide that ends the scene is G39b.
+run(id="G39b", scene="9 · The floor", nums="70 ○", look="P", attach=["adam", "doll-daughter", "L06_nour-room"], start="F39_wide",
+    ctx="Dawn in the child's bedroom, one locked wide starting exactly on the start frame: {doll-daughter} lies tucked in the bed; {adam} sits on the floor against the side of the bed, head down on his knees, motionless, while the light at the curtain edge slowly turns from night blue to pale grey-gold.",
+    map="Camera exactly as in the start frame: the whole room in one wide. The bed along the left wall with the child mannequin in it, Adam on the floor against its right side, the window with its curtain on the back wall, the desk at right, the door on the right wall.",
+    first="The first frame is the start image itself.",
+    segs=[(5, None, "WS", "63°", "locked, eye level, the frame of the start image",
+           "Nothing moves except the light: the line of light at the curtain edge grows from night blue to pale grey-gold, the projected stars fade against the brightening walls, and the room slowly fills with cool dawn light. Adam stays curled and still; the mannequin lies still in the bed.", [])],
+    perf="Total stillness; only his breathing.",
+    phys="",
+    light="The amber night-light fading under cool grey-gold dawn growing from the curtain edge. White balance 5000K.",
+    audio="The night-light motor ticking; the first birds outside, one, then several.",
+    locks=["The camera holds the exact wide of the start frame.", "The child mannequin lies in the bed for the whole shot.", "Adam stays curled and still."])
 
 # ============================================================== 10 · THE BAG
 run(id="G40", scene="10 · The bag", nums="71", look="P", attach=["adam", "L05b_hallway-bag"],
