@@ -1,6 +1,6 @@
 # LOOK — Seedance 2.5 prompts
 
-**49 generations · 396 seconds of footage.** Written to the seedance-clean structure.
+**50 generations · 404 seconds of footage.** Written to the seedance-clean structure.
 
 ## Settings for every run
 
@@ -62,7 +62,8 @@
 | [G46](#g46) | 12 · The door | 81 | 4s | 1 `L05_hallway` |
 | [G47](#g47) | 12 · The door | 82 | 6s | 1 `adam`, 2 `L05_hallway` |
 | [G48](#g48) | 12 · The door | 83, 84 ★ | 11s | 1 `mona`, 2 `adam`, 3 `P14_foil-dish`, 4 `L09_landing` |
-| [G49](#g49) | 12 · The door | 85 ★ | 11s | 1 `adam`, 2 `mona`, 3 `P14_foil-dish`, 4 `P09_drawing`, 5 `P01_yellow-cup`, 6 `L05_hallway` |
+| [G49](#g49) | 12 · The door | 85 ★ | 9s | 1 `adam`, 2 `mona`, 3 `P14_foil-dish`, 4 `L09_landing` |
+| [G49k](#g49k) | 12 · The door (alternative) | 85 ★ | 10s | 1 `adam`, 2 `mona`, 3 `P14_foil-dish`, 4 `L01_kitchen` |
 
 ## Made in the edit, not generated
 
@@ -3150,57 +3151,51 @@ POSITIVE LOCKS
 
 ### G49
 
-**12 · The door · shots 85 ★ · 11s**  
-Seedance 2.5 Draft · 16:9 · audio ON · duration 11s  
-References: `@adam`, `@mona`, `@P14_foil-dish`, `@P09_drawing`, `@P01_yellow-cup`, `@L05_hallway`
+**12 · The door · shots 85 ★ · 9s**  
+Seedance 2.5 Draft · 16:9 · audio ON · duration 9s  
+References: `@adam`, `@mona`, `@P14_foil-dish`, `@L09_landing`
 
 ```text
 SCENE CONTEXT
-Morning, just inside the open front door. @mona steps in, sets her dish down and takes @adam in her arms; he holds out for a moment, then breaks and cries on her shoulder. Then the child's drawing, propped against the yellow cup, with the two of them soft behind it.
+Morning, at the open front door, straight on from the end of the previous shot: @mona sets her dish down, steps up to @adam in the doorway and takes him in her arms; he holds out for a moment, then breaks and cries on her shoulder.
 
 ACTIVE REFERENCES
 @adam — Adam, 38, lean and tired; short untidy dark hair, stubble, a healed scar at his right temple; washed-out grey-blue shirt with rolled sleeves, charcoal trousers, bare feet, wedding ring; soft, low, slightly hoarse voice. 100% matches the reference.
 @mona — Mona, mid-forties; grey-streaked hair in a bun, tortoiseshell glasses, navy dress, long grey cardigan; low steady voice. 100% matches the reference.
 @P14_foil-dish — an oven dish covered with aluminium foil. 100% matches the reference.
-@P09_drawing — a child's crayon drawing: three figures holding hands, a strip of blue sea, a little car, a huge yellow sun. 100% matches the reference.
-@P01_yellow-cup — the child's yellow plastic cup. 100% matches the reference.
-@L05_hallway — the entrance hallway: glazed doors on the left, the dark front door at the far end, coat hooks, a wall mirror and a narrow console with a dead plant and mail on the right. 100% matches the reference.
+@L09_landing — the stairwell landing: the dark wooden apartment door at right, a doormat, stairs with an iron railing at left, a small frosted window. 100% matches the reference.
 
 LOCATION MAP
-Inside the hallway of @L05_hallway , at the front door. First segment: camera inside the hall beside the console, side-on to the open doorway; Adam just inside the threshold at frame right facing left, Mona stepping in from the landing at frame left; the console with mail and a dead plant in the lower right. Second segment: camera low behind the lace-covered dining table further inside the apartment, looking down the hall to the doorway.
+The landing of @L09_landing , exactly the frame of the start image: the camera behind Mona on the landing, the open apartment door ahead, Adam standing in the doorway with his hand on the door, the bright hallway behind him, the stairs and railing at left.
 
 FIRST FRAME / BLOCKING
-The first frame is a medium two-shot from the side: @adam standing just inside the open front door at frame right, head down, arms hanging; @mona on the threshold at frame left holding @P14_foil-dish ; both faces in soft daylight, clearly seen in profile.
+The first frame is the start image itself: @mona seen from behind a step from the door, holding @P14_foil-dish ; @adam in the open doorway, his hand on the door.
 
 FORMAT MODE
-Timed multishot: cuts only at the stated seconds; the camera holds each segment without cutting on its own.
+One continuous shot; the camera holds it without cutting on its own.
 
 OPTICS
-0.0s to 7.0s — MS two-shot, side-on, 47° FOV.
-7.0s to 11.0s — CU insert, 29° FOV.
-Clean rectilinear primes, natural perspective, crisp centre. No drift mid-segment.
+0.0s to 9.0s — WS, 47° FOV.
+Clean rectilinear primes, natural perspective, crisp centre.
 
 CAMERA
-0.0s to 7.0s — locked, eye level.
-7.0s to 11.0s — locked, low at table height, focus on the drawing.
+0.0s to 9.0s — locked, eye level, the frame of the start image.
 Tonal character: wide latitude, gentle highlight roll-off, rich detail held in the shadows.
 
 ACTION
-0.0s to 7.0s — At 0.6s @mona steps over the threshold and sets the dish down on the console at 1.2s. At 1.8s she puts both arms around him and pulls him in. He stands rigid, arms at his sides. At 3.2s his face crumples; he folds into her, his forehead on her shoulder, his hands closing on the back of her cardigan, and he cries, his back shaking. She holds the back of his head, eyes closed, her cheek against his hair. They hold.
-7.0s HARD CUT
-7.0s to 11.0s — On the lace-covered dining table, @P09_drawing stands propped against @P01_yellow-cup , sharp and plain to see: three figures holding hands, a strip of blue sea, a little car, a huge yellow sun. Far behind it, out of focus down the hall, the two figures still holding each other in the bright doorway.
+0.0s to 9.0s — At 0.8s @mona bends and sets the dish down on the doormat beside the door, and straightens. At 2.0s she steps up to him in the doorway and puts both arms around him. He stands rigid, his hand still on the door. At 3.6s his hand falls from the door, his face crumples over her shoulder toward the camera, and he folds into her, his forehead on her shoulder, his hands closing on the back of her cardigan; he cries, his back shaking. She holds the back of his head. They hold in the doorway.
 
 PERFORMANCE
-His collapse is slow, starting at the shoulders; real sobbing, wet face, breath catching. Mona is steady, silent, eyes closed. Real skin with visible pores and fine texture, living eyes with catch-lights, breath visible in the chest and shoulders.
+His collapse is slow, starting at the shoulders; real sobbing, wet face, breath catching, his face visible over her shoulder. Mona is steady and silent. Real skin with visible pores and fine texture, living eyes with catch-lights, breath visible in the chest and shoulders.
 
 PHYSICS
-Her cardigan bunches under his hands; his back rises and falls with each sob. The dish sits on the console with its own weight.
+Her cardigan bunches under his hands; his back rises and falls with each sob. The dish rests on the mat with its own weight.
 
 LIGHTING
-Soft morning daylight from the open rooms and the stairwell lights both faces from the side; the doorway bright but not burning out. White balance 5600K.
+Warm daylight pours out of the apartment into the dim grey-green stairwell, as in the start image; his face over her shoulder lit by it. White balance 5600K.
 
 AUDIO
-Street sound, far; cloth; his breath breaking into quiet sobs. The score is laid in during the edit.
+Stairwell echo, street sound from inside the apartment, cloth, his breath breaking into quiet sobs. The score is laid in during the edit.
 The sound is only the room and the listed effects.
 
 STYLE
@@ -3212,7 +3207,71 @@ POSITIVE LOCKS
 - The camera stays on a tripod, locked, in every segment.
 - Yellow objects hold the only saturated colour.
 - Every paper, label and envelope is blank.
-- Both faces are seen and lit in the first segment; they are never black silhouettes.
-- The drawing carries pictures only and matches @P09_drawing .
+- Mona and Adam stay in the doorway, on the threshold, for the whole clip.
+- The door stays open; it does not move on its own.
+- Mona stays silent; Adam says nothing.
+```
+
+### G49k
+
+**12 · The door (alternative) · shots 85 ★ · 10s**  
+Seedance 2.5 Draft · 16:9 · audio ON · duration 10s  
+References: `@adam`, `@mona`, `@P14_foil-dish`, `@L01_kitchen`
+
+```text
+SCENE CONTEXT
+Later that morning, in the kitchen. @mona has come in; her foil-covered dish sits on the wooden counter. @adam stands by the stove, lost. She turns from the counter, goes to him and takes him in her arms; he holds out for a moment, then breaks and cries on her shoulder.
+
+ACTIVE REFERENCES
+@adam — Adam, 38, lean and tired; short untidy dark hair, stubble, a healed scar at his right temple; washed-out grey-blue shirt with rolled sleeves, charcoal trousers, bare feet, wedding ring; soft, low, slightly hoarse voice. 100% matches the reference.
+@mona — Mona, mid-forties; grey-streaked hair in a bun, tortoiseshell glasses, navy dress, long grey cardigan; low steady voice. 100% matches the reference.
+@P14_foil-dish — an oven dish covered with aluminium foil. 100% matches the reference.
+@L01_kitchen — the kitchen: curtained window and sink at left, white enamel gas stove at centre, wooden counter with a cutting board at right, the radio on a wall shelf above it, sage walls, terrazzo floor. 100% matches the reference.
+
+LOCATION MAP
+Inside @L01_kitchen , now in daylight: the curtain at left drawn open, sun on the sage walls. Camera at the doorway end of the kitchen. Midground: Mona at the wooden counter at right, @P14_foil-dish on the counter beside the cutting board; Adam standing by the white enamel stove at centre. Background: the window and sink at left, the radio on its shelf above the counter.
+
+FIRST FRAME / BLOCKING
+The first frame is a medium two-shot in the sunlit kitchen: @mona at the counter at frame right, her hands just leaving @P14_foil-dish on the wood; @adam by the stove at centre, arms hanging, looking at the floor; both faces lit by the window.
+
+FORMAT MODE
+One continuous shot; the camera holds it without cutting on its own.
+
+OPTICS
+0.0s to 10.0s — MS two-shot, 47° FOV.
+Clean rectilinear primes, natural perspective, crisp centre.
+
+CAMERA
+0.0s to 10.0s — locked, eye level.
+Tonal character: wide latitude, gentle highlight roll-off, rich detail held in the shadows.
+
+ACTION
+0.0s to 10.0s — At 0.8s @mona turns from the counter and looks at him. At 1.8s she crosses the two steps to him and puts both arms around him. He stands rigid, arms at his sides. At 3.6s his face crumples; he folds into her, his forehead on her shoulder, his face turned toward the camera, his hands closing on the back of her cardigan, and he cries, his back shaking. She holds the back of his head, eyes closed, her cheek against his hair. They hold. Behind them the dish waits on the counter.
+
+PERFORMANCE
+His collapse is slow, starting at the shoulders; real sobbing, wet face, breath catching. Mona is steady, silent, eyes closed. Real skin with visible pores and fine texture, living eyes with catch-lights, breath visible in the chest and shoulders.
+
+PHYSICS
+Her cardigan bunches under his hands; his back rises and falls with each sob.
+
+LIGHTING
+Morning sun through the open curtain at frame left falls across both faces; the kitchen warm and plain for the first time. White balance 5600K.
+
+AUDIO
+Street sound through the window, a fridge humming, cloth, his breath breaking into quiet sobs. The score is laid in during the edit.
+The sound is only the room and the listed effects.
+
+STYLE
+Photoreal naturalistic film image, fine organic grain, soft contrast. Daylight fills the apartment: sage-green paint, grey upholstery and faded wood made plain by the sun, with yellow objects carrying the only saturated colour. 16:9.
+
+POSITIVE LOCKS
+- Adam matches @adam in every frame he appears in: stubble, the healed scar at his right temple, the grey-blue shirt.
+- Mona matches @mona in face, hair and clothes in every frame she appears in.
+- The camera stays on a tripod, locked, in every segment.
+- Yellow objects hold the only saturated colour.
+- Every paper, label and envelope is blank.
+- Both faces are seen and lit; they are never silhouettes.
+- The foil dish stays on the counter.
+- The radio stays silent and switched off.
 - Mona stays silent; Adam says nothing.
 ```
