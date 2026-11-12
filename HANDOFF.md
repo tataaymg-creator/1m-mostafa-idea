@@ -1,50 +1,44 @@
-# LOOK — Handoff
+# LOOK — Handoff (state as of 2026-11-12)
 
+Short film for the 1 Billion Followers Summit AI Film Award. Repo branch `claude/wonderful-noether-yx6bsb`. Higgsfield project **baba look** (folder `92c8dd8a-7d90-4f19-9975-375b4becd001`).
 
-Paste this as the first message of a new session on this repository (environment **1m-mostafa-idea**, Higgsfield connected to the account with the project **baba look**):
+## How to continue
+Open a new session on this repository and paste:
 
 ```text
-Continue the film project LOOK on branch claude/wonderful-noether-yx6bsb from where we stopped: everything is prepared and the next step is generating.
-
-Read prompts.md and elements.md. The 32 elements in use are registered in the Higgsfield project "baba look", and prompts.md has the 49 runs (G01–G49) with their elements, duration and full prompt.
-
-Generate with Seedance 2.5 Draft, 16:9, audio on, into "baba look". Attach the element images for each run in the order listed (the first is @image1, the second @image2, and so on) and use the prompt unchanged. Show me the drafts; I choose which to generate again in 1080p. Do not open a pull request.
-
-Start with G01 to G09.
+Continue the film LOOK on branch claude/wonderful-noether-yx6bsb exactly from where we stopped. Read HANDOFF.md first, then tools/build_prompts.py, tools/make_batch.py and tools/element_media.json. All 49 shots have drafts; we are in the review / fix pass. Follow the rules in HANDOFF.md. Reply to me in Egyptian Arabic, keep it short, watch every draft yourself (ffmpeg contact sheets) before sending it, and send videos with SendUserFile. Commit and push after each change. No pull request. Wait for my next note.
 ```
 
-## Flagged — revisit later
-- **G24 + G25 (dinner: cup knock and low-angle lamp flicker).** The user flagged these to come back to. Latest drafts: G24 `fed778a7`, G25 `4d694069`. Start frames: `locations/F24_cup.png`, `locations/F25_low.png`.
+## Rules (from the user)
+- Seedance 2.5 **Draft** only (`seedance_2_5`, `mode: omni_reference`, `draft: true`, 480p, audio on), **16:9**. Finalise to 1080p (`draft_job_id`) only when the user names the drafts.
+- Prompts follow the seedance-clean structure; build them with `python3 -B tools/build_prompts.py prompts.md prompts.html` and the request JSON with `python3 -B tools/make_batch.py G28 G28` (supports `start=` → `start_image`, `end=` → `end_image`, ids like `G15a`).
+- English dialogue only. **No generated music** (it triggers `ip_detected`): write "The score is laid in during the edit."
+- Be a problem solver: if a shot keeps failing, change the action or the staging; the meaning matters, not the letter of the script.
+- Never merge other branches.
 
-## Latest drafts (G34–G49)
-G34 fb52bb1a · G35 8aa391e4 · G36 c76936d3 · G37 1ee87ab2 · G38 20ea3b97 · G39 216b6142 · G40 706c152d · G41 0b32f714 · G42 bf11d1e5 · G43 706da129 · G44 19e7cd7d · G45 b29fe51a · G46 26784890 · G47 f0218e45 · G48 df27c838 · G49 c93b8b35
+## Lessons that work
+- Lock placement with a **start frame** (extract a frame from an approved take, or edit the location plate by *adding* a person/prop). `end_image` also works.
+- A take that is good except one detail → **`mode: video_edit`** with the take as `video_references` (fixed G37's glowing eyes without losing the take).
+- Location plates must have real geometry. The bedroom was rebuilt from an exact perspective blocking (`tools/room_blocking.py` → `locations/L06_blocking.png`), rendered from the blocking ALONE (attaching the old photo makes the model copy it). Check plates by overlaying the blocking edges.
+- Costume changes need their own reference: mother mannequin after G44 = `doll-wife-bare` (`characters/06b-mannequin-adult-no-cardigan.png`, grey dress). A bare plastic torso is refused as NSFW.
+- Avoid on-camera actions that keep breaking (laying the mannequin on the bed) — cut around them.
 
-## Edit pass — done
-Redone and checked: G37 3232ee7d (natural eye) · G38 336f5cc0 (tuck-in pose, start F38_bed) · G41 bb1c9720 (clear bag) · G44 b4cf79ce (starts on F43_end; cardigan off shows grey dress) · G45 141f7886 (on the sofa, mother in grey dress).
-Continuity rule: after G44 the mother mannequin is `doll-wife-bare` (grey dress, no cardigan), reference `characters/06b-mannequin-adult-no-cardigan.png`.
-G36 crayon accepted as is.
+## Current takes (latest draft per shot)
+G01–G03: approved earlier (check the baba look folder). G04 41d0f3e0 · G05 a3c251ee · G06 9081951b · G07 fc95918b · G08 d58f1d5c · G09 c5a1599d · G10 a0c5b8dc · G11 88d4b73f · G12 4a61618b · G13 18ce6352 · G14 2b4009ce · G15 3a2554e0 (segments 2–3 mirrored in edit) + **G15a 72b5cc86** (radio insert, hand from the passenger side) · G16 31efcdb6 · G17 9fe9dba0 · G18 1d720a85 · G19 2cf11c7f · G20 221cf3da · G21 917293a7 · G22 6e8ca41d · G23 ecdce175
+G24 fed778a7 · G25 4d694069 (dinner — **flagged**, revisit) · G26 merged into G25
+G27 — **not generated**: cut from G35 (Layla 0–1.4 s + truck 2.6–3.9 s + 0.5 s fade to white)
+G28 5281b684 (corridor: he carries her toward the doorway camera and passes it) → G29 fe2c6c1d (tuck-in, kiss, leaves) → G30 a41bfe89 — no shot of laying her down
+G31 5fdb8f2e · G32 059f4173 · G33 5abfeb16 · G34 fb52bb1a · G35 8aa391e4 · G36 c76936d3
+G37 **41bdd36a** (original take 1ee87ab2 with the eye glow removed by video_edit)
+G38 c4d92076 (start F38_bed e82a1245) · G39 9b8ba5d8 (crying; user thinks it is weak) + G39b 6c18dc34 (dawn wide, start F39_wide)
+G40 706c152d · G41 bb1c9720 · G42 bf11d1e5 · G43 706da129 · G44 b4cf79ce · G45 141f7886 · G46 26784890 · G47 f0218e45 · G48 df27c838 · G49 c93b8b35
 
-## G22 / G27 / G28
-- G22 6e8ca41d — approved.
-- G27 — not generated. Cut in the edit from G35: Layla 0.0–1.4s + truck 2.6–3.9s + 0.5s fade to white (3.1s). Same truck, light and Layla as the crash.
-- G28 02cf7379 — locked wide built on the FIXED L06 plate (start `locations/F28_start.png`, job 109fba97): he carries her from the rug to the bedside, standing. G29 then starts with her on the bed. Laying her down on camera kept breaking (wrong orientation, camera drift), so it is left between the cut.
+## Open items
+- G24/G25 dinner (flagged by the user).
+- G39 crying shot: user said it is weak; decide whether to redo it (mannequin visible in bed, longer).
+- G28 corridor: the amber glow from the room is faint; offer a brighter version if asked.
+- Bedroom plate `L06_nour-room` = v4 (5ca61ad1). Footboard reads tall; lower it in `tools/room_blocking.py` if the user asks.
+- Remote branches `claude/ecstatic-goodall-fjoxzr` and `claude/fervent-lovelace-vdi740` must be deleted by the user in the GitHub UI.
 
-## Bedroom plate fixed
-`locations/L06_nour-room_v2.png` (Higgsfield 39f98068) replaces the old plate, whose bed was warped (mattress wider than the footboard, a loose leg). The old file is kept as `locations/L06_nour-room_old-warped-bed.jpg`. Every bedroom shot generated from now on uses the fixed plate. Already-approved G29/G30 were made on the old plate; if they read differently in the cut, regenerate them on v2.
-
-## Bedroom plate v4 (geometry-locked)
-v3 had no ceiling in the blocking, so the model invented a broken one. v4 (`locations/L06_nour-room_v4.png`, 57cb6223 -> now 5ca61ad1) uses a level camera, a visible ceiling, a cornice and a skirting band in the blocking. `L06_nour-room` points to v4.
-
-### (older note) v3
-The v2 fix still had broken walls. v3 (`locations/L06_nour-room_v3.png`, Higgsfield 57cb6223) is rendered from an exact perspective blocking built in `tools/room_blocking.py` (`locations/L06_blocking.png`, real metres, one camera). Render it from the blocking ALONE: when the old photo is also attached, the image model copies the old photo and ignores the blocking. `L06_nour-room` now points to v3. Pending: user approval, then redo the G28 start frame and every bedroom shot on v3.
-
-## Bedroom shots on plate v4 (done)
-G28 f253a420 (start F28_start 92e93a22) · G29 fe2c6c1d · G30 a41bfe89 · G38 c4d92076 (start F38_bed e82a1245, pose from G29 at 5.5s) · G39 9b8ba5d8 (use 0–15 s, the crying) + G39b 6c18dc34 (dawn wide, start F39_wide 4fa14d9f).
-G37 kept as 3232ee7d: its bedroom half is an extreme close-up of the eye on the terrazzo floor, so the plate never shows.
-
-## Bedtime order (user decision)
-G28 5281b684 (he carries her down the corridor toward the doorway camera and passes it) → hard cut → G29 fe2c6c1d (tuck-in, kiss, he leaves). No shot of him laying her down.
-
-## G37 final
-41bdd36a: the original take 1ee87ab2 (user's favourite) run through Seedance `video_edit` to remove the orange glow from his eyes; everything else unchanged. Replaces 3232ee7d.
-Lesson: when a take is good except one detail, use mode `video_edit` with the take as `video_references` instead of regenerating.
+## Files
+`tools/build_prompts.py` (all runs) · `tools/make_batch.py` · `tools/element_media.json` (element → Higgsfield id) · `tools/room_blocking.py` · `prompts.md` / `prompts.html` · `elements.md` · `locations/` (plates and start frames) · `characters/` · `props/`
