@@ -1,6 +1,6 @@
 # LOOK — Seedance 2.5 prompts
 
-**47 generations · 372 seconds of footage.** Written to the seedance-clean structure.
+**48 generations · 376 seconds of footage.** Written to the seedance-clean structure.
 
 ## Settings for every run
 
@@ -29,6 +29,7 @@
 | [G13](#g13) | 3 · The sewing corner | 21 | 5s | 1 `L03_living-dim` |
 | [G14](#g14) | 4 · The song & the dance | 22, 23, 26 | 13s | 1 `adam`, 2 `doll-wife`, 3 `P05_radio`, 4 `L01_kitchen` |
 | [G15](#g15) | 4 · The song & the dance (flash 3) | 24, 25 ★, 29 | 10s | 1 `layla`, 2 `adam-before`, 3 `L07_car-front` |
+| [G15a](#g15a) | 4 · The song & the dance (flash 3) | 24 | 4s | 1 `layla`, 2 `L07_car-front` |
 | [G16](#g16) | 4 · The song & the dance | 27 ★ | 8s | 1 `adam`, 2 `doll-wife`, 3 `doll-daughter`, 4 `L03_living-dim`, 5 `F10_living-blocking` |
 | [G17](#g17) | 4 · The song & the dance | 28, 30 | 8s | 1 `adam`, 2 `doll-wife`, 3 `L03_living-dim` |
 | [G18](#g18) | 4 · The song & the dance | 31, 32 ★ | 10s | 1 `adam`, 2 `doll-wife`, 3 `doll-daughter`, 4 `L03_living-dim`, 5 `F10_living-blocking` |
@@ -1032,6 +1033,64 @@ POSITIVE LOCKS
 - The camera is handheld, close and breathing.
 - Every paper shows a blank back; the car is plain and unbadged.
 - Adam appears only as his right hand on the gearshift.
+```
+
+### G15a
+
+**4 · The song & the dance (flash 3) · shots 24 · 4s**  
+Seedance 2.5 Draft · 16:9 · audio ON · duration 4s  
+Attach in order: @image1 = `layla`, @image2 = `L07_car-front`
+
+```text
+SCENE CONTEXT
+A memory at golden hour in the front of a moving left-hand-drive car: @image1, in the front right passenger seat, reaches across with her left hand to the radio in the middle of the dashboard and turns the volume up.
+
+ACTIVE REFERENCES
+@image1 — Layla, 34, warm and quick to laugh; shoulder-length dark wavy hair, burgundy cardigan over a cream floral dress, slim gold watch, wedding ring; bright voice. 100% matches the reference.
+@image2 — the car cabin seen from the back seat: left-hand drive, grey-beige fabric seats, plain grey dashboard with a simple radio, rear-view mirror, the straight desert road ahead. 100% matches the reference.
+
+LOCATION MAP
+Camera close on the centre of the dashboard of @image2. Frame left edge: the rim of the steering wheel and the driver's side. Centre: the plain grey dashboard with the simple car radio and its round volume knob. Frame right: the passenger side, where Layla sits, her burgundy cardigan sleeve entering from the right edge.
+
+FIRST FRAME / BLOCKING
+The first frame is the simple car radio in the middle of the grey dashboard, the steering wheel rim at the left edge of frame, golden light across the dash.
+
+FORMAT MODE
+One continuous shot; the camera holds it without cutting on its own.
+
+OPTICS
+0.0s to 4.0s — Insert, 29° FOV.
+Rectilinear primes wide open, shallow focus, warm flare when the sun enters frame, natural motion blur.
+
+CAMERA
+0.0s to 4.0s — handheld, close.
+Tonal character: wide latitude, gentle highlight roll-off, rich detail held in the shadows.
+
+ACTION
+0.0s to 4.0s — At 0.5s a woman's left hand in a burgundy cardigan cuff comes in from the right edge of frame, from the passenger seat, and at 1.2s turns the radio's volume knob up. Her fingers then tap the dashboard twice in time and withdraw back to the right at 3.2s. Her slim gold watch and wedding ring catch the light.
+
+PERFORMANCE
+Real skin with visible pores and fine texture, living eyes with catch-lights, breath visible in the chest and shoulders.
+
+PHYSICS
+The car hums at 80 km/h; the dashboard vibrates faintly; low sun slides across it.
+
+LIGHTING
+Low golden sun through the windshield, warm across the dashboard and her hand. White balance 5600K.
+
+AUDIO
+Road hum, wind; the click of the volume knob. The song is laid in during the edit.
+The sound is only the room and the listed effects.
+
+STYLE
+Photoreal naturalistic film image, fine organic grain, warm amber sunlight on living skin, soft lens flare and fine dust on the glass. 16:9.
+
+POSITIVE LOCKS
+- Layla matches @image1 in face, hair and clothes in every frame she appears in.
+- The camera is handheld, close and breathing.
+- Every paper shows a blank back; the car is plain and unbadged.
+- Left-hand drive: the steering wheel is at frame left; Layla's hand comes only from frame right, the passenger side.
+- Only Layla's left hand and cuff appear.
 ```
 
 ### G16

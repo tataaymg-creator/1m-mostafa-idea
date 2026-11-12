@@ -309,6 +309,19 @@ run(id="G15", scene="4 · The song & the dance (flash 3)", nums="24, 25 ★, 29"
     audio="The same warm old-fashioned waltz, fuller through car speakers; road hum, wind; Layla la-las along and laughs. The only music is that radio song.",
     locks=["Adam appears only as his right hand on the gearshift."])
 
+# G15a replaces only the first insert of G15 (3a2554e0); segments 2-3 of G15 are mirrored in the edit.
+run(id="G15a", scene="4 · The song & the dance (flash 3)", nums="24", look="M", attach=["layla", "L07_car-front"],
+    ctx="A memory at golden hour in the front of a moving left-hand-drive car: {layla}, in the front right passenger seat, reaches across with her left hand to the radio in the middle of the dashboard and turns the volume up.",
+    map="Camera close on the centre of the dashboard of {L07_car-front}. Frame left edge: the rim of the steering wheel and the driver's side. Centre: the plain grey dashboard with the simple car radio and its round volume knob. Frame right: the passenger side, where Layla sits, her burgundy cardigan sleeve entering from the right edge.",
+    first="The first frame is the simple car radio in the middle of the grey dashboard, the steering wheel rim at the left edge of frame, golden light across the dash.",
+    segs=[(4, None, "Insert", "29°", "handheld, close",
+           "At <0.5> a woman's left hand in a burgundy cardigan cuff comes in from the right edge of frame, from the passenger seat, and at <1.2> turns the radio's volume knob up. Her fingers then tap the dashboard twice in time and withdraw back to the right at <3.2>. Her slim gold watch and wedding ring catch the light.", [])],
+    perf="",
+    phys="The car hums at 80 km/h; the dashboard vibrates faintly; low sun slides across it.",
+    light="Low golden sun through the windshield, warm across the dashboard and her hand. White balance 5600K.",
+    audio="Road hum, wind; the click of the volume knob. The song is laid in during the edit.",
+    locks=["Left-hand drive: the steering wheel is at frame left; Layla's hand comes only from frame right, the passenger side.", "Only Layla's left hand and cuff appear."])
+
 run(id="G16", scene="4 · The song & the dance", nums="27 ★", look="P", attach=["adam", "doll-wife", "doll-daughter", "L03_living-dim", "F10_living-blocking"],
     ctx="Evening in the living room, lit only by the floor lamp. A locked medium two-shot, knees up: {adam} slow-dances with {doll-wife} in front of the sofa, held close, cheek to wig, while {doll-daughter} sits upright at the left end of the sofa behind them, soft in the background, exactly where it sits in {F10_living-blocking}.",
     map="Camera in the open floor of {L03_living-dim}, at chest height, 3 metres from the dancers, looking toward the sofa. Foreground: the rug. Midground: Adam and the adult mannequin in a close dance hold on the rug, framed from the knees up, centre frame. Directly behind them, between the dancers and the sofa: the low wooden coffee table with its lace doily and glass dish, its top visible behind their legs. Background: the sofa, the child mannequin seated at its left end, the glowing floor lamp.",
