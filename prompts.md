@@ -1,6 +1,6 @@
 # LOOK — Seedance 2.5 prompts
 
-**48 generations · 376 seconds of footage.** Written to the seedance-clean structure.
+**48 generations · 384 seconds of footage.** Written to the seedance-clean structure.
 
 ## Settings for every run
 
@@ -51,7 +51,7 @@
 | [G36](#g36) | 8 · The road | 65 ★ | 5s | 1 `P12_crayons`, 2 `L08_desert-road` |
 | [G37](#g37) | 8 → 9 · Asphalt to floor (match cut) | 66 ★, 67 ★ | 10s | 1 `adam`, 2 `L06_nour-room` |
 | [G38](#g38) | 9 · The floor | 68 ★ | 5s | 1 `doll-daughter`, 2 `P10_rabbit`, 3 `L06_nour-room` |
-| [G39](#g39) | 9 · The floor | 69 ★, 70 ○ | 12s | 1 `adam`, 2 `L06_nour-room` |
+| [G39](#g39) | 9 · The floor | 69 ★, 70 ○ | 20s | 1 `adam`, 2 `doll-daughter`, 3 `P10_rabbit`, 4 `L06_nour-room`, 5 `F29_tucked` |
 | [G40](#g40) | 10 · The bag | 71 | 5s | 1 `adam`, 2 `L05b_hallway-bag` |
 | [G41](#g41) | 10 · The bag | 72, 73, 74 | 14s | 1 `adam`, 2 `P06_hospital-bag`, 3 `P07_bag-contents`, 4 `L05b_hallway-bag` |
 | [G42](#g42) | 10 · The bag | 75 ★ | 6s | 1 `adam`, 2 `L05b_hallway-bag` |
@@ -2451,47 +2451,50 @@ POSITIVE LOCKS
 
 ### G39
 
-**9 · The floor · shots 69 ★, 70 ○ · 12s**  
-Seedance 2.5 Draft · 16:9 · audio ON · duration 12s  
-Attach in order: @image1 = `adam`, @image2 = `L06_nour-room`
+**9 · The floor · shots 69 ★, 70 ○ · 20s**  
+Seedance 2.5 Draft · 16:9 · audio ON · duration 20s  
+Attach in order: @image1 = `adam`, @image2 = `doll-daughter`, @image3 = `P10_rabbit`, @image4 = `L06_nour-room`, @image5 = `F29_tucked`
 
 ```text
 SCENE CONTEXT
-Night turning to dawn in a child's bedroom. @image1 pulls himself up to sit against the side of the bed and finally breaks: silent at first, then aloud. Then a wide of the room as the light at the curtain edge turns grey-gold and he sits where he is.
+Night turning to dawn in a child's bedroom. @image1 pulls himself up to sit on the floor against the side of the bed, where @image2 lies tucked in exactly as in @image5, and finally breaks: silent at first, then aloud, for a long time. Then a wide of the room as the light at the curtain edge turns grey-gold and he sits where he is, the mannequin still in the bed above him.
 
 ACTIVE REFERENCES
 @image1 — Adam, 38, lean and tired; short untidy dark hair, stubble, a healed scar at his right temple; washed-out grey-blue shirt with rolled sleeves, charcoal trousers, bare feet, wedding ring; soft, low, slightly hoarse voice. 100% matches the reference.
-@image2 — a child's bedroom at night seen from its entrance: a single dark-wood bed along the left wall, headboard against the back wall, a grey rabbit on the floral pillow and a pink floral blanket; a bedside table with a glowing star-projector dome right of the headboard; four crayon drawings taped on the back wall above the bed; a curtained window in the middle of the back wall; a wall shelf with books and a plant; a small desk and chair at right; a round woven rug; a dark wooden door on the right wall; sage walls, white cornice, terrazzo floor. 100% matches the reference.
+@image2 — child-size shop mannequin: matte ivory plastic, smooth blank face with only a sculpted nose and brow, dark wig in two uneven braids, unfinished yellow dress with pins, white tacking thread and one sleeve missing; a rigid object. 100% matches the reference.
+@image3 — a small worn grey stuffed rabbit, about 30 cm tall. 100% matches the reference.
+@image4 — a child's bedroom at night seen from its entrance: a single dark-wood bed along the left wall, headboard against the back wall, a grey rabbit on the floral pillow and a pink floral blanket; a bedside table with a glowing star-projector dome right of the headboard; four crayon drawings taped on the back wall above the bed; a curtained window in the middle of the back wall; a wall shelf with books and a plant; a small desk and chair at right; a round woven rug; a dark wooden door on the right wall; sage walls, white cornice, terrazzo floor. 100% matches the reference.
+@image5 — how the child mannequin lies in the bed tonight: on its back, face up, head on the pillow, blanket to the chin, the rabbit beside it. 100% matches the reference.
 
 LOCATION MAP
-Camera inside @image2. Midground: Adam on the floor with his back against the right side of the bed, the bed along the left wall, knees drawn up. Background: the curtained window on the back wall, the desk at right, the door on the right wall.
+Camera inside @image4. Midground: Adam on the floor with his back against the right side of the bed, knees drawn up. Above and behind him on the bed: the child mannequin lying on its back under the pink floral blanket, its ivory plastic face on the pillow, @image3 beside it, as in @image5. Background: the headboard, the crayon drawings and the night-light on the bedside table; in the wide, the curtained window, the desk and the door on the right wall.
 
 FIRST FRAME / BLOCKING
-The first frame is @image1 on the floor beside the bed, pushing himself up from lying to sitting.
+The first frame is @image1 on the floor beside the bed, pushing himself up from lying to sitting; above his shoulder the mannequin's smooth plastic face rests on the pillow under the blanket.
 
 FORMAT MODE
 Timed multishot: cuts only at the stated seconds; the camera holds each segment without cutting on its own.
 
 OPTICS
-0.0s to 8.5s — MS, 47° FOV.
-8.5s to 12.0s — WS, 63° FOV.
+0.0s to 15.0s — MS, 47° FOV.
+15.0s to 20.0s — WS, 63° FOV.
 Clean rectilinear primes, natural perspective, crisp centre, soft falloff at the edges. No drift mid-segment.
 
 CAMERA
-0.0s to 8.5s — locked, at floor-sitting height.
-8.5s to 12.0s — locked, eye level, the room's angle.
+0.0s to 15.0s — locked, at floor-sitting height.
+15.0s to 20.0s — locked, eye level, the room's angle.
 Tonal character: wide latitude, gentle highlight roll-off, rich detail held in the shadows.
 
 ACTION
-0.0s to 8.5s — His back comes to rest against the bed frame at 1.5s. He stares ahead. At 2.5s his face folds and he cries in silence, mouth open, shoulders shaking; at 5.0s the sound comes, low and broken; at 7.0s he presses the heels of his hands into his eyes. Stars drift over him. Above him the bed shows only as a dark edge of blanket.
-8.5s HARD CUT
-8.5s to 12.0s — The room at the angle of @image2. @image1 sits small against the bed, head down on his knees, motionless. The line of light at the curtain edge changes from night blue to pale grey-gold, and the stars fade against the brightening wall.
+0.0s to 15.0s — His back comes to rest against the bed frame at 1.5s, the mannequin's plastic face on the pillow just above and behind his shoulder. He stares ahead for a long moment. At 3.5s his face folds and he cries in silence, mouth open, shoulders shaking. At 6.5s the sound comes, low and broken. At 9.0s he presses the heels of his hands into his eyes and rocks forward. At 12.0s he lets his head fall back against the mattress edge beside the mannequin, eyes shut, still crying, his breath catching. Stars drift over him and over the plastic face.
+15.0s HARD CUT
+15.0s to 20.0s — The room at the angle of @image4. The child mannequin lies tucked in the bed at left, the rabbit beside it. @image1 sits small on the floor against the side of the bed, head down on his knees, motionless. The line of light at the curtain edge changes from night blue to pale grey-gold, and the stars fade against the brightening wall.
 
 PERFORMANCE
-Real, unpretty crying: the face crumples, the chin shakes, breath catches in hiccups; his eyes stay down. Real skin with visible pores and fine texture, living eyes with catch-lights, breath visible in the chest and shoulders.
+Real, unpretty crying that builds: the face crumples, the chin shakes, breath catches in hiccups; his eyes stay down or shut. Real skin with visible pores and fine texture, living eyes with catch-lights, breath visible in the chest and shoulders.
 
 PHYSICS
-His shoulders heave; tears wet his cheeks and the heels of his hands.
+His shoulders heave; tears wet his cheeks and the heels of his hands. The mannequin stays still under the blanket. The mannequins are hollow, hard and rigid; they keep every joint at its angle and move only where Adam's hands carry them.
 
 LIGHTING
 Amber stars on deep blue; in the last segment cool dawn light slowly grows at the curtain edge. White balance 4300K.
@@ -2505,11 +2508,13 @@ Photoreal naturalistic film image, fine organic grain, soft contrast. A shut-in 
 
 POSITIVE LOCKS
 - Adam matches @image1 in every frame he appears in: stubble, the healed scar at his right temple, the grey-blue shirt.
+- @image2 stays rigid and motionless as furniture, with smooth blank faces.
 - The camera stays on a tripod, locked, in every segment unless that segment names a move.
 - The curtains stay closed; the light comes from lamps and the glow through the curtains.
 - Yellow objects hold the only saturated colour.
 - Every paper, label and envelope is blank.
-- Adam's eyes stay down, away from the lens.
+- The child mannequin lies in the bed in both segments, exactly as in @image5.
+- Adam's eyes stay down or shut, away from the lens.
 ```
 
 ### G40

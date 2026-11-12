@@ -43,6 +43,7 @@ ANCHOR = {
     "F35_truck": "a frame from the crash shot: this exact truck, this road, this golden-hour light and this windshield view",
     "F29_start": "the frame the shot ends on: the bed, how the child mannequin sits against the pillow, the rabbit, Adam beside the bed",
     "F28_start": "the frame the shot starts on: the bedroom at this exact wide angle, Adam on the rug carrying the child mannequin, the empty bed at left",
+    "F29_tucked": "how the child mannequin lies in the bed tonight: on its back, face up, head on the pillow, blanket to the chin, the rabbit beside it",
     "F24_cup": "the dinner frame the shot starts on: the room, the daylight, where everyone sits and the full yellow cup in front of Adam",
     "F25_low": "the low-angle frame the shot starts on: the room, the daylight, where everyone sits, the spilled cup",
     "F24_end": "a frame from this same dinner: take the room, the lighting, Adam's clothes and where everyone sits. Use it for continuity only",
@@ -646,19 +647,19 @@ run(id="G38", scene="9 · The floor", nums="68 ★", look="P", attach=["doll-dau
     audio="Silence; the faint tick of the night-light motor.",
     locks=["The mannequin keeps exactly the pose of the start frame.", "Everything in the room is still except the projected stars."])
 
-run(id="G39", scene="9 · The floor", nums="69 ★, 70 ○", look="P", attach=["adam", "L06_nour-room"],
-    ctx="Night turning to dawn in a child's bedroom. {adam} pulls himself up to sit against the side of the bed and finally breaks: silent at first, then aloud. Then a wide of the room as the light at the curtain edge turns grey-gold and he sits where he is.",
-    map="Camera inside {L06_nour-room}. Midground: Adam on the floor with his back against the right side of the bed, the bed along the left wall, knees drawn up. Background: the curtained window on the back wall, the desk at right, the door on the right wall.",
-    first="The first frame is {adam} on the floor beside the bed, pushing himself up from lying to sitting.",
-    segs=[(8.5, None, "MS", "47°", "locked, at floor-sitting height",
-           "His back comes to rest against the bed frame at <1.5>. He stares ahead. At <2.5> his face folds and he cries in silence, mouth open, shoulders shaking; at <5.0> the sound comes, low and broken; at <7.0> he presses the heels of his hands into his eyes. Stars drift over him. Above him the bed shows only as a dark edge of blanket.", []),
-          (3.5, "HARD CUT", "WS", "63°", "locked, eye level, the room's angle",
-           "The room at the angle of {L06_nour-room}. {adam} sits small against the bed, head down on his knees, motionless. The line of light at the curtain edge changes from night blue to pale grey-gold, and the stars fade against the brightening wall.", [])],
-    perf="Real, unpretty crying: the face crumples, the chin shakes, breath catches in hiccups; his eyes stay down.",
-    phys="His shoulders heave; tears wet his cheeks and the heels of his hands.",
+run(id="G39", scene="9 · The floor", nums="69 ★, 70 ○", look="P", attach=["adam", "doll-daughter", "P10_rabbit", "L06_nour-room", "F29_tucked"],
+    ctx="Night turning to dawn in a child's bedroom. {adam} pulls himself up to sit on the floor against the side of the bed, where {doll-daughter} lies tucked in exactly as in {F29_tucked}, and finally breaks: silent at first, then aloud, for a long time. Then a wide of the room as the light at the curtain edge turns grey-gold and he sits where he is, the mannequin still in the bed above him.",
+    map="Camera inside {L06_nour-room}. Midground: Adam on the floor with his back against the right side of the bed, knees drawn up. Above and behind him on the bed: the child mannequin lying on its back under the pink floral blanket, its ivory plastic face on the pillow, {P10_rabbit} beside it, as in {F29_tucked}. Background: the headboard, the crayon drawings and the night-light on the bedside table; in the wide, the curtained window, the desk and the door on the right wall.",
+    first="The first frame is {adam} on the floor beside the bed, pushing himself up from lying to sitting; above his shoulder the mannequin's smooth plastic face rests on the pillow under the blanket.",
+    segs=[(15, None, "MS", "47°", "locked, at floor-sitting height",
+           "His back comes to rest against the bed frame at <1.5>, the mannequin's plastic face on the pillow just above and behind his shoulder. He stares ahead for a long moment. At <3.5> his face folds and he cries in silence, mouth open, shoulders shaking. At <6.5> the sound comes, low and broken. At <9.0> he presses the heels of his hands into his eyes and rocks forward. At <12.0> he lets his head fall back against the mattress edge beside the mannequin, eyes shut, still crying, his breath catching. Stars drift over him and over the plastic face.", []),
+          (5, "HARD CUT", "WS", "63°", "locked, eye level, the room's angle",
+           "The room at the angle of {L06_nour-room}. The child mannequin lies tucked in the bed at left, the rabbit beside it. {adam} sits small on the floor against the side of the bed, head down on his knees, motionless. The line of light at the curtain edge changes from night blue to pale grey-gold, and the stars fade against the brightening wall.", [])],
+    perf="Real, unpretty crying that builds: the face crumples, the chin shakes, breath catches in hiccups; his eyes stay down or shut.",
+    phys="His shoulders heave; tears wet his cheeks and the heels of his hands. The mannequin stays still under the blanket.",
     light="Amber stars on deep blue; in the last segment cool dawn light slowly grows at the curtain edge. White balance 4300K.",
     audio="His crying, silent at first and then voiced; the night-light motor; in the last segment the first birds.",
-    locks=["Adam's eyes stay down, away from the lens."])
+    locks=["The child mannequin lies in the bed in both segments, exactly as in {F29_tucked}.", "Adam's eyes stay down or shut, away from the lens."])
 
 # ============================================================== 10 · THE BAG
 run(id="G40", scene="10 · The bag", nums="71", look="P", attach=["adam", "L05b_hallway-bag"],
