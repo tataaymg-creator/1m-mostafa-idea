@@ -8,7 +8,7 @@ work = os.path.join(os.path.dirname(os.path.abspath(out)), "seg"); os.makedirs(w
 W, H = 854, 480
 ENC = ["-c:v", "libx264", "-preset", "veryfast", "-crf", "20", "-pix_fmt", "yuv420p", "-r", "24",
        "-c:a", "aac", "-b:a", "160k", "-ar", "48000", "-ac", "2"]
-PILLAR = f"crop=640:480:107:0,pad={W}:{H}:107:0:black"          # 4:3 from the centre
+PILLAR = ""                                                     # everything stays 16:9
 FONT = "/usr/share/fonts/truetype/dejavu/DejaVuSerif.ttf"
 FONT_AR = "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf"
 segs = []
@@ -60,17 +60,7 @@ clip("G39", "G39")
 # 10 · The bag
 for r in ["G40", "G41", "G42b"]: clip(r, r)
 # 11 · Daylight: the frame opens from 4:3 to 16:9 across G43
-def g43():
-    # the frame opens from 4:3 to 16:9: two black bars slide out between 1 s and 5 s
-    p = os.path.join(work, f"{len(segs):02d}_G43.mp4")
-    k = "max(0\\,min(1\\,(t-1)/4))"
-    fc = (f"color=black:s=107x{H}:r=24[b1];color=black:s=107x{H}:r=24[b2];"
-          f"[0:v][b1]overlay=x='-107*{k}':y=0:eval=frame:shortest=1[v1];"
-          f"[v1][b2]overlay=x='747+107*{k}':y=0:eval=frame:shortest=1,setsar=1[v]")
-    subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", os.path.join(src, "G43.mp4"), "-filter_complex", fc,
-                    "-map", "[v]", "-map", "0:a"] + ENC + [p], check=True)
-    segs.append(p)
-g43()
+clip("G43", "G43")
 clip("G44", "G44", crop=False)
 # 12 · The door
 clip("G46", "G46", crop=False)
