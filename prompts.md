@@ -1,6 +1,6 @@
 # LOOK — Seedance 2.5 prompts
 
-**49 generations · 390 seconds of footage.** Written to the seedance-clean structure.
+**49 generations · 391 seconds of footage.** Written to the seedance-clean structure.
 
 ## Settings for every run
 
@@ -60,7 +60,7 @@
 | [G44](#g44) | 11 · Daylight | 78, 79 | 11s | 1 `adam`, 2 `doll-wife`, 3 `doll-daughter`, 4 `doll-wife-bare`, 5 `L03b_living-day` |
 | [G45](#g45) | 11 · Daylight | 80 ★ | 6s | 1 `adam`, 2 `doll-wife-bare`, 3 `doll-daughter`, 4 `L03b_living-day` |
 | [G46](#g46) | 12 · The door | 81 | 4s | 1 `L05_hallway` |
-| [G47](#g47) | 12 · The door | 82 | 5s | 1 `adam`, 2 `L05_hallway` |
+| [G47](#g47) | 12 · The door | 82 | 6s | 1 `adam`, 2 `L05_hallway` |
 | [G48](#g48) | 12 · The door | 83, 84 ★ | 11s | 1 `mona`, 2 `adam`, 3 `P14_foil-dish`, 4 `L09_landing` |
 | [G49](#g49) | 12 · The door | 85 ★ | 6s | 1 `adam`, 2 `mona`, 3 `P09_drawing`, 4 `P01_yellow-cup`, 5 `L05_hallway` |
 
@@ -2149,7 +2149,7 @@ References: `@adam-before`, `@nour`, `@P09_drawing`, `@L07_car-front`, `@L07b_ca
 
 ```text
 SCENE CONTEXT
-A memory at golden hour, in slow motion: @adam-before , driving in the front left seat, turns his head back to look at his daughter's drawing and his face opens into joy, while behind him, through the windshield, a big truck is coming straight at the car in their lane. Then his view of @nour in the back right seat holding up @P09_drawing .
+A memory at golden hour, in slow motion, inside a car speeding down a desert highway. @nour in the back seat holds up her drawing for her father. @adam-before , driving, turns his head round to look at her and the drawing, and his face opens into joy; behind his head, through the windshield, a big truck is rushing straight at them in their lane and fills the glass.
 
 ACTIVE REFERENCES
 @adam-before — Adam, 38, healthy and relaxed; clean-shaven, smooth unmarked temples; light linen shirt, wedding ring; warm easy voice. 100% matches the reference.
@@ -2159,40 +2159,40 @@ ACTIVE REFERENCES
 @L07b_car-backseat — the car's back seat: grey-beige bench seat, seatbelt on the right-hand side, a picture book with a sheet of paper, small crayons, a swim ring on the rear shelf. 100% matches the reference.
 
 LOCATION MAP
-Inside the car. First segment: camera in the back seat behind the front passenger seat, looking forward at Adam over his right shoulder; behind his head the windshield and the straight road ahead, as in @L07_car-front , with a truck in their lane coming toward them. Second segment: Nour in the back right seat, belted, as in @L07b_car-backseat , the side window and the golden desert behind her.
+Inside the moving car. First segment: Nour in the back right seat, belted, as in @L07b_car-backseat , the side window and the desert streaming past behind her. Second segment: camera in the back seat behind the front passenger seat, looking forward over Adam's right shoulder; Nour sits just off frame right, beside the camera; behind Adam's head the windshield and the straight road rushing toward the car, as in @L07_car-front , a truck in their lane ahead.
 
 FIRST FRAME / BLOCKING
-The first frame is @adam-before 's face in left three-quarter view from behind his right shoulder, eyes on the road, a smile starting; through the windshield, far ahead in the middle of their lane, a big silver-white truck with its headlights on.
+The first frame is @nour in the back right seat, beaming, missing tooth, holding @P09_drawing up in both hands toward her father, the picture facing the camera, the desert streaking past the side window behind her.
 
 FORMAT MODE
 Timed multishot: cuts only at the stated seconds; the camera holds each segment without cutting on its own.
 
 OPTICS
-0.0s to 5.0s — CU, 47° FOV.
-5.0s to 8.0s — POV, 63° FOV.
+0.0s to 3.0s — MCU, 47° FOV.
+3.0s to 8.0s — CU, 47° FOV.
 Rectilinear primes wide open, shallow focus, warm flare when the sun enters frame, natural motion blur. No drift mid-segment.
 
 CAMERA
-0.0s to 5.0s — handheld, from the back seat, slow motion.
-5.0s to 8.0s — handheld, slow motion, at his eye line.
+0.0s to 3.0s — handheld, slow motion, at her father's eye line, shaking gently with the moving car.
+3.0s to 8.0s — handheld, from the back seat, slow motion, shaking with the speeding car.
 Tonal character: wide latitude, gentle highlight roll-off, rich detail held in the shadows.
 
 ACTION
-0.0s to 5.0s — From 0.5s to 2.5s he turns his head to the right and back toward the camera, away from the road. As his eyes land on what she holds, at 3.0s, his whole face opens: brows lift, eyes shine, cheeks rise, a laugh begins. Behind his head, through the windshield, the truck keeps coming straight at the car in their lane: small at 0.5s, bigger at 2.5s, and at 5.0s its high flat front and two blazing headlights fill half the windshield. He does not see it.
-5.0s HARD CUT
-5.0s to 8.0s — @nour in the back right seat, beaming, missing tooth, holding @P09_drawing up in both hands, its picture facing the camera and plain to see: three figures holding hands, a strip of blue sea, a little car and a huge yellow sun in crayon. Warm side light on her face and on the paper.
+0.0s to 3.0s — @nour holds @P09_drawing up in both hands, its picture plain to see: three figures holding hands, a strip of blue sea, a little car and a huge yellow sun in crayon. She bounces with excitement; the car's motion rocks her gently; the desert and poles streak past the window behind her.
+3.0s HARD CUT
+3.0s to 8.0s — The car is driving fast: the road and its centre line rush toward the windshield, poles whip past the side window, the steering wheel trembles in his hands. From 3.3s to 4.8s @adam-before turns his head to the right and round toward the back seat, his eyes going to his daughter just off frame right and to her drawing, never to the lens. At 5.2s his whole face opens: brows lift, eyes shine, cheeks rise, he laughs. Behind his head, through the windshield, a big silver-white truck is in their lane coming head-on: at 3.3s a shape on the road, at 5.5s close, and from 6.8s its high flat grille and two blazing headlights fill the whole windshield right behind his laughing face, closing in. He never looks round.
 
 PERFORMANCE
-The happiest face in the film, built from muscle: crow's feet, lifted cheeks, open mouth, wet bright eyes. Real skin with visible pores and fine texture, living eyes with catch-lights, breath visible in the chest and shoulders.
+The happiest face in the film, built from muscle: crow's feet, lifted cheeks, open mouth, wet bright eyes. His eyes stay on his daughter. Real skin with visible pores and fine texture, living eyes with catch-lights, breath visible in the chest and shoulders.
 
 PHYSICS
-Slow motion in both segments: hair and dust drift slowly through the light. The truck grows steadily in the windshield; the car holds its lane.
+The car is moving fast the whole time: road texture streaming, poles flicking past, the cabin trembling. Slow motion: hair and dust drift slowly through the light. The truck and the car close on each other head-on.
 
 LIGHTING
-Golden hour from the side windows across both faces; the truck's two headlights burn white in the windshield behind Adam. The drawing is lit evenly, its colours clear. White balance 5600K.
+Golden hour through the side windows across both faces; the truck's headlights burn white in the windshield behind Adam and flood toward the camera at the end. The drawing is lit evenly, its colours clear. White balance 5600K.
 
 AUDIO
-All sound falls to a muffled underwater hush; only her small breath stays clear and close; under it, far off, a truck engine rising. The hummed melody is laid in during the edit.
+All sound falls to a muffled underwater hush; only her small breath and his laugh stay clear and close; under it a truck engine and horn rising fast. The hummed melody is laid in during the edit.
 The sound is only the room and the listed effects.
 
 STYLE
@@ -2204,9 +2204,10 @@ POSITIVE LOCKS
 - The camera is handheld, close and breathing.
 - Every paper shows a blank back; the car is plain and unbadged.
 - Both segments play in slow motion.
+- The car is always driving forward fast; it is never parked.
 - The drawing faces the camera and matches @P09_drawing : the three figures, the sea, the car, the yellow sun; it is never a blank sheet.
-- In the first segment the truck is always visible through the windshield behind Adam, in their lane, coming at the car.
-- The frame stays inside the car on the two faces.
+- In the second segment Adam looks at his daughter off frame right, never into the lens; the truck is always visible through the windshield behind him, in their lane, coming at the car.
+- The frame stays inside the car.
 ```
 
 ### G35
@@ -3018,49 +3019,49 @@ POSITIVE LOCKS
 
 ### G47
 
-**12 · The door · shots 82 · 5s**  
-Seedance 2.5 Draft · 16:9 · audio ON · duration 5s  
+**12 · The door · shots 82 · 6s**  
+Seedance 2.5 Draft · 16:9 · audio ON · duration 6s  
 References: `@adam`, `@L05_hallway`
 
 ```text
 SCENE CONTEXT
-Morning, a wide down the pale hallway: @adam walks all the way to the front door, takes the handle and opens it in one easy move.
+Morning, a wide down the pale hallway: @adam walks the whole length of the hall to the apartment's front door, the dark wooden door at the far end facing the camera, and pulls it open.
 
 ACTIVE REFERENCES
 @adam — Adam, 38, lean and tired; short untidy dark hair, stubble, a healed scar at his right temple; washed-out grey-blue shirt with rolled sleeves, charcoal trousers, bare feet, wedding ring; soft, low, slightly hoarse voice. 100% matches the reference.
 @L05_hallway — the entrance hallway: glazed doors on the left, the dark front door at the far end, coat hooks, a wall mirror and a narrow console with a dead plant and mail on the right. 100% matches the reference.
 
 LOCATION MAP
-Camera at the near end of the hallway, exactly as in @L05_hallway . Midground: Adam walking up the centre. Background: the front door; the mirror and the console with mail and a dead plant on the right; the glazed doors bright on the left.
+Camera at the near end of the hallway, exactly as in @L05_hallway . The front door is the dark varnished wooden door at the far end of the hall, square to the camera at the centre of the frame, its brass handle on the right. The glazed doors on the left wall stay shut and are not used. On the right: the mirror and the console with mail and a dead plant.
 
 FIRST FRAME / BLOCKING
-The first frame is the hallway at the angle of @L05_hallway , @adam already in the middle of the hall, seen from behind, walking steadily toward the door.
+The first frame is the hallway at the angle of @L05_hallway , @adam already in the middle of the hall, seen from behind, walking straight toward the dark front door at the far end.
 
 FORMAT MODE
 One continuous shot; the camera holds it without cutting on its own.
 
 OPTICS
-0.0s to 5.0s — WS, 63° FOV.
+0.0s to 6.0s — WS, 63° FOV.
 Clean rectilinear primes, natural perspective, crisp centre.
 
 CAMERA
-0.0s to 5.0s — locked, eye level.
+0.0s to 6.0s — locked, eye level, centred on the front door.
 Tonal character: wide latitude, gentle highlight roll-off, rich detail held in the shadows.
 
 ACTION
-0.0s to 5.0s — He walks at 3 km/h and reaches the door at 2.2s. At 2.6s his right hand closes on the handle. His shoulders rise with one breath. At 3.8s he presses the handle down and the door swings inward a hand's width, a line of stairwell light falling across his face.
+0.0s to 6.0s — He walks straight up the centre of the hall at 3 km/h, past the glazed doors on the left without turning, and reaches the dark front door at the far end at 3.0s, his back to the camera, the door filling the middle of the frame in front of him. At 3.4s his right hand takes the brass handle. One breath. At 4.6s he presses the handle down and pulls the door toward himself; it swings open inward and bright stairwell light falls into the hall around him.
 
 PERFORMANCE
 Steady, decided steps; one breath at the door; the opening is simple and sure. Real skin with visible pores and fine texture, living eyes with catch-lights, breath visible in the chest and shoulders.
 
 PHYSICS
-The handle turns down in one smooth move; the door is unlocked and swings freely on its hinges.
+The handle turns down in one smooth move; the unlocked door swings inward on its hinges as he pulls it.
 
 LIGHTING
-Morning daylight from the rooms behind the camera; the hallway clear and pale. White balance 5600K.
+Morning daylight from the rooms behind the camera; the hallway clear and pale; the stairwell light spills in when the door opens. White balance 5600K.
 
 AUDIO
-Bare footsteps, one breath, the latch clicking open.
+Bare footsteps, one breath, the latch clicking open, the hinge.
 The sound is only the room and the listed effects.
 
 STYLE
@@ -3071,9 +3072,10 @@ POSITIVE LOCKS
 - The camera stays on a tripod, locked, in every segment.
 - Yellow objects hold the only saturated colour.
 - Every paper, label and envelope is blank.
+- He opens the dark wooden front door at the far end of the hall, centre of frame; the glazed doors on the left stay shut.
+- The door is not locked: no key, no bolt, no chain; one press of the handle and a pull opens it.
+- The door moves only because his hand pulls it.
 - The console holds mail and a dead plant only.
-- The door is not locked: no key, no bolt, no chain is touched; one press of the handle opens it.
-- On the last frame the door stands open a hand's width.
 ```
 
 ### G48
@@ -3112,7 +3114,7 @@ CAMERA
 Tonal character: wide latitude, gentle highlight roll-off, rich detail held in the shadows.
 
 ACTION
-0.0s to 5.0s — At 0.8s the door opens inward and warm daylight falls across her. @adam stands in the doorway: grey-blue shirt, bare feet, red eyes. They look at each other. At 3.0s her face, in three-quarter profile, changes: her brows lift and soften, her lips part. She stays silent.
+0.0s to 5.0s — At 0.6s the latch clicks; @adam 's hand on the inside handle pulls the door open inward, and he steps into the opening holding the edge of the door, warm daylight falling across her: grey-blue shirt, bare feet, red eyes. They look at each other. At 3.0s her face, in three-quarter profile, changes: her brows lift and soften, her lips part. She stays silent.
 5.0s REVERSE CUT
 5.0s to 11.0s — @adam 's face in the doorway, frontal, lit softly from the stairwell, the bright hall behind him. At 5.8s he opens his mouth and the words catch. He looks down, swallows, and looks back up at her at 7.4s. Then he says it, plainly; after it his face gives way. 8.2s to 10.0s, Adam, quiet, plain, the first true sentence: "They're gone, Mona."
 
@@ -3120,7 +3122,7 @@ PERFORMANCE
 Mona's understanding is all in her eyes. Adam's chin trembles; after the line his mouth crumples. Real skin with visible pores and fine texture, living eyes with catch-lights, breath visible in the chest and shoulders.
 
 PHYSICS
-The door swings inward on its hinges; daylight spills across the landing floor.
+The door swings inward only because Adam pulls it; his hand stays on its edge. Daylight spills across the landing floor.
 
 LIGHTING
 The stairwell dim and grey-green; warm daylight pours out of the apartment as the door opens. White balance 5600K.
@@ -3142,6 +3144,7 @@ POSITIVE LOCKS
 - Mona stays silent.
 - One foil dish only, in her hands; nothing lies on the floor.
 - Mona stays on the doormat, close to the door, for the whole clip.
+- The door never moves on its own: Adam's hand opens it and holds it.
 - Each line lands once, at its time, from its speaker.
 ```
 
