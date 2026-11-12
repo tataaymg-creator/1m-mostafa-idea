@@ -1,6 +1,6 @@
 # LOOK — Seedance 2.5 prompts
 
-**49 generations · 389 seconds of footage.** Written to the seedance-clean structure.
+**49 generations · 390 seconds of footage.** Written to the seedance-clean structure.
 
 ## Settings for every run
 
@@ -40,7 +40,7 @@
 | [G23](#g23) | 5 · The knock | 37 ○ | 4s | 1 `mona`, 2 `P14_foil-dish`, 3 `L09_landing` |
 | [G24](#g24) | 6 · Dinner | 39, 40 | 10s | 1 `adam`, 2 `doll-wife`, 3 `doll-daughter`, 4 `P01_yellow-cup`, 5 `L02_dining` |
 | [G25](#g25) | 6 · Dinner | 41 ★, 44 | 8s | 1 `adam`, 2 `doll-wife`, 3 `doll-daughter`, 4 `P01_yellow-cup`, 5 `L02_dining` |
-| [G28](#g28) | 7 · Bedtime | 45 | 4s | 1 `adam`, 2 `doll-daughter`, 3 `P10_rabbit`, 4 `L06_nour-room` |
+| [G28](#g28) | 7 · Bedtime | 45 | 5s | 1 `adam`, 2 `doll-daughter` |
 | [G29](#g29) | 7 · Bedtime | 46, 47, 48 | 16s | 1 `adam`, 2 `doll-daughter`, 3 `P10_rabbit`, 4 `L06_nour-room` |
 | [G30](#g30) | 7 · Bedtime | 49 ★, 50 ★ | 10s | 1 `adam`, 2 `L06_nour-room` |
 | [G31](#g31) | 8 · The road | 51 | 5s | 1 `P13_family-car`, 2 `L08_desert-road` |
@@ -1736,51 +1736,49 @@ POSITIVE LOCKS
 
 ### G28
 
-**7 · Bedtime · shots 45 · 4s**  
-Seedance 2.5 Draft · 16:9 · audio ON · duration 4s  
-Attach in order: @image1 = `adam`, @image2 = `doll-daughter`, @image3 = `P10_rabbit`, @image4 = `L06_nour-room`
+**7 · Bedtime · shots 45 · 5s**  
+Seedance 2.5 Draft · 16:9 · audio ON · duration 5s  
+Attach in order: @image1 = `adam`, @image2 = `doll-daughter`
 
 ```text
 SCENE CONTEXT
-Night in the child's bedroom lit by the star night-light, one locked wide starting exactly on the start frame: @image1 stands on the round rug carrying @image2 across his arms; he turns to the bed at frame left and carries it over to the bedside.
+Night. @image1 carries @image2 down the dark apartment corridor toward his daughter's bedroom; the camera waits at the bedroom doorway, so he walks toward us, his face lit by the amber glow spilling from the room, and turns sideways to carry it in past the camera.
 
 ACTIVE REFERENCES
 @image1 — Adam, 38, lean and tired; short untidy dark hair, stubble, a healed scar at his right temple; washed-out grey-blue shirt with rolled sleeves, charcoal trousers, bare feet, wedding ring; soft, low, slightly hoarse voice. 100% matches the reference.
 @image2 — child-size shop mannequin: matte ivory plastic, smooth blank face with only a sculpted nose and brow, dark wig in two uneven braids, unfinished yellow dress with pins, white tacking thread and one sleeve missing; a rigid object. 100% matches the reference.
-@image3 — a small worn grey stuffed rabbit, about 30 cm tall. 100% matches the reference.
-@image4 — a child's bedroom at night seen from its entrance: a single dark-wood bed along the left wall, headboard against the back wall, a grey rabbit on the floral pillow and a pink floral blanket; a bedside table with a glowing star-projector dome right of the headboard; four crayon drawings taped on the back wall above the bed; a curtained window in the middle of the back wall; a wall shelf with books and a plant; a small desk and chair at right; a round woven rug; a dark wooden door on the right wall; sage walls, white cornice, terrazzo floor. 100% matches the reference.
 
 LOCATION MAP
-Camera exactly as in the start frame: the whole room in one wide. Frame left: the bed along the left wall with @image3 on the pillow, the bedside table and glowing night-light. Centre: the round rug. Frame right: the small desk and chair, the dark wooden door on the right wall.
+Camera standing just inside the open bedroom doorway, looking out down a narrow dark corridor: plain sage-green walls, a terrazzo floor, a closed door far down on one side, the corridor's far end in darkness. Amber light and small projected stars from the bedroom behind the camera spill onto the corridor floor and walls near the camera.
 
 FIRST FRAME / BLOCKING
-The first frame is the start image itself: Adam on the rug, the child mannequin across his arms with its head toward the bed, the bed empty except for the rabbit.
+The first frame is the dark corridor with @image1 already halfway down it, walking toward the camera, the child mannequin cradled across both his arms against his chest, its head on his left arm, its stiff legs together on his right, held close to his body.
 
 FORMAT MODE
 One continuous shot; the camera holds it without cutting on its own.
 
 OPTICS
-0.0s to 4.0s — WS, 63° FOV.
+0.0s to 5.0s — MS to MCU, 47° FOV.
 Clean rectilinear primes, natural perspective, crisp centre, soft falloff at the edges.
 
 CAMERA
-0.0s to 4.0s — locked, eye level, the frame of the start image.
+0.0s to 5.0s — locked, eye level, at the doorway.
 Tonal character: wide latitude, gentle highlight roll-off, rich detail held in the shadows.
 
 ACTION
-0.0s to 4.0s — At 0.5s he walks slowly to frame left, off the rug, three steps toward the side of the bed, carrying the mannequin level, its head toward the pillow. At 3.0s he stops beside the bed, still standing, the mannequin in his arms over the blanket, and looks down at it.
+0.0s to 5.0s — He walks slowly toward the camera at 2 km/h, his head bent over the figure, his face coming into the amber glow and the drifting stars. At 3.4s he reaches the doorway, turns his body sideways, and carries the mannequin in past the camera at frame left, legs first, held tight against him so nothing touches the door frame. The corridor is empty for the last half second.
 
 PERFORMANCE
-Careful, quiet steps; his head bent over the figure; tenderness in his face. Real skin with visible pores and fine texture, living eyes with catch-lights, breath visible in the chest and shoulders.
+Careful, quiet steps; tenderness in his face as he looks down at the figure. Real skin with visible pores and fine texture, living eyes with catch-lights, breath visible in the chest and shoulders.
 
 PHYSICS
-The mannequin keeps its rigid straight shape in his arms; only the wig's braids swing. Its legs stay clear of the furniture and walls. The mannequins are hollow, hard and rigid; they keep every joint at its angle and move only where Adam's hands carry them.
+The mannequin keeps its rigid straight shape in his arms; only the wig's braids swing. Its legs stay close to his body. The mannequins are hollow, hard and rigid; they keep every joint at its angle and move only where Adam's hands carry them.
 
 LIGHTING
-Only the star night-light on the bedside table: amber stars drifting over the walls, the ceiling and Adam. White balance 4300K.
+The corridor dark; warm amber glow and small moving stars from the bedroom behind the camera, growing on his face as he comes closer. White balance 4300K.
 
 AUDIO
-Slow bare footsteps on terrazzo; the faint tick of the night-light motor.
+Slow bare footsteps on terrazzo, coming closer; the faint tick of the night-light motor from the room.
 The sound is only the room and the listed effects.
 
 STYLE
@@ -1793,10 +1791,8 @@ POSITIVE LOCKS
 - The curtains stay closed; the light comes from lamps and the glow through the curtains.
 - Yellow objects hold the only saturated colour.
 - Every paper, label and envelope is blank.
-- The camera holds the exact wide of the start frame for the whole shot.
-- The mannequin stays in his arms, lined up along the length of the bed.
-- The bed, the bedside table, the night-light, the desk and the rug keep the exact places and sizes of @image4.
-- Adam stays standing for the whole shot.
+- The camera stays at the doorway looking down the corridor for the whole shot.
+- The mannequin stays in his arms, held close; it never touches the walls or the door frame.
 ```
 
 ### G29
