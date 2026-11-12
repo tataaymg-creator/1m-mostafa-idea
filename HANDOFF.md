@@ -31,3 +31,6 @@ G36 crayon accepted as is.
 
 ## Bedroom plate fixed
 `locations/L06_nour-room_v2.png` (Higgsfield 39f98068) replaces the old plate, whose bed was warped (mattress wider than the footboard, a loose leg). The old file is kept as `locations/L06_nour-room_old-warped-bed.jpg`. Every bedroom shot generated from now on uses the fixed plate. Already-approved G29/G30 were made on the old plate; if they read differently in the cut, regenerate them on v2.
+
+## Bedroom plate v3 (geometry-locked)
+The v2 fix still had broken walls. v3 (`locations/L06_nour-room_v3.png`, Higgsfield 57cb6223) is rendered from an exact perspective blocking built in `tools/room_blocking.py` (`locations/L06_blocking.png`, real metres, one camera). Render it from the blocking ALONE: when the old photo is also attached, the image model copies the old photo and ignores the blocking. `L06_nour-room` now points to v3. Pending: user approval, then redo the G28 start frame and every bedroom shot on v3.

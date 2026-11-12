@@ -24,7 +24,7 @@
  "L03b_living-day": "740bd4b6-4ce1-4ffb-b664-0b487d2c8c28",
  "L05_hallway": "9ff62469-62da-4f6c-bf29-06e2e75f19fe",
  "L05b_hallway-bag": "c7fc0a27-7d7a-4a7e-8910-e95e28576ef1",
- "L06_nour-room": "39f98068-6f34-4999-b9e9-168b361164d2",
+ "L06_nour-room": "57cb6223-deaf-425a-921d-9d249b1c0b34",
  "L07_car-front": "54189d32-b885-40ea-95f7-c72d1f72f269",
  "L07b_car-backseat": "9fd8a03d-5340-4f5a-999e-74f5817d0f88",
  "L08_desert-road": "0afdac5b-222c-4c7a-a7e4-d17ed3a730e2",
@@ -40,5 +40,7 @@
  "F35_truck": "a7cd974d-883e-42cc-8656-dc185b521a87",
  "F29_start": "dfa632a5-34d1-4c8e-99a0-a7237a9c460c",
  "F28_start": "86c79730-4d4a-435c-a147-9cb95dcde6b8",
- "L06_nour-room_old": "0a57d4e1-6a5c-45ea-a705-00bc89211e73"
+ "L06_nour-room_old": "0a57d4e1-6a5c-45ea-a705-00bc89211e73",
+ "L06_nour-room_v2": "39f98068-6f34-4999-b9e9-168b361164d2",
+ "L06_blocking": "dbbe835d-bfd0-4310-b116-36eaab7e4c21"
 }
