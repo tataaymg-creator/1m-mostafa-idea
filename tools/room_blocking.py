@@ -1,12 +1,12 @@
 """Exact perspective blocking of Nour's bedroom (metres), drawn with PIL.
-Camera at the entrance, facing the back wall, pitched down a few degrees.
+Camera at the entrance, level, facing the back wall (true one-point perspective).
 Output: locations/L06_blocking.png  (geometry reference for the plate)."""
 import math
 from PIL import Image, ImageDraw
 W, H = 1344, 756
-FOV, PITCH = 66.0, -8.0
+FOV, PITCH = 70.0, 0.0
 f = (W / 2) / math.tan(math.radians(FOV / 2))
-CAM = (0.2, 1.3, -0.4)
+CAM = (0.2, 1.25, -1.2)
 cp, sp = math.cos(math.radians(PITCH)), math.sin(math.radians(PITCH))
 def cam(p):
     X, Y, Z = p[0]-CAM[0], p[1]-CAM[1], p[2]-CAM[2]
@@ -14,7 +14,7 @@ def cam(p):
 def P(p):
     X, Y, Z = cam(p)
     return (W/2 + f*X/Z, H/2 - f*Y/Z)
-L, R, B, F, TOP = -1.8, 1.8, 4.6, 0.6, 2.7
+L, R, B, F, TOP = -1.8, 1.8, 4.6, -0.2, 2.7
 img = Image.new("RGB", (W, H), "white"); d = ImageDraw.Draw(img)
 EDGE = (35, 35, 35)
 def poly(pts, col, w=2):
@@ -26,6 +26,14 @@ poly([(L,0,F),(L,0,B),(L,TOP,B),(L,TOP,F)], (184,197,174))   # left wall
 poly([(R,0,F),(R,0,B),(R,TOP,B),(R,TOP,F)], (184,197,174))   # right wall
 poly([(L,0,F),(R,0,F),(R,0,B),(L,0,B)], (222,215,200))       # floor
 poly([(L,TOP,F),(R,TOP,F),(R,TOP,B),(L,TOP,B)], (236,233,223))
+C = 0.12   # white cornice band where every wall meets the ceiling
+poly([(L,TOP-C,B-0.004),(R,TOP-C,B-0.004),(R,TOP,B-0.004),(L,TOP,B-0.004)], (250,250,246))
+poly([(L+0.004,TOP-C,F),(L+0.004,TOP-C,B),(L+0.004,TOP,B),(L+0.004,TOP,F)], (250,250,246))
+poly([(R-0.004,TOP-C,F),(R-0.004,TOP-C,B),(R-0.004,TOP,B),(R-0.004,TOP,F)], (250,250,246))
+Sk = 0.1   # terrazzo skirting band where every wall meets the floor
+poly([(L,0,B-0.004),(R,0,B-0.004),(R,Sk,B-0.004),(L,Sk,B-0.004)], (170,160,145))
+poly([(L+0.004,0,F),(L+0.004,0,B),(L+0.004,Sk,B),(L+0.004,Sk,F)], (170,160,145))
+poly([(R-0.004,0,F),(R-0.004,0,B),(R-0.004,Sk,B),(R-0.004,Sk,F)], (170,160,145))
 for i in range(1, 8):  # floor grid 0.5 m
     x = L + i*0.5; d.line([P((x,0,F)), P((x,0,B))], fill=(192,185,170), width=1)
 for k in range(1, 9):
