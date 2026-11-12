@@ -1708,7 +1708,7 @@ CAMERA
 Tonal character: wide latitude, gentle highlight roll-off, rich detail held in the shadows.
 
 ACTION
-0.0s to 4.0s — At 0.5s he turns toward the bed and walks two slow steps to its side, carrying the mannequin level, its head toward the pillow. At 2.6s he stops beside the bed, still standing, the mannequin in his arms, and looks down at it.
+0.0s to 4.0s — At 0.5s he walks slowly to frame left, off the rug, three steps toward the side of the bed, carrying the mannequin level, its head toward the pillow. At 3.0s he stops beside the bed, still standing, the mannequin in his arms over the blanket, and looks down at it.
 
 PERFORMANCE
 Careful, quiet steps; his head bent over the figure; tenderness in his face. Real skin with visible pores and fine texture, living eyes with catch-lights, breath visible in the chest and shoulders.
@@ -1735,7 +1735,7 @@ POSITIVE LOCKS
 - Every paper, label and envelope is blank.
 - The camera holds the exact wide of the start frame for the whole shot.
 - The mannequin stays in his arms, lined up along the length of the bed.
-- The bed, the bedside table and the glowing night-light keep their exact places from the start frame.
+- The bed, the bedside table, the night-light, the desk and the rug keep the exact places and sizes of @image4.
 - Adam stays standing for the whole shot.
 ```
 

@@ -459,12 +459,12 @@ run(id="G28", scene="7 · Bedtime", nums="45", look="P", attach=["adam", "doll-d
     map="Camera exactly as in the start frame: the whole room in one wide. Frame left: the bed along the left wall with {P10_rabbit} on the pillow, the bedside table and glowing night-light. Centre: the round rug. Frame right: the small desk and chair, the open door at the far right edge.",
     first="The first frame is the start image itself: Adam on the rug, the child mannequin across his arms with its head toward the bed, the bed empty except for the rabbit.",
     segs=[(4, None, "WS", "63°", "locked, eye level, the frame of the start image",
-           "At <0.5> he turns toward the bed and walks two slow steps to its side, carrying the mannequin level, its head toward the pillow. At <2.6> he stops beside the bed, still standing, the mannequin in his arms, and looks down at it.", [])],
+           "At <0.5> he walks slowly to frame left, off the rug, three steps toward the side of the bed, carrying the mannequin level, its head toward the pillow. At <3.0> he stops beside the bed, still standing, the mannequin in his arms over the blanket, and looks down at it.", [])],
     perf="Careful, quiet steps; his head bent over the figure; tenderness in his face.",
     phys="The mannequin keeps its rigid straight shape in his arms; only the wig's braids swing. Its legs stay clear of the furniture and walls.",
     light="Only the star night-light on the bedside table: amber stars drifting over the walls, the ceiling and Adam. White balance 4300K.",
     audio="Slow bare footsteps on terrazzo; the faint tick of the night-light motor.",
-    locks=["The camera holds the exact wide of the start frame for the whole shot.", "The mannequin stays in his arms, lined up along the length of the bed.", "The bed, the bedside table and the glowing night-light keep their exact places from the start frame.", "Adam stays standing for the whole shot."])
+    locks=["The camera holds the exact wide of the start frame for the whole shot.", "The mannequin stays in his arms, lined up along the length of the bed.", "The bed, the bedside table, the night-light, the desk and the rug keep the exact places and sizes of {L06_nour-room}.", "Adam stays standing for the whole shot."])
 
 run(id="G29", scene="7 · Bedtime", nums="46, 47, 48", look="P", attach=["adam", "doll-daughter", "P10_rabbit", "L06_nour-room"],
     ctx="Night in a child's bedroom. {adam} tucks {doll-daughter} into bed and sets the stuffed rabbit beside it; he kisses its forehead and stays a moment too long as projected stars drift over his face; from the doorway he switches off the lamp and only the stars remain.",
