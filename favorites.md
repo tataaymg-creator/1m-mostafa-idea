@@ -75,3 +75,6 @@ Dropped: G02, G15 (main), G24, G39b, G45.
 ## Cut as of 2026-11-12 15:40 — 41 takes in FAVOURITES
 Dropped by the user since: G13 18ce6352 (sewing machine alone), G19 2cf11c7f (knock; G46 used once), G28 39fe0751, G42 bf11d1e5 (G42b replaces it), G38 c4d92076 (G39 already shows the mannequin in the bed). Added: G42b 9c30858b, G49z a1eca541.
 G15 3a2554e0 copied into FAVOURITES (not favourited): 42 takes = 364 s = 5,824 credits to upscale. Balance about 6,190. No upscale until the user says so.
+
+## Rough cut v5 (5:57)
+- G35 dropped entirely: the road ends on G34 (truck fills the glass behind Adam) → white → black. Remove G35 8aa391e4 from FAVOURITES / the upscale list (−80 credits).

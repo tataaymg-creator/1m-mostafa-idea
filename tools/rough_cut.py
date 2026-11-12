@@ -59,9 +59,7 @@ clip("G33a", "G33", to=3.875, crop=False, vf="hflip")               # Nour mirro
 clip("G33b", "G33", ss=3.875, to=8.04, crop=False)
 clip("G33c", "G33", ss=8.04, to=11.04, crop=False, vf="hflip")
 clip("G33d", "G33", ss=11.04, crop=False)
-clip("G34", "G34", crop=False)
-clip("G35", "G35", to=2.79, crop=False)                             # Layla only; the truck comes from G34
-clip("G35truck", "G34", ss=6.6, to=8.0, crop=False, vf="fade=t=out:st=7.5:d=0.5:c=white")
+clip("G34", "G34", crop=False, vf="fade=t=out:st=7.5:d=0.5:c=white")   # the truck fills the glass, cut to white (G35 dropped)
 card("white", 1.5, "white"); card("black", 1.5)
 clip("G36", "G36", crop=False)
 # 8 → 9 · match cut: asphalt full frame, floor in 4:3
