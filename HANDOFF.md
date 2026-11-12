@@ -32,7 +32,7 @@ G28 5281b684 (corridor: he carries her toward the doorway camera and passes it) 
 G31 5fdb8f2e · G32 059f4173 · G33 5abfeb16 · G34 **1b465623** (approved: real drawing, truck head-on) · G35 8aa391e4 · G36 c76936d3
 G37 **41bdd36a** (original take 1ee87ab2 with the eye glow removed by video_edit)
 G38 c4d92076 (start F38_bed e82a1245) · G39 9b8ba5d8 (crying; user thinks it is weak) + G39b 6c18dc34 (dawn wide, start F39_wide)
-G40 **b16bd237** (approved) · G41 bb1c9720 · G42 bf11d1e5 · G43 706da129 · G44 b4cf79ce · G45 141f7886 · G46 26784890 · G47 **2fcc33c6** (OK; cut it as he heads for the door) · G48 **6aada38e** (approved) · G49 → **G49k 42387b13** (kitchen hug, approved; replaces the doorway versions)
+G40 **b16bd237** (approved) · G41 bb1c9720 · G42 bf11d1e5 + **G42b 9c30858b** (approved: from the last G41 frame, drawing revealed, "I'm looking, sweetheart") · G43 706da129 · G44 b4cf79ce (kept as two shots; the one-take idea was dropped) · G45 dropped by the user · G46 26784890 · G47 **2fcc33c6** (OK; cut it as he heads for the door) · G48 **6aada38e** (approved) · G49 → **G49k 42387b13** (kitchen hug, approved; replaces the doorway versions)
 
 ## Open items
 - G24/G25 dinner (flagged by the user).
