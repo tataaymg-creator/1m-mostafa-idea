@@ -2787,10 +2787,10 @@ ACTIVE REFERENCES
 @image5 — the same living room from the same camera, curtains open, morning sun across the rug, the city in the window at right, the sewing corner at the back right. 100% matches the reference.
 
 LOCATION MAP
-Camera exactly as in @image5. Midground: the adult mannequin at the left of the sofa and the child mannequin at the right, side by side, facing forward; Adam in front of the sofa at frame left, his back three-quarters to the camera. Background: the floor lamp switched off, the sewing corner, the open window and sun at right.
+Camera exactly as in @image5. Midground: the adult mannequin at the left of the sofa and the child mannequin at the right, side by side, facing forward, exactly as in the start frame; Adam crosses from the window at frame right to the front of the sofa. Background: the floor lamp, the sewing corner, the open window and sun at right.
 
 FIRST FRAME / BLOCKING
-The first frame is the sunlit room at the angle of @image5, @image1 standing still, arms at his sides, looking at the sofa.
+The first frame is the start image itself: the sunlit room, the adult mannequin at the left of the sofa and the child mannequin beside it, seated exactly as shown, @image1 standing at the open window at frame right.
 
 FORMAT MODE
 Timed multishot: cuts only at the stated seconds; the camera holds each segment without cutting on its own.
@@ -2806,7 +2806,7 @@ CAMERA
 Tonal character: wide latitude, gentle highlight roll-off, rich detail held in the shadows.
 
 ACTION
-0.0s to 5.0s — In the sun the two figures are plainly things: scuffed plastic, visible seams, a cheap crooked wig, pins glinting in the yellow dress. Dust drifts through the light. At 3.5s he takes one step toward the adult mannequin.
+0.0s to 5.0s — In the sun the two seated figures are plainly things: scuffed plastic, visible seams, a cheap crooked wig, pins glinting in the yellow dress. Dust drifts through the light. At 0.8s he turns from the window and walks slowly across the room to the sofa, stopping in front of the adult mannequin at 4.2s, looking down at it.
 5.0s HARD CUT
 5.0s to 11.0s — His hands at the front of the burgundy cardigan on the adult mannequin's rigid torso. He undoes three buttons at 5.6s, 6.3s and 7.0s, slides the cardigan off the stiff shoulders at 8.0s, uncovering the plain short-sleeved grey dress beneath, folds it once against his chest, and at 9.4s lifts it and presses it to his face, eyes closed, breathing in.
 
@@ -2832,6 +2832,7 @@ POSITIVE LOCKS
 - The camera stays on a tripod, locked, in every segment.
 - Yellow objects hold the only saturated colour.
 - Every paper, label and envelope is blank.
+- The mannequins stay seated on the sofa exactly as in the start frame.
 - Under the cardigan the adult mannequin wears the plain short-sleeved grey dress of @image4.
 - The mannequins stay still; only Adam's hands move them.
 ```

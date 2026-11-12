@@ -39,6 +39,7 @@ ANCHOR = {
     "F24_dinner-seating": "a frame from this same dinner: take the camera position and exactly where everyone sits — the adult mannequin on a chair at the left end of the table, Adam at the centre on the far side facing the camera, the child mannequin on a chair at the right end, the yellow cup by the small plate at right. Use it for geometry and placement only",
     "doll-wife-bare": "the same adult shop mannequin with the burgundy cardigan taken off: a plain short-sleeved grey dress, ivory plastic arms, the same crooked dark wig, smooth blank face; a rigid object",
     "F38_bed": "the frame the shot starts on: the bed, the blanket, the rabbit and exactly how the child mannequin lies",
+    "F43_end": "the frame the shot starts on: the sunlit room, the two mannequins seated on the sofa, Adam at the window",
     "F24_cup": "the dinner frame the shot starts on: the room, the daylight, where everyone sits and the full yellow cup in front of Adam",
     "F25_low": "the low-angle frame the shot starts on: the room, the daylight, where everyone sits, the spilled cup",
     "F24_end": "a frame from this same dinner: take the room, the lighting, Adam's clothes and where everyone sits. Use it for continuity only",
@@ -713,19 +714,19 @@ run(id="G43", scene="11 · Daylight", nums="77 ★", look="PW", attach=["adam", 
     audio="Curtain rings scraping on the rail; then the street, alive: traffic, voices, a street vendor calling in the distance, sparrows.",
     locks=["The mannequins stay seated and still.", "Adam and the window stay in the middle of the frame."])
 
-run(id="G44", scene="11 · Daylight", nums="78, 79", look="PW", attach=["adam", "doll-wife", "doll-daughter", "doll-wife-bare", "L03b_living-day"],
+run(id="G44", scene="11 · Daylight", nums="78, 79", look="PW", attach=["adam", "doll-wife", "doll-daughter", "doll-wife-bare", "L03b_living-day"], start="F43_end",
     ctx="Morning in the sunlit living room. {adam} stands looking at {doll-wife} and {doll-daughter} on the sofa, plainly objects in borrowed clothes; then his hands unbutton the burgundy cardigan from the adult one, fold it and press it to his face for one breath.",
-    map="Camera exactly as in {L03b_living-day}. Midground: the adult mannequin at the left of the sofa and the child mannequin at the right, side by side, facing forward; Adam in front of the sofa at frame left, his back three-quarters to the camera. Background: the floor lamp switched off, the sewing corner, the open window and sun at right.",
-    first="The first frame is the sunlit room at the angle of {L03b_living-day}, {adam} standing still, arms at his sides, looking at the sofa.",
+    map="Camera exactly as in {L03b_living-day}. Midground: the adult mannequin at the left of the sofa and the child mannequin at the right, side by side, facing forward, exactly as in the start frame; Adam crosses from the window at frame right to the front of the sofa. Background: the floor lamp, the sewing corner, the open window and sun at right.",
+    first="The first frame is the start image itself: the sunlit room, the adult mannequin at the left of the sofa and the child mannequin beside it, seated exactly as shown, {adam} standing at the open window at frame right.",
     segs=[(5, None, "WS", "63°", "locked, eye level",
-           "In the sun the two figures are plainly things: scuffed plastic, visible seams, a cheap crooked wig, pins glinting in the yellow dress. Dust drifts through the light. At <3.5> he takes one step toward the adult mannequin.", []),
+           "In the sun the two seated figures are plainly things: scuffed plastic, visible seams, a cheap crooked wig, pins glinting in the yellow dress. Dust drifts through the light. At <0.8> he turns from the window and walks slowly across the room to the sofa, stopping in front of the adult mannequin at <4.2>, looking down at it.", []),
           (6, "HARD CUT", "CU hands", "47°", "locked, at chest height",
            "His hands at the front of the burgundy cardigan on the adult mannequin's rigid torso. He undoes three buttons at <0.6>, <1.3> and <2.0>, slides the cardigan off the stiff shoulders at <3.0>, uncovering the plain short-sleeved grey dress beneath, folds it once against his chest, and at <4.4> lifts it and presses it to his face, eyes closed, breathing in.", [])],
     perf="Calm, slow hands; the breath into the wool is long and shaky.",
     phys="The mannequin is handled like a shop dummy; its arms stay at their angles as the sleeves slide off. Wool folds softly.",
     light="Hard daylight from the open window at frame right, crisp shadows, dust in the beams. White balance 5600K.",
     audio="Street sound through the open window; buttons, wool sliding off plastic, one long breath in.",
-    locks=["Under the cardigan the adult mannequin wears the plain short-sleeved grey dress of {doll-wife-bare}.", "The mannequins stay still; only Adam's hands move them."])
+    locks=["The mannequins stay seated on the sofa exactly as in the start frame.", "Under the cardigan the adult mannequin wears the plain short-sleeved grey dress of {doll-wife-bare}.", "The mannequins stay still; only Adam's hands move them."])
 
 run(id="G45", scene="11 · Daylight", nums="80 ★", look="PW", attach=["adam", "doll-wife-bare", "doll-daughter", "L03b_living-day"],
     ctx="Morning, the sunlit living room, right after he took the cardigan off: {doll-wife-bare} and {doll-daughter} still sit side by side on the sofa where they have always sat. {adam}, the folded burgundy cardigan over one arm, lays the loose yellow sleeve over the small one's bare shoulder and steps back.",
