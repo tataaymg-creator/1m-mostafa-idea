@@ -1,6 +1,6 @@
 # LOOK — Seedance 2.5 prompts
 
-**47 generations · 373 seconds of footage.** Written to the seedance-clean structure.
+**47 generations · 372 seconds of footage.** Written to the seedance-clean structure.
 
 ## Settings for every run
 
@@ -39,7 +39,7 @@
 | [G23](#g23) | 5 · The knock | 37 ○ | 4s | 1 `mona`, 2 `P14_foil-dish`, 3 `L09_landing` |
 | [G24](#g24) | 6 · Dinner | 39, 40 | 10s | 1 `adam`, 2 `doll-wife`, 3 `doll-daughter`, 4 `P01_yellow-cup`, 5 `L02_dining` |
 | [G25](#g25) | 6 · Dinner | 41 ★, 44 | 8s | 1 `adam`, 2 `doll-wife`, 3 `doll-daughter`, 4 `P01_yellow-cup`, 5 `L02_dining` |
-| [G28](#g28) | 7 · Bedtime | 45 | 5s | 1 `adam`, 2 `doll-daughter`, 3 `P10_rabbit`, 4 `L06_nour-room` |
+| [G28](#g28) | 7 · Bedtime | 45 | 4s | 1 `adam`, 2 `doll-daughter`, 3 `P10_rabbit`, 4 `L06_nour-room` |
 | [G29](#g29) | 7 · Bedtime | 46, 47, 48 | 16s | 1 `adam`, 2 `doll-daughter`, 3 `P10_rabbit`, 4 `L06_nour-room` |
 | [G30](#g30) | 7 · Bedtime | 49 ★, 50 ★ | 10s | 1 `adam`, 2 `L06_nour-room` |
 | [G31](#g31) | 8 · The road | 51 | 5s | 1 `P13_family-car`, 2 `L08_desert-road` |
@@ -1676,13 +1676,13 @@ POSITIVE LOCKS
 
 ### G28
 
-**7 · Bedtime · shots 45 · 5s**  
-Seedance 2.5 Draft · 16:9 · audio ON · duration 5s  
+**7 · Bedtime · shots 45 · 4s**  
+Seedance 2.5 Draft · 16:9 · audio ON · duration 4s  
 Attach in order: @image1 = `adam`, @image2 = `doll-daughter`, @image3 = `P10_rabbit`, @image4 = `L06_nour-room`
 
 ```text
 SCENE CONTEXT
-Night in the child's bedroom lit by the star night-light, one locked wide starting exactly on the start frame: @image1 stands on the round rug carrying @image2 across his arms; he turns to the bed at frame left, carries it over and kneels beside the bed with it still in his arms.
+Night in the child's bedroom lit by the star night-light, one locked wide starting exactly on the start frame: @image1 stands on the round rug carrying @image2 across his arms; he turns to the bed at frame left and carries it over to the bedside.
 
 ACTIVE REFERENCES
 @image1 — Adam, 38, lean and tired; short untidy dark hair, stubble, a healed scar at his right temple; washed-out grey-blue shirt with rolled sleeves, charcoal trousers, bare feet, wedding ring; soft, low, slightly hoarse voice. 100% matches the reference.
@@ -1700,15 +1700,15 @@ FORMAT MODE
 One continuous shot; the camera holds it without cutting on its own.
 
 OPTICS
-0.0s to 5.0s — WS, 63° FOV.
+0.0s to 4.0s — WS, 63° FOV.
 Clean rectilinear primes, natural perspective, crisp centre, soft falloff at the edges.
 
 CAMERA
-0.0s to 5.0s — locked, eye level, the frame of the start image.
+0.0s to 4.0s — locked, eye level, the frame of the start image.
 Tonal character: wide latitude, gentle highlight roll-off, rich detail held in the shadows.
 
 ACTION
-0.0s to 5.0s — At 0.5s he turns toward the bed and walks two slow steps to its side, carrying the mannequin level, its head toward the pillow and its legs toward the foot of the bed. At 3.0s he kneels on the floor beside the bed, the mannequin still in his arms just above the blanket, lined up along the length of the bed, and holds there, looking down at it.
+0.0s to 4.0s — At 0.5s he turns toward the bed and walks two slow steps to its side, carrying the mannequin level, its head toward the pillow. At 2.6s he stops beside the bed, still standing, the mannequin in his arms, and looks down at it.
 
 PERFORMANCE
 Careful, quiet steps; his head bent over the figure; tenderness in his face. Real skin with visible pores and fine texture, living eyes with catch-lights, breath visible in the chest and shoulders.
@@ -1720,7 +1720,7 @@ LIGHTING
 Only the star night-light on the bedside table: amber stars drifting over the walls, the ceiling and Adam. White balance 4300K.
 
 AUDIO
-Slow bare footsteps on terrazzo; the faint tick of the night-light motor; his knee on the floor.
+Slow bare footsteps on terrazzo; the faint tick of the night-light motor.
 The sound is only the room and the listed effects.
 
 STYLE
@@ -1735,7 +1735,8 @@ POSITIVE LOCKS
 - Every paper, label and envelope is blank.
 - The camera holds the exact wide of the start frame for the whole shot.
 - The mannequin stays in his arms, lined up along the length of the bed.
-- The bed keeps its place and size along the left wall.
+- The bed, the bedside table and the glowing night-light keep their exact places from the start frame.
+- Adam stays standing for the whole shot.
 ```
 
 ### G29

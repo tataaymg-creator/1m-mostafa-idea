@@ -26,5 +26,5 @@ G36 crayon accepted as is.
 
 ## G22 / G27 / G28
 - G22 6e8ca41d — approved.
-- G27 92330604 — same silver truck as G35 (start ref `locations/F35_truck.jpg`), golden hour, car drives forward. Ends on her face; add the fade to white in the edit.
-- G28 7a4301bc — stays inside the bedroom and ends on G29's first frame (`end_image` = `locations/F29_start.jpg`).
+- G27 — not generated. Cut in the edit from G35: Layla 0.0–1.4s + truck 2.6–3.9s + 0.5s fade to white (3.1s). Same truck, light and Layla as the crash.
+- G28 2d9fd344 — locked wide from the approved G29 wide angle (start `locations/F28_start.png`): he carries her from the rug to the bedside, standing. G29 then starts with her on the bed. Laying her down on camera kept breaking (wrong orientation, camera drift), so it is left between the cut.
