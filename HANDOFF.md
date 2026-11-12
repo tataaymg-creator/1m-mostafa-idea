@@ -17,6 +17,7 @@ Continue the film LOOK on branch claude/wonderful-noether-yx6bsb exactly from wh
 - Never merge other branches.
 
 ## Lessons that work
+- **Elements work in Seedance 2.5.** In the Higgsfield UI write ` @name ` (space before @ and after the name). Through the API put `<<<element_id>>>` in the prompt and leave `mode` out (omni_reference demands a media item and rejects element-only runs). `build_prompts.py` writes ` @name `; `make_batch.py` turns it into the placeholder. Ids in `tools/element_ids.json` (`L06_nour-room` is excluded: the saved element still holds the old plate, so the v4 plate goes in as an image reference).
 - Lock placement with a **start frame** (extract a frame from an approved take, or edit the location plate by *adding* a person/prop). `end_image` also works.
 - A take that is good except one detail → **`mode: video_edit`** with the take as `video_references` (fixed G37's glowing eyes without losing the take).
 - Location plates must have real geometry. The bedroom was rebuilt from an exact perspective blocking (`tools/room_blocking.py` → `locations/L06_blocking.png`), rendered from the blocking ALONE (attaching the old photo makes the model copy it). Check plates by overlaying the blocking edges.
@@ -28,10 +29,10 @@ G01–G03: approved earlier (check the baba look folder). G04 41d0f3e0 · G05 a3
 G24 fed778a7 · G25 4d694069 (dinner — **flagged**, revisit) · G26 merged into G25
 G27 — **not generated**: cut from G35 (Layla 0–1.4 s + truck 2.6–3.9 s + 0.5 s fade to white)
 G28 5281b684 (corridor: he carries her toward the doorway camera and passes it) → G29 fe2c6c1d (tuck-in, kiss, leaves) → G30 a41bfe89 — no shot of laying her down
-G31 5fdb8f2e · G32 059f4173 · G33 5abfeb16 · G34 fb52bb1a · G35 8aa391e4 · G36 c76936d3
+G31 5fdb8f2e · G32 059f4173 · G33 5abfeb16 · G34 **1b465623** (approved: real drawing, truck head-on) · G35 8aa391e4 · G36 c76936d3
 G37 **41bdd36a** (original take 1ee87ab2 with the eye glow removed by video_edit)
 G38 c4d92076 (start F38_bed e82a1245) · G39 9b8ba5d8 (crying; user thinks it is weak) + G39b 6c18dc34 (dawn wide, start F39_wide)
-G40 706c152d · G41 bb1c9720 · G42 bf11d1e5 · G43 706da129 · G44 b4cf79ce · G45 141f7886 · G46 26784890 · G47 f0218e45 · G48 df27c838 · G49 c93b8b35
+G40 **b16bd237** (approved) · G41 bb1c9720 · G42 bf11d1e5 · G43 706da129 · G44 b4cf79ce · G45 141f7886 · G46 26784890 · G47 **2fcc33c6** (OK; cut it as he heads for the door) · G48 **6aada38e** (approved) · G49 c93b8b35 (silhouettes, rejected) → regenerating 5d9e2619
 
 ## Open items
 - G24/G25 dinner (flagged by the user).
