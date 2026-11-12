@@ -29,8 +29,10 @@ def card(name, dur, color="black", vf=""):
 
 # 1 · Morning
 card("open_black", 2)
-for r in ["G01", "G03", "G04", "G05", "G06", "G07", "G08"]: clip(r, r)
-clip("G09", "G09", crop=False)                                     # flash 1
+for r in ["G01", "G03", "G04", "G05", "G06", "G07"]: clip(r, r)
+clip("G08a", "G08", to=1.4)                                        # cut on the sandal buckle click
+clip("G09", "G09", crop=False)                                     # flash 1: the seatbelt click
+clip("G08b", "G08", ss=3.71)                                       # back on his face: "...Where were we."
 # 2 · Hair
 clip("G10", "G10"); clip("G11", "G11")
 clip("G12", "G12", crop=False, vf="hflip")                         # flash 2, mirrored: Nour always in the back right seat
@@ -41,7 +43,10 @@ clip("G15", "G15", ss=2.875, vf="hflip", crop=False)               # flash 3: ra
 for r in ["G16", "G17", "G18"]: clip(r, r)
 # 5 · The knock: one knock shot used twice, graded down for the night
 clip("G46_first", "G46")                                           # same grade as the second use
-for r in ["G20", "G21", "G22", "G23"]: clip(r, r)
+clip("G20", "G20")                                                 # radio off
+clip("G22", "G22", to=4.66)                                        # "Shh. We're playing the quiet game."
+clip("G21", "G21")                                                 # at the door, Mona through it
+# G22 second half ("Who wants dinner?") and G23 dropped: straight to dinner
 # 6 · Dinner: spill as a jump cut, flash 4 cut out of G35 inside it
 clip("G25a", "G25", to=4.0)
 clip("G27", "G34", ss=6.4, to=7.9, crop=False, vf="fade=t=out:st=7.4:d=0.5:c=white")  # headlights flickering in his eyes as he looks at her
