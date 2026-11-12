@@ -1,6 +1,6 @@
 # LOOK — Seedance 2.5 prompts
 
-**51 generations · 419 seconds of footage.** Written to the seedance-clean structure.
+**51 generations · 417 seconds of footage.** Written to the seedance-clean structure.
 
 ## Settings for every run
 
@@ -56,9 +56,9 @@
 | [G40](#g40) | 10 · The bag | 71 | 5s | 1 `adam`, 2 `L05b_hallway-bag` |
 | [G41](#g41) | 10 · The bag | 72, 73, 74 | 14s | 1 `adam`, 2 `P06_hospital-bag`, 3 `P07_bag-contents`, 4 `L05b_hallway-bag` |
 | [G42](#g42) | 10 · The bag | 75 ★ | 6s | 1 `adam`, 2 `L05b_hallway-bag` |
+| [G42b](#g42b) | 10 · The bag | 75 ★, 76 | 13s | 1 `adam`, 2 `P09_drawing`, 3 `L05b_hallway-bag` |
 | [G43](#g43) | 11 · Daylight | 77 ★ | 6s | 1 `adam`, 2 `doll-wife`, 3 `doll-daughter`, 4 `L03_living-dim`, 5 `L03b_living-day` |
 | [G44](#g44) | 11 · Daylight | 78, 79 | 11s | 1 `adam`, 2 `doll-wife`, 3 `doll-daughter`, 4 `doll-wife-bare`, 5 `L03b_living-day` |
-| [G43c](#g43c) | 11 · Daylight (one take, jump cuts) | 77 ★, 78, 79 | 15s | 1 `adam`, 2 `doll-wife`, 3 `doll-daughter`, 4 `doll-wife-bare`, 5 `L03_living-dim`, 6 `L03b_living-day` |
 | [G45](#g45) | 11 · Daylight | 80 ★ | 6s | 1 `adam`, 2 `doll-wife-bare`, 3 `doll-daughter`, 4 `L03b_living-day` |
 | [G46](#g46) | 12 · The door | 81 | 4s | 1 `L05_hallway` |
 | [G47](#g47) | 12 · The door | 82 | 6s | 1 `adam`, 2 `L05_hallway` |
@@ -2772,6 +2772,77 @@ POSITIVE LOCKS
 - Each line lands once, at its time, from its speaker.
 ```
 
+### G42b
+
+**10 · The bag · shots 75 ★, 76 · 13s**  
+Seedance 2.5 Draft · 16:9 · audio ON · duration 13s  
+References: `@adam`, `@P09_drawing`, `@L05b_hallway-bag`
+
+```text
+SCENE CONTEXT
+Dawn at the hallway console, straight on from the last frame of the bag shot: @adam has unfolded his daughter's drawing. He lowers it and looks; we see the drawing itself; he whispers to her and breaks down.
+
+ACTIVE REFERENCES
+@adam — Adam, 38, lean and tired; short untidy dark hair, stubble, a healed scar at his right temple; washed-out grey-blue shirt with rolled sleeves, charcoal trousers, bare feet, wedding ring; soft, low, slightly hoarse voice. 100% matches the reference.
+@P09_drawing — a child's crayon drawing: three figures holding hands, a strip of blue sea, a little car, a huge yellow sun. 100% matches the reference.
+@L05b_hallway-bag — the entrance hallway: glazed doors on the left, the dark front door at the far end, coat hooks, a wall mirror and a narrow console on the right holding a dead plant, mail and a sealed plastic bag. 100% matches the reference.
+
+LOCATION MAP
+The hallway of @L05b_hallway-bag . First and third segments: the low angle of the start image, from below the console edge looking up at Adam, the sage wall and white cornice behind him. Second segment: his point of view down onto the drawing in his hands, the dusty console top below it.
+
+FIRST FRAME / BLOCKING
+The first frame is the start image itself: @adam 's hands holding the unfolded sheet up in front of his face, its creased back to the camera.
+
+FORMAT MODE
+Timed multishot: cuts only at the stated seconds; the camera holds each segment without cutting on its own.
+
+OPTICS
+0.0s to 4.0s — MCU low angle, 47° FOV.
+4.0s to 8.0s — POV insert, 47° FOV.
+8.0s to 13.0s — CU low angle, 35° FOV.
+Clean rectilinear primes, natural perspective, crisp centre, soft falloff at the edges. No drift mid-segment.
+
+CAMERA
+0.0s to 4.0s — locked, low, the frame of the start image.
+4.0s to 8.0s — handheld, his eye line, looking down.
+8.0s to 13.0s — locked, low, a little closer than the first segment.
+Tonal character: wide latitude, gentle highlight roll-off, rich detail held in the shadows.
+
+ACTION
+0.0s to 4.0s — At 0.6s he lowers the sheet slowly to chest height, its back still to the camera, and his face appears, eyes fixed on it. At 2.2s his face starts to break: brows drawing together, lower lip trembling, eyes filling.
+4.0s HARD CUT
+4.0s to 8.0s — @P09_drawing held open in his two hands, filling the frame, its picture plain to see and matching the reference exactly: three figures holding hands, a strip of blue sea, a little car and a huge yellow sun in crayon, the old fold lines across it. His thumbs tremble; at 6.6s a tear falls and lands on the paper by the yellow sun. 4.6s to 6.4s, Adam (off, over the drawing), a whisper, breaking and smiling at once: "...I'm looking, sweetheart."
+8.0s HARD CUT
+8.0s to 13.0s — @adam 's face from below, eyes on the drawing. He nods very slightly, a breath of a laugh through the tears, and then the crying takes him: his face crumples, his shoulders shake, the paper pressed against his chest. 8.4s to 9.4s, Adam, softer, steadier: "I'm looking."
+
+PERFORMANCE
+Grief and love in the same face: wet eyes, a trembling lower lip, the corners of the mouth lifting, then real crying. Real skin with visible pores and fine texture, living eyes with catch-lights, breath visible in the chest and shoulders.
+
+PHYSICS
+The paper trembles in his hands; the tear soaks a small dark spot into the paper.
+
+LIGHTING
+Cold pale dawn from frame left with the first warmth in it, catching the tears and lighting the drawing evenly. White balance 5000K.
+
+AUDIO
+His breath, the paper, the first birds outside; then his crying. The score is laid in during the edit.
+Lines, each spoken once, in English: 4.6s Adam (off, over the drawing): "...I'm looking, sweetheart." · 8.4s Adam: "I'm looking."
+Only these voices are heard.
+
+STYLE
+Photoreal naturalistic film image, fine organic grain, soft contrast. A shut-in apartment palette: sage-green paint, grey upholstery and faded wood, with yellow objects carrying the only saturated colour. 16:9, composed centre-safe: faces, hands and key props sit inside the middle two-thirds of the frame.
+
+POSITIVE LOCKS
+- Adam matches @adam in every frame he appears in: stubble, the healed scar at his right temple, the grey-blue shirt.
+- The camera stays on a tripod, locked, in every segment unless that segment names a move.
+- The curtains stay closed; the light comes from lamps and the glow through the curtains.
+- Yellow objects hold the only saturated colour.
+- Every paper, label and envelope is blank.
+- In the first and third segments the camera sees only the blank back of the sheet; in the second segment the drawing faces the camera and matches @P09_drawing .
+- His eyes stay on the drawing for the whole clip.
+- Each line lands once, at its time, from its speaker.
+```
+
 ### G43
 
 **11 · Daylight · shots 77 ★ · 6s**  
@@ -2900,84 +2971,6 @@ POSITIVE LOCKS
 - Every paper, label and envelope is blank.
 - The mannequins stay seated on the sofa exactly as in the start frame.
 - Under the cardigan the adult mannequin wears the plain short-sleeved grey dress of @image1.
-- The mannequins stay still; only Adam's hands move them.
-```
-
-### G43c
-
-**11 · Daylight (one take, jump cuts) · shots 77 ★, 78, 79 · 15s**  
-Seedance 2.5 Draft · 16:9 · audio ON · duration 15s  
-References: `@adam`, `@doll-wife`, `@doll-daughter`, `@image1` = `doll-wife-bare`, `@L03_living-dim`, `@L03b_living-day`
-
-```text
-SCENE CONTEXT
-Morning in the living room, one locked camera axis held through jump cuts: @adam drags the curtains open and daylight floods the room; jump cut, he is at the sofa unbuttoning the burgundy cardigan on @doll-wife ; jump cut, the cardigan is already off, folded in his hands, the mannequin bare in its grey dress; jump cut, he presses the cardigan to his face. @doll-daughter sits beside it the whole time.
-
-ACTIVE REFERENCES
-@adam — Adam, 38, lean and tired; short untidy dark hair, stubble, a healed scar at his right temple; washed-out grey-blue shirt with rolled sleeves, charcoal trousers, bare feet, wedding ring; soft, low, slightly hoarse voice. 100% matches the reference.
-@doll-wife — adult shop mannequin: matte ivory plastic, smooth blank face with only a sculpted nose and brow, crooked dark wig, burgundy cardigan over a grey dress, seams at neck, shoulders and wrists; a rigid object. 100% matches the reference.
-@doll-daughter — child-size shop mannequin: matte ivory plastic, smooth blank face with only a sculpted nose and brow, dark wig in two uneven braids, unfinished yellow dress with pins, white tacking thread and one sleeve missing; a rigid object. 100% matches the reference.
-@image1 — the same adult shop mannequin with the burgundy cardigan taken off: a plain short-sleeved grey dress, ivory plastic arms, the same crooked dark wig, smooth blank face; a rigid object. 100% matches the reference.
-@L03_living-dim — the living room, curtains closed: floral armchair front left, grey sofa with a lace throw at centre, low coffee table, bookshelf on the left wall, floor lamp glowing behind the sofa, sewing corner at the back right with the black sewing machine, a tall framed mirror and two steel stands, closed curtains on the right wall. 100% matches the reference.
-@L03b_living-day — the same living room from the same camera, curtains open, morning sun across the rug, the city in the window at right, the sewing corner at the back right. 100% matches the reference.
-
-LOCATION MAP
-Camera at the room's entrance, exactly the frame of the start image, as in @L03_living-dim . Midground: the sofa with the adult mannequin at its left and the child mannequin beside it, the coffee table, the armchair. Background right: the curtains and the window. After the curtains open the room looks as in @L03b_living-day . In the later segments the camera stays on the same axis, only tighter on the sofa; Adam stands at the left end of the sofa beside the adult mannequin, side-on to the camera, so his hands and the cardigan are in clear view.
-
-FIRST FRAME / BLOCKING
-The first frame is the start image itself: the dim room, curtains closed, the two mannequins on the sofa, @adam at the curtains on the right, seen from behind, a hand on each curtain.
-
-FORMAT MODE
-Timed multishot: cuts only at the stated seconds; the camera holds each segment without cutting on its own.
-
-OPTICS
-0.0s to 6.0s — WS, 63° FOV.
-6.0s to 9.0s — MS, 47° FOV.
-9.0s to 12.0s — MS, 47° FOV.
-12.0s to 15.0s — MS, 47° FOV.
-Clean rectilinear primes, natural perspective, crisp centre. No drift mid-segment.
-
-CAMERA
-0.0s to 6.0s — locked, eye level, the frame of the start image.
-6.0s to 9.0s — locked, same axis, tighter on the sofa.
-9.0s to 12.0s — locked, same axis, same framing.
-12.0s to 15.0s — locked, same axis, same framing.
-Tonal character: wide latitude, gentle highlight roll-off, rich detail held in the shadows.
-
-ACTION
-0.0s to 6.0s — At 1.0s he pulls the curtains apart in one long drag. Hard morning sun bursts in, and by 3.0s the room looks as in @L03b_living-day : sun shafts across the rug, thick dust swirling in the beams, the city in the window. He stands in the light, arms still out, and lets them drop at 4.5s. At 5.2s he turns and looks at the sofa. The two mannequins sit lit flat and plain by the sun.
-6.0s JUMP CUT
-6.0s to 9.0s — @adam stands at the left end of the sofa beside the adult mannequin, side-on to the camera, his hands at the front of the burgundy cardigan on its rigid torso; at 6.6s he undoes the top button, at 7.6s the next. The child mannequin sits beside it, still.
-9.0s JUMP CUT
-9.0s to 12.0s — The cardigan is already off: @adam holds it folded in both hands against his chest. The adult mannequin now sits bare in the plain short-sleeved grey dress of @image1, ivory plastic arms at their angles, the crooked wig in the sun. He looks at it.
-12.0s JUMP CUT
-12.0s to 15.0s — He lifts the folded cardigan and presses it to his face, eyes closed, and breathes in once, long and shaking. The two mannequins sit still beside him in the sun.
-
-PERFORMANCE
-Calm, slow hands; no hurry anywhere; the breath into the wool is long and shaky. Real skin with visible pores and fine texture, living eyes with catch-lights, breath visible in the chest and shoulders.
-
-PHYSICS
-Curtain rings slide on the rail; heavy fabric swings and settles. Dust swirls through the sunbeams. The mannequin is handled like a shop dummy; wool folds softly. The mannequins are hollow, hard and rigid; they keep every joint at its angle and move only where Adam's hands carry them.
-
-LIGHTING
-Closed-curtain gloom with the floor lamp on, then hard full sun from the window at frame right for the rest of the clip; crisp shadows, dust in the beams. White balance 5600K.
-
-AUDIO
-Curtain rings scraping on the rail; then the street, alive: traffic, voices, sparrows, continuing unbroken under every jump cut; buttons; one long breath in.
-The sound is only the room and the listed effects.
-
-STYLE
-Photoreal naturalistic film image, fine organic grain, soft contrast. Daylight fills the apartment: sage-green paint, grey upholstery and faded wood made plain by the sun, with yellow objects carrying the only saturated colour. 16:9.
-
-POSITIVE LOCKS
-- Adam matches @adam in every frame he appears in: stubble, the healed scar at his right temple, the grey-blue shirt.
-- @doll-wife and @doll-daughter and @image1 stay rigid and motionless as furniture, with smooth blank faces.
-- The camera stays on a tripod, locked, in every segment.
-- Yellow objects hold the only saturated colour.
-- Every paper, label and envelope is blank.
-- Every segment is the same camera axis; the jump cuts only skip time, the room and the sun stay identical.
-- The mannequins stay seated on the sofa in the same places in every segment.
-- From the third segment on, the adult mannequin wears only the plain short-sleeved grey dress of @image1.
 - The mannequins stay still; only Adam's hands move them.
 ```
 
