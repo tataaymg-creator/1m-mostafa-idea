@@ -23,3 +23,8 @@ G34 fb52bb1a · G35 8aa391e4 · G36 c76936d3 · G37 1ee87ab2 · G38 20ea3b97 · 
 Redone and checked: G37 3232ee7d (natural eye) · G38 336f5cc0 (tuck-in pose, start F38_bed) · G41 bb1c9720 (clear bag) · G44 b4cf79ce (starts on F43_end; cardigan off shows grey dress) · G45 141f7886 (on the sofa, mother in grey dress).
 Continuity rule: after G44 the mother mannequin is `doll-wife-bare` (grey dress, no cardigan), reference `characters/06b-mannequin-adult-no-cardigan.png`.
 G36 crayon accepted as is.
+
+## G22 / G27 / G28
+- G22 6e8ca41d — approved.
+- G27 92330604 — same silver truck as G35 (start ref `locations/F35_truck.jpg`), golden hour, car drives forward. Ends on her face; add the fade to white in the edit.
+- G28 7a4301bc — stays inside the bedroom and ends on G29's first frame (`end_image` = `locations/F29_start.jpg`).
