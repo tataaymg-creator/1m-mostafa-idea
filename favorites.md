@@ -100,3 +100,4 @@ Not started (12): G15 · G33 · G39 · G40 · G41 · G42b · G43 · G44 · G47 �
 - G33 fixed: 39d7f0fc (video_edit of 5abfeb16) shows the real drawing in both Nour segments; rest of the take unchanged. Note: the rough cut mirrors Nour's segments; mirroring this take would flip the drawing (sun moves to the left). Upscale 39d7f0fc instead of 5abfeb16 (14 s = 224).
 - G33 plan (user): upscale the original 5abfeb16 to 1080p as is; track the paper in the edit and corner-pin the drawing on top. Recommended source for the pin: props/P09-drawing.jpg (1920×1086) rather than the 480p edit 39d7f0fc.
 - G33b rebuilt draft 3cb065dc (14 s, ~42 credits): start frame F33_start (65504bfd, G34 frame 0, Nour window-left), real drawing in both Nour shots.
+- G33b 3cb065dc delivered: drawing visible in both Nour shots, window at frame left (matches G34, no flip). Last shot: Layla with Adam in the foreground, a swim ring in her side window.
