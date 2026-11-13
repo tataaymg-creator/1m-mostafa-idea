@@ -94,3 +94,4 @@ Not started (12): G15 · G33 · G39 · G40 · G41 · G42b · G43 · G44 · G47 �
 - 2026-11-13 credit check: balance 2,052.81. TODO upscale = 142 s × 16 = 2,272 → short by ~220 before any new draft. A 15 s draft costs 45. Waiting for the user's call on what to drop; the continuous G49 draft is on hold (start frame F49c_start uploaded as 78583acb, not confirmed).
 - Correction: four more 1080p were already done by the user — G15 c0fbc45f, G40 f0a24b2e, G41 07f2d6a9, G42b 1a65ea31. Moved to "1080p FINAL"; their drafts moved to "DONE - upscaled to 1080p". 1080p done: 30 of 40.
 - TODO now (10): G07, G18, G33, G39, G43, G44, G47, G48, G49k, G49z = 100 s = 1,600 credits. Balance 2,052 → fits with ~450 left. A 15 s continuous G49 draft (45) that replaces G49k + G49z would make the TODO 1,568.
+- G49c continuous (kitchen hug + reveal of the drawing at the foot of the left door frame), 15 s draft 86415851, start F49c_start 78583acb.
