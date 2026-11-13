@@ -98,3 +98,4 @@ Not started (12): G15 · G33 · G39 · G40 · G41 · G42b · G43 · G44 · G47 �
 - G49c 86415851 delivered: one take works (hug 0–10 s, camera drops to the drawing on the hallway floor by the door frame); at the end their faces leave the frame (legs only) and the drawing reads large. Awaiting the user's call.
 - G33 fix: video_edit of 5abfeb16 with the P09 drawing on the sheet, draft 39d7f0fc (50 credits).
 - G33 fixed: 39d7f0fc (video_edit of 5abfeb16) shows the real drawing in both Nour segments; rest of the take unchanged. Note: the rough cut mirrors Nour's segments; mirroring this take would flip the drawing (sun moves to the left). Upscale 39d7f0fc instead of 5abfeb16 (14 s = 224).
+- G33 plan (user): upscale the original 5abfeb16 to 1080p as is; track the paper in the edit and corner-pin the drawing on top. Recommended source for the pin: props/P09-drawing.jpg (1920×1086) rather than the 480p edit 39d7f0fc.
