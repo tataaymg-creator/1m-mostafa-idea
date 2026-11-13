@@ -84,3 +84,8 @@ G15 3a2554e0 copied into FAVOURITES (not favourited): 42 takes = 364 s = 5,824 c
 - Method (tested on G06 → 5674b3bf, 1920x1080, audio, same take): `generate_video` with model seedance_2_5, mode omni_reference, resolution 1080p, `draft_job_id` = the draft, the draft's own `seed`, `prompt`, `duration` and medias (role image → image_references, start_image/end_image kept). The API refuses an empty prompt.
 - Draft params come from `show_generations` (params.prompt, params.seed, params.medias).
 - G06 done: 5674b3bf. Remaining 39 takes = 351 s ≈ 5,616 credits; balance 6,109 after the test.
+
+## 1080p status (2026-11-13) — folder "1080p FINAL" (33af5c6e-da18-45b4-aa2b-34f0e6ec871b)
+Done (26): G01 75cdf456 · G03 c4da3721 · G04 a7e0c581 · G05 4e54b526 · G06 5674b3bf · G08 3cbc8acf · G09 26e3c884 · G10 edec3f86 · G11 d43aae34 · G12 62781679 · G14 7eb7d7b4 · G15a 3e014883 · G16 c81fab5b · G17 4f67699a · G20 3e40cf5d · G21 dfb4ec2d · G22 5336dcca · G25 ad78de1e · G29 fd275e76 · G30 50a92775 · G31 cea29628 · G32 ac03bced · G34 e40f8a66 · G36 de3d5a1b · G37 33a5ba80 · G46 57ce35e4
+Failed ip_detected (2): G07 (a1b78fc0) · G18 (24efa4f9)
+Not started (12): G15 · G33 · G39 · G40 · G41 · G42b · G43 · G44 · G47 · G48 · G49k · G49z
