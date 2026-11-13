@@ -1,6 +1,6 @@
 # LOOK — Seedance 2.5 prompts
 
-**51 generations · 417 seconds of footage.** Written to the seedance-clean structure.
+**52 generations · 431 seconds of footage.** Written to the seedance-clean structure.
 
 ## Settings for every run
 
@@ -46,6 +46,7 @@
 | [G31](#g31) | 8 · The road | 51 | 5s | 1 `P13_family-car`, 2 `L08_desert-road` |
 | [G32](#g32) | 8 · The road | 52, 53, 54, 55 | 15s | 1 `adam-before`, 2 `layla`, 3 `nour`, 4 `L07_car-front`, 5 `L07b_car-backseat` |
 | [G33](#g33) | 8 · The road | 56, 57, 58, 59 | 14s | 1 `adam-before`, 2 `layla`, 3 `nour`, 4 `L07_car-front`, 5 `L07b_car-backseat` |
+| [G33b](#g33b) | 8 · The road | 56, 57, 58, 59 | 14s | 1 `adam-before`, 2 `layla`, 3 `nour`, 4 `P09_drawing`, 5 `L07_car-front`, 6 `L07b_car-backseat` |
 | [G34](#g34) | 8 · The road | 60 ★, 61 | 8s | 1 `adam-before`, 2 `nour`, 3 `P09_drawing`, 4 `L07_car-front`, 5 `L07b_car-backseat` |
 | [G35](#g35) | 8 · The road | 62, 63 | 5s | 1 `layla`, 2 `L07_car-front` |
 | [G36](#g36) | 8 · The road | 65 ★ | 5s | 1 `P12_crayons`, 2 `L08_desert-road` |
@@ -2139,6 +2140,87 @@ POSITIVE LOCKS
 - Seats stay fixed: Adam drives front left, Layla front right, Nour back right behind Layla with her seatbelt on.
 - Nour's seatbelt is worn the normal way: shoulder strap diagonal across her chest, lap strap across her thighs, buckle at her hip.
 - The paper always shows its blank glowing back to the camera.
+- Adam's eyes stay on the road for the whole clip.
+- Each line lands once, at its time, from its speaker.
+```
+
+### G33b
+
+**8 · The road · shots 56, 57, 58, 59 · 14s**  
+Seedance 2.5 Draft · 16:9 · audio ON · duration 14s  
+References: `@adam-before`, `@layla`, `@nour`, `@P09_drawing`, `@L07_car-front`, `@L07b_car-backseat`
+
+```text
+SCENE CONTEXT
+A memory at golden hour inside the moving car: the girl in the back holds up her finished drawing for her father; he says one minute, he is driving; she insists; her mother laughs and tells him to look.
+
+ACTIVE REFERENCES
+@adam-before — Adam, 38, healthy and relaxed; clean-shaven, smooth unmarked temples; light linen shirt, wedding ring; warm easy voice. 100% matches the reference.
+@layla — Layla, 34, warm and quick to laugh; shoulder-length dark wavy hair, burgundy cardigan over a cream floral dress, slim gold watch, wedding ring; bright voice. 100% matches the reference.
+@nour — Nour, 6; two loose braids, a gap where a front tooth is missing, white t-shirt, denim shorts, yellow sandals; clear small voice. 100% matches the reference.
+@P09_drawing — a child's crayon drawing: three figures holding hands, a strip of blue sea, a little car, a huge yellow sun. 100% matches the reference.
+@L07_car-front — the car cabin seen from the back seat: left-hand drive, grey-beige fabric seats, plain grey dashboard with a simple radio, rear-view mirror, the straight desert road ahead. 100% matches the reference.
+@L07b_car-backseat — the car's back seat: grey-beige bench seat, seatbelt on the right-hand side, a picture book with a sheet of paper, small crayons, a swim ring on the rear shelf. 100% matches the reference.
+
+LOCATION MAP
+Inside the car. @adam-before drives in the front left seat; @layla sits in the front right seat; @nour sits in the back right seat behind Layla, belted. Every shot of Nour is seen from the front looking back, exactly as in the start image: her side window and door at frame left, the seat back and the middle of the bench at frame right. Behind Adam: his side window and the desert, as in @L07_car-front .
+
+FIRST FRAME / BLOCKING
+The first frame is the start image itself: @nour in the back right seat holding up @P09_drawing , the window and door at frame left.
+
+FORMAT MODE
+Timed multishot: cuts only at the stated seconds; the camera holds each segment without cutting on its own.
+
+OPTICS
+0.0s to 4.0s — CU, 47° FOV.
+4.0s to 8.0s — MCU, 47° FOV.
+8.0s to 11.0s — CU, 47° FOV.
+11.0s to 14.0s — CU, 47° FOV.
+Rectilinear primes wide open, shallow focus, warm flare when the sun enters frame, natural motion blur. No drift mid-segment.
+
+CAMERA
+0.0s to 4.0s — handheld, from the front seats looking back, the frame of the start image.
+4.0s to 8.0s — handheld, from the passenger side.
+8.0s to 11.0s — handheld, close, from the front looking back, the same side as the first shot.
+11.0s to 14.0s — handheld, from the driver's side.
+Tonal character: wide latitude, gentle highlight roll-off, rich detail held in the shadows.
+
+ACTION
+0.0s to 4.0s — She holds @P09_drawing up toward the front seats in both hands, beaming, its crayon picture facing the camera and plain to see: three figures holding hands, a strip of blue sea, a little car and a huge yellow sun. 1.4s to 2.8s, Nour, bursting with pride: "Daddy, look!"
+4.0s HARD CUT
+4.0s to 8.0s — @adam-before at the wheel in right profile, eyes on the road, squinting into the low sun, smiling. At 4.6s he flips the sun visor down. He answers with his eyes on the road. 5.4s to 6.4s, Adam, easy, amused: "One minute, sweetheart." 6.6s to 7.6s, Adam, light: "I'm driving."
+8.0s HARD CUT
+8.0s to 11.0s — @nour leans forward against her seatbelt, holding @P09_drawing higher, right up between the front seats, its crayon picture facing the camera, the window still at frame left. 8.4s to 10.4s, Nour, sing-song, stretching the word: "Daddyyy. Look!"
+11.0s HARD CUT
+11.0s to 14.0s — @layla laughs, her left hand coming across to touch Adam's arm at 11.6s. 11.8s to 13.6s, Layla, laughing, giving in: "Look at it, or she'll never stop."
+
+PERFORMANCE
+Nour's whole body pleads; Adam's smile grows while his eyes hold the road. Real skin with visible pores and fine texture, living eyes with catch-lights, breath visible in the chest and shoulders.
+
+PHYSICS
+The paper flutters slightly in the window draught; the seatbelt presses into Nour's shoulder as she leans.
+
+LIGHTING
+Golden hour, the sun low and straight ahead, strong in Adam's eyes; warm side light on Nour and on the drawing, its colours clear. White balance 5600K.
+
+AUDIO
+Road hum, wind at a cracked window, paper rustling. The song is laid in during the edit.
+Lines, each spoken once, in English: 1.4s Nour: "Daddy, look!" · 5.4s Adam: "One minute, sweetheart." · 6.6s Adam: "I'm driving." · 8.4s Nour: "Daddyyy. Look!" · 11.8s Layla: "Look at it, or she'll never stop."
+Only these voices are heard.
+
+STYLE
+Photoreal naturalistic film image, fine organic grain, warm amber sunlight on living skin, soft lens flare and fine dust on the glass. 16:9.
+
+POSITIVE LOCKS
+- Adam matches @adam-before in every frame he appears in: clean-shaven, smooth unmarked temples, the linen shirt.
+- Layla matches @layla in face, hair and clothes in every frame she appears in.
+- Nour matches @nour in face, hair and clothes in every frame she appears in.
+- The camera is handheld, close and breathing.
+- Every paper shows a blank back; the car is plain and unbadged.
+- Seats stay fixed: Adam drives front left, Layla front right, Nour back right behind Layla with her seatbelt on.
+- In every shot of Nour her window and door are at frame left, as in the start image.
+- Nour's seatbelt is worn the normal way: shoulder strap diagonal across her chest, lap strap across her thighs, buckle at her hip.
+- The drawing faces the camera and matches @P09_drawing ; it is never a blank sheet.
 - Adam's eyes stay on the road for the whole clip.
 - Each line lands once, at its time, from its speaker.
 ```
