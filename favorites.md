@@ -101,3 +101,11 @@ Not started (12): G15 · G33 · G39 · G40 · G41 · G42b · G43 · G44 · G47 �
 - G33 plan (user): upscale the original 5abfeb16 to 1080p as is; track the paper in the edit and corner-pin the drawing on top. Recommended source for the pin: props/P09-drawing.jpg (1920×1086) rather than the 480p edit 39d7f0fc.
 - G33b rebuilt draft 3cb065dc (14 s, ~42 credits): start frame F33_start (65504bfd, G34 frame 0, Nour window-left), real drawing in both Nour shots.
 - G33b 3cb065dc delivered: drawing visible in both Nour shots, window at frame left (matches G34, no flip). Last shot: Layla with Adam in the foreground, a swim ring in her side window.
+
+## Status check 2026-11-13 (live from Higgsfield)
+- Balance 1,227.81.
+- "1080p FINAL" = 34: the 30 before + G39 1e46116c, G43 7d5b03d5, G44 d74974b9, G47 67af812f.
+- "DONE - upscaled to 1080p" = 34 drafts. G07 756491a8 had been moved there but its 1080p never succeeded → moved back to TODO.
+- "TODO - needs 1080p" = 6: G07, G18, G33 (5abfeb16), G48, G49k, G49z.
+- 1080p refused with ip_detected (not charged): G07 ×4 (f45ba7ef, 832ea523, a1b78fc0 …), G18 ×2 (e4379eec, 24efa4f9), G48 ×2 (b682cde3, 08cf923f).
+- Pending decisions: G33b 3cb065dc vs G33 5abfeb16; G49c 86415851 vs G49k + G49z.
