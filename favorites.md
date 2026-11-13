@@ -125,3 +125,5 @@ Not started (12): G15 · G33 · G39 · G40 · G41 · G42b · G43 · G44 · G47 �
 - Draft 96338460-91a8-4112-a757-07198b650106 (14 s, ~42 credits; balance was 543). Original G33 prompt + P09_drawing element; Nour's window at frame left.
 - Drawing shows clearly in both Nour shots (figures, sea, big yellow sun; the little car is missing). Adam flips the visor, eyes on road. Layla laughs and reaches for his arm.
 - Watch: behind Nour you see the windshield and sun instead of the rear window, so it looks like she faces backward. 1080p if approved: 224.
+- User rejected 96338460: Nour looked like she sat in front (windshield behind her). Cause: the L07_car-front element. Removed it; prompt now says the camera is between the front seats facing back, rear window behind her.
+- G33c v2 draft: ce461046-169e-4ef3-b335-c8eae60dc04a (14 s, ~42). Nour on the back bench with the rear window and swim ring behind her, front headrests framing the shot. The drawing matches (now with the little car). Adam flips the visor. Last shot: Layla and Adam together, smiling. Nour sits near the middle of the bench, not hard against her window.
