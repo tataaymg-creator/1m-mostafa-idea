@@ -79,3 +79,8 @@ G15 3a2554e0 copied into FAVOURITES (not favourited): 42 takes = 364 s = 5,824 c
 ## Rough cut v5 (5:57)
 - G35 dropped entirely: the road ends on G34 (truck fills the glass behind Adam) → white → black. Remove G35 8aa391e4 from FAVOURITES / the upscale list (−80 credits).
 - 2026-11-13: removed from the FAVOURITES folder the two takes the cut no longer uses: G23 ecdce175 and G35 8aa391e4. FAVOURITES = 40 takes = 355 s = 5,680 credits to upscale (16/s). No upscale until the user approves.
+
+## 1080p finalise
+- Method (tested on G06 → 5674b3bf, 1920x1080, audio, same take): `generate_video` with model seedance_2_5, mode omni_reference, resolution 1080p, `draft_job_id` = the draft, the draft's own `seed`, `prompt`, `duration` and medias (role image → image_references, start_image/end_image kept). The API refuses an empty prompt.
+- Draft params come from `show_generations` (params.prompt, params.seed, params.medias).
+- G06 done: 5674b3bf. Remaining 39 takes = 351 s ≈ 5,616 credits; balance 6,109 after the test.
