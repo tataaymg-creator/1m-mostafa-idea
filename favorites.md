@@ -96,3 +96,4 @@ Not started (12): G15 · G33 · G39 · G40 · G41 · G42b · G43 · G44 · G47 �
 - TODO now (10): G07, G18, G33, G39, G43, G44, G47, G48, G49k, G49z = 100 s = 1,600 credits. Balance 2,052 → fits with ~450 left. A 15 s continuous G49 draft (45) that replaces G49k + G49z would make the TODO 1,568.
 - G49c continuous (kitchen hug + reveal of the drawing at the foot of the left door frame), 15 s draft 86415851, start F49c_start 78583acb.
 - G49c 86415851 delivered: one take works (hug 0–10 s, camera drops to the drawing on the hallway floor by the door frame); at the end their faces leave the frame (legs only) and the drawing reads large. Awaiting the user's call.
+- G33 fix: video_edit of 5abfeb16 with the P09 drawing on the sheet, draft 39d7f0fc (50 credits).
