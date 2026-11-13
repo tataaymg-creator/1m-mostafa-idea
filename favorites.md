@@ -90,3 +90,4 @@ Done (26): G01 75cdf456 · G03 c4da3721 · G04 a7e0c581 · G05 4e54b526 · G06 5
 Failed ip_detected (2): G07 (a1b78fc0) · G18 (24efa4f9)
 Not started (12): G15 · G33 · G39 · G40 · G41 · G42b · G43 · G44 · G47 · G48 · G49k · G49z
 - The 26 drafts whose 1080p is done were moved into the subfolder FAVOURITES / "DONE - upscaled to 1080p" (147f6b86-32be-42c7-87e5-480d011aff67). FAVOURITES itself now holds only the 14 drafts still to upscale (G07, G15, G18, G33, G39, G40, G41, G42b, G43, G44, G47, G48, G49k, G49z) plus the two failed 1080p attempts (G07 a1b78fc0, G18 24efa4f9, ip_detected).
+- The 14 drafts still to upscale were moved into the subfolder FAVOURITES / "TODO - needs 1080p" (c0cdc2e2-75d2-4eb8-b608-bf3177dc7310): G07, G15, G18, G33, G39, G40, G41, G42b, G43, G44, G47, G48, G49k, G49z. FAVOURITES root keeps only the two failed 1080p attempts (G07 a1b78fc0, G18 24efa4f9).
