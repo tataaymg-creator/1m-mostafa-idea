@@ -111,3 +111,4 @@ Not started (12): G15 · G33 · G39 · G40 · G41 · G42b · G43 · G44 · G47 �
 - Pending decisions: G33b 3cb065dc vs G33 5abfeb16; G49c 86415851 vs G49k + G49z.
 - G07 dropped from the cut (the bag already reads in G21/G40/G41). Retry 1080p without generated audio and with no music/dialogue text: G48 a8354018, G18 434178e5 (both into 1080p FINAL). Use the 480p draft audio in the edit.
 - G18/G48 1080p rejected again even without audio (visual ip check); user: no external upscale. Options pending (new-seed drafts vs keep 480p). G49c redo 8d34b10a: tilt down only (no pull back), drawing flat on the same kitchen terrazzo just inside the doorway, faces may leave frame. G49c 86415851 had the drawing on a dark wooden threshold.
+- G49 redo 8d34b10a delivered: tilt down works, the drawing lies flat on the same kitchen terrazzo near the doorway, A4 size; ends on their legs and the drawing.
