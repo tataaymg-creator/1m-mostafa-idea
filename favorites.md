@@ -127,3 +127,8 @@ Not started (12): G15 · G33 · G39 · G40 · G41 · G42b · G43 · G44 · G47 �
 - Watch: behind Nour you see the windshield and sun instead of the rear window, so it looks like she faces backward. 1080p if approved: 224.
 - User rejected 96338460: Nour looked like she sat in front (windshield behind her). Cause: the L07_car-front element. Removed it; prompt now says the camera is between the front seats facing back, rear window behind her.
 - G33c v2 draft: ce461046-169e-4ef3-b335-c8eae60dc04a (14 s, ~42). Nour on the back bench with the rear window and swim ring behind her, front headrests framing the shot. The drawing matches (now with the little car). Adam flips the visor. Last shot: Layla and Adam together, smiling. Nour sits near the middle of the bench, not hard against her window.
+
+## 1080p FINAL check (after user upscaled G48/G18)
+- Folder holds 37 completed 1080p clips: G01 G03 G04 G05 G06 G08 G09 G10 G11 G12 G14 G15 G15a G16 G17 G18(8fc9425f, 10 s) G20 G21 G22 G25 G29 G30 G31 G32 G34 G36 G37 G39 G40 G41 G42b G43 G44 G46 G47 G48(5ab89b1b, 11 s) G49(618b8ee1).
+- Only G33 is missing (user is upscaling G33c ce461046). With it: 38 = every shot in the cut (G07 and G35 dropped; G27 comes out of G34).
+- The two failed attempts 434178e5 / a8354018 (ip_detected) do not show in the listing; if they show in the UI, they are what makes the count 39.
