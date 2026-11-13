@@ -1,4 +1,6 @@
-# LOOK — Handoff (state as of 2026-11-12)
+# LOOK — Handoff (generation history, state as of 2026-11-12)
+
+> **2026-11-13: generation is finished. For the edit, read [HANDOFF-EDIT.md](HANDOFF-EDIT.md): the final 38 clips in 1080p, in cut order, with cut points.** The rest of this file is the generation log.
 
 Short film for the 1 Billion Followers Summit AI Film Award. Repo branch `claude/wonderful-noether-yx6bsb`. Higgsfield project **baba look** (folder `92c8dd8a-7d90-4f19-9975-375b4becd001`).
 
