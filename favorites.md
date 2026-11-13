@@ -120,3 +120,8 @@ Not started (12): G15 · G33 · G39 · G40 · G41 · G42b · G43 · G44 · G47 �
 - G18 v2 draft: 01d69227-722a-474c-93bd-155101029b5e (10s). Seg1: arm on rug from frame 1, stays there. Seg2: arm by his knee, he picks it up — never reattaches; he holds the loose arm to his forehead. Nothing pops in. Arm is bare (no burgundy sleeve).
 - G33 dropped.
 - Cost ≈63 credits. 1080p if approved: G48 176, G18 160.
+
+## G33c (car, "Daddy, look!") — redo with the drawing
+- Draft 96338460-91a8-4112-a757-07198b650106 (14 s, ~42 credits; balance was 543). Original G33 prompt + P09_drawing element; Nour's window at frame left.
+- Drawing shows clearly in both Nour shots (figures, sea, big yellow sun; the little car is missing). Adam flips the visor, eyes on road. Layla laughs and reaches for his arm.
+- Watch: behind Nour you see the windshield and sun instead of the rear window, so it looks like she faces backward. 1080p if approved: 224.
