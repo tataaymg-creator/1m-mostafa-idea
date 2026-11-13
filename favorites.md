@@ -109,3 +109,4 @@ Not started (12): G15 · G33 · G39 · G40 · G41 · G42b · G43 · G44 · G47 �
 - "TODO - needs 1080p" = 6: G07, G18, G33 (5abfeb16), G48, G49k, G49z.
 - 1080p refused with ip_detected (not charged): G07 ×4 (f45ba7ef, 832ea523, a1b78fc0 …), G18 ×2 (e4379eec, 24efa4f9), G48 ×2 (b682cde3, 08cf923f).
 - Pending decisions: G33b 3cb065dc vs G33 5abfeb16; G49c 86415851 vs G49k + G49z.
+- G07 dropped from the cut (the bag already reads in G21/G40/G41). Retry 1080p without generated audio and with no music/dialogue text: G48 a8354018, G18 434178e5 (both into 1080p FINAL). Use the 480p draft audio in the edit.
