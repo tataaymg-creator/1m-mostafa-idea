@@ -97,3 +97,4 @@ Not started (12): G15 · G33 · G39 · G40 · G41 · G42b · G43 · G44 · G47 �
 - G49c continuous (kitchen hug + reveal of the drawing at the foot of the left door frame), 15 s draft 86415851, start F49c_start 78583acb.
 - G49c 86415851 delivered: one take works (hug 0–10 s, camera drops to the drawing on the hallway floor by the door frame); at the end their faces leave the frame (legs only) and the drawing reads large. Awaiting the user's call.
 - G33 fix: video_edit of 5abfeb16 with the P09 drawing on the sheet, draft 39d7f0fc (50 credits).
+- G33 fixed: 39d7f0fc (video_edit of 5abfeb16) shows the real drawing in both Nour segments; rest of the take unchanged. Note: the rough cut mirrors Nour's segments; mirroring this take would flip the drawing (sun moves to the left). Upscale 39d7f0fc instead of 5abfeb16 (14 s = 224).
