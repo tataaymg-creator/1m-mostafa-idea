@@ -983,6 +983,7 @@ def build(r):
     base = LOCKS[r["look"]]
     if "P09_drawing" in att:
         base = [k.replace("Every paper, label and envelope is blank.", "Every label and envelope is blank; the child's drawing keeps its crayon picture.") for k in base]
+        base = [k.replace("Every paper shows a blank back; the car is plain and unbadged.", "The car is plain and unbadged.") for k in base]
     locks += base + [sub(k) for k in r["locks"]]
     if lines:
         locks.append("Each line lands once, at its time, from its speaker.")
