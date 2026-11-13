@@ -2,6 +2,12 @@
 
 Generation is finished. Every shot of the film is rendered at 1080p. The next job is the **rough cut** from these 1080p files, done on the user's own machine (Cowork). No more credits should be spent. The balance is about 450 and is for emergencies only.
 
+## Step 1 — name the files
+The user downloaded the 38 clips into one folder; the file names may not say which shot is which. Before cutting, identify every file and rename it to its shot name (G01.mp4, G03.mp4 … G49.mp4):
+1. If a file name contains a job id from the table below (e.g. `acc506d2`), that settles it.
+2. Otherwise match each file by **duration** (the "Len" column; 1080p clips are the length + 0.04 s) and by **what is in it** (look at a few frames against the "What it is" column). Several shots share a length, so always look at the frames.
+3. Report the mapping to the user and flag anything missing or extra before you start cutting.
+
 ## The film in one breath
 Four months after a car crash killed his wife Layla and his daughter Nour (6), Adam keeps them alive at home as two shop mannequins. He serves them breakfast, braids the "daughter's" wig and dances with the "wife". Memories of the last drive break through in golden flashes. The last thing Nour said was **"Daddy, look!"**: she was holding up a drawing, he turned to look, and a truck hit them. At dawn he opens the hospital bag, finds the drawing and finally looks at it. He opens the curtains, takes the cardigan off the mannequin and opens the door to the neighbour Mona: **"They're gone, Mona."** She holds him. The film ends on the drawing on the floor.
 
