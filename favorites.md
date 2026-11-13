@@ -132,3 +132,4 @@ Not started (12): G15 · G33 · G39 · G40 · G41 · G42b · G43 · G44 · G47 �
 - Folder holds 37 completed 1080p clips: G01 G03 G04 G05 G06 G08 G09 G10 G11 G12 G14 G15 G15a G16 G17 G18(8fc9425f, 10 s) G20 G21 G22 G25 G29 G30 G31 G32 G34 G36 G37 G39 G40 G41 G42b G43 G44 G46 G47 G48(5ab89b1b, 11 s) G49(618b8ee1).
 - Only G33 is missing (user is upscaling G33c ce461046). With it: 38 = every shot in the cut (G07 and G35 dropped; G27 comes out of G34).
 - The two failed attempts 434178e5 / a8354018 (ip_detected) do not show in the listing; if they show in the UI, they are what makes the count 39.
+- G33 1080p added by user: acc506d2-1153-4e03-bcc1-495dcb2b03a9 (14 s, 1920x1080, from G33c ce461046). Folder now 38 completed clips, no failed placements listed. User expected 39.
