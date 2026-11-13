@@ -112,3 +112,5 @@ Not started (12): G15 · G33 · G39 · G40 · G41 · G42b · G43 · G44 · G47 �
 - G07 dropped from the cut (the bag already reads in G21/G40/G41). Retry 1080p without generated audio and with no music/dialogue text: G48 a8354018, G18 434178e5 (both into 1080p FINAL). Use the 480p draft audio in the edit.
 - G18/G48 1080p rejected again even without audio (visual ip check); user: no external upscale. Options pending (new-seed drafts vs keep 480p). G49c redo 8d34b10a: tilt down only (no pull back), drawing flat on the same kitchen terrazzo just inside the doorway, faces may leave frame. G49c 86415851 had the drawing on a dark wooden threshold.
 - G49 redo 8d34b10a delivered: tilt down works, the drawing lies flat on the same kitchen terrazzo near the doorway, A4 size; ends on their legs and the drawing.
+- 2026-11-13 later: G49 one-take 8d34b10a → 1080p 618b8ee1 in "1080p FINAL" (user). G07 out of TODO. Balance 942.81.
+- TODO now (3): G18 1d720a85 (arm), G33 5abfeb16 (or G33b 3cb065dc), G48 6aada38e (Mona at the door). G18 and G48 refuse 1080p (ip_detected, with and without audio); their failed placements 434178e5 / a8354018 sit in "1080p FINAL".
