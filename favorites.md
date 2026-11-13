@@ -114,3 +114,9 @@ Not started (12): G15 · G33 · G39 · G40 · G41 · G42b · G43 · G44 · G47 �
 - G49 redo 8d34b10a delivered: tilt down works, the drawing lies flat on the same kitchen terrazzo near the doorway, A4 size; ends on their legs and the drawing.
 - 2026-11-13 later: G49 one-take 8d34b10a → 1080p 618b8ee1 in "1080p FINAL" (user). G07 out of TODO. Balance 942.81.
 - TODO now (3): G18 1d720a85 (arm), G33 5abfeb16 (or G33b 3cb065dc), G48 6aada38e (Mona at the door). G18 and G48 refuse 1080p (ip_detected, with and without audio); their failed placements 434178e5 / a8354018 sit in "1080p FINAL".
+
+## New-seed drafts for G48 / G18 (1080p kept being refused)
+- G48 v2 draft: 6ad1696a-7e66-41b5-a9c8-42c277acaadb (11s). Added L05_hallway: behind Adam is only his dim sage hallway (coat hooks, frames). Door opens by his hand. Mona on doormat, one dish. Line lands ~8.2s. Looks good.
+- G18 v2 draft: 01d69227-722a-474c-93bd-155101029b5e (10s). Seg1: arm on rug from frame 1, stays there. Seg2: arm by his knee, he picks it up — never reattaches; he holds the loose arm to his forehead. Nothing pops in. Arm is bare (no burgundy sleeve).
+- G33 dropped.
+- Cost ≈63 credits. 1080p if approved: G48 176, G18 160.
